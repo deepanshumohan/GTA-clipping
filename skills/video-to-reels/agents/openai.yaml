@@ -1,0 +1,4 @@
+interface:
+  display_name: "Video to Instagram Reels"
+  short_description: "Turn videos into polished, ready-to-upload reels"
+  default_prompt: "Use $video-to-reels with this video to create Instagram-ready reels with strong moments, clean cuts, accurate subtitles, and checked exports."

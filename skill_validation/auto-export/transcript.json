@@ -1,0 +1,122 @@
+{
+  "source": "D:\\git\\gta\\skill_validation\\speech.mp4",
+  "language": "en",
+  "language_probability": 1,
+  "model": "tiny.en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.9,
+      "text": "Round 0.6 though, the cassette is dealing with teas.",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.48,
+          "word": " Round"
+        },
+        {
+          "start": 0.48,
+          "end": 0.58,
+          "word": " 0"
+        },
+        {
+          "start": 0.58,
+          "end": 0.96,
+          "word": ".6"
+        },
+        {
+          "start": 0.96,
+          "end": 1.1,
+          "word": " though,"
+        },
+        {
+          "start": 1.28,
+          "end": 1.28,
+          "word": " the"
+        },
+        {
+          "start": 1.28,
+          "end": 1.4,
+          "word": " cassette"
+        },
+        {
+          "start": 1.4,
+          "end": 1.62,
+          "word": " is"
+        },
+        {
+          "start": 1.62,
+          "end": 1.8,
+          "word": " dealing"
+        },
+        {
+          "start": 1.8,
+          "end": 2.12,
+          "word": " with"
+        },
+        {
+          "start": 2.12,
+          "end": 2.9,
+          "word": " teas."
+        }
+      ]
+    },
+    {
+      "start": 3.04,
+      "end": 4.98,
+      "text": "We're at to watch out for those pesky pesky details.",
+      "words": [
+        {
+          "start": 3.04,
+          "end": 3.08,
+          "word": " We're"
+        },
+        {
+          "start": 3.08,
+          "end": 3.16,
+          "word": " at"
+        },
+        {
+          "start": 3.16,
+          "end": 3.26,
+          "word": " to"
+        },
+        {
+          "start": 3.26,
+          "end": 3.44,
+          "word": " watch"
+        },
+        {
+          "start": 3.44,
+          "end": 3.64,
+          "word": " out"
+        },
+        {
+          "start": 3.64,
+          "end": 3.84,
+          "word": " for"
+        },
+        {
+          "start": 3.84,
+          "end": 4.08,
+          "word": " those"
+        },
+        {
+          "start": 4.08,
+          "end": 4.46,
+          "word": " pesky"
+        },
+        {
+          "start": 4.46,
+          "end": 4.8,
+          "word": " pesky"
+        },
+        {
+          "start": 4.8,
+          "end": 4.98,
+          "word": " details."
+        }
+      ]
+    }
+  ]
+}

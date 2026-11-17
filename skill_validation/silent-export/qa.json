@@ -1,0 +1,17 @@
+{
+  "checks": [
+    {
+      "source": "D:\\git\\gta\\skill_validation\\silent-export\\portrait-silent.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frames": 60,
+      "duration": 2.0,
+      "has_audio": false,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true
+    }
+  ],
+  "scope": "Technical decode/metadata only; visual, caption and listening review are separate."
+}

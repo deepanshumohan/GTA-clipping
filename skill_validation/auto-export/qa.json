@@ -1,0 +1,19 @@
+{
+  "checks": [
+    {
+      "source": "D:\\git\\gta\\skill_validation\\auto-export\\auto-phrase-captions.mp4",
+      "width": 720,
+      "height": 1280,
+      "fps": 30.0,
+      "frames": 144,
+      "duration": 4.8,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true,
+      "target_duration": 4.8,
+      "duration_ok": true
+    }
+  ],
+  "scope": "Technical decode/metadata only; visual, caption and listening review are separate."
+}

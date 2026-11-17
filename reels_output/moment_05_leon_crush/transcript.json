@@ -1,0 +1,506 @@
+{
+  "source": "/Users/deepanshumohan/Work/gta/lias_moment_05_source.mp4",
+  "language": "en",
+  "language_probability": null,
+  "model": "openai-whisper-base",
+  "segments": [
+    {
+      "start": 2.380000000000001,
+      "end": 3.5,
+      "text": "I'm a big fan of Ada.",
+      "words": [
+        {
+          "start": 2.380000000000001,
+          "end": 2.74,
+          "word": " I'm"
+        },
+        {
+          "start": 2.74,
+          "end": 2.76,
+          "word": " a"
+        },
+        {
+          "start": 2.76,
+          "end": 2.92,
+          "word": " big"
+        },
+        {
+          "start": 2.92,
+          "end": 3.06,
+          "word": " fan"
+        },
+        {
+          "start": 3.06,
+          "end": 3.34,
+          "word": " of"
+        },
+        {
+          "start": 3.34,
+          "end": 3.5,
+          "word": " Ada."
+        }
+      ]
+    },
+    {
+      "start": 5.6000000000000005,
+      "end": 6.44,
+      "text": "Does my name Ada?",
+      "words": [
+        {
+          "start": 5.6000000000000005,
+          "end": 5.96,
+          "word": " Does"
+        },
+        {
+          "start": 5.96,
+          "end": 6.04,
+          "word": " my"
+        },
+        {
+          "start": 6.04,
+          "end": 6.16,
+          "word": " name"
+        },
+        {
+          "start": 6.16,
+          "end": 6.44,
+          "word": " Ada?"
+        }
+      ]
+    },
+    {
+      "start": 7.0600000000000005,
+      "end": 7.62,
+      "text": "Ada Wong?",
+      "words": [
+        {
+          "start": 7.0600000000000005,
+          "end": 7.42,
+          "word": " Ada"
+        },
+        {
+          "start": 7.42,
+          "end": 7.62,
+          "word": " Wong?"
+        }
+      ]
+    },
+    {
+      "start": 8.38,
+      "end": 8.86,
+      "text": "Is that?",
+      "words": [
+        {
+          "start": 8.38,
+          "end": 8.74,
+          "word": " Is"
+        },
+        {
+          "start": 8.74,
+          "end": 8.86,
+          "word": " that?"
+        }
+      ]
+    },
+    {
+      "start": 9.26,
+      "end": 9.88,
+      "text": "Is that our name?",
+      "words": [
+        {
+          "start": 9.26,
+          "end": 9.56,
+          "word": " Is"
+        },
+        {
+          "start": 9.56,
+          "end": 9.64,
+          "word": " that"
+        },
+        {
+          "start": 9.64,
+          "end": 9.76,
+          "word": " our"
+        },
+        {
+          "start": 9.76,
+          "end": 9.88,
+          "word": " name?"
+        }
+      ]
+    },
+    {
+      "start": 11.68,
+      "end": 12.8,
+      "text": "I fear I might have gotten a wrong.",
+      "words": [
+        {
+          "start": 11.68,
+          "end": 12.04,
+          "word": " I"
+        },
+        {
+          "start": 12.04,
+          "end": 12.18,
+          "word": " fear"
+        },
+        {
+          "start": 12.18,
+          "end": 12.28,
+          "word": " I"
+        },
+        {
+          "start": 12.28,
+          "end": 12.36,
+          "word": " might"
+        },
+        {
+          "start": 12.36,
+          "end": 12.48,
+          "word": " have"
+        },
+        {
+          "start": 12.48,
+          "end": 12.56,
+          "word": " gotten"
+        },
+        {
+          "start": 12.56,
+          "end": 12.68,
+          "word": " a"
+        },
+        {
+          "start": 12.68,
+          "end": 12.8,
+          "word": " wrong."
+        }
+      ]
+    },
+    {
+      "start": 15.56,
+      "end": 16.96,
+      "text": "Okay, okay, I was already freaking out.",
+      "words": [
+        {
+          "start": 15.56,
+          "end": 15.92,
+          "word": " Okay,"
+        },
+        {
+          "start": 16.0,
+          "end": 16.08,
+          "word": " okay,"
+        },
+        {
+          "start": 16.2,
+          "end": 16.24,
+          "word": " I"
+        },
+        {
+          "start": 16.24,
+          "end": 16.4,
+          "word": " was"
+        },
+        {
+          "start": 16.4,
+          "end": 16.56,
+          "word": " already"
+        },
+        {
+          "start": 16.56,
+          "end": 16.78,
+          "word": " freaking"
+        },
+        {
+          "start": 16.78,
+          "end": 16.96,
+          "word": " out."
+        }
+      ]
+    },
+    {
+      "start": 17.2,
+      "end": 19.18,
+      "text": "Thanks for all the things that you can send, Jarrett.",
+      "words": [
+        {
+          "start": 17.2,
+          "end": 17.56,
+          "word": " Thanks"
+        },
+        {
+          "start": 17.56,
+          "end": 17.76,
+          "word": " for"
+        },
+        {
+          "start": 17.76,
+          "end": 17.8,
+          "word": " all"
+        },
+        {
+          "start": 17.8,
+          "end": 17.96,
+          "word": " the"
+        },
+        {
+          "start": 17.96,
+          "end": 18.02,
+          "word": " things"
+        },
+        {
+          "start": 18.02,
+          "end": 18.22,
+          "word": " you"
+        },
+        {
+          "start": 18.22,
+          "end": 18.44,
+          "word": " can"
+        },
+        {
+          "start": 18.44,
+          "end": 18.76,
+          "word": " send,"
+        },
+        {
+          "start": 18.84,
+          "end": 19.18,
+          "word": " Jarrett."
+        }
+      ]
+    },
+    {
+      "start": 19.18,
+      "end": 19.82,
+      "text": "It's very kind.",
+      "words": [
+        {
+          "start": 19.18,
+          "end": 19.32,
+          "word": " It's"
+        },
+        {
+          "start": 19.32,
+          "end": 19.5,
+          "word": " very"
+        },
+        {
+          "start": 19.5,
+          "end": 19.82,
+          "word": " kind."
+        }
+      ]
+    },
+    {
+      "start": 20.88,
+      "end": 22.12,
+      "text": "Um, I have no money again.",
+      "words": [
+        {
+          "start": 20.88,
+          "end": 21.24,
+          "word": " Um,"
+        },
+        {
+          "start": 21.38,
+          "end": 21.44,
+          "word": " I"
+        },
+        {
+          "start": 21.44,
+          "end": 21.56,
+          "word": " have"
+        },
+        {
+          "start": 21.56,
+          "end": 21.66,
+          "word": " no"
+        },
+        {
+          "start": 21.66,
+          "end": 21.84,
+          "word": " money"
+        },
+        {
+          "start": 21.84,
+          "end": 22.12,
+          "word": " again."
+        }
+      ]
+    },
+    {
+      "start": 23.36,
+      "end": 24.2,
+      "text": "No money at all.",
+      "words": [
+        {
+          "start": 23.36,
+          "end": 23.72,
+          "word": " No"
+        },
+        {
+          "start": 23.72,
+          "end": 23.9,
+          "word": " money"
+        },
+        {
+          "start": 23.9,
+          "end": 24.04,
+          "word": " at"
+        },
+        {
+          "start": 24.04,
+          "end": 24.2,
+          "word": " all."
+        }
+      ]
+    },
+    {
+      "start": 30.46,
+      "end": 34.44,
+      "text": "Hey, Tran, I like Leon, but I like I like Leon more, but I love Ada too.",
+      "words": [
+        {
+          "start": 30.46,
+          "end": 30.86,
+          "word": " Hey,"
+        },
+        {
+          "start": 30.98,
+          "end": 31.08,
+          "word": " Tran,"
+        },
+        {
+          "start": 31.28,
+          "end": 31.3,
+          "word": " I"
+        },
+        {
+          "start": 31.3,
+          "end": 31.5,
+          "word": " like"
+        },
+        {
+          "start": 31.5,
+          "end": 31.82,
+          "word": " Leon,"
+        },
+        {
+          "start": 31.98,
+          "end": 32.02,
+          "word": " but"
+        },
+        {
+          "start": 32.02,
+          "end": 32.16,
+          "word": " I"
+        },
+        {
+          "start": 32.16,
+          "end": 32.4,
+          "word": " like"
+        },
+        {
+          "start": 32.4,
+          "end": 32.78,
+          "word": " I"
+        },
+        {
+          "start": 32.78,
+          "end": 32.94,
+          "word": " like"
+        },
+        {
+          "start": 32.94,
+          "end": 33.18,
+          "word": " Leon"
+        },
+        {
+          "start": 33.18,
+          "end": 33.5,
+          "word": " more,"
+        },
+        {
+          "start": 33.54,
+          "end": 33.7,
+          "word": " but"
+        },
+        {
+          "start": 33.7,
+          "end": 33.82,
+          "word": " I"
+        },
+        {
+          "start": 33.82,
+          "end": 34.02,
+          "word": " love"
+        },
+        {
+          "start": 34.02,
+          "end": 34.24,
+          "word": " Ada"
+        },
+        {
+          "start": 34.24,
+          "end": 34.44,
+          "word": " too."
+        }
+      ]
+    },
+    {
+      "start": 34.66,
+      "end": 35.34,
+      "text": "Yeah, I love it.",
+      "words": [
+        {
+          "start": 34.66,
+          "end": 34.86,
+          "word": " Yeah,"
+        },
+        {
+          "start": 34.9,
+          "end": 35.1,
+          "word": " I"
+        },
+        {
+          "start": 35.1,
+          "end": 35.24,
+          "word": " love"
+        },
+        {
+          "start": 35.24,
+          "end": 35.34,
+          "word": " it."
+        }
+      ]
+    },
+    {
+      "start": 35.4,
+      "end": 36.2,
+      "text": "Yes, it's Ada Wong.",
+      "words": [
+        {
+          "start": 35.4,
+          "end": 35.68,
+          "word": " Yes,"
+        },
+        {
+          "start": 35.88,
+          "end": 35.9,
+          "word": " it's"
+        },
+        {
+          "start": 35.9,
+          "end": 36.02,
+          "word": " Ada"
+        },
+        {
+          "start": 36.02,
+          "end": 36.2,
+          "word": " Wong."
+        }
+      ]
+    }
+  ]
+}

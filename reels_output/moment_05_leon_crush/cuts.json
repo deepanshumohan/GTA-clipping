@@ -1,0 +1,50 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "transcript": "transcript.json",
+  "font": "Arial",
+  "normalize_audio": true,
+  "virality_score": {
+    "total": 89,
+    "tier": "A-Tier (Strong Engagement)",
+    "breakdown": {
+      "chat_spike_multiplier": "23/25 (3.9x normal)",
+      "viewer_sentiment": "22/25 (Crush & character banter)",
+      "two_second_hook": "17/20 (Opens with Ada fan declaration)",
+      "speech_density": "14/15 (3.1 words/sec)",
+      "payoff_impact": "13/15 (Clear character choice resolution)"
+    }
+  },
+  "reels": [
+    {
+      "name": "05_Lia_Leon_Or_Ada_Crush",
+      "title": "Does She Crush On Leon Or Ada? 👀",
+      "reason": "Chat interrogates Lia on whether she loves Leon Kennedy or Ada Wong in Resident Evil 4",
+      "ranges": [
+        [
+          2.0,
+          36.5
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "yellow_shadow",
+      "uppercase": true,
+      "use_emojis": true,
+      "hook": "DOES SHE CRUSH ON LEON OR ADA? 👀",
+      "hook_seconds": 3,
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat grills Lia about having a crush on Leon vs Ada in Resident Evil 4 😂 'I like Leon more, but I love Ada too!' #ResidentEvil4 #Twitch #Gaming #Shorts",
+      "hashtags": [
+        "#Twitch",
+        "#ResidentEvil4",
+        "#Gaming",
+        "#LeonKennedy",
+        "#Shorts",
+        "#Reels"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,Arial,None,None,None,None,&H80000000,-1,0,0,0,100,100,0,0,1,5,2,2,108,108,480,1
+Style: Hook,Arial,59,&H0000FFFF,&H0000FFFF,&H00101010,&H80000000,-1,0,0,0,100,100,0,0,1,4,1,8,108,108,250,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.80,Caption,,0,0,0,,THERE YOU GO.
+Dialogue: 0,0:00:00.00,0:00:03.00,Hook,,0,0,0,,WHY DID INSTAGRAM SUGGEST THIS?!
+Dialogue: 0,0:00:02.02,0:00:06.62,Caption,,0,0,0,,THAT'S, THAT'S, OH MY GOD, WHY DID INSTAGRAM SUGGEST THIS SONG?
+Dialogue: 0,0:00:25.92,0:00:27.86,Caption,,0,0,0,,{\k62}THAT'S {\k16}THE {\k28}ONE {\k34}THEME {\k26}MUSIC {\k28}SOUNDS
+Dialogue: 0,0:00:27.86,0:00:28.78,Caption,,0,0,0,,{\k92}RIGHT.

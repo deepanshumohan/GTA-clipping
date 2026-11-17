@@ -1,0 +1,19 @@
+{
+  "checks": [
+    {
+      "source": "/Users/deepanshumohan/Work/gta/reels_output/lias_jumpscare/01_Lia_Resident_Evil_Jumpscare.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frames": 690,
+      "duration": 23.0,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true,
+      "target_duration": 23.0,
+      "duration_ok": true
+    }
+  ],
+  "scope": "Technical decode/metadata only; visual, caption and listening review are separate."
+}

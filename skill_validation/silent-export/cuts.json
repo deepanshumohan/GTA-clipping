@@ -1,0 +1,15 @@
+{
+  "reels": [
+    {
+      "name": "portrait-silent",
+      "ranges": [
+        [
+          0,
+          2
+        ]
+      ],
+      "layout": "crop",
+      "burn_captions": false
+    }
+  ]
+}

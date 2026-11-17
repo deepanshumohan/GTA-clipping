@@ -1,0 +1,19 @@
+[
+  {
+    "name": "fit-caption-multicut",
+    "ranges": [
+      [
+        0,
+        1.3
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "target_duration": 3.3,
+    "caption_events": 3,
+    "layout": "fit",
+    "reason": ""
+  }
+]

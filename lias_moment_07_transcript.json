@@ -1,0 +1,312 @@
+{
+  "source": "/Users/deepanshumohan/Work/gta/lias_moment_07_source.mp4",
+  "language": "en",
+  "language_probability": null,
+  "model": "openai-whisper-base",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 0.92,
+      "text": "I'm taking notes.",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.18,
+          "word": " I'm"
+        },
+        {
+          "start": 0.18,
+          "end": 0.48,
+          "word": " taking"
+        },
+        {
+          "start": 0.48,
+          "end": 0.92,
+          "word": " notes."
+        }
+      ]
+    },
+    {
+      "start": 1.7800000000000002,
+      "end": 3.32,
+      "text": "That's what I looked like too, right?",
+      "words": [
+        {
+          "start": 1.7800000000000002,
+          "end": 2.3,
+          "word": " That's"
+        },
+        {
+          "start": 2.3,
+          "end": 2.4,
+          "word": " what"
+        },
+        {
+          "start": 2.4,
+          "end": 2.5,
+          "word": " I"
+        },
+        {
+          "start": 2.5,
+          "end": 2.62,
+          "word": " looked"
+        },
+        {
+          "start": 2.62,
+          "end": 2.82,
+          "word": " like"
+        },
+        {
+          "start": 2.82,
+          "end": 3.06,
+          "word": " too,"
+        },
+        {
+          "start": 3.18,
+          "end": 3.32,
+          "word": " right?"
+        }
+      ]
+    },
+    {
+      "start": 3.76,
+      "end": 4.98,
+      "text": "I looked that chill and cool.",
+      "words": [
+        {
+          "start": 3.76,
+          "end": 3.86,
+          "word": " I"
+        },
+        {
+          "start": 3.86,
+          "end": 4.04,
+          "word": " looked"
+        },
+        {
+          "start": 4.04,
+          "end": 4.28,
+          "word": " that"
+        },
+        {
+          "start": 4.28,
+          "end": 4.54,
+          "word": " chill"
+        },
+        {
+          "start": 4.54,
+          "end": 4.74,
+          "word": " and"
+        },
+        {
+          "start": 4.74,
+          "end": 4.98,
+          "word": " cool."
+        }
+      ]
+    },
+    {
+      "start": 5.7,
+      "end": 6.9,
+      "text": "Cool karma collected.",
+      "words": [
+        {
+          "start": 5.7,
+          "end": 6.2,
+          "word": " Cool"
+        },
+        {
+          "start": 6.2,
+          "end": 6.48,
+          "word": " karma"
+        },
+        {
+          "start": 6.48,
+          "end": 6.9,
+          "word": " collected."
+        }
+      ]
+    },
+    {
+      "start": 7.68,
+      "end": 8.94,
+      "text": "I won't run away.",
+      "words": [
+        {
+          "start": 7.68,
+          "end": 8.2,
+          "word": " I"
+        },
+        {
+          "start": 8.2,
+          "end": 8.44,
+          "word": " won't"
+        },
+        {
+          "start": 8.44,
+          "end": 8.54,
+          "word": " run"
+        },
+        {
+          "start": 8.54,
+          "end": 8.94,
+          "word": " away."
+        }
+      ]
+    },
+    {
+      "start": 11.3,
+      "end": 12.38,
+      "text": "Wait for me, Leon.",
+      "words": [
+        {
+          "start": 11.3,
+          "end": 11.82,
+          "word": " Wait"
+        },
+        {
+          "start": 11.82,
+          "end": 11.98,
+          "word": " for"
+        },
+        {
+          "start": 11.98,
+          "end": 12.1,
+          "word": " me,"
+        },
+        {
+          "start": 12.2,
+          "end": 12.38,
+          "word": " Leon."
+        }
+      ]
+    },
+    {
+      "start": 19.96,
+      "end": 20.48,
+      "text": "OK.",
+      "words": [
+        {
+          "start": 19.96,
+          "end": 20.48,
+          "word": " OK."
+        }
+      ]
+    },
+    {
+      "start": 21.08,
+      "end": 21.52,
+      "text": "Oh.",
+      "words": [
+        {
+          "start": 21.08,
+          "end": 21.52,
+          "word": " Oh."
+        }
+      ]
+    },
+    {
+      "start": 30.56,
+      "end": 32.12,
+      "text": "Oh my god.",
+      "words": [
+        {
+          "start": 30.48,
+          "end": 30.92,
+          "word": " Oh"
+        },
+        {
+          "start": 30.92,
+          "end": 31.26,
+          "word": " my"
+        },
+        {
+          "start": 31.26,
+          "end": 32.12,
+          "word": " god."
+        }
+      ]
+    },
+    {
+      "start": 32.32,
+      "end": 33.2,
+      "text": "Oh.",
+      "words": [
+        {
+          "start": 32.32,
+          "end": 33.2,
+          "word": " Oh."
+        }
+      ]
+    },
+    {
+      "start": 36.480000000000004,
+      "end": 38.12,
+      "text": "Oh, I burned his socks.",
+      "words": [
+        {
+          "start": 36.28,
+          "end": 36.72,
+          "word": " Oh,"
+        },
+        {
+          "start": 36.74,
+          "end": 36.96,
+          "word": " I"
+        },
+        {
+          "start": 36.96,
+          "end": 37.06,
+          "word": " burned"
+        },
+        {
+          "start": 37.06,
+          "end": 37.36,
+          "word": " his"
+        },
+        {
+          "start": 37.36,
+          "end": 38.12,
+          "word": " socks."
+        }
+      ]
+    },
+    {
+      "start": 41.6,
+      "end": 42.8,
+      "text": "Where the fuck am I going?",
+      "words": [
+        {
+          "start": 41.31999999999999,
+          "end": 41.76,
+          "word": " Where"
+        },
+        {
+          "start": 41.76,
+          "end": 41.9,
+          "word": " the"
+        },
+        {
+          "start": 41.9,
+          "end": 42.14,
+          "word": " fuck"
+        },
+        {
+          "start": 42.14,
+          "end": 42.28,
+          "word": " am"
+        },
+        {
+          "start": 42.28,
+          "end": 42.36,
+          "word": " I"
+        },
+        {
+          "start": 42.36,
+          "end": 42.8,
+          "word": " going?"
+        }
+      ]
+    }
+  ]
+}

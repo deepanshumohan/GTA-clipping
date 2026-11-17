@@ -1,0 +1,17 @@
+{
+  "checks": [
+    {
+      "source": "D:\\git\\gta\\skill_validation\\speech-export\\fit-caption-multicut.mp4",
+      "width": 720,
+      "height": 1280,
+      "fps": 30.0,
+      "frames": 99,
+      "duration": 3.3,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true
+    }
+  ],
+  "scope": "Technical decode/metadata only; visual, caption and listening review are separate."
+}

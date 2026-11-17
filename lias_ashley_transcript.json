@@ -1,0 +1,409 @@
+{
+  "source": "/Users/deepanshumohan/Work/gta/lias_ashley_source.mp4",
+  "language": "en",
+  "language_probability": null,
+  "model": "openai-whisper-base",
+  "segments": [
+    {
+      "start": 3.9599999999999937,
+      "end": 6.9,
+      "text": "Like surely we can we can do better than",
+      "words": [
+        {
+          "start": 3.9599999999999937,
+          "end": 4.479999999999997,
+          "word": " Like"
+        },
+        {
+          "start": 4.479999999999997,
+          "end": 5.0,
+          "word": " surely"
+        },
+        {
+          "start": 5.0,
+          "end": 5.4,
+          "word": " we"
+        },
+        {
+          "start": 5.4,
+          "end": 5.64,
+          "word": " can"
+        },
+        {
+          "start": 5.64,
+          "end": 5.96,
+          "word": " we"
+        },
+        {
+          "start": 5.96,
+          "end": 6.16,
+          "word": " can"
+        },
+        {
+          "start": 6.16,
+          "end": 6.32,
+          "word": " do"
+        },
+        {
+          "start": 6.32,
+          "end": 6.64,
+          "word": " better"
+        },
+        {
+          "start": 6.64,
+          "end": 6.9,
+          "word": " than"
+        }
+      ]
+    },
+    {
+      "start": 8.479999999999997,
+      "end": 11.3,
+      "text": "Like she doesn't have to be that bad at running",
+      "words": [
+        {
+          "start": 8.479999999999997,
+          "end": 9.0,
+          "word": " Like"
+        },
+        {
+          "start": 9.0,
+          "end": 9.16,
+          "word": " she"
+        },
+        {
+          "start": 9.16,
+          "end": 9.36,
+          "word": " doesn't"
+        },
+        {
+          "start": 9.36,
+          "end": 9.46,
+          "word": " have"
+        },
+        {
+          "start": 9.46,
+          "end": 9.52,
+          "word": " to"
+        },
+        {
+          "start": 9.52,
+          "end": 9.62,
+          "word": " be"
+        },
+        {
+          "start": 9.62,
+          "end": 10.02,
+          "word": " that"
+        },
+        {
+          "start": 10.02,
+          "end": 10.72,
+          "word": " bad"
+        },
+        {
+          "start": 10.72,
+          "end": 10.96,
+          "word": " at"
+        },
+        {
+          "start": 10.96,
+          "end": 11.3,
+          "word": " running"
+        }
+      ]
+    },
+    {
+      "start": 12.799999999999997,
+      "end": 15.16,
+      "text": "Believe me with adrenaline you don't know how to run",
+      "words": [
+        {
+          "start": 12.799999999999997,
+          "end": 13.32,
+          "word": " Believe"
+        },
+        {
+          "start": 13.32,
+          "end": 13.58,
+          "word": " me"
+        },
+        {
+          "start": 13.58,
+          "end": 13.82,
+          "word": " with"
+        },
+        {
+          "start": 13.82,
+          "end": 14.16,
+          "word": " adrenaline"
+        },
+        {
+          "start": 14.16,
+          "end": 14.42,
+          "word": " you"
+        },
+        {
+          "start": 14.42,
+          "end": 14.54,
+          "word": " don't"
+        },
+        {
+          "start": 14.54,
+          "end": 14.64,
+          "word": " know"
+        },
+        {
+          "start": 14.64,
+          "end": 14.82,
+          "word": " how"
+        },
+        {
+          "start": 14.82,
+          "end": 14.94,
+          "word": " to"
+        },
+        {
+          "start": 14.94,
+          "end": 15.16,
+          "word": " run"
+        }
+      ]
+    },
+    {
+      "start": 15.859999999999996,
+      "end": 18.38,
+      "text": "You know what? That's a fair point",
+      "words": [
+        {
+          "start": 15.859999999999996,
+          "end": 16.38,
+          "word": " You"
+        },
+        {
+          "start": 16.38,
+          "end": 16.48,
+          "word": " know"
+        },
+        {
+          "start": 16.48,
+          "end": 16.76,
+          "word": " what?"
+        },
+        {
+          "start": 17.34,
+          "end": 17.86,
+          "word": " That's"
+        },
+        {
+          "start": 17.86,
+          "end": 17.94,
+          "word": " a"
+        },
+        {
+          "start": 17.94,
+          "end": 18.1,
+          "word": " fair"
+        },
+        {
+          "start": 18.1,
+          "end": 18.38,
+          "word": " point"
+        }
+      ]
+    },
+    {
+      "start": 18.38,
+      "end": 23.06,
+      "text": "If I was in this situation and there were demonic like zombie guys",
+      "words": [
+        {
+          "start": 18.38,
+          "end": 18.88,
+          "word": " If"
+        },
+        {
+          "start": 18.88,
+          "end": 19.0,
+          "word": " I"
+        },
+        {
+          "start": 19.0,
+          "end": 19.16,
+          "word": " was"
+        },
+        {
+          "start": 19.16,
+          "end": 19.28,
+          "word": " in"
+        },
+        {
+          "start": 19.28,
+          "end": 19.38,
+          "word": " this"
+        },
+        {
+          "start": 19.38,
+          "end": 19.88,
+          "word": " situation"
+        },
+        {
+          "start": 19.88,
+          "end": 20.18,
+          "word": " and"
+        },
+        {
+          "start": 20.18,
+          "end": 20.38,
+          "word": " there"
+        },
+        {
+          "start": 20.38,
+          "end": 20.62,
+          "word": " were"
+        },
+        {
+          "start": 20.62,
+          "end": 21.5,
+          "word": " demonic"
+        },
+        {
+          "start": 21.5,
+          "end": 22.08,
+          "word": " like"
+        },
+        {
+          "start": 22.08,
+          "end": 22.68,
+          "word": " zombie"
+        },
+        {
+          "start": 22.68,
+          "end": 23.06,
+          "word": " guys"
+        }
+      ]
+    },
+    {
+      "start": 23.06,
+      "end": 27.88,
+      "text": "Running around I probably I probably wouldn't even be running",
+      "words": [
+        {
+          "start": 23.06,
+          "end": 24.02,
+          "word": " Running"
+        },
+        {
+          "start": 24.02,
+          "end": 24.4,
+          "word": " around"
+        },
+        {
+          "start": 24.4,
+          "end": 24.66,
+          "word": " I"
+        },
+        {
+          "start": 24.66,
+          "end": 25.02,
+          "word": " probably"
+        },
+        {
+          "start": 25.02,
+          "end": 25.72,
+          "word": " I"
+        },
+        {
+          "start": 25.72,
+          "end": 26.9,
+          "word": " probably"
+        },
+        {
+          "start": 26.9,
+          "end": 27.14,
+          "word": " wouldn't"
+        },
+        {
+          "start": 27.14,
+          "end": 27.34,
+          "word": " even"
+        },
+        {
+          "start": 27.34,
+          "end": 27.6,
+          "word": " be"
+        },
+        {
+          "start": 27.6,
+          "end": 27.88,
+          "word": " running"
+        }
+      ]
+    },
+    {
+      "start": 27.88,
+      "end": 32.7,
+      "text": "I probably just freeze up to be fair",
+      "words": [
+        {
+          "start": 27.88,
+          "end": 28.38,
+          "word": " I"
+        },
+        {
+          "start": 28.38,
+          "end": 29.36,
+          "word": " probably"
+        },
+        {
+          "start": 29.36,
+          "end": 29.64,
+          "word": " just"
+        },
+        {
+          "start": 29.64,
+          "end": 30.8,
+          "word": " freeze"
+        },
+        {
+          "start": 30.8,
+          "end": 31.06,
+          "word": " up"
+        },
+        {
+          "start": 31.06,
+          "end": 32.36,
+          "word": " to"
+        },
+        {
+          "start": 32.36,
+          "end": 32.48,
+          "word": " be"
+        },
+        {
+          "start": 32.48,
+          "end": 32.7,
+          "word": " fair"
+        }
+      ]
+    },
+    {
+      "start": 32.7,
+      "end": 33.72,
+      "text": "I just",
+      "words": [
+        {
+          "start": 32.7,
+          "end": 33.3,
+          "word": " I"
+        },
+        {
+          "start": 33.3,
+          "end": 33.72,
+          "word": " just"
+        }
+      ]
+    }
+  ]
+}

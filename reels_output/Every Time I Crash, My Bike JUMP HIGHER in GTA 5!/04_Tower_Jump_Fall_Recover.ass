@@ -1,0 +1,41 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,Arial,53,&H0000FFFF,&H00FFFFFF,&H00101010,&H80000000,-1,0,0,0,100,100,0,0,1,4,1,2,108,184,480,1
+Style: Hook,Arial,59,&H0000FFFF,&H0000FFFF,&H00101010,&H80000000,-1,0,0,0,100,100,0,0,1,4,1,8,108,184,250,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.98,Caption,,0,0,0,,It's possible that I will go out of this place
+Dialogue: 0,0:00:01.98,0:00:02.58,Caption,,0,0,0,,and start the bike like Los Santos
+Dialogue: 0,0:00:04.06,0:00:05.52,Caption,,0,0,0,,Let's go down guys
+Dialogue: 0,0:00:05.52,0:00:06.70,Caption,,0,0,0,,I want to see if the bike gets upgraded
+Dialogue: 0,0:00:07.36,0:00:08.64,Caption,,0,0,0,,{\k56}Is {\k36}it {\k36}upgraded?
+Dialogue: 0,0:00:09.14,0:00:10.60,Caption,,0,0,0,,I thought it will be the last one
+Dialogue: 0,0:00:10.60,0:00:13.14,Caption,,0,0,0,,But look at this bike, it's Ninja H2R
+Dialogue: 0,0:00:13.14,0:00:13.84,Caption,,0,0,0,,{\k30}Is {\k8}it {\k12}a {\k20}booster?
+Dialogue: 0,0:00:14.84,0:00:16.36,Caption,,0,0,0,,Okay, it's a booster too
+Dialogue: 0,0:00:16.36,0:00:19.02,Caption,,0,0,0,,I'm excited to see its jump
+Dialogue: 0,0:00:19.02,0:00:21.34,Caption,,0,0,0,,No more nonsense, let's jump
+Dialogue: 0,0:00:22.02,0:00:22.58,Caption,,0,0,0,,{\k56}Okay
+Dialogue: 0,0:00:24.04,0:00:25.60,Caption,,0,0,0,,Will I go out of the map?
+Dialogue: 0,0:00:26.42,0:00:27.70,Caption,,0,0,0,,No, I won't go out of the map
+Dialogue: 0,0:00:27.70,0:00:29.46,Caption,,0,0,0,,{\k100}I'm {\k6}still {\k2}going {\k68}up
+Dialogue: 0,0:00:29.46,0:00:30.38,Caption,,0,0,0,,Even from the plane
+Dialogue: 0,0:00:31.12,0:00:33.04,Caption,,0,0,0,,Okay, I can see the whole track
+Dialogue: 0,0:00:33.70,0:00:34.88,Caption,,0,0,0,,I can see the whole Hot Wheels track
+Dialogue: 0,0:00:36.12,0:00:37.48,Caption,,0,0,0,,I'm still going up
+Dialogue: 0,0:00:37.48,0:00:38.84,Caption,,0,0,0,,{\k36}I'm {\k16}still {\k68}going {\k16}up
+Dialogue: 0,0:00:38.84,0:00:40.52,Caption,,0,0,0,,Look guys, there is an 8 shape
+Dialogue: 0,0:00:40.52,0:00:42.64,Caption,,0,0,0,,So what was the name of that place?
+Dialogue: 0,0:00:43.16,0:00:44.62,Caption,,0,0,0,,On 8 or something like that
+Dialogue: 0,0:00:44.62,0:00:45.98,Caption,,0,0,0,,Will I go down or what?
+Dialogue: 0,0:00:46.34,0:00:47.76,Caption,,0,0,0,,{\k10}So {\k58}guys, {\k10}how {\k18}was {\k26}today's {\k20}video?
+Dialogue: 0,0:00:48.54,0:00:50.44,Caption,,0,0,0,,The best bike is on my hand
+Dialogue: 0,0:00:50.44,0:00:52.78,Caption,,0,0,0,,{\k34}It's {\k54}Ninja {\k90}H2R, {\k14}fully {\k42}modified
+Dialogue: 0,0:00:52.78,0:00:55.02,Caption,,0,0,0,,And guys, you must have enjoyed today's video
+Dialogue: 0,0:00:55.02,0:00:55.74,Caption,,0,0,0,,{\k30}Don't {\k36}forget {\k4}to {\k2}subscribe

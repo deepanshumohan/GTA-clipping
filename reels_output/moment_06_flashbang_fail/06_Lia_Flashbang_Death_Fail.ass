@@ -1,0 +1,19 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,Arial,56,&H0000FFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,2,108,108,480,1
+Style: Hook,Arial,59,&H0000FFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,8,108,108,250,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.34,Caption,,0,0,0,,{\k34}AGAIN?
+Dialogue: 0,0:00:00.00,0:00:03.00,Hook,,0,0,0,,HAVE TO REDO IT ALL AGAIN 😭
+Dialogue: 0,0:00:05.00,0:00:06.10,Caption,,0,0,0,,{\k52}I {\k12}HAVE {\k10}TO {\k12}DO {\k12}THAT {\k12}ALL
+Dialogue: 0,0:00:06.10,0:00:06.34,Caption,,0,0,0,,{\k24}AGAIN.
+Dialogue: 0,0:00:07.14,0:00:08.14,Caption,,0,0,0,,{\k52}WHERE {\k20}AM {\k28}I?
+Dialogue: 0,0:00:17.88,0:00:22.30,Caption,,0,0,0,,{\k52}I {\k352}HAVE {\k10}TO {\k12}DO {\k8}THAT {\k8}ALL
+Dialogue: 0,0:00:22.30,0:00:22.60,Caption,,0,0,0,,{\k30}AGAIN.

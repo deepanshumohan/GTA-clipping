@@ -1,0 +1,48 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "transcript": "lias_moment_06_transcript.json",
+  "font": "Arial",
+  "normalize_audio": true,
+  "virality_score": {
+    "total": 84,
+    "tier": "A-Tier (High Relatability)",
+    "breakdown": {
+      "chat_spike_multiplier": "21/25 (3.4x normal)",
+      "viewer_sentiment": "21/25 (Grief & unlucky death empathy)",
+      "two_second_hook": "19/20 (Immediate 0.0s shock reaction)",
+      "speech_density": "11/15 (Speech with death shock pause)",
+      "payoff_impact": "12/15 (Frustration punchline)"
+    }
+  },
+  "reels": [
+    {
+      "name": "06_Lia_Flashbang_Death_Fail",
+      "title": "When You Have To Redo It All 😭",
+      "reason": "Lia suffers an unlucky ambush after a failed flashbang and has to restart the encounter",
+      "ranges": [
+        [0.0, 24.0]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "yellow_shadow",
+      "uppercase": true,
+      "use_emojis": true,
+      "hook": "HAVE TO REDO IT ALL AGAIN 😭",
+      "hook_seconds": 3,
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "The pain of dying in Resident Evil 4: 'Again?! I have to do that all again?!' 😭 Chat: 'so unlucky!' #ResidentEvil4 #GamingFail #Twitch #Shorts",
+      "hashtags": [
+        "#Twitch",
+        "#ResidentEvil4",
+        "#GamingFail",
+        "#Gaming",
+        "#Shorts",
+        "#Reels"
+      ]
+    }
+  ]
+}
+

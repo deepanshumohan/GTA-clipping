@@ -1,0 +1,40 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,Arial,53,&H0000FFFF,&H00FFFFFF,&H00101010,&H80000000,-1,0,0,0,100,100,0,0,1,4,1,2,108,184,480,1
+Style: Hook,Arial,59,&H0000FFFF,&H0000FFFF,&H00101010,&H80000000,-1,0,0,0,100,100,0,0,1,4,1,8,108,184,250,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.00,Caption,,0,0,0,,This is Ninja S2, its speed is 200kmph or what?
+Dialogue: 0,0:00:03.20,0:00:04.00,Caption,,0,0,0,,Is this car bad?
+Dialogue: 0,0:00:04.66,0:00:06.28,Caption,,0,0,0,,Give me a good bike
+Dialogue: 0,0:00:06.28,0:00:07.90,Caption,,0,0,0,,{\k70}Look {\k60}at {\k22}the {\k10}turning
+Dialogue: 0,0:00:07.90,0:00:09.32,Caption,,0,0,0,,{\k68}Turn {\k74}number...oh!
+Dialogue: 0,0:00:09.68,0:00:10.78,Caption,,0,0,0,,That guy is hitting me
+Dialogue: 0,0:00:10.78,0:00:12.18,Caption,,0,0,0,,{\k50}Move {\k20}away {\k70}Ferrari
+Dialogue: 0,0:00:13.86,0:00:15.52,Caption,,0,0,0,,{\k38}Turning {\k46}is {\k36}very {\k46}sharp
+Dialogue: 0,0:00:15.52,0:00:18.02,Caption,,0,0,0,,Look at the track in front
+Dialogue: 0,0:00:18.02,0:00:18.78,Caption,,0,0,0,,There is a lot of turn
+Dialogue: 0,0:00:18.78,0:00:20.68,Caption,,0,0,0,,Let's go, I will take a turn here
+Dialogue: 0,0:00:21.58,0:00:22.34,Caption,,0,0,0,,{\k76}BMW?
+Dialogue: 0,0:00:23.00,0:00:26.18,Caption,,0,0,0,,BMW is M1000, yes M1000 is coming
+Dialogue: 0,0:00:26.18,0:00:27.48,Caption,,0,0,0,,{\k62}Its {\k34}speed {\k26}is {\k8}more
+Dialogue: 0,0:00:27.48,0:00:28.60,Caption,,0,0,0,,{\k26}Look {\k60}at {\k20}the {\k6}speed
+Dialogue: 0,0:00:28.60,0:00:29.22,Caption,,0,0,0,,{\k62}300kmph
+Dialogue: 0,0:00:30.42,0:00:33.38,Caption,,0,0,0,,Why am I going to 300kmph?
+Dialogue: 0,0:00:33.84,0:00:34.16,Caption,,0,0,0,,What is this?
+Dialogue: 0,0:00:34.76,0:00:35.74,Caption,,0,0,0,,Why am I going to 300kmph?
+Dialogue: 0,0:00:36.04,0:00:37.24,Caption,,0,0,0,,Bike got stuck
+Dialogue: 0,0:00:37.24,0:00:39.48,Caption,,0,0,0,,{\k120}Where {\k44}is {\k42}the {\k18}tire?
+Dialogue: 0,0:00:40.32,0:00:41.08,Caption,,0,0,0,,Did I sell the tire?
+Dialogue: 0,0:00:42.40,0:00:45.04,Caption,,0,0,0,,I forgot the name of this place
+Dialogue: 0,0:00:45.04,0:00:47.58,Caption,,0,0,0,,I can't see it
+Dialogue: 0,0:00:47.58,0:00:48.74,Caption,,0,0,0,,{\k48}I {\k2}got {\k32}a {\k34}bike
+Dialogue: 0,0:00:52.06,0:00:54.06,Caption,,0,0,0,,{\k76}And {\k76}no {\k48}noise
+Dialogue: 0,0:00:54.06,0:00:54.92,Caption,,0,0,0,,Battery is not working
+Dialogue: 0,0:00:54.92,0:00:55.98,Caption,,0,0,0,,{\k4}Is {\k42}this {\k10}a {\k24}big {\k26}drop?

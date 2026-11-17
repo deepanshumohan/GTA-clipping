@@ -1,0 +1,269 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "font": "Arial",
+  "normalize_audio": true,
+  "reels": [
+    {
+      "name": "01_chat_spike_01_02_55",
+      "title": "Chat Explosion #1: SHE'S GAMIN PISTOL",
+      "reason": "Chat spike at 01:02:55: 3 msgs in 10.0s (3.0x normal). Key reaction: SHE'S GAMIN PISTOL",
+      "ranges": [
+        [
+          3755.0,
+          3785.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "hormozi",
+      "uppercase": true,
+      "hook": "CHAT LOST IT HERE! (3.0x normal)",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (3.0x normal volume) SHE'S GAMIN PISTOL",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "02_chat_spike_01_34_35",
+      "title": "Chat Explosion #2: LUL NEED HEAD",
+      "reason": "Chat spike at 01:34:35: 3 msgs in 10.0s (3.0x normal). Key reaction: LUL NEED HEAD",
+      "ranges": [
+        [
+          5655.0,
+          5685.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "hormozi",
+      "uppercase": true,
+      "hook": "CHAT: LUL NEED HEAD!",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (3.0x normal volume) LUL NEED HEAD",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "03_chat_spike_02_02_25",
+      "title": "Chat Explosion #3: LMFAO LMAOOO LOL",
+      "reason": "Chat spike at 02:02:25: 4 msgs in 10.0s (4.0x normal). Key reaction: LMFAO LMAOOO LOL",
+      "ranges": [
+        [
+          7325.0,
+          7355.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "hormozi",
+      "uppercase": true,
+      "hook": "CHAT: LMFAO LMAOOO LOL!",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (4.0x normal volume) LMFAO LMAOOO LOL",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "04_chat_spike_02_47_55",
+      "title": "Chat Explosion #4: ADA LEON YES",
+      "reason": "Chat spike at 02:47:55: 3 msgs in 10.0s (3.0x normal). Key reaction: ADA LEON YES",
+      "ranges": [
+        [
+          10055.0,
+          10085.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "hormozi",
+      "uppercase": true,
+      "hook": "CHAT: ADA LEON YES!",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (3.0x normal volume) ADA LEON YES",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "05_chat_spike_03_18_25",
+      "title": "Chat Explosion #5: TIER ANONYMOUS USER",
+      "reason": "Chat spike at 03:18:25: 10 msgs in 10.0s (10.0x normal). Key reaction: TIER ANONYMOUS USER",
+      "ranges": [
+        [
+          11885.0,
+          11915.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "hormozi",
+      "uppercase": true,
+      "hook": "CHAT: TIER ANONYMOUS USER!",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (10.0x normal volume) TIER ANONYMOUS USER",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "06_chat_spike_03_20_55",
+      "title": "Chat Explosion #6: OSU STREAM WHEN",
+      "reason": "Chat spike at 03:20:55: 3 msgs in 10.0s (3.0x normal). Key reaction: OSU STREAM WHEN",
+      "ranges": [
+        [
+          12035.0,
+          12065.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "hormozi",
+      "uppercase": true,
+      "hook": "CHAT: OSU STREAM WHEN!",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (3.0x normal volume) OSU STREAM WHEN",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "07_chat_spike_03_45_25",
+      "title": "Chat Explosion #7: TRY FLASH BANG",
+      "reason": "Chat spike at 03:45:25: 4 msgs in 10.0s (4.0x normal). Key reaction: TRY FLASH BANG",
+      "ranges": [
+        [
+          13505.0,
+          13535.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "hormozi",
+      "uppercase": true,
+      "hook": "CHAT: TRY FLASH BANG!",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (4.0x normal volume) TRY FLASH BANG",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "08_chat_spike_04_44_25",
+      "title": "Chat Explosion #8: WITH @DAIKONXJ LOL",
+      "reason": "Chat spike at 04:44:25: 3 msgs in 10.0s (3.0x normal). Key reaction: WITH @DAIKONXJ LOL",
+      "ranges": [
+        [
+          17045.0,
+          17075.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "hormozi",
+      "uppercase": true,
+      "hook": "CHAT: WITH @DAIKONXJ LOL!",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (3.0x normal volume) WITH @DAIKONXJ LOL",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "09_chat_spike_04_46_35",
+      "title": "Chat Explosion #9: SPEAKING RUNNING @SOLSTRO",
+      "reason": "Chat spike at 04:46:35: 4 msgs in 10.0s (4.0x normal). Key reaction: SPEAKING RUNNING @SOLSTRO",
+      "ranges": [
+        [
+          17175.0,
+          17205.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "hormozi",
+      "uppercase": true,
+      "hook": "CHAT: SPEAKING RUNNING @SOLSTRO!",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (4.0x normal volume) SPEAKING RUNNING @SOLSTRO",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "10_chat_spike_04_57_45",
+      "title": "Chat Explosion #10: ELDEN RING STARDEW",
+      "reason": "Chat spike at 04:57:45: 4 msgs in 10.0s (4.0x normal). Key reaction: ELDEN RING STARDEW",
+      "ranges": [
+        [
+          17845.0,
+          17875.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "hormozi",
+      "uppercase": true,
+      "hook": "CHAT: ELDEN RING STARDEW!",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (4.0x normal volume) ELDEN RING STARDEW",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "font": "Arial",
+  "normalize_audio": true,
+  "reels": [
+    {
+      "name": "01_Obstacle_Course_Crash_Retry",
+      "title": "The Obstacle Course Crash and Retry",
+      "reason": "Shows the rider entering the stacked obstacle course, clipping the tire barriers, and getting back into another attempt.",
+      "ranges": [
+        [
+          440,
+          484
+        ]
+      ],
+      "layout": "crop",
+      "crop_x": 0.5,
+      "burn_captions": true,
+      "post_caption": "One crash, then straight back into the obstacle course.",
+      "hashtags": [
+        "#GTA5",
+        "#GTAV",
+        "#Gaming",
+        "#Stunts"
+      ],
+      "highlight_words": true
+    },
+    {
+      "name": "02_Hot_Wheels_Ramp_Jump",
+      "title": "A Huge Jump Across the Stunt Track",
+      "reason": "Builds speed on the elevated track, carries the bike into a high jump over the city, and includes the landing/fall aftermath.",
+      "ranges": [
+        [
+          1104,
+          1160
+        ]
+      ],
+      "layout": "crop",
+      "crop_x": 0.5,
+      "burn_captions": true,
+      "post_caption": "The stunt track sends the bike soaring over Los Santos.",
+      "hashtags": [
+        "#GTA5",
+        "#GTAV",
+        "#Gaming",
+        "#Stunts"
+      ],
+      "highlight_words": true
+    },
+    {
+      "name": "03_Ramp_Crash_Respawn",
+      "title": "The Ramp Jump Ends in a Crash",
+      "reason": "Shows the bike approaching the elevated section, losing the run in a crash, and continuing after respawn on a different bike.",
+      "ranges": [
+        [
+          1216,
+          1268
+        ]
+      ],
+      "layout": "crop",
+      "crop_x": 0.5,
+      "burn_captions": true,
+      "post_caption": "The landing goes wrong, but the ride continues.",
+      "hashtags": [
+        "#GTA5",
+        "#GTAV",
+        "#Gaming",
+        "#Fails"
+      ],
+      "highlight_words": true
+    },
+    {
+      "name": "04_Tower_Jump_Fall_Recover",
+      "title": "The Tower Jump and Hard Landing",
+      "reason": "Captures the late tower-side jump, long fall through the city, impact, and recovery afterward.",
+      "ranges": [
+        [
+          1376,
+          1432
+        ]
+      ],
+      "layout": "crop",
+      "crop_x": 0.5,
+      "burn_captions": true,
+      "post_caption": "One last launch turns into a long fall back to the streets.",
+      "hashtags": [
+        "#GTA5",
+        "#GTAV",
+        "#Gaming",
+        "#Stunts"
+      ],
+      "highlight_words": true
+    }
+  ],
+  "transcript": "transcript.json"
+}

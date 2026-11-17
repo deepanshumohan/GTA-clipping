@@ -1,0 +1,15 @@
+[
+  {
+    "name": "01_Lia_Resident_Evil_Reaction",
+    "ranges": [
+      [
+        0.0,
+        29.5
+      ]
+    ],
+    "target_duration": 29.5,
+    "caption_events": 5,
+    "layout": "fit",
+    "reason": "Chat explosion 4.3x normal volume during Resident Evil 4 intro"
+  }
+]

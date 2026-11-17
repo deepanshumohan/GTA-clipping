@@ -1,0 +1,191 @@
+{
+  "source": "/Users/deepanshumohan/Work/gta/lias_jumpscare_source.mp4",
+  "language": "en",
+  "language_probability": null,
+  "model": "openai-whisper-tiny",
+  "segments": [
+    {
+      "start": 0.6000000000000005,
+      "end": 6.36,
+      "text": "Holy, agreed. You know this is why I'm playing this game. Okay, there's got to be",
+      "words": [
+        {
+          "start": 0.6000000000000005,
+          "end": 1.04,
+          "word": " Holy,"
+        },
+        {
+          "start": 1.24,
+          "end": 1.42,
+          "word": " agreed."
+        },
+        {
+          "start": 1.68,
+          "end": 1.72,
+          "word": " You"
+        },
+        {
+          "start": 1.72,
+          "end": 1.88,
+          "word": " know"
+        },
+        {
+          "start": 1.88,
+          "end": 2.16,
+          "word": " this"
+        },
+        {
+          "start": 2.16,
+          "end": 2.38,
+          "word": " is"
+        },
+        {
+          "start": 2.38,
+          "end": 2.5,
+          "word": " why"
+        },
+        {
+          "start": 2.5,
+          "end": 2.64,
+          "word": " I'm"
+        },
+        {
+          "start": 2.64,
+          "end": 2.82,
+          "word": " playing"
+        },
+        {
+          "start": 2.82,
+          "end": 3.0,
+          "word": " this"
+        },
+        {
+          "start": 3.0,
+          "end": 3.46,
+          "word": " game."
+        },
+        {
+          "start": 5.8,
+          "end": 6.1,
+          "word": " there's"
+        },
+        {
+          "start": 6.1,
+          "end": 6.22,
+          "word": " got"
+        },
+        {
+          "start": 6.22,
+          "end": 6.32,
+          "word": " to"
+        },
+        {
+          "start": 6.32,
+          "end": 6.54,
+          "word": " be"
+        }
+      ]
+    },
+    {
+      "start": 17.36,
+      "end": 18.24,
+      "text": "Hey dude",
+      "words": [
+        {
+          "start": 17.36,
+          "end": 17.799999999999997,
+          "word": " Hey"
+        },
+        {
+          "start": 17.799999999999997,
+          "end": 18.24,
+          "word": " dude"
+        }
+      ]
+    },
+    {
+      "start": 30.520000000000003,
+      "end": 33.58,
+      "text": "Sorry, oh my god. Oh my god. That's such an overreaction.",
+      "words": [
+        {
+          "start": 30.520000000000003,
+          "end": 30.84,
+          "word": " Sorry,"
+        },
+        {
+          "start": 31.08,
+          "end": 31.2,
+          "word": " oh"
+        },
+        {
+          "start": 31.2,
+          "end": 31.36,
+          "word": " my"
+        },
+        {
+          "start": 31.36,
+          "end": 31.78,
+          "word": " god."
+        },
+        {
+          "start": 31.96,
+          "end": 32.0,
+          "word": " Oh"
+        },
+        {
+          "start": 32.0,
+          "end": 32.08,
+          "word": " my"
+        },
+        {
+          "start": 32.08,
+          "end": 32.22,
+          "word": " god."
+        },
+        {
+          "start": 32.36,
+          "end": 32.42,
+          "word": " That's"
+        },
+        {
+          "start": 32.42,
+          "end": 32.6,
+          "word": " such"
+        },
+        {
+          "start": 32.6,
+          "end": 32.74,
+          "word": " an"
+        },
+        {
+          "start": 32.74,
+          "end": 33.58,
+          "word": " overreaction."
+        }
+      ]
+    },
+    {
+      "start": 33.58,
+      "end": 36.7,
+      "text": "Such a reaction.",
+      "words": [
+        {
+          "start": 33.58,
+          "end": 35.58,
+          "word": " Such"
+        },
+        {
+          "start": 35.58,
+          "end": 35.82,
+          "word": " a"
+        },
+        {
+          "start": 35.82,
+          "end": 36.7,
+          "word": " reaction."
+        }
+      ]
+    }
+  ]
+}

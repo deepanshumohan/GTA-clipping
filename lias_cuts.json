@@ -1,0 +1,139 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "font": "Arial",
+  "normalize_audio": true,
+  "reels": [
+    {
+      "name": "01_chat_spike_00_04_55",
+      "title": "Chat Explosion #1: HOW HER LIASPLHIII",
+      "reason": "Chat spike at 00:04:55: 6 msgs in 10.0s (4.3x normal). Key reaction: HOW HER LIASPLHIII",
+      "ranges": [
+        [
+          275.0,
+          305.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "hormozi",
+      "uppercase": true,
+      "hook": "CHAT LOST IT HERE! (4.3x normal)",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (4.3x normal volume) HOW HER LIASPLHIII",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "02_chat_spike_00_55_55",
+      "title": "Chat Explosion #2: GREAT JOB PERSON",
+      "reason": "Chat spike at 00:55:55: 4 msgs in 10.0s (4.0x normal). Key reaction: GREAT JOB PERSON",
+      "ranges": [
+        [
+          3335.0,
+          3365.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "hormozi",
+      "uppercase": true,
+      "hook": "CHAT: GREAT JOB PERSON!",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (4.0x normal volume) GREAT JOB PERSON",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "03_chat_spike_01_03_55",
+      "title": "Chat Explosion #3: CLAPHANDS WHO NEEDS",
+      "reason": "Chat spike at 01:03:55: 4 msgs in 10.0s (4.0x normal). Key reaction: CLAPHANDS WHO NEEDS",
+      "ranges": [
+        [
+          3815.0,
+          3845.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "hormozi",
+      "uppercase": true,
+      "hook": "CHAT: CLAPHANDS WHO NEEDS!",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (4.0x normal volume) CLAPHANDS WHO NEEDS",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "04_chat_spike_03_15_05",
+      "title": "Chat Explosion #4: MUGEN TRAIN THOMAS",
+      "reason": "Chat spike at 03:15:05: 5 msgs in 10.0s (5.0x normal). Key reaction: MUGEN TRAIN THOMAS",
+      "ranges": [
+        [
+          11685.0,
+          11715.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "hormozi",
+      "uppercase": true,
+      "hook": "CHAT: MUGEN TRAIN THOMAS!",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (5.0x normal volume) MUGEN TRAIN THOMAS",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "05_chat_spike_03_18_25",
+      "title": "Chat Explosion #5: TIER ANONYMOUS USER",
+      "reason": "Chat spike at 03:18:25: 10 msgs in 10.0s (10.0x normal). Key reaction: TIER ANONYMOUS USER",
+      "ranges": [
+        [
+          11885.0,
+          11915.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "hormozi",
+      "uppercase": true,
+      "hook": "CHAT: TIER ANONYMOUS USER!",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (10.0x normal volume) TIER ANONYMOUS USER",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    }
+  ]
+}

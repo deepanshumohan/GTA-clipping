@@ -1,0 +1,10 @@
+{
+  "source": "D:\\git\\gta\\input\\Every Time I Crash, My Bike JUMP HIGHER in GTA 5!.mp4",
+  "width": 1280,
+  "height": 720,
+  "fps": 30.0,
+  "frames": 43235,
+  "duration": 1441.24,
+  "has_audio": true,
+  "stream_details": "[in#0 @ 000001f53c488b00] st: 1 edit list: 1 Missing key frame while searching for timestamp: 0\n[in#0 @ 000001f53c488b00] st: 1 edit list 1 Cannot find an index entry before timestamp: 0.\nInput #0, mov,mp4,m4a,3gp,3g2,mj2, from 'input/Every Time I Crash, My Bike JUMP HIGHER in GTA 5!.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 1\n    compatible_brands: isomiso2avc1mp41\n    creation_time   : 2026-11-08T09:56:50.000000Z\n  Duration: 00:24:01.24, start: 0.000000, bitrate: 2328 kb/s\n  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 2196 kb/s, 30 fps, 30 tbr, 15360 tbn (default)\n    Metadata:\n      creation_time   : 2026-11-08T09:56:50.000000Z\n      handler_name    : ISO Media file produced by Google Inc.\n  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)\n    Metadata:\n      creation_time   : 2026-09-05T17:21:45.000000Z\n      handler_name    : ISO Media file produced by Google Inc.\nAt least one output file must be specified\n"
+}

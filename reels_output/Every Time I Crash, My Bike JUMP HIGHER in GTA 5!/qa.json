@@ -1,0 +1,61 @@
+{
+  "checks": [
+    {
+      "source": "D:\\git\\gta\\reels_output\\Every Time I Crash, My Bike JUMP HIGHER in GTA 5!\\01_Obstacle_Course_Crash_Retry.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frames": 1320,
+      "duration": 44.0,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true,
+      "target_duration": 44,
+      "duration_ok": true
+    },
+    {
+      "source": "D:\\git\\gta\\reels_output\\Every Time I Crash, My Bike JUMP HIGHER in GTA 5!\\02_Hot_Wheels_Ramp_Jump.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frames": 1680,
+      "duration": 56.0,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true,
+      "target_duration": 56,
+      "duration_ok": true
+    },
+    {
+      "source": "D:\\git\\gta\\reels_output\\Every Time I Crash, My Bike JUMP HIGHER in GTA 5!\\03_Ramp_Crash_Respawn.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frames": 1560,
+      "duration": 52.0,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true,
+      "target_duration": 52,
+      "duration_ok": true
+    },
+    {
+      "source": "D:\\git\\gta\\reels_output\\Every Time I Crash, My Bike JUMP HIGHER in GTA 5!\\04_Tower_Jump_Fall_Recover.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frames": 1680,
+      "duration": 56.0,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true,
+      "target_duration": 56,
+      "duration_ok": true
+    }
+  ],
+  "scope": "Technical decode/metadata only; visual, caption and listening review are separate."
+}

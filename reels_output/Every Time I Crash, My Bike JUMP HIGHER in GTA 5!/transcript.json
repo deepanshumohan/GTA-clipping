@@ -1,0 +1,2988 @@
+{
+  "source": "D:\\git\\gta\\input\\Every Time I Crash, My Bike JUMP HIGHER in GTA 5!.mp4",
+  "language": "en",
+  "translated_from": "hi",
+  "model": "openai-whisper-medium-translate",
+  "segments": [
+    {
+      "start": 440.0,
+      "end": 442.28,
+      "text": "Now my turn guys, I'm ready, let's go",
+      "words": [
+        {
+          "start": 440.0,
+          "end": 440.46,
+          "word": " Now"
+        },
+        {
+          "start": 440.46,
+          "end": 440.64,
+          "word": " my"
+        },
+        {
+          "start": 440.64,
+          "end": 440.82,
+          "word": " turn"
+        },
+        {
+          "start": 440.82,
+          "end": 441.28,
+          "word": " guys,"
+        },
+        {
+          "start": 441.28,
+          "end": 441.5,
+          "word": " I'm"
+        },
+        {
+          "start": 441.5,
+          "end": 441.68,
+          "word": " ready,"
+        },
+        {
+          "start": 441.7,
+          "end": 442.28,
+          "word": " let's"
+        }
+      ]
+    },
+    {
+      "start": 442.28,
+      "end": 443.28,
+      "text": "And jump",
+      "words": [
+        {
+          "start": 442.28,
+          "end": 442.72,
+          "word": " And"
+        },
+        {
+          "start": 442.72,
+          "end": 443.28,
+          "word": " jump"
+        }
+      ]
+    },
+    {
+      "start": 443.28,
+      "end": 445.48,
+      "text": "Oh no no",
+      "words": [
+        {
+          "start": 443.28,
+          "end": 444.1,
+          "word": " Oh"
+        },
+        {
+          "start": 444.1,
+          "end": 444.58,
+          "word": " no"
+        },
+        {
+          "start": 444.58,
+          "end": 445.48,
+          "word": " no"
+        }
+      ]
+    },
+    {
+      "start": 445.48,
+      "end": 447.98,
+      "text": "I told you boy, how can you win now that this is your last chance",
+      "words": [
+        {
+          "start": 445.48,
+          "end": 445.78,
+          "word": " I"
+        },
+        {
+          "start": 445.78,
+          "end": 445.84,
+          "word": " told"
+        },
+        {
+          "start": 445.84,
+          "end": 446.06,
+          "word": " you"
+        },
+        {
+          "start": 446.06,
+          "end": 446.3,
+          "word": " boy,"
+        },
+        {
+          "start": 446.5,
+          "end": 446.66,
+          "word": " how"
+        },
+        {
+          "start": 446.66,
+          "end": 446.82,
+          "word": " win"
+        },
+        {
+          "start": 446.82,
+          "end": 447.04,
+          "word": " now"
+        },
+        {
+          "start": 447.04,
+          "end": 447.24,
+          "word": " this"
+        },
+        {
+          "start": 447.24,
+          "end": 447.34,
+          "word": " is"
+        },
+        {
+          "start": 447.34,
+          "end": 447.42,
+          "word": " your"
+        },
+        {
+          "start": 447.42,
+          "end": 447.62,
+          "word": " last"
+        },
+        {
+          "start": 447.62,
+          "end": 447.98,
+          "word": " chance"
+        }
+      ]
+    },
+    {
+      "start": 447.98,
+      "end": 449.94,
+      "text": "You know what, what kind of bike I got",
+      "words": [
+        {
+          "start": 447.98,
+          "end": 448.56,
+          "word": " You"
+        },
+        {
+          "start": 448.56,
+          "end": 448.66,
+          "word": " know"
+        },
+        {
+          "start": 448.66,
+          "end": 449.0,
+          "word": " what,"
+        },
+        {
+          "start": 449.0,
+          "end": 449.32,
+          "word": " what"
+        },
+        {
+          "start": 449.32,
+          "end": 449.42,
+          "word": " kind"
+        },
+        {
+          "start": 449.42,
+          "end": 449.58,
+          "word": " bike"
+        },
+        {
+          "start": 449.58,
+          "end": 449.94,
+          "word": " I"
+        }
+      ]
+    },
+    {
+      "start": 449.94,
+      "end": 451.86,
+      "text": "Even this handle is very long, wait let me see its jump",
+      "words": [
+        {
+          "start": 449.94,
+          "end": 450.26,
+          "word": " Even"
+        },
+        {
+          "start": 450.26,
+          "end": 450.32,
+          "word": " this"
+        },
+        {
+          "start": 450.32,
+          "end": 450.72,
+          "word": " handle"
+        },
+        {
+          "start": 450.72,
+          "end": 450.76,
+          "word": " is"
+        },
+        {
+          "start": 450.76,
+          "end": 451.0,
+          "word": " very"
+        },
+        {
+          "start": 451.0,
+          "end": 451.1,
+          "word": " long,"
+        },
+        {
+          "start": 451.2,
+          "end": 451.32,
+          "word": " wait"
+        },
+        {
+          "start": 451.32,
+          "end": 451.34,
+          "word": " let"
+        },
+        {
+          "start": 451.34,
+          "end": 451.54,
+          "word": " its"
+        },
+        {
+          "start": 451.54,
+          "end": 451.86,
+          "word": " jump"
+        }
+      ]
+    },
+    {
+      "start": 452.44,
+      "end": 454.5,
+      "text": "I think its jump, oh this jump is good",
+      "words": [
+        {
+          "start": 452.44,
+          "end": 452.92,
+          "word": " I"
+        },
+        {
+          "start": 452.92,
+          "end": 453.04,
+          "word": " think"
+        },
+        {
+          "start": 453.04,
+          "end": 453.38,
+          "word": " its"
+        },
+        {
+          "start": 453.38,
+          "end": 453.6,
+          "word": " jump,"
+        },
+        {
+          "start": 453.72,
+          "end": 453.88,
+          "word": " oh"
+        },
+        {
+          "start": 453.88,
+          "end": 453.98,
+          "word": " this"
+        },
+        {
+          "start": 453.98,
+          "end": 454.14,
+          "word": " jump"
+        },
+        {
+          "start": 454.14,
+          "end": 454.16,
+          "word": " is"
+        },
+        {
+          "start": 454.16,
+          "end": 454.5,
+          "word": " good"
+        }
+      ]
+    },
+    {
+      "start": 455.1,
+      "end": 457.22,
+      "text": "Ok bro, I'm able to cross this banner easily",
+      "words": [
+        {
+          "start": 455.1,
+          "end": 455.54,
+          "word": " Ok"
+        },
+        {
+          "start": 455.54,
+          "end": 455.74,
+          "word": " bro,"
+        },
+        {
+          "start": 455.8,
+          "end": 456.02,
+          "word": " this"
+        },
+        {
+          "start": 456.02,
+          "end": 456.4,
+          "word": " banner"
+        },
+        {
+          "start": 456.4,
+          "end": 457.22,
+          "word": " easily"
+        }
+      ]
+    },
+    {
+      "start": 457.22,
+      "end": 460.1,
+      "text": "So maybe I'll cross the last one too, come on",
+      "words": [
+        {
+          "start": 457.22,
+          "end": 457.88,
+          "word": " So"
+        },
+        {
+          "start": 457.88,
+          "end": 458.16,
+          "word": " maybe"
+        },
+        {
+          "start": 458.16,
+          "end": 458.18,
+          "word": " I'll"
+        },
+        {
+          "start": 458.18,
+          "end": 458.58,
+          "word": " the"
+        },
+        {
+          "start": 458.58,
+          "end": 458.86,
+          "word": " one"
+        },
+        {
+          "start": 458.86,
+          "end": 459.58,
+          "word": " too,"
+        },
+        {
+          "start": 459.58,
+          "end": 459.98,
+          "word": " come"
+        },
+        {
+          "start": 459.98,
+          "end": 460.1,
+          "word": " on"
+        }
+      ]
+    },
+    {
+      "start": 460.1,
+      "end": 461.12,
+      "text": "This is my last chance",
+      "words": [
+        {
+          "start": 460.1,
+          "end": 460.2,
+          "word": " This"
+        },
+        {
+          "start": 460.2,
+          "end": 460.28,
+          "word": " is"
+        },
+        {
+          "start": 460.28,
+          "end": 460.5,
+          "word": " my"
+        },
+        {
+          "start": 460.5,
+          "end": 460.74,
+          "word": " last"
+        },
+        {
+          "start": 460.74,
+          "end": 461.12,
+          "word": " chance"
+        }
+      ]
+    },
+    {
+      "start": 461.12,
+      "end": 462.26,
+      "text": "Your last chance bro",
+      "words": [
+        {
+          "start": 461.12,
+          "end": 461.46,
+          "word": " Your"
+        },
+        {
+          "start": 461.46,
+          "end": 461.72,
+          "word": " last"
+        },
+        {
+          "start": 461.72,
+          "end": 461.88,
+          "word": " chance"
+        },
+        {
+          "start": 461.88,
+          "end": 462.26,
+          "word": " bro"
+        }
+      ]
+    },
+    {
+      "start": 462.26,
+      "end": 463.52,
+      "text": "Are you ready, start",
+      "words": [
+        {
+          "start": 462.26,
+          "end": 462.72,
+          "word": " Are"
+        },
+        {
+          "start": 462.72,
+          "end": 463.04,
+          "word": " you"
+        },
+        {
+          "start": 463.08,
+          "end": 463.52,
+          "word": " start"
+        }
+      ]
+    },
+    {
+      "start": 463.52,
+      "end": 466.12,
+      "text": "Whatever it is this time, I'll do it, ok",
+      "words": [
+        {
+          "start": 463.52,
+          "end": 464.24,
+          "word": " Whatever"
+        },
+        {
+          "start": 464.24,
+          "end": 464.32,
+          "word": " it"
+        },
+        {
+          "start": 464.56,
+          "end": 464.6,
+          "word": " I'll"
+        },
+        {
+          "start": 464.6,
+          "end": 464.98,
+          "word": " do"
+        },
+        {
+          "start": 464.98,
+          "end": 465.18,
+          "word": " it,"
+        },
+        {
+          "start": 465.18,
+          "end": 466.12,
+          "word": " ok"
+        }
+      ]
+    },
+    {
+      "start": 466.12,
+      "end": 468.0,
+      "text": "Bro, I pressed just one thing",
+      "words": [
+        {
+          "start": 466.12,
+          "end": 466.78,
+          "word": " Bro,"
+        },
+        {
+          "start": 467.22,
+          "end": 467.3,
+          "word": " I"
+        },
+        {
+          "start": 467.3,
+          "end": 467.7,
+          "word": " one"
+        },
+        {
+          "start": 467.7,
+          "end": 468.0,
+          "word": " thing"
+        }
+      ]
+    },
+    {
+      "start": 468.0,
+      "end": 469.26,
+      "text": "I pressed it lightly",
+      "words": [
+        {
+          "start": 468.0,
+          "end": 468.22,
+          "word": " I"
+        },
+        {
+          "start": 468.22,
+          "end": 468.92,
+          "word": " pressed"
+        },
+        {
+          "start": 468.92,
+          "end": 469.1,
+          "word": " it"
+        },
+        {
+          "start": 469.1,
+          "end": 469.26,
+          "word": " lightly"
+        }
+      ]
+    },
+    {
+      "start": 469.26,
+      "end": 470.98,
+      "text": "And see guys, just once",
+      "words": [
+        {
+          "start": 469.26,
+          "end": 469.56,
+          "word": " And"
+        },
+        {
+          "start": 469.56,
+          "end": 469.82,
+          "word": " see"
+        },
+        {
+          "start": 469.82,
+          "end": 470.86,
+          "word": " guys,"
+        }
+      ]
+    },
+    {
+      "start": 470.98,
+      "end": 473.58,
+      "text": "Oh bro bro bro, nice nice, easy easy",
+      "words": [
+        {
+          "start": 470.98,
+          "end": 471.44,
+          "word": " Oh"
+        },
+        {
+          "start": 471.44,
+          "end": 472.3,
+          "word": " bro"
+        },
+        {
+          "start": 472.3,
+          "end": 472.46,
+          "word": " bro"
+        },
+        {
+          "start": 472.48,
+          "end": 472.62,
+          "word": " nice"
+        },
+        {
+          "start": 472.62,
+          "end": 472.78,
+          "word": " nice,"
+        },
+        {
+          "start": 472.94,
+          "end": 473.18,
+          "word": " easy"
+        },
+        {
+          "start": 473.18,
+          "end": 473.58,
+          "word": " easy"
+        }
+      ]
+    },
+    {
+      "start": 473.58,
+      "end": 475.6,
+      "text": "Ok, it's not bumping, its tyre's hair",
+      "words": [
+        {
+          "start": 473.58,
+          "end": 474.4,
+          "word": " Ok,"
+        },
+        {
+          "start": 474.4,
+          "end": 474.94,
+          "word": " bumping,"
+        },
+        {
+          "start": 475.04,
+          "end": 475.2,
+          "word": " its"
+        },
+        {
+          "start": 475.2,
+          "end": 475.4,
+          "word": " tyre's"
+        },
+        {
+          "start": 475.4,
+          "end": 475.6,
+          "word": " hair"
+        }
+      ]
+    },
+    {
+      "start": 475.6,
+      "end": 477.78,
+      "text": "I thought the bike will get wet",
+      "words": [
+        {
+          "start": 475.6,
+          "end": 476.3,
+          "word": " I"
+        },
+        {
+          "start": 476.3,
+          "end": 476.54,
+          "word": " thought"
+        },
+        {
+          "start": 476.54,
+          "end": 477.3,
+          "word": " the"
+        },
+        {
+          "start": 477.3,
+          "end": 477.44,
+          "word": " bike"
+        },
+        {
+          "start": 477.44,
+          "end": 477.78,
+          "word": " will"
+        }
+      ]
+    },
+    {
+      "start": 477.78,
+      "end": 480.9,
+      "text": "Ok, yes, I'm able to do this very easily",
+      "words": [
+        {
+          "start": 477.78,
+          "end": 478.4,
+          "word": " Ok,"
+        },
+        {
+          "start": 478.76,
+          "end": 478.84000000000003,
+          "word": " yes,"
+        },
+        {
+          "start": 479.24,
+          "end": 479.65999999999997,
+          "word": " I'm"
+        },
+        {
+          "start": 479.65999999999997,
+          "end": 479.84000000000003,
+          "word": " to"
+        },
+        {
+          "start": 479.84000000000003,
+          "end": 480.02,
+          "word": " very"
+        },
+        {
+          "start": 480.02,
+          "end": 480.9,
+          "word": " easily"
+        }
+      ]
+    },
+    {
+      "start": 482.16,
+      "end": 483.12,
+      "text": "And, ok",
+      "words": [
+        {
+          "start": 482.16,
+          "end": 482.64,
+          "word": " And,"
+        },
+        {
+          "start": 482.64,
+          "end": 483.12,
+          "word": " ok"
+        }
+      ]
+    },
+    {
+      "start": 483.12,
+      "end": 483.92,
+      "text": "Second one",
+      "words": [
+        {
+          "start": 483.12,
+          "end": 483.76,
+          "word": " Second"
+        },
+        {
+          "start": 483.76,
+          "end": 483.92,
+          "word": " one"
+        }
+      ]
+    },
+    {
+      "start": 1104.0,
+      "end": 1106.0,
+      "text": "This is Ninja S2, its speed is 200kmph or what?",
+      "words": [
+        {
+          "start": 1104.0,
+          "end": 1104.24,
+          "word": " Ninja"
+        },
+        {
+          "start": 1104.24,
+          "end": 1104.72,
+          "word": " S2,"
+        },
+        {
+          "start": 1104.88,
+          "end": 1105.04,
+          "word": " its"
+        },
+        {
+          "start": 1105.04,
+          "end": 1105.36,
+          "word": " speed"
+        },
+        {
+          "start": 1105.36,
+          "end": 1105.38,
+          "word": " is"
+        },
+        {
+          "start": 1105.38,
+          "end": 1105.86,
+          "word": " 200kmph"
+        },
+        {
+          "start": 1105.86,
+          "end": 1106.24,
+          "word": " what?"
+        }
+      ]
+    },
+    {
+      "start": 1107.2,
+      "end": 1108.0,
+      "text": "Is this car bad?",
+      "words": [
+        {
+          "start": 1107.2,
+          "end": 1107.26,
+          "word": " Is"
+        },
+        {
+          "start": 1107.26,
+          "end": 1107.62,
+          "word": " this"
+        },
+        {
+          "start": 1107.62,
+          "end": 1108.0,
+          "word": " bad?"
+        }
+      ]
+    },
+    {
+      "start": 1108.66,
+      "end": 1110.28,
+      "text": "Give me a good bike",
+      "words": [
+        {
+          "start": 1108.66,
+          "end": 1109.02,
+          "word": " me"
+        },
+        {
+          "start": 1109.02,
+          "end": 1109.48,
+          "word": " good"
+        },
+        {
+          "start": 1109.48,
+          "end": 1110.28,
+          "word": " bike"
+        }
+      ]
+    },
+    {
+      "start": 1110.28,
+      "end": 1111.9,
+      "text": "Look at the turning",
+      "words": [
+        {
+          "start": 1110.28,
+          "end": 1110.98,
+          "word": " Look"
+        },
+        {
+          "start": 1110.98,
+          "end": 1111.58,
+          "word": " at"
+        },
+        {
+          "start": 1111.58,
+          "end": 1111.8,
+          "word": " the"
+        },
+        {
+          "start": 1111.8,
+          "end": 1111.9,
+          "word": " turning"
+        }
+      ]
+    },
+    {
+      "start": 1111.9,
+      "end": 1113.32,
+      "text": "Turn number...oh!",
+      "words": [
+        {
+          "start": 1111.9,
+          "end": 1112.58,
+          "word": " Turn"
+        },
+        {
+          "start": 1112.58,
+          "end": 1113.32,
+          "word": " number...oh!"
+        }
+      ]
+    },
+    {
+      "start": 1113.68,
+      "end": 1114.78,
+      "text": "That guy is hitting me",
+      "words": [
+        {
+          "start": 1113.68,
+          "end": 1114.06,
+          "word": " That"
+        },
+        {
+          "start": 1114.06,
+          "end": 1114.56,
+          "word": " guy"
+        },
+        {
+          "start": 1114.56,
+          "end": 1114.78,
+          "word": " me"
+        }
+      ]
+    },
+    {
+      "start": 1114.78,
+      "end": 1116.18,
+      "text": "Move away Ferrari",
+      "words": [
+        {
+          "start": 1114.78,
+          "end": 1115.28,
+          "word": " Move"
+        },
+        {
+          "start": 1115.28,
+          "end": 1115.48,
+          "word": " away"
+        },
+        {
+          "start": 1115.48,
+          "end": 1116.18,
+          "word": " Ferrari"
+        }
+      ]
+    },
+    {
+      "start": 1118.0,
+      "end": 1119.52,
+      "text": "Turning is very sharp",
+      "words": [
+        {
+          "start": 1117.86,
+          "end": 1118.24,
+          "word": " Turning"
+        },
+        {
+          "start": 1118.24,
+          "end": 1118.7,
+          "word": " is"
+        },
+        {
+          "start": 1118.7,
+          "end": 1119.06,
+          "word": " very"
+        },
+        {
+          "start": 1119.06,
+          "end": 1119.52,
+          "word": " sharp"
+        }
+      ]
+    },
+    {
+      "start": 1119.52,
+      "end": 1122.02,
+      "text": "Look at the track in front",
+      "words": [
+        {
+          "start": 1119.52,
+          "end": 1120.2,
+          "word": " Look"
+        },
+        {
+          "start": 1120.2,
+          "end": 1120.44,
+          "word": " at"
+        },
+        {
+          "start": 1120.44,
+          "end": 1121.46,
+          "word": " the"
+        },
+        {
+          "start": 1121.46,
+          "end": 1121.74,
+          "word": " track"
+        },
+        {
+          "start": 1121.74,
+          "end": 1122.02,
+          "word": " in"
+        }
+      ]
+    },
+    {
+      "start": 1122.02,
+      "end": 1122.78,
+      "text": "There is a lot of turn",
+      "words": [
+        {
+          "start": 1122.02,
+          "end": 1122.42,
+          "word": " a"
+        },
+        {
+          "start": 1122.42,
+          "end": 1122.78,
+          "word": " turn"
+        }
+      ]
+    },
+    {
+      "start": 1122.78,
+      "end": 1124.68,
+      "text": "Let's go, I will take a turn here",
+      "words": [
+        {
+          "start": 1122.78,
+          "end": 1123.18,
+          "word": " Let's"
+        },
+        {
+          "start": 1123.18,
+          "end": 1123.38,
+          "word": " go,"
+        },
+        {
+          "start": 1123.64,
+          "end": 1123.88,
+          "word": " I"
+        },
+        {
+          "start": 1123.88,
+          "end": 1124.12,
+          "word": " will"
+        },
+        {
+          "start": 1124.12,
+          "end": 1124.68,
+          "word": " here"
+        }
+      ]
+    },
+    {
+      "start": 1125.58,
+      "end": 1126.34,
+      "text": "BMW?",
+      "words": [
+        {
+          "start": 1125.58,
+          "end": 1126.34,
+          "word": " BMW?"
+        }
+      ]
+    },
+    {
+      "start": 1127.0,
+      "end": 1130.18,
+      "text": "BMW is M1000, yes M1000 is coming",
+      "words": [
+        {
+          "start": 1127.0,
+          "end": 1127.62,
+          "word": " BMW"
+        },
+        {
+          "start": 1127.62,
+          "end": 1127.68,
+          "word": " is"
+        },
+        {
+          "start": 1127.68,
+          "end": 1128.24,
+          "word": " M1000,"
+        },
+        {
+          "start": 1128.38,
+          "end": 1129.02,
+          "word": " yes"
+        },
+        {
+          "start": 1129.02,
+          "end": 1129.72,
+          "word": " M1000"
+        },
+        {
+          "start": 1129.72,
+          "end": 1130.18,
+          "word": " is"
+        }
+      ]
+    },
+    {
+      "start": 1130.18,
+      "end": 1131.48,
+      "text": "Its speed is more",
+      "words": [
+        {
+          "start": 1130.18,
+          "end": 1130.8,
+          "word": " Its"
+        },
+        {
+          "start": 1130.8,
+          "end": 1131.14,
+          "word": " speed"
+        },
+        {
+          "start": 1131.14,
+          "end": 1131.4,
+          "word": " is"
+        },
+        {
+          "start": 1131.4,
+          "end": 1131.48,
+          "word": " more"
+        }
+      ]
+    },
+    {
+      "start": 1131.48,
+      "end": 1132.6,
+      "text": "Look at the speed",
+      "words": [
+        {
+          "start": 1131.48,
+          "end": 1131.74,
+          "word": " Look"
+        },
+        {
+          "start": 1131.74,
+          "end": 1132.34,
+          "word": " at"
+        },
+        {
+          "start": 1132.34,
+          "end": 1132.54,
+          "word": " the"
+        },
+        {
+          "start": 1132.54,
+          "end": 1132.6,
+          "word": " speed"
+        }
+      ]
+    },
+    {
+      "start": 1132.6,
+      "end": 1133.22,
+      "text": "300kmph",
+      "words": [
+        {
+          "start": 1132.6,
+          "end": 1133.22,
+          "word": " 300kmph"
+        }
+      ]
+    },
+    {
+      "start": 1134.42,
+      "end": 1137.38,
+      "text": "Why am I going to 300kmph?",
+      "words": [
+        {
+          "start": 1134.42,
+          "end": 1135.18,
+          "word": " Why"
+        },
+        {
+          "start": 1135.18,
+          "end": 1135.86,
+          "word": " am"
+        },
+        {
+          "start": 1135.86,
+          "end": 1135.94,
+          "word": " I"
+        },
+        {
+          "start": 1135.94,
+          "end": 1136.0,
+          "word": " to"
+        },
+        {
+          "start": 1136.0,
+          "end": 1137.38,
+          "word": " 300kmph?"
+        }
+      ]
+    },
+    {
+      "start": 1137.84,
+      "end": 1138.16,
+      "text": "What is this?",
+      "words": [
+        {
+          "start": 1137.84,
+          "end": 1138.02,
+          "word": " What"
+        },
+        {
+          "start": 1138.02,
+          "end": 1138.16,
+          "word": " is"
+        }
+      ]
+    },
+    {
+      "start": 1138.76,
+      "end": 1139.74,
+      "text": "Why am I going to 300kmph?",
+      "words": [
+        {
+          "start": 1138.76,
+          "end": 1139.04,
+          "word": " Why"
+        },
+        {
+          "start": 1139.04,
+          "end": 1139.1,
+          "word": " I"
+        },
+        {
+          "start": 1139.1,
+          "end": 1139.74,
+          "word": " 300kmph?"
+        }
+      ]
+    },
+    {
+      "start": 1140.04,
+      "end": 1141.24,
+      "text": "Bike got stuck",
+      "words": [
+        {
+          "start": 1140.04,
+          "end": 1140.8,
+          "word": " Bike"
+        },
+        {
+          "start": 1140.8,
+          "end": 1141.24,
+          "word": " got"
+        }
+      ]
+    },
+    {
+      "start": 1141.24,
+      "end": 1143.48,
+      "text": "Where is the tire?",
+      "words": [
+        {
+          "start": 1141.24,
+          "end": 1142.44,
+          "word": " Where"
+        },
+        {
+          "start": 1142.44,
+          "end": 1142.88,
+          "word": " is"
+        },
+        {
+          "start": 1142.88,
+          "end": 1143.3,
+          "word": " the"
+        },
+        {
+          "start": 1143.3,
+          "end": 1143.48,
+          "word": " tire?"
+        }
+      ]
+    },
+    {
+      "start": 1144.32,
+      "end": 1145.08,
+      "text": "Did I sell the tire?",
+      "words": [
+        {
+          "start": 1144.32,
+          "end": 1144.6,
+          "word": " Did"
+        },
+        {
+          "start": 1144.6,
+          "end": 1144.76,
+          "word": " the"
+        },
+        {
+          "start": 1144.76,
+          "end": 1145.08,
+          "word": " tire?"
+        }
+      ]
+    },
+    {
+      "start": 1146.4,
+      "end": 1149.04,
+      "text": "I forgot the name of this place",
+      "words": [
+        {
+          "start": 1146.4,
+          "end": 1147.16,
+          "word": " I"
+        },
+        {
+          "start": 1147.16,
+          "end": 1147.26,
+          "word": " forgot"
+        },
+        {
+          "start": 1147.26,
+          "end": 1147.28,
+          "word": " the"
+        },
+        {
+          "start": 1147.28,
+          "end": 1148.12,
+          "word": " name"
+        },
+        {
+          "start": 1148.12,
+          "end": 1149.04,
+          "word": " of"
+        }
+      ]
+    },
+    {
+      "start": 1149.04,
+      "end": 1151.58,
+      "text": "I can't see it",
+      "words": [
+        {
+          "start": 1149.04,
+          "end": 1149.08,
+          "word": " I"
+        },
+        {
+          "start": 1149.08,
+          "end": 1149.7,
+          "word": " see"
+        },
+        {
+          "start": 1149.7,
+          "end": 1151.58,
+          "word": " it"
+        }
+      ]
+    },
+    {
+      "start": 1151.58,
+      "end": 1152.74,
+      "text": "I got a bike",
+      "words": [
+        {
+          "start": 1151.58,
+          "end": 1152.06,
+          "word": " I"
+        },
+        {
+          "start": 1152.06,
+          "end": 1152.08,
+          "word": " got"
+        },
+        {
+          "start": 1152.08,
+          "end": 1152.4,
+          "word": " a"
+        },
+        {
+          "start": 1152.4,
+          "end": 1152.74,
+          "word": " bike"
+        }
+      ]
+    },
+    {
+      "start": 1156.06,
+      "end": 1158.06,
+      "text": "And no noise",
+      "words": [
+        {
+          "start": 1156.06,
+          "end": 1156.82,
+          "word": " And"
+        },
+        {
+          "start": 1156.82,
+          "end": 1157.58,
+          "word": " no"
+        },
+        {
+          "start": 1157.58,
+          "end": 1158.06,
+          "word": " noise"
+        }
+      ]
+    },
+    {
+      "start": 1158.06,
+      "end": 1158.92,
+      "text": "Battery is not working",
+      "words": [
+        {
+          "start": 1158.06,
+          "end": 1158.58,
+          "word": " Battery"
+        },
+        {
+          "start": 1158.58,
+          "end": 1158.88,
+          "word": " is"
+        },
+        {
+          "start": 1158.88,
+          "end": 1158.92,
+          "word": " not"
+        }
+      ]
+    },
+    {
+      "start": 1158.92,
+      "end": 1159.98,
+      "text": "Is this a big drop?",
+      "words": [
+        {
+          "start": 1158.92,
+          "end": 1158.96,
+          "word": " Is"
+        },
+        {
+          "start": 1158.96,
+          "end": 1159.38,
+          "word": " this"
+        },
+        {
+          "start": 1159.38,
+          "end": 1159.48,
+          "word": " a"
+        },
+        {
+          "start": 1159.48,
+          "end": 1159.72,
+          "word": " big"
+        },
+        {
+          "start": 1159.72,
+          "end": 1159.98,
+          "word": " drop?"
+        }
+      ]
+    },
+    {
+      "start": 1216.0,
+      "end": 1217.18,
+      "text": "What is written here?",
+      "words": [
+        {
+          "start": 1216.0,
+          "end": 1216.48,
+          "word": " What"
+        },
+        {
+          "start": 1216.48,
+          "end": 1217.18,
+          "word": " is"
+        }
+      ]
+    },
+    {
+      "start": 1217.56,
+      "end": 1219.08,
+      "text": "Figure out 8",
+      "words": [
+        {
+          "start": 1217.56,
+          "end": 1217.76,
+          "word": " Figure"
+        },
+        {
+          "start": 1217.76,
+          "end": 1218.06,
+          "word": " out"
+        },
+        {
+          "start": 1218.06,
+          "end": 1219.08,
+          "word": " 8"
+        }
+      ]
+    },
+    {
+      "start": 1219.08,
+      "end": 1220.64,
+      "text": "I don't know what is it",
+      "words": [
+        {
+          "start": 1219.08,
+          "end": 1219.94,
+          "word": " I"
+        },
+        {
+          "start": 1219.94,
+          "end": 1220.06,
+          "word": " know"
+        },
+        {
+          "start": 1220.06,
+          "end": 1220.64,
+          "word": " what"
+        }
+      ]
+    },
+    {
+      "start": 1220.64,
+      "end": 1222.0,
+      "text": "I have to see it",
+      "words": [
+        {
+          "start": 1220.64,
+          "end": 1221.4,
+          "word": " I"
+        },
+        {
+          "start": 1221.4,
+          "end": 1221.48,
+          "word": " have"
+        },
+        {
+          "start": 1221.48,
+          "end": 1221.94,
+          "word": " see"
+        },
+        {
+          "start": 1221.94,
+          "end": 1222.0,
+          "word": " it"
+        }
+      ]
+    },
+    {
+      "start": 1222.0,
+      "end": 1223.8,
+      "text": "I have come the farthest",
+      "words": [
+        {
+          "start": 1222.0,
+          "end": 1223.16,
+          "word": " I"
+        },
+        {
+          "start": 1223.16,
+          "end": 1223.8,
+          "word": " have"
+        }
+      ]
+    },
+    {
+      "start": 1223.8,
+      "end": 1225.96,
+      "text": "I have come the farthest on one jump",
+      "words": [
+        {
+          "start": 1223.8,
+          "end": 1224.36,
+          "word": " I"
+        },
+        {
+          "start": 1224.36,
+          "end": 1224.72,
+          "word": " one"
+        },
+        {
+          "start": 1224.72,
+          "end": 1225.96,
+          "word": " jump"
+        }
+      ]
+    },
+    {
+      "start": 1227.02,
+      "end": 1228.82,
+      "text": "What is this?",
+      "words": [
+        {
+          "start": 1227.02,
+          "end": 1227.74,
+          "word": " What"
+        },
+        {
+          "start": 1227.74,
+          "end": 1228.46,
+          "word": " is"
+        },
+        {
+          "start": 1228.46,
+          "end": 1228.82,
+          "word": " this?"
+        }
+      ]
+    },
+    {
+      "start": 1229.66,
+      "end": 1230.78,
+      "text": "What is this?",
+      "words": [
+        {
+          "start": 1229.66,
+          "end": 1230.26,
+          "word": " What"
+        },
+        {
+          "start": 1230.26,
+          "end": 1230.56,
+          "word": " is"
+        },
+        {
+          "start": 1230.56,
+          "end": 1230.78,
+          "word": " this?"
+        }
+      ]
+    },
+    {
+      "start": 1231.84,
+      "end": 1233.68,
+      "text": "This looks like a long bike",
+      "words": [
+        {
+          "start": 1231.84,
+          "end": 1232.56,
+          "word": " This"
+        },
+        {
+          "start": 1232.56,
+          "end": 1232.58,
+          "word": " looks"
+        },
+        {
+          "start": 1232.58,
+          "end": 1232.72,
+          "word": " like"
+        },
+        {
+          "start": 1232.72,
+          "end": 1233.2,
+          "word": " long"
+        },
+        {
+          "start": 1233.2,
+          "end": 1233.68,
+          "word": " bike"
+        }
+      ]
+    },
+    {
+      "start": 1233.68,
+      "end": 1235.86,
+      "text": "It looks like someone has stretched this bike",
+      "words": [
+        {
+          "start": 1233.68,
+          "end": 1234.06,
+          "word": " It"
+        },
+        {
+          "start": 1234.06,
+          "end": 1234.1,
+          "word": " looks"
+        },
+        {
+          "start": 1234.1,
+          "end": 1234.14,
+          "word": " like"
+        },
+        {
+          "start": 1234.14,
+          "end": 1234.44,
+          "word": " someone"
+        },
+        {
+          "start": 1234.44,
+          "end": 1234.52,
+          "word": " has"
+        },
+        {
+          "start": 1234.52,
+          "end": 1234.94,
+          "word": " stretched"
+        },
+        {
+          "start": 1234.94,
+          "end": 1235.16,
+          "word": " this"
+        },
+        {
+          "start": 1235.16,
+          "end": 1235.86,
+          "word": " bike"
+        }
+      ]
+    },
+    {
+      "start": 1235.86,
+      "end": 1236.74,
+      "text": "It looks like that",
+      "words": [
+        {
+          "start": 1235.86,
+          "end": 1236.18,
+          "word": " It"
+        },
+        {
+          "start": 1236.18,
+          "end": 1236.48,
+          "word": " looks"
+        },
+        {
+          "start": 1236.48,
+          "end": 1236.74,
+          "word": " like"
+        }
+      ]
+    },
+    {
+      "start": 1236.74,
+      "end": 1237.54,
+      "text": "It is speed",
+      "words": [
+        {
+          "start": 1236.74,
+          "end": 1237.26,
+          "word": " It"
+        },
+        {
+          "start": 1237.26,
+          "end": 1237.3,
+          "word": " is"
+        },
+        {
+          "start": 1237.3,
+          "end": 1237.54,
+          "word": " speed"
+        }
+      ]
+    },
+    {
+      "start": 1239.02,
+      "end": 1241.46,
+      "text": "It was called figure out 8",
+      "words": [
+        {
+          "start": 1239.02,
+          "end": 1239.74,
+          "word": " It"
+        },
+        {
+          "start": 1239.74,
+          "end": 1240.06,
+          "word": " was"
+        },
+        {
+          "start": 1240.06,
+          "end": 1240.4,
+          "word": " called"
+        },
+        {
+          "start": 1240.4,
+          "end": 1240.7,
+          "word": " figure"
+        },
+        {
+          "start": 1240.7,
+          "end": 1240.96,
+          "word": " out"
+        },
+        {
+          "start": 1240.96,
+          "end": 1241.46,
+          "word": " 8"
+        }
+      ]
+    },
+    {
+      "start": 1242.0,
+      "end": 1243.12,
+      "text": "I don't know why it is called that",
+      "words": [
+        {
+          "start": 1241.66,
+          "end": 1242.02,
+          "word": " I"
+        },
+        {
+          "start": 1242.02,
+          "end": 1242.06,
+          "word": " don't"
+        },
+        {
+          "start": 1242.06,
+          "end": 1242.12,
+          "word": " why"
+        },
+        {
+          "start": 1242.12,
+          "end": 1242.26,
+          "word": " it"
+        },
+        {
+          "start": 1242.26,
+          "end": 1242.42,
+          "word": " is"
+        },
+        {
+          "start": 1242.42,
+          "end": 1242.84,
+          "word": " called"
+        },
+        {
+          "start": 1242.84,
+          "end": 1243.12,
+          "word": " that"
+        }
+      ]
+    },
+    {
+      "start": 1243.12,
+      "end": 1244.88,
+      "text": "I am roaming around the building",
+      "words": [
+        {
+          "start": 1243.12,
+          "end": 1244.2,
+          "word": " I"
+        },
+        {
+          "start": 1244.2,
+          "end": 1244.88,
+          "word": " around"
+        }
+      ]
+    },
+    {
+      "start": 1244.88,
+      "end": 1247.5,
+      "text": "I think that's why it is called figure out 8",
+      "words": [
+        {
+          "start": 1244.88,
+          "end": 1246.14,
+          "word": " I"
+        },
+        {
+          "start": 1246.14,
+          "end": 1246.34,
+          "word": " think"
+        },
+        {
+          "start": 1246.34,
+          "end": 1246.74,
+          "word": " that's"
+        },
+        {
+          "start": 1246.74,
+          "end": 1246.84,
+          "word": " is"
+        },
+        {
+          "start": 1246.84,
+          "end": 1247.0,
+          "word": " called"
+        },
+        {
+          "start": 1247.0,
+          "end": 1247.2,
+          "word": " figure"
+        },
+        {
+          "start": 1247.2,
+          "end": 1247.32,
+          "word": " out"
+        },
+        {
+          "start": 1247.32,
+          "end": 1247.5,
+          "word": " 8"
+        }
+      ]
+    },
+    {
+      "start": 1247.5,
+      "end": 1248.9,
+      "text": "Because there are 8 buildings",
+      "words": [
+        {
+          "start": 1247.5,
+          "end": 1247.64,
+          "word": " Because"
+        },
+        {
+          "start": 1247.64,
+          "end": 1247.86,
+          "word": " there"
+        },
+        {
+          "start": 1247.86,
+          "end": 1247.94,
+          "word": " are"
+        },
+        {
+          "start": 1247.94,
+          "end": 1248.34,
+          "word": " 8"
+        },
+        {
+          "start": 1248.34,
+          "end": 1248.9,
+          "word": " buildings"
+        }
+      ]
+    },
+    {
+      "start": 1248.9,
+      "end": 1250.44,
+      "text": "It is possible",
+      "words": [
+        {
+          "start": 1248.9,
+          "end": 1249.84,
+          "word": " It"
+        },
+        {
+          "start": 1249.84,
+          "end": 1250.44,
+          "word": " is"
+        }
+      ]
+    },
+    {
+      "start": 1251.12,
+      "end": 1251.82,
+      "text": "I have a car coming from behind",
+      "words": [
+        {
+          "start": 1250.84,
+          "end": 1251.16,
+          "word": " I"
+        },
+        {
+          "start": 1251.16,
+          "end": 1251.44,
+          "word": " car"
+        },
+        {
+          "start": 1251.44,
+          "end": 1251.64,
+          "word": " coming"
+        },
+        {
+          "start": 1251.64,
+          "end": 1251.82,
+          "word": " from"
+        }
+      ]
+    },
+    {
+      "start": 1251.82,
+      "end": 1253.08,
+      "text": "I don't have to stop",
+      "words": [
+        {
+          "start": 1251.82,
+          "end": 1252.18,
+          "word": " I"
+        },
+        {
+          "start": 1252.18,
+          "end": 1252.76,
+          "word": " have"
+        },
+        {
+          "start": 1252.76,
+          "end": 1253.08,
+          "word": " stop"
+        }
+      ]
+    },
+    {
+      "start": 1254.08,
+      "end": 1256.46,
+      "text": "What is written here?",
+      "words": [
+        {
+          "start": 1254.08,
+          "end": 1254.72,
+          "word": " What"
+        },
+        {
+          "start": 1254.72,
+          "end": 1254.74,
+          "word": " is"
+        },
+        {
+          "start": 1254.74,
+          "end": 1255.7,
+          "word": " written"
+        },
+        {
+          "start": 1255.7,
+          "end": 1256.46,
+          "word": " here?"
+        }
+      ]
+    },
+    {
+      "start": 1256.92,
+      "end": 1257.74,
+      "text": "Jump speed up",
+      "words": [
+        {
+          "start": 1256.92,
+          "end": 1257.16,
+          "word": " Jump"
+        },
+        {
+          "start": 1257.16,
+          "end": 1257.52,
+          "word": " speed"
+        },
+        {
+          "start": 1257.52,
+          "end": 1257.74,
+          "word": " up"
+        }
+      ]
+    },
+    {
+      "start": 1258.86,
+      "end": 1260.8,
+      "text": "Last time it was speed down",
+      "words": [
+        {
+          "start": 1258.86,
+          "end": 1259.5,
+          "word": " Last"
+        },
+        {
+          "start": 1259.5,
+          "end": 1259.7,
+          "word": " time"
+        },
+        {
+          "start": 1259.7,
+          "end": 1259.86,
+          "word": " it"
+        },
+        {
+          "start": 1259.86,
+          "end": 1259.98,
+          "word": " speed"
+        },
+        {
+          "start": 1259.98,
+          "end": 1260.8,
+          "word": " down"
+        }
+      ]
+    },
+    {
+      "start": 1260.8,
+      "end": 1263.56,
+      "text": "There is a good jump here",
+      "words": [
+        {
+          "start": 1260.8,
+          "end": 1261.44,
+          "word": " There"
+        },
+        {
+          "start": 1261.44,
+          "end": 1261.76,
+          "word": " is"
+        },
+        {
+          "start": 1261.76,
+          "end": 1261.98,
+          "word": " a"
+        },
+        {
+          "start": 1261.98,
+          "end": 1262.4,
+          "word": " good"
+        },
+        {
+          "start": 1262.4,
+          "end": 1262.78,
+          "word": " jump"
+        },
+        {
+          "start": 1262.78,
+          "end": 1263.56,
+          "word": " here"
+        }
+      ]
+    },
+    {
+      "start": 1263.56,
+      "end": 1265.42,
+      "text": "And the finish line is going to come",
+      "words": [
+        {
+          "start": 1263.56,
+          "end": 1263.82,
+          "word": " And"
+        },
+        {
+          "start": 1263.82,
+          "end": 1264.42,
+          "word": " the"
+        },
+        {
+          "start": 1264.42,
+          "end": 1264.64,
+          "word": " finish"
+        },
+        {
+          "start": 1264.64,
+          "end": 1264.82,
+          "word": " line"
+        },
+        {
+          "start": 1264.82,
+          "end": 1265.14,
+          "word": " going"
+        },
+        {
+          "start": 1265.14,
+          "end": 1265.42,
+          "word": " to"
+        }
+      ]
+    },
+    {
+      "start": 1265.42,
+      "end": 1267.32,
+      "text": "I have made a dangerous jump",
+      "words": [
+        {
+          "start": 1265.42,
+          "end": 1265.9,
+          "word": " I"
+        },
+        {
+          "start": 1265.9,
+          "end": 1265.96,
+          "word": " have"
+        },
+        {
+          "start": 1265.96,
+          "end": 1266.22,
+          "word": " a"
+        },
+        {
+          "start": 1266.22,
+          "end": 1267.0,
+          "word": " dangerous"
+        },
+        {
+          "start": 1267.0,
+          "end": 1267.32,
+          "word": " jump"
+        }
+      ]
+    },
+    {
+      "start": 1376.0,
+      "end": 1377.98,
+      "text": "It's possible that I will go out of this place",
+      "words": [
+        {
+          "start": 1376.0,
+          "end": 1376.74,
+          "word": " It's"
+        },
+        {
+          "start": 1376.74,
+          "end": 1376.96,
+          "word": " that"
+        },
+        {
+          "start": 1376.96,
+          "end": 1377.18,
+          "word": " I"
+        },
+        {
+          "start": 1377.18,
+          "end": 1377.74,
+          "word": " out"
+        },
+        {
+          "start": 1377.74,
+          "end": 1377.88,
+          "word": " of"
+        },
+        {
+          "start": 1377.88,
+          "end": 1377.98,
+          "word": " this"
+        }
+      ]
+    },
+    {
+      "start": 1377.98,
+      "end": 1378.58,
+      "text": "and start the bike like Los Santos",
+      "words": [
+        {
+          "start": 1377.98,
+          "end": 1378.2,
+          "word": " Los"
+        },
+        {
+          "start": 1378.2,
+          "end": 1378.58,
+          "word": " Santos"
+        }
+      ]
+    },
+    {
+      "start": 1380.06,
+      "end": 1381.52,
+      "text": "Let's go down guys",
+      "words": [
+        {
+          "start": 1380.06,
+          "end": 1380.62,
+          "word": " Let's"
+        },
+        {
+          "start": 1380.62,
+          "end": 1380.86,
+          "word": " down"
+        },
+        {
+          "start": 1380.86,
+          "end": 1381.52,
+          "word": " guys"
+        }
+      ]
+    },
+    {
+      "start": 1381.52,
+      "end": 1382.7,
+      "text": "I want to see if the bike gets upgraded",
+      "words": [
+        {
+          "start": 1381.52,
+          "end": 1381.8,
+          "word": " want"
+        },
+        {
+          "start": 1381.8,
+          "end": 1381.92,
+          "word": " if"
+        },
+        {
+          "start": 1381.92,
+          "end": 1382.38,
+          "word": " the"
+        },
+        {
+          "start": 1382.38,
+          "end": 1382.64,
+          "word": " bike"
+        },
+        {
+          "start": 1382.64,
+          "end": 1382.7,
+          "word": " upgraded"
+        }
+      ]
+    },
+    {
+      "start": 1383.36,
+      "end": 1384.64,
+      "text": "Is it upgraded?",
+      "words": [
+        {
+          "start": 1383.36,
+          "end": 1383.92,
+          "word": " Is"
+        },
+        {
+          "start": 1383.92,
+          "end": 1384.28,
+          "word": " it"
+        },
+        {
+          "start": 1384.28,
+          "end": 1384.64,
+          "word": " upgraded?"
+        }
+      ]
+    },
+    {
+      "start": 1385.14,
+      "end": 1386.6,
+      "text": "I thought it will be the last one",
+      "words": [
+        {
+          "start": 1385.14,
+          "end": 1385.52,
+          "word": " I"
+        },
+        {
+          "start": 1385.52,
+          "end": 1385.72,
+          "word": " thought"
+        },
+        {
+          "start": 1385.72,
+          "end": 1386.0,
+          "word": " it"
+        },
+        {
+          "start": 1386.0,
+          "end": 1386.22,
+          "word": " the"
+        },
+        {
+          "start": 1386.22,
+          "end": 1386.42,
+          "word": " last"
+        },
+        {
+          "start": 1386.42,
+          "end": 1386.6,
+          "word": " one"
+        }
+      ]
+    },
+    {
+      "start": 1386.6,
+      "end": 1389.14,
+      "text": "But look at this bike, it's Ninja H2R",
+      "words": [
+        {
+          "start": 1386.6,
+          "end": 1386.9,
+          "word": " But"
+        },
+        {
+          "start": 1386.9,
+          "end": 1387.18,
+          "word": " this"
+        },
+        {
+          "start": 1387.18,
+          "end": 1387.48,
+          "word": " bike,"
+        },
+        {
+          "start": 1387.7,
+          "end": 1387.76,
+          "word": " it's"
+        },
+        {
+          "start": 1387.76,
+          "end": 1388.0,
+          "word": " Ninja"
+        },
+        {
+          "start": 1388.0,
+          "end": 1389.14,
+          "word": " H2R"
+        }
+      ]
+    },
+    {
+      "start": 1389.14,
+      "end": 1389.84,
+      "text": "Is it a booster?",
+      "words": [
+        {
+          "start": 1389.14,
+          "end": 1389.44,
+          "word": " Is"
+        },
+        {
+          "start": 1389.44,
+          "end": 1389.52,
+          "word": " it"
+        },
+        {
+          "start": 1389.52,
+          "end": 1389.64,
+          "word": " a"
+        },
+        {
+          "start": 1389.64,
+          "end": 1389.84,
+          "word": " booster?"
+        }
+      ]
+    },
+    {
+      "start": 1390.84,
+      "end": 1392.36,
+      "text": "Okay, it's a booster too",
+      "words": [
+        {
+          "start": 1390.84,
+          "end": 1391.4,
+          "word": " Okay,"
+        },
+        {
+          "start": 1391.4,
+          "end": 1391.96,
+          "word": " it's"
+        },
+        {
+          "start": 1391.96,
+          "end": 1392.2,
+          "word": " a"
+        },
+        {
+          "start": 1392.2,
+          "end": 1392.36,
+          "word": " too"
+        }
+      ]
+    },
+    {
+      "start": 1392.36,
+      "end": 1395.02,
+      "text": "I'm excited to see its jump",
+      "words": [
+        {
+          "start": 1392.36,
+          "end": 1393.34,
+          "word": " I'm"
+        },
+        {
+          "start": 1393.34,
+          "end": 1393.86,
+          "word": " excited"
+        },
+        {
+          "start": 1393.86,
+          "end": 1393.98,
+          "word": " to"
+        },
+        {
+          "start": 1393.98,
+          "end": 1394.24,
+          "word": " its"
+        },
+        {
+          "start": 1394.24,
+          "end": 1395.02,
+          "word": " jump"
+        }
+      ]
+    },
+    {
+      "start": 1395.02,
+      "end": 1397.34,
+      "text": "No more nonsense, let's jump",
+      "words": [
+        {
+          "start": 1395.02,
+          "end": 1395.82,
+          "word": " No"
+        },
+        {
+          "start": 1395.82,
+          "end": 1396.26,
+          "word": " more"
+        },
+        {
+          "start": 1396.44,
+          "end": 1396.7,
+          "word": " let's"
+        },
+        {
+          "start": 1396.7,
+          "end": 1397.34,
+          "word": " jump"
+        }
+      ]
+    },
+    {
+      "start": 1398.02,
+      "end": 1398.58,
+      "text": "Okay",
+      "words": [
+        {
+          "start": 1398.02,
+          "end": 1398.58,
+          "word": " Okay"
+        }
+      ]
+    },
+    {
+      "start": 1400.04,
+      "end": 1401.6,
+      "text": "Will I go out of the map?",
+      "words": [
+        {
+          "start": 1400.04,
+          "end": 1400.6,
+          "word": " Will"
+        },
+        {
+          "start": 1400.6,
+          "end": 1401.16,
+          "word": " I"
+        },
+        {
+          "start": 1401.16,
+          "end": 1401.6,
+          "word": " out"
+        }
+      ]
+    },
+    {
+      "start": 1402.42,
+      "end": 1403.7,
+      "text": "No, I won't go out of the map",
+      "words": [
+        {
+          "start": 1402.42,
+          "end": 1402.98,
+          "word": " No,"
+        },
+        {
+          "start": 1403.12,
+          "end": 1403.36,
+          "word": " I"
+        },
+        {
+          "start": 1403.36,
+          "end": 1403.68,
+          "word": " won't"
+        },
+        {
+          "start": 1403.68,
+          "end": 1403.7,
+          "word": " go"
+        }
+      ]
+    },
+    {
+      "start": 1403.7,
+      "end": 1405.46,
+      "text": "I'm still going up",
+      "words": [
+        {
+          "start": 1403.7,
+          "end": 1404.7,
+          "word": " I'm"
+        },
+        {
+          "start": 1404.7,
+          "end": 1404.76,
+          "word": " still"
+        },
+        {
+          "start": 1404.76,
+          "end": 1404.78,
+          "word": " going"
+        },
+        {
+          "start": 1404.78,
+          "end": 1405.46,
+          "word": " up"
+        }
+      ]
+    },
+    {
+      "start": 1405.46,
+      "end": 1406.38,
+      "text": "Even from the plane",
+      "words": [
+        {
+          "start": 1405.46,
+          "end": 1405.96,
+          "word": " Even"
+        },
+        {
+          "start": 1405.96,
+          "end": 1406.26,
+          "word": " the"
+        },
+        {
+          "start": 1406.26,
+          "end": 1406.38,
+          "word": " plane"
+        }
+      ]
+    },
+    {
+      "start": 1407.12,
+      "end": 1409.04,
+      "text": "Okay, I can see the whole track",
+      "words": [
+        {
+          "start": 1407.12,
+          "end": 1407.64,
+          "word": " Okay,"
+        },
+        {
+          "start": 1408.24,
+          "end": 1408.4,
+          "word": " I"
+        },
+        {
+          "start": 1408.4,
+          "end": 1408.62,
+          "word": " the"
+        },
+        {
+          "start": 1408.62,
+          "end": 1408.78,
+          "word": " whole"
+        },
+        {
+          "start": 1408.78,
+          "end": 1409.04,
+          "word": " track"
+        }
+      ]
+    },
+    {
+      "start": 1409.7,
+      "end": 1410.88,
+      "text": "I can see the whole Hot Wheels track",
+      "words": [
+        {
+          "start": 1409.54,
+          "end": 1409.8,
+          "word": " I"
+        },
+        {
+          "start": 1409.8,
+          "end": 1409.98,
+          "word": " the"
+        },
+        {
+          "start": 1409.98,
+          "end": 1410.1,
+          "word": " Hot"
+        },
+        {
+          "start": 1410.1,
+          "end": 1410.28,
+          "word": " Wheels"
+        },
+        {
+          "start": 1410.28,
+          "end": 1410.88,
+          "word": " track"
+        }
+      ]
+    },
+    {
+      "start": 1412.12,
+      "end": 1413.48,
+      "text": "I'm still going up",
+      "words": [
+        {
+          "start": 1412.12,
+          "end": 1412.64,
+          "word": " I'm"
+        },
+        {
+          "start": 1412.64,
+          "end": 1412.72,
+          "word": " still"
+        },
+        {
+          "start": 1412.72,
+          "end": 1413.48,
+          "word": " up"
+        }
+      ]
+    },
+    {
+      "start": 1413.48,
+      "end": 1414.84,
+      "text": "I'm still going up",
+      "words": [
+        {
+          "start": 1413.48,
+          "end": 1413.84,
+          "word": " I'm"
+        },
+        {
+          "start": 1413.84,
+          "end": 1414.0,
+          "word": " still"
+        },
+        {
+          "start": 1414.0,
+          "end": 1414.68,
+          "word": " going"
+        },
+        {
+          "start": 1414.68,
+          "end": 1414.84,
+          "word": " up"
+        }
+      ]
+    },
+    {
+      "start": 1414.84,
+      "end": 1416.52,
+      "text": "Look guys, there is an 8 shape",
+      "words": [
+        {
+          "start": 1414.84,
+          "end": 1415.42,
+          "word": " Look"
+        },
+        {
+          "start": 1415.42,
+          "end": 1415.62,
+          "word": " guys,"
+        },
+        {
+          "start": 1416.04,
+          "end": 1416.08,
+          "word": " there"
+        },
+        {
+          "start": 1416.08,
+          "end": 1416.18,
+          "word": " an"
+        },
+        {
+          "start": 1416.18,
+          "end": 1416.36,
+          "word": " 8"
+        },
+        {
+          "start": 1416.36,
+          "end": 1416.52,
+          "word": " shape"
+        }
+      ]
+    },
+    {
+      "start": 1416.52,
+      "end": 1418.64,
+      "text": "So what was the name of that place?",
+      "words": [
+        {
+          "start": 1416.52,
+          "end": 1417.44,
+          "word": " So"
+        },
+        {
+          "start": 1417.44,
+          "end": 1417.54,
+          "word": " what"
+        },
+        {
+          "start": 1417.54,
+          "end": 1418.64,
+          "word": " the"
+        }
+      ]
+    },
+    {
+      "start": 1419.16,
+      "end": 1420.62,
+      "text": "On 8 or something like that",
+      "words": [
+        {
+          "start": 1419.16,
+          "end": 1419.3,
+          "word": " On"
+        },
+        {
+          "start": 1419.3,
+          "end": 1419.58,
+          "word": " 8"
+        },
+        {
+          "start": 1419.58,
+          "end": 1419.8,
+          "word": " or"
+        },
+        {
+          "start": 1419.8,
+          "end": 1420.04,
+          "word": " something"
+        },
+        {
+          "start": 1420.04,
+          "end": 1420.62,
+          "word": " that"
+        }
+      ]
+    },
+    {
+      "start": 1420.62,
+      "end": 1421.98,
+      "text": "Will I go down or what?",
+      "words": [
+        {
+          "start": 1420.62,
+          "end": 1420.74,
+          "word": " Will"
+        },
+        {
+          "start": 1420.74,
+          "end": 1421.2,
+          "word": " down"
+        },
+        {
+          "start": 1421.2,
+          "end": 1421.68,
+          "word": " or"
+        },
+        {
+          "start": 1421.68,
+          "end": 1421.98,
+          "word": " what?"
+        }
+      ]
+    },
+    {
+      "start": 1422.34,
+      "end": 1423.76,
+      "text": "So guys, how was today's video?",
+      "words": [
+        {
+          "start": 1422.34,
+          "end": 1422.44,
+          "word": " So"
+        },
+        {
+          "start": 1422.44,
+          "end": 1422.82,
+          "word": " guys,"
+        },
+        {
+          "start": 1423.02,
+          "end": 1423.12,
+          "word": " how"
+        },
+        {
+          "start": 1423.12,
+          "end": 1423.3,
+          "word": " was"
+        },
+        {
+          "start": 1423.3,
+          "end": 1423.56,
+          "word": " today's"
+        },
+        {
+          "start": 1423.56,
+          "end": 1423.76,
+          "word": " video?"
+        }
+      ]
+    },
+    {
+      "start": 1424.54,
+      "end": 1426.44,
+      "text": "The best bike is on my hand",
+      "words": [
+        {
+          "start": 1424.54,
+          "end": 1424.86,
+          "word": " The"
+        },
+        {
+          "start": 1424.86,
+          "end": 1425.2,
+          "word": " best"
+        },
+        {
+          "start": 1425.2,
+          "end": 1425.58,
+          "word": " bike"
+        },
+        {
+          "start": 1425.58,
+          "end": 1425.7,
+          "word": " is"
+        },
+        {
+          "start": 1425.7,
+          "end": 1425.94,
+          "word": " my"
+        },
+        {
+          "start": 1425.94,
+          "end": 1426.44,
+          "word": " hand"
+        }
+      ]
+    },
+    {
+      "start": 1426.44,
+      "end": 1428.78,
+      "text": "It's Ninja H2R, fully modified",
+      "words": [
+        {
+          "start": 1426.44,
+          "end": 1426.78,
+          "word": " It's"
+        },
+        {
+          "start": 1426.78,
+          "end": 1427.32,
+          "word": " Ninja"
+        },
+        {
+          "start": 1427.32,
+          "end": 1428.1,
+          "word": " H2R,"
+        },
+        {
+          "start": 1428.22,
+          "end": 1428.36,
+          "word": " fully"
+        },
+        {
+          "start": 1428.36,
+          "end": 1428.78,
+          "word": " modified"
+        }
+      ]
+    },
+    {
+      "start": 1428.78,
+      "end": 1431.02,
+      "text": "And guys, you must have enjoyed today's video",
+      "words": [
+        {
+          "start": 1428.78,
+          "end": 1429.36,
+          "word": " And"
+        },
+        {
+          "start": 1429.36,
+          "end": 1429.52,
+          "word": " guys,"
+        },
+        {
+          "start": 1429.7,
+          "end": 1429.88,
+          "word": " today's"
+        },
+        {
+          "start": 1429.88,
+          "end": 1431.02,
+          "word": " video"
+        }
+      ]
+    },
+    {
+      "start": 1431.02,
+      "end": 1431.74,
+      "text": "Don't forget to subscribe",
+      "words": [
+        {
+          "start": 1431.02,
+          "end": 1431.32,
+          "word": " Don't"
+        },
+        {
+          "start": 1431.32,
+          "end": 1431.68,
+          "word": " forget"
+        },
+        {
+          "start": 1431.68,
+          "end": 1431.72,
+          "word": " to"
+        },
+        {
+          "start": 1431.72,
+          "end": 1431.74,
+          "word": " subscribe"
+        }
+      ]
+    }
+  ]
+}

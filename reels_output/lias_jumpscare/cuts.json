@@ -1,0 +1,37 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "transcript": "transcript.json",
+  "font": "Arial",
+  "normalize_audio": true,
+  "reels": [
+    {
+      "name": "01_Lia_Resident_Evil_Jumpscare",
+      "title": "Resident Evil Jumpscare Overreaction 😂",
+      "reason": "Chat explosion at 01:54:40 during a genuine Resident Evil 4 jumpscare and scream",
+      "ranges": [
+        [
+          15.0,
+          38.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "hormozi",
+      "uppercase": true,
+      "hook": "HER REACTION TO THIS JUMPSCARE 😭",
+      "hook_seconds": 3,
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Lia gets terrified playing Resident Evil 4: 'That's such an overreaction!' 😂 #ResidentEvil4 #Twitch #Gaming #Shorts",
+      "hashtags": [
+        "#Twitch",
+        "#ResidentEvil4",
+        "#Gaming",
+        "#Shorts",
+        "#Reels"
+      ]
+    }
+  ]
+}

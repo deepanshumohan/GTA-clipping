@@ -1,0 +1,15 @@
+[
+  {
+    "name": "01_Lia_Resident_Evil_Jumpscare",
+    "ranges": [
+      [
+        15.0,
+        38.0
+      ]
+    ],
+    "target_duration": 23.0,
+    "caption_events": 6,
+    "layout": "fit",
+    "reason": "Chat explosion at 01:54:40 during a genuine Resident Evil 4 jumpscare and scream"
+  }
+]

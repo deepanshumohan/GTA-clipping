@@ -1,0 +1,35 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "transcript": "lias_ashley_transcript.json",
+  "font": "Arial",
+  "normalize_audio": true,
+  "reels": [
+    {
+      "name": "02_Lia_Ashley_Running_Form",
+      "title": "Why Does Ashley Run Like That? 💀",
+      "reason": "Chat roasts Ashley's hilarious running animation in Resident Evil 4 while running from monsters",
+      "ranges": [
+        [3.5, 33.0]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "hormozi",
+      "uppercase": true,
+      "hook": "WHY DOES ASHLEY RUN LIKE THAT 💀",
+      "hook_seconds": 3,
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Lia questions Ashley's running form while fleeing monsters in Resident Evil 4 😂 'I'd probably just freeze up!' #ResidentEvil4 #Twitch #Gaming #Shorts",
+      "hashtags": [
+        "#Twitch",
+        "#ResidentEvil4",
+        "#Gaming",
+        "#Shorts",
+        "#Reels"
+      ]
+    }
+  ]
+}
+

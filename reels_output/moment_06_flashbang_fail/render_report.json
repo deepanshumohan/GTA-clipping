@@ -1,0 +1,15 @@
+[
+  {
+    "name": "06_Lia_Flashbang_Death_Fail",
+    "ranges": [
+      [
+        0.0,
+        24.0
+      ]
+    ],
+    "target_duration": 24.0,
+    "caption_events": 7,
+    "layout": "fit",
+    "reason": "Lia suffers an unlucky ambush after a failed flashbang and has to restart the encounter"
+  }
+]

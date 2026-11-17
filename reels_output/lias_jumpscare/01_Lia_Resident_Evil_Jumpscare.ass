@@ -1,0 +1,18 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,Arial,None,None,None,None,&H80000000,-1,0,0,0,100,100,0,0,1,5,2,2,108,108,480,1
+Style: Hook,Arial,59,&H0000FFFF,&H0000FFFF,&H00101010,&H80000000,-1,0,0,0,100,100,0,0,1,4,1,8,108,108,250,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:03.00,Hook,,0,0,0,,HER REACTION TO THIS JUMPSCARE 😭
+Dialogue: 0,0:00:02.36,0:00:03.24,Caption,,0,0,0,,{\k44}HEY {\k44}DUDE
+Dialogue: 0,0:00:15.52,0:00:16.78,Caption,,0,0,0,,{\k56}SORRY, {\k12}OH {\k16}MY {\k42}GOD.
+Dialogue: 0,0:00:16.96,0:00:17.22,Caption,,0,0,0,,{\k4}OH {\k8}MY {\k14}GOD.
+Dialogue: 0,0:00:17.36,0:00:18.58,Caption,,0,0,0,,{\k6}THAT'S {\k18}SUCH {\k14}AN {\k84}OVERREACTION.
+Dialogue: 0,0:00:18.58,0:00:21.70,Caption,,0,0,0,,{\k200}SUCH {\k24}A {\k88}REACTION.

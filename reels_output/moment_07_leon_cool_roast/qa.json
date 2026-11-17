@@ -1,0 +1,19 @@
+{
+  "checks": [
+    {
+      "source": "/Users/deepanshumohan/Work/gta/reels_output/moment_07_leon_cool_roast/07_Lia_Chill_Like_Leon_Roast.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frames": 1050,
+      "duration": 35.0,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true,
+      "target_duration": 35.0,
+      "duration_ok": true
+    }
+  ],
+  "scope": "Technical decode/metadata only; visual, caption and listening review are separate."
+}

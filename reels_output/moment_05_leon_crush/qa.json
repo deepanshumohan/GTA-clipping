@@ -1,0 +1,19 @@
+{
+  "checks": [
+    {
+      "source": "/Users/deepanshumohan/Work/gta/reels_output/moment_05_leon_crush/05_Lia_Leon_Or_Ada_Crush.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frames": 1035,
+      "duration": 34.5,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true,
+      "target_duration": 34.5,
+      "duration_ok": true
+    }
+  ],
+  "scope": "Technical decode/metadata only; visual, caption and listening review are separate."
+}

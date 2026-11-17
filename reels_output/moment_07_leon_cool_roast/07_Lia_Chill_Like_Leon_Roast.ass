@@ -1,0 +1,24 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,Arial,56,&H0000FFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,2,108,108,480,1
+Style: Hook,Arial,59,&H0000FFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,8,108,108,250,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.92,Caption,,0,0,0,,{\k18}I'M {\k30}TAKING {\k44}NOTES.
+Dialogue: 0,0:00:00.00,0:00:03.00,Hook,,0,0,0,,I LOOK CHILL AND COOL RIGHT? 😂
+Dialogue: 0,0:00:01.78,0:00:03.06,Caption,,0,0,0,,{\k52}THAT'S {\k10}WHAT {\k10}I {\k12}LOOKED {\k20}LIKE {\k24}TOO, {\k1}👀
+Dialogue: 0,0:00:03.18,0:00:03.32,Caption,,0,0,0,,{\k14}RIGHT?
+Dialogue: 0,0:00:03.76,0:00:04.98,Caption,,0,0,0,,{\k10}I {\k18}LOOKED {\k24}THAT {\k26}CHILL {\k20}AND {\k24}COOL.
+Dialogue: 0,0:00:05.70,0:00:06.90,Caption,,0,0,0,,{\k50}COOL {\k28}KARMA {\k42}COLLECTED.
+Dialogue: 0,0:00:07.68,0:00:08.94,Caption,,0,0,0,,{\k52}I {\k24}WON'T {\k10}RUN {\k40}AWAY. {\k1}🏃
+Dialogue: 0,0:00:11.30,0:00:12.38,Caption,,0,0,0,,{\k52}WAIT {\k16}FOR {\k22}ME, {\k18}LEON. {\k1}👀
+Dialogue: 0,0:00:19.96,0:00:20.48,Caption,,0,0,0,,{\k52}OK.
+Dialogue: 0,0:00:21.08,0:00:21.52,Caption,,0,0,0,,{\k44}OH.
+Dialogue: 0,0:00:30.48,0:00:32.12,Caption,,0,0,0,,{\k44}OH {\k34}MY {\k86}GOD. {\k1}👀
+Dialogue: 0,0:00:32.32,0:00:33.20,Caption,,0,0,0,,{\k88}OH.

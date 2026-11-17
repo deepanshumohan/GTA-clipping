@@ -1,0 +1,15 @@
+[
+  {
+    "name": "auto-phrase-captions",
+    "ranges": [
+      [
+        0,
+        4.8
+      ]
+    ],
+    "target_duration": 4.8,
+    "caption_events": 4,
+    "layout": "crop",
+    "reason": ""
+  }
+]

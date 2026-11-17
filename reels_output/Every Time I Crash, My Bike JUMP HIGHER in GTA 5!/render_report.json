@@ -1,0 +1,54 @@
+[
+  {
+    "name": "01_Obstacle_Course_Crash_Retry",
+    "ranges": [
+      [
+        440,
+        484
+      ]
+    ],
+    "target_duration": 44,
+    "caption_events": 23,
+    "layout": "crop",
+    "reason": "Shows the rider entering the stacked obstacle course, clipping the tire barriers, and getting back into another attempt."
+  },
+  {
+    "name": "02_Hot_Wheels_Ramp_Jump",
+    "ranges": [
+      [
+        1104,
+        1160
+      ]
+    ],
+    "target_duration": 56,
+    "caption_events": 28,
+    "layout": "crop",
+    "reason": "Builds speed on the elevated track, carries the bike into a high jump over the city, and includes the landing/fall aftermath."
+  },
+  {
+    "name": "03_Ramp_Crash_Respawn",
+    "ranges": [
+      [
+        1216,
+        1268
+      ]
+    ],
+    "target_duration": 52,
+    "caption_events": 27,
+    "layout": "crop",
+    "reason": "Shows the bike approaching the elevated section, losing the run in a crash, and continuing after respawn on a different bike."
+  },
+  {
+    "name": "04_Tower_Jump_Fall_Recover",
+    "ranges": [
+      [
+        1376,
+        1432
+      ]
+    ],
+    "target_duration": 56,
+    "caption_events": 29,
+    "layout": "crop",
+    "reason": "Captures the late tower-side jump, long fall through the city, impact, and recovery afterward."
+  }
+]

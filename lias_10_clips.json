@@ -1,0 +1,279 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "font": "Arial",
+  "normalize_audio": true,
+  "reels": [
+    {
+      "name": "01_chat_spike_01_09_50",
+      "title": "Chat Explosion #1: EFFORT JUST LOCKS",
+      "reason": "Chat spike at 01:09:50: 5 msgs in 20.0s (3.2x normal). Key reaction: EFFORT JUST LOCKS",
+      "ranges": [
+        [
+          4170.0,
+          4200.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "yellow_shadow",
+      "uppercase": true,
+      "use_emojis": true,
+      "hook": "CHAT LOST IT HERE! 🔥",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (3.2x normal volume) EFFORT JUST LOCKS",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "02_chat_spike_01_30_55",
+      "title": "Chat Explosion #2: HEYYYY HOLY MOLY",
+      "reason": "Chat spike at 01:30:55: 5 msgs in 20.0s (2.3x normal). Key reaction: HEYYYY HOLY MOLY",
+      "ranges": [
+        [
+          5435.0,
+          5465.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "yellow_shadow",
+      "uppercase": true,
+      "use_emojis": true,
+      "hook": "CHAT: HEYYYY HOLY MOLY! 🔥",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (2.3x normal volume) HEYYYY HOLY MOLY",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "03_chat_spike_01_55_00",
+      "title": "Chat Explosion #3: SCARED LITERALLY JUST",
+      "reason": "Chat spike at 01:55:00: 4 msgs in 20.0s (2.8x normal). Key reaction: SCARED LITERALLY JUST",
+      "ranges": [
+        [
+          6880.0,
+          6910.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "yellow_shadow",
+      "uppercase": true,
+      "use_emojis": true,
+      "hook": "CHAT: SCARED LITERALLY JUST! 💀",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (2.8x normal volume) SCARED LITERALLY JUST",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "04_chat_spike_02_02_20",
+      "title": "Chat Explosion #4: HOW'S IT'S GOING",
+      "reason": "Chat spike at 02:02:20: 5 msgs in 20.0s (2.8x normal). Key reaction: HOW'S IT'S GOING",
+      "ranges": [
+        [
+          7320.0,
+          7350.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "yellow_shadow",
+      "uppercase": true,
+      "use_emojis": true,
+      "hook": "CHAT: HOW'S IT'S GOING! 🔥",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (2.8x normal volume) HOW'S IT'S GOING",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "05_chat_spike_02_47_50",
+      "title": "Chat Explosion #5: LEON ADA HATES",
+      "reason": "Chat spike at 02:47:50: 5 msgs in 20.0s (2.6x normal). Key reaction: LEON ADA HATES",
+      "ranges": [
+        [
+          10050.0,
+          10080.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "yellow_shadow",
+      "uppercase": true,
+      "use_emojis": true,
+      "hook": "CHAT: LEON ADA HATES! 🔥",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (2.6x normal volume) LEON ADA HATES",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "06_chat_spike_03_45_30",
+      "title": "Chat Explosion #6: TRY FLASH BANG",
+      "reason": "Chat spike at 03:45:30: 7 msgs in 20.0s (3.4x normal). Key reaction: TRY FLASH BANG",
+      "ranges": [
+        [
+          13510.0,
+          13540.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "yellow_shadow",
+      "uppercase": true,
+      "use_emojis": true,
+      "hook": "CHAT: TRY FLASH BANG! 🔥",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (3.4x normal volume) TRY FLASH BANG",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "07_chat_spike_04_39_00",
+      "title": "Chat Explosion #7: BEEN YEAH EXACTLY",
+      "reason": "Chat spike at 04:39:00: 4 msgs in 20.0s (2.5x normal). Key reaction: BEEN YEAH EXACTLY",
+      "ranges": [
+        [
+          16720.0,
+          16750.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "yellow_shadow",
+      "uppercase": true,
+      "use_emojis": true,
+      "hook": "CHAT: BEEN YEAH EXACTLY! 🔥",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (2.5x normal volume) BEEN YEAH EXACTLY",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "08_chat_spike_04_43_00",
+      "title": "Chat Explosion #8: RUN SECTION DOESN´T",
+      "reason": "Chat spike at 04:43:00: 5 msgs in 20.0s (2.5x normal). Key reaction: RUN SECTION DOESN´T",
+      "ranges": [
+        [
+          16960.0,
+          16990.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "yellow_shadow",
+      "uppercase": true,
+      "use_emojis": true,
+      "hook": "CHAT: RUN SECTION DOESN´T! 🔥",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (2.5x normal volume) RUN SECTION DOESN´T",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "09_chat_spike_04_46_30",
+      "title": "Chat Explosion #9: RUN SAW VID",
+      "reason": "Chat spike at 04:46:30: 5 msgs in 20.0s (2.7x normal). Key reaction: RUN SAW VID",
+      "ranges": [
+        [
+          17170.0,
+          17200.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "yellow_shadow",
+      "uppercase": true,
+      "use_emojis": true,
+      "hook": "CHAT: RUN SAW VID! 🔥",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (2.7x normal volume) RUN SAW VID",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "10_chat_spike_04_55_15",
+      "title": "Chat Explosion #10: WAIT UNTIL MEET",
+      "reason": "Chat spike at 04:55:15: 4 msgs in 20.0s (2.6x normal). Key reaction: WAIT UNTIL MEET",
+      "ranges": [
+        [
+          17695.0,
+          17725.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "yellow_shadow",
+      "uppercase": true,
+      "use_emojis": true,
+      "hook": "CHAT: WAIT UNTIL MEET! 🔥",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (2.6x normal volume) WAIT UNTIL MEET",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    }
+  ]
+}

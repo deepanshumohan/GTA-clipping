@@ -1,0 +1,48 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "transcript": "lias_moment_07_transcript.json",
+  "font": "Arial",
+  "normalize_audio": true,
+  "virality_score": {
+    "total": 95,
+    "tier": "S-Tier (Peak Viral Humor)",
+    "breakdown": {
+      "chat_spike_multiplier": "24/25 (4.2x normal)",
+      "viewer_sentiment": "24/25 (Explosive LMFAOOO laughter burst)",
+      "two_second_hook": "19/20 (Opens with 'I look chill and cool!')",
+      "speech_density": "14/15 (2.8 words/sec, continuous witty commentary)",
+      "payoff_impact": "14/15 (Hilarious contrast between cool Leon and chaotic gameplay)"
+    }
+  },
+  "reels": [
+    {
+      "name": "07_Lia_Chill_Like_Leon_Roast",
+      "title": "Streamer Tries To Be As Cool As Leon 😂",
+      "reason": "Lia tries to act cool like Leon Kennedy while chat explodes with laughter roasting Leon's backstory",
+      "ranges": [
+        [0.0, 35.0]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "yellow_shadow",
+      "uppercase": true,
+      "use_emojis": true,
+      "hook": "I LOOK CHILL AND COOL RIGHT? 😂",
+      "hook_seconds": 3,
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Lia pretending to be as calm as Leon Kennedy in Resident Evil 4 😂 'Cool, calm and collected... Wait for me Leon!' #ResidentEvil4 #Twitch #LeonKennedy #Shorts",
+      "hashtags": [
+        "#Twitch",
+        "#ResidentEvil4",
+        "#LeonKennedy",
+        "#Gaming",
+        "#Shorts",
+        "#Reels"
+      ]
+    }
+  ]
+}
+

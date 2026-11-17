@@ -1,0 +1,31 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,Arial,56,&H0000FFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,2,108,108,480,1
+Style: Hook,Arial,59,&H0000FFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,8,108,108,250,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:03.00,Hook,,0,0,0,,DOES SHE CRUSH ON LEON OR ADA? 👀
+Dialogue: 0,0:00:00.38,0:00:01.50,Caption,,0,0,0,,{\k36}I'M {\k2}A {\k16}BIG {\k14}FAN {\k28}OF {\k16}ADA.
+Dialogue: 0,0:00:03.60,0:00:04.44,Caption,,0,0,0,,{\k36}DOES {\k8}MY {\k12}NAME {\k28}ADA?
+Dialogue: 0,0:00:05.06,0:00:05.62,Caption,,0,0,0,,{\k36}ADA {\k20}WONG?
+Dialogue: 0,0:00:06.38,0:00:06.86,Caption,,0,0,0,,{\k36}IS {\k12}THAT?
+Dialogue: 0,0:00:07.26,0:00:07.88,Caption,,0,0,0,,{\k30}IS {\k8}THAT {\k12}OUR {\k12}NAME?
+Dialogue: 0,0:00:09.68,0:00:10.56,Caption,,0,0,0,,{\k36}I {\k14}FEAR {\k10}I {\k8}MIGHT {\k12}HAVE {\k8}GOTTEN
+Dialogue: 0,0:00:10.56,0:00:10.80,Caption,,0,0,0,,{\k12}A {\k12}WRONG.
+Dialogue: 0,0:00:13.56,0:00:14.78,Caption,,0,0,0,,{\k44}OKAY, {\k20}OKAY, {\k4}I {\k16}WAS {\k16}ALREADY {\k22}FREAKING
+Dialogue: 0,0:00:14.78,0:00:14.96,Caption,,0,0,0,,{\k18}OUT.
+Dialogue: 0,0:00:15.20,0:00:17.18,Caption,,0,0,0,,THANKS FOR ALL THE THINGS THAT YOU CAN SEND, JARRETT.
+Dialogue: 0,0:00:17.18,0:00:17.82,Caption,,0,0,0,,{\k14}IT'S {\k18}VERY {\k32}KIND.
+Dialogue: 0,0:00:18.88,0:00:20.12,Caption,,0,0,0,,{\k50}UM, {\k6}I {\k12}HAVE {\k10}NO {\k18}MONEY {\k28}AGAIN.
+Dialogue: 0,0:00:21.36,0:00:22.20,Caption,,0,0,0,,{\k36}NO {\k18}MONEY {\k14}AT {\k16}ALL.
+Dialogue: 0,0:00:28.46,0:00:30.02,Caption,,0,0,0,,{\k52}HEY, {\k30}TRAN, {\k2}I {\k20}LIKE {\k48}LEON, {\k4}BUT
+Dialogue: 0,0:00:30.02,0:00:31.50,Caption,,0,0,0,,{\k14}I {\k24}LIKE {\k38}I {\k16}LIKE {\k24}LEON {\k32}MORE,
+Dialogue: 0,0:00:31.54,0:00:32.44,Caption,,0,0,0,,{\k16}BUT {\k12}I {\k20}LOVE {\k22}ADA {\k20}TOO.
+Dialogue: 0,0:00:32.66,0:00:33.34,Caption,,0,0,0,,{\k24}YEAH, {\k20}I {\k14}LOVE {\k10}IT.
+Dialogue: 0,0:00:33.40,0:00:34.20,Caption,,0,0,0,,{\k48}YES, {\k2}IT'S {\k12}ADA {\k18}WONG.

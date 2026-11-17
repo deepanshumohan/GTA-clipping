@@ -1,0 +1,37 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "transcript": "transcript.json",
+  "font": "Arial",
+  "normalize_audio": true,
+  "reels": [
+    {
+      "name": "01_Lia_Resident_Evil_Reaction",
+      "title": "Why Did Instagram Suggest This?!",
+      "reason": "Chat explosion 4.3x normal volume during Resident Evil 4 intro",
+      "ranges": [
+        [
+          0.0,
+          29.5
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "hormozi",
+      "uppercase": true,
+      "hook": "WHY DID INSTAGRAM SUGGEST THIS?!",
+      "hook_seconds": 3,
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Lia's reaction during her Resident Evil 4 stream 😂 #Twitch #ResidentEvil4 #LiasPlaythrough #Gaming #Shorts",
+      "hashtags": [
+        "#Twitch",
+        "#ResidentEvil4",
+        "#Shorts",
+        "#Reels",
+        "#Gaming"
+      ]
+    }
+  ]
+}
