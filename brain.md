@@ -106,3 +106,11 @@ Revised exports: [reels_output/improved/](reels_output/improved/), with exact so
 These earlier revised reels are 720?1280 with no newly added captions/hooks. All six passed full decode checks. Reels 5 and 6 share some survival footage. Reel 6 says **almost** 10 million; a confirmed rage quit is not established. Full listening review and user approval were not recorded.
 
 Historical notes, including the earlier competitor study and speculative roadmap, are archived in [docs/brain_legacy_2026-11-16.md](docs/brain_legacy_2026-11-16.md). They are not verified product/architecture facts or requirements for this generalized skill.
+
+## Studio reliability update - 17 November 2026
+
+The web studio now uses `studio_jobs.py`: a persistent single-worker queue with isolated job directories, child-process cancellation, stage logs, and a review state before rendering. Review supports range edits, framing controls, transcript corrections, JSON editing, and short rendered previews. CLI automatic runs also create unique subfolders; direct render keeps explicit overwrite protection.
+
+Automatic selection now fuses optional chat boosts with transcript/audio scoring, prefers sentence/pause endings, and excludes overlapping selections. These remain heuristics; users review context and action payoffs. Audio decoding is bucketed rather than buffered in full. Source-content/settings keys protect transcript cache reuse, and RMS results are cached. Automatic hardware encoding retries on CPU after failure.
+
+QA now includes missing expected audio and advisory black/freeze, measured loudness/peak, and font-dependent caption-width diagnostics. These do not replace listening/visual review. Setup and current workflow are documented in README.md with dependency manifests. The expanded synthetic suite passed 16 tests, including preparation with a cached transcript, review/render/QA, cancellation, preview generation, candidate fusion, and JavaScript DOM smoke checks. Browser visual QA was blocked by Windows GetCursorPos access denial; new Whisper inference and real URL downloading were not exercised.

@@ -56,3 +56,9 @@ dotnet_bundle/
 
 # Log files
 *.log
+
+# Runtime jobs and intermediate caches
+reels_output/job-*/
+reels_output/.cache/
+.reels_cache/
+.pytest_cache/

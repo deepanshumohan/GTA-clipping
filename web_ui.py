@@ -4,62 +4,54 @@ Run:
 Open:
     http://127.0.0.1:8000
 """
-import asyncio
 import json
-import os
 import sys
-import threading
 from pathlib import Path
 from typing import Optional
 
 import uvicorn
 from fastapi import FastAPI, HTTPException, Request
-from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import HTMLResponse, JSONResponse
+from fastapi.responses import HTMLResponse, JSONResponse, FileResponse
 from fastapi.staticfiles import StaticFiles
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
+from typing import Literal
+from studio_jobs import JobManager, ROOT
+
+JOBS = JobManager()
 
 # Import core reels functions
 sys.path.insert(0, str(Path(__file__).parent / "skills" / "video-to-reels" / "scripts"))
 import reels
 
 app = FastAPI(title="GTA-Clipping & Video-to-Reels Studio")
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
 
-# In-memory logging buffer
-RUN_LOGS = []
-IS_RUNNING = False
 
-def add_log(msg: str):
-    print(msg)
-    RUN_LOGS.append(msg)
-    if len(RUN_LOGS) > 1000:
-        RUN_LOGS.pop(0)
+@app.middleware('http')
+async def same_origin_mutations(request: Request, call_next):
+    origin = request.headers.get('origin')
+    if request.method in ('POST', 'PUT', 'PATCH', 'DELETE') and origin:
+        from urllib.parse import urlsplit
+        if urlsplit(origin).netloc != request.headers.get('host'):
+            return JSONResponse({'detail': 'Cross-origin writes are disabled'}, status_code=403)
+    return await call_next(request)
 
 
 class AutoRunRequest(BaseModel):
     video: Optional[str] = None
     url: Optional[str] = None
     chat: Optional[str] = None
-    out: str = "reels_output/studio_run"
-    count: int = 5
-    preset: str = "hormozi"
-    layout: str = "auto"
-    encoder: str = "auto"
+    count: int = Field(default=5, ge=1, le=15)
+    preset: Literal["hormozi", "neon", "classic", "boxed"] = "hormozi"
+    layout: Literal["auto", "fit", "crop", "split", "pip"] = "auto"
+    encoder: Literal["auto", "libx264", "h264_nvenc", "h264_qsv", "h264_videotoolbox"] = "auto"
     bgm: Optional[str] = None
-    bgm_volume: float = 0.20
-    words_per_group: int = 3
+    bgm_volume: float = Field(default=.20, ge=0, le=1)
+    words_per_group: int = Field(default=3, ge=1, le=12)
     word_pop: bool = True
     uppercase: bool = True
     model: str = "base"
     device: str = "auto"
-    skip_intro: float = 15.0
+    skip_intro: float = Field(default=15, ge=0, le=1440)
 
 
 class FacecamRequest(BaseModel):
@@ -69,7 +61,7 @@ class FacecamRequest(BaseModel):
 class ScanRequest(BaseModel):
     chat: Optional[str] = None
     video: Optional[str] = None
-    top: int = 10
+    top: int = Field(default=10, ge=1, le=100)
 
 
 @app.get("/api/status")
@@ -87,7 +79,7 @@ def get_status():
         "is_gpu_accelerated": enc in ("h264_nvenc", "h264_videotoolbox", "h264_qsv"),
         "cuda_available": has_cuda,
         "ffmpeg": reels.ffmpeg(),
-        "is_busy": IS_RUNNING
+        "is_busy": any(j["status"] in ("running", "queued") for j in JOBS.list())
     }
 
 
@@ -136,68 +128,136 @@ def api_scan_moments(req: ScanRequest):
     return {"count": len(peaks), "peaks": peaks[:req.top]}
 
 
-def run_pipeline_thread(req: AutoRunRequest):
-    global IS_RUNNING
-    IS_RUNNING = True
-    RUN_LOGS.clear()
-    add_log(f"Starting Auto-Pipeline run -> {req.out}")
-    
-    class Args:
-        pass
-    a = Args()
-    a.video = req.video
-    a.url = req.url
-    a.chat = req.chat
-    a.out = req.out
-    a.count = req.count
-    a.preset = req.preset
-    a.layout = req.layout
-    a.encoder = req.encoder
-    a.bgm = req.bgm
-    a.bgm_volume = req.bgm_volume
-    a.words_per_group = req.words_per_group
-    a.word_pop = req.word_pop
-    a.uppercase = req.uppercase
-    a.font = "Arial"
-    a.model = req.model
-    a.language = None
-    a.device = req.device
-    a.compute_type = "auto"
-    a.skip_intro = req.skip_intro
-    
-    try:
-        reels.auto_pipeline(a)
-        add_log("Pipeline completed successfully!")
-    except Exception as e:
-        add_log(f"ERROR: {str(e)}")
-    finally:
-        IS_RUNNING = False
-
-
 @app.post("/api/render-auto")
 def api_render_auto(req: AutoRunRequest):
-    global IS_RUNNING
-    if IS_RUNNING:
-        raise HTTPException(status_code=409, detail="A rendering task is already running")
-    t = threading.Thread(target=run_pipeline_thread, args=(req,), daemon=True)
-    t.start()
-    return {"message": "Job submitted successfully"}
+    if bool(req.video) == bool(req.url):
+        raise HTTPException(422, 'Provide exactly one local video or URL')
+    for key in ('video', 'chat', 'bgm'):
+        value = getattr(req, key)
+        if value and not Path(value).is_file():
+            raise HTTPException(422, f'{key} file not found')
+    return JOBS.submit(req.model_dump() if hasattr(req, 'model_dump') else req.dict())
+
+
+@app.get("/api/jobs")
+def list_jobs():
+    return {'jobs': JOBS.list()}
+
+
+def require_job(job_id):
+    try:
+        return JOBS.get(job_id)
+    except KeyError:
+        raise HTTPException(404, 'Job not found')
+
+
+@app.get("/api/jobs/{job_id}")
+def get_job(job_id: str):
+    return require_job(job_id)
+
+
+@app.post("/api/jobs/{job_id}/cancel")
+def cancel_job(job_id: str):
+    require_job(job_id)
+    return JOBS.cancel(job_id)
+
+
+@app.get("/api/jobs/{job_id}/review")
+def review_job(job_id: str):
+    job = require_job(job_id)
+    if job['status'] != 'review':
+        raise HTTPException(409, 'Candidates are not ready for review')
+    directory = Path(job['directory'])
+    return {'manifest': reels.load(directory / 'cuts.json'),
+            'transcript': reels.load(directory / 'transcript.json')}
+
+
+@app.get("/api/jobs/{job_id}/source")
+def job_source(job_id: str):
+    job = require_job(job_id)
+    manifest = Path(job['directory']) / 'cuts.json'
+    if not manifest.exists():
+        raise HTTPException(409, 'Source is not ready')
+    return FileResponse(reels.load(manifest)['source'], media_type='video/mp4')
+
+
+class ReviewRequest(BaseModel):
+    manifest: dict
+    transcript: dict
+
+
+@app.post('/api/jobs/{job_id}/preview')
+def preview_candidate(job_id: str, req: ReviewRequest, index: int = 0):
+    import uuid
+    from types import SimpleNamespace
+    job = require_job(job_id)
+    if job['status'] != 'review':
+        raise HTTPException(409, 'Job is not awaiting review')
+    original = reels.load(Path(job['directory']) / 'cuts.json')
+    try:
+        if not 0 <= index < len(req.manifest['reels']):
+            raise ValueError('Invalid candidate index')
+        info = reels.probe(original['source'])
+        reels.validate_manifest(req.manifest, info)
+        reels.validate_transcript(req.transcript, info['duration'])
+        directory = Path(job['directory']) / '.previews' / uuid.uuid4().hex
+        directory.mkdir(parents=True)
+        reel = dict(req.manifest['reels'][index])
+        start, end = reel['ranges'][0]
+        reel.update(name='preview', ranges=[[start, min(end, start + 8)]])
+        manifest = dict(req.manifest, width=360, height=640, fps=15,
+                        transcript='transcript.json', reels=[reel])
+        req.transcript['source'] = original['source']
+        reels.save(directory / 'transcript.json', req.transcript)
+        reels.save(directory / 'cuts.json', manifest)
+        reels.render(SimpleNamespace(video=original['source'], manifest=str(directory / 'cuts.json'),
+            out=str(directory / 'render'), encoder='libx264', preset='ultrafast', overwrite=False))
+        return FileResponse(directory / 'render/preview.mp4', media_type='video/mp4')
+    except (ValueError, TypeError, KeyError) as exc:
+        raise HTTPException(422, str(exc))
+
+
+@app.post("/api/jobs/{job_id}/approve")
+def approve_job(job_id: str, req: ReviewRequest):
+    job = require_job(job_id)
+    if job['status'] != 'review':
+        raise HTTPException(409, 'Job is not awaiting review')
+    original = reels.load(Path(job['directory']) / 'cuts.json')
+    # Source and transcript destinations are controlled by the server.
+    req.manifest['source'] = original['source']
+    req.manifest['transcript'] = 'reviewed-transcript.json'
+    req.transcript['source'] = original['source']
+    try:
+        info = reels.probe(original['source'])
+        reels.validate_manifest(req.manifest, info)
+        segments = reels.validate_transcript(req.transcript, info['duration'])
+        reels.validate_reel_subtitles(req.manifest, info, segments)
+        return JOBS.approve(job_id, req.manifest, req.transcript)
+    except (ValueError, TypeError, KeyError) as exc:
+        raise HTTPException(422, str(exc))
 
 
 @app.get("/api/logs")
 def get_logs():
-    return {"running": IS_RUNNING, "logs": RUN_LOGS}
+    jobs = JOBS.list()
+    return {'running': any(j['status'] in ('queued', 'running') for j in jobs),
+            'logs': jobs[0]['logs'] if jobs else []}
 
 
 @app.get("/api/exports")
 def get_exports(folder: str = "reels_output"):
     p = Path(folder)
+    p = (p if p.is_absolute() else ROOT / p).resolve()
+    if not p.is_relative_to(JOBS.root):
+        raise HTTPException(422, 'Export folder must be inside reels_output')
     if not p.exists():
-        return {"reels": []}
+        return {"count": 0, "reels": []}
         
     results = []
     # Find all mp4 files recursively
     for mp4 in p.rglob("*.mp4"):
+        if '.previews' in mp4.parts or mp4.name.startswith('source_video.'):
+            continue
         manifest_path = mp4.parent / "cuts.json"
         posting_path = mp4.parent / "posting.md"
         qa_path = mp4.parent / "qa.json"
@@ -211,7 +271,7 @@ def get_exports(folder: str = "reels_output"):
         results.append({
             "name": mp4.name,
             "path": str(mp4.resolve()),
-            "rel_url": f"/files/{mp4.relative_to(Path.cwd()).as_posix()}",
+            "rel_url": f"/files/{mp4.resolve().relative_to(ROOT).as_posix()}",
             "size_mb": round(mp4.stat().st_size / (1024 * 1024), 2),
             "folder": str(mp4.parent.name),
             "has_qa": qa_path.exists(),
@@ -222,14 +282,14 @@ def get_exports(folder: str = "reels_output"):
 
 
 # Mount static output files for live video playback in browser
-reels_dir = Path.cwd() / "reels_output"
+reels_dir = ROOT / "reels_output"
 reels_dir.mkdir(parents=True, exist_ok=True)
 app.mount("/files/reels_output", StaticFiles(directory=str(reels_dir)), name="reels_output")
 
 
 @app.get("/", response_class=HTMLResponse)
 def index_html():
-    return """<!DOCTYPE html>
+    return r"""<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -564,7 +624,7 @@ def index_html():
       </div>
 
       <div style="margin-top: 20px;">
-        <button class="btn-primary" id="render-btn" onclick="startRender()">🚀 Generate Viral Vertical Reels</button>
+        <button class="btn-primary" id="render-btn" onclick="startRender()">🚀 Find Candidates to Review</button>
       </div>
 
       <div style="margin-top: 12px; display: flex; gap: 8px;">
@@ -577,11 +637,30 @@ def index_html():
     <div class="right-pane">
       <div class="card" style="padding: 16px 20px;">
         <h2>📟 Live Console & Progress</h2>
+        <div id="job-status" role="status">Ready</div>
+        <progress id="job-progress" max="100" value="0" style="width:100%"></progress>
+        <button class="btn-secondary" onclick="cancelActiveJob()">Cancel job</button>
+        <select id="job-history" onchange="selectJob(this.value)"><option value="">Select a job</option></select>
         <div class="terminal" id="terminal-logs">
           [System] Ready. Enter input source and click Generate.
         </div>
       </div>
 
+      <div class="card" id="review-panel" hidden>
+        <h2>Review candidates</h2>
+        <p>Preview each range, adjust its timing and framing, and correct captions before rendering.
+        Scores rank candidates; check the context and payoff yourself.</p>
+        <video id="source-preview" controls preload="metadata" style="width:100%"></video>
+        <video id="framing-preview" controls hidden style="width:100%;max-height:500px"></video>
+        <div id="candidate-list"></div>
+        <details><summary>Edit full manifest and transcript</summary>
+          <p>Transcript corrections clear stale word alignment so phrases remain accurate.</p>
+          <label>Manifest JSON</label><textarea id="manifest-editor" rows="12" style="width:100%"></textarea>
+          <label>Transcript JSON</label><textarea id="transcript-editor" rows="12" style="width:100%"></textarea>
+          <button class="btn-secondary" onclick="applyAdvanced()">Apply JSON edits</button>
+        </details>
+        <button class="btn-primary" onclick="approveReview()">Render reviewed clips</button>
+      </div>
       <div class="card" style="flex: 1;">
         <h2>🎬 Exported Vertical Reels</h2>
         <div id="gallery-empty" style="color: var(--text-muted); font-size: 13px; padding: 20px 0;">
@@ -661,7 +740,6 @@ def index_html():
         video: video,
         url: url,
         chat: document.getElementById('chat-path').value.trim() || null,
-        out: "reels_output/studio_run",
         count: parseInt(document.getElementById('clip-count').value),
         preset: document.getElementById('subtitle-preset').value,
         layout: document.getElementById('layout-mode').value,
@@ -681,7 +759,11 @@ def index_html():
           const err = await res.json();
           return alert(err.detail || "Error starting render");
         }
-        addTerminal("[Pipeline] Job started! Monitoring progress...");
+        const job = await res.json();
+        document.getElementById('review-panel').hidden = true;
+        refreshJobs();
+        activeJob = job.id; localStorage.setItem("activeJob", activeJob);
+        addTerminal("[Pipeline] Job queued. Candidates will be available for review.");
         pollLogs();
       } catch (e) {
         alert("Error starting render: " + e.message);
@@ -690,23 +772,31 @@ def index_html():
 
     function addTerminal(msg) {
       const term = document.getElementById('terminal-logs');
-      term.innerHTML += `<div>${msg}</div>`;
+      const line = document.createElement('div'); line.textContent = msg; term.appendChild(line);
       term.scrollTop = term.scrollHeight;
     }
 
+    let activeJob = localStorage.getItem("activeJob");
+    let reviewData = null;
     let pollInterval = null;
     function pollLogs() {
       if (pollInterval) clearInterval(pollInterval);
       pollInterval = setInterval(async () => {
         try {
-          const res = await fetch('/api/logs');
+          const res = await fetch('/api/jobs/' + activeJob);
+          if (!res.ok) { clearInterval(pollInterval); return; }
           const data = await res.json();
           const term = document.getElementById('terminal-logs');
-          term.innerHTML = data.logs.map(l => `<div>${l}</div>`).join('');
+          term.textContent = data.logs.join('\n');
+          document.getElementById('job-status').textContent = data.stage + ' (' + data.status + ')';
+          document.getElementById('job-progress').value = data.progress;
           term.scrollTop = term.scrollHeight;
-          if (!data.running) {
+          if (!['queued', 'running'].includes(data.status)) {
             clearInterval(pollInterval);
             fetchExports();
+            refreshJobs();
+            if (data.status === 'review') await loadReview();
+            if (data.error) addTerminal(data.error);
           }
         } catch (e) {
           console.error(e);
@@ -716,6 +806,7 @@ def index_html():
 
     async function fetchExports() {
       try {
+        await refreshJobs();
         const res = await fetch('/api/exports?folder=reels_output');
         const data = await res.json();
         const grid = document.getElementById('gallery-grid');
@@ -729,11 +820,11 @@ def index_html():
         grid.innerHTML = data.reels.map(r => `
           <div class="reel-card">
             <video controls preload="metadata">
-              <source src="${r.rel_url}" type="video/mp4">
+              <source src="${escapeHTML(r.rel_url)}" type="video/mp4">
             </video>
             <div class="reel-card-info">
-              <span class="tag">${r.folder}</span>
-              <div class="reel-card-title">${r.name}</div>
+              <span class="tag">${escapeHTML(r.folder)}</span>
+              <div class="reel-card-title">${escapeHTML(r.name)}</div>
               <div style="color: var(--text-muted); font-size: 11px;">Size: ${r.size_mb} MB</div>
             </div>
           </div>
@@ -743,8 +834,97 @@ def index_html():
       }
     }
 
+    function escapeHTML(value) {
+      return String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    }
+    async function cancelActiveJob() {
+      if (activeJob) await fetch('/api/jobs/' + activeJob + '/cancel', {method:'POST'});
+    }
+    function selectJob(id) {
+      if (!id) return;
+      activeJob = id; localStorage.setItem('activeJob', id);
+      document.getElementById('review-panel').hidden = true;
+      pollLogs();
+    }
+    async function refreshJobs() {
+      const data = await (await fetch('/api/jobs')).json();
+      const select = document.getElementById('job-history');
+      select.replaceChildren(new Option('Select a job', ''));
+      data.jobs.forEach(j => select.add(new Option(j.id.slice(0,16) + ' ? ' + j.status, j.id)));
+      if (activeJob) select.value = activeJob;
+    }
+    async function loadReview() {
+      const res = await fetch('/api/jobs/' + activeJob + '/review');
+      if (!res.ok) return;
+      reviewData = await res.json();
+      document.getElementById('review-panel').hidden = false;
+      document.getElementById('source-preview').src = '/api/jobs/' + activeJob + '/source';
+      drawCandidates();
+    }
+    function syncEditors() {
+      document.getElementById('manifest-editor').value = JSON.stringify(reviewData.manifest, null, 2);
+      document.getElementById('transcript-editor').value = JSON.stringify(reviewData.transcript, null, 2);
+    }
+    function applyAdvanced() {
+      try {
+        const manifest=JSON.parse(document.getElementById('manifest-editor').value);
+        const transcript=JSON.parse(document.getElementById('transcript-editor').value);
+        if (!Array.isArray(manifest.reels) || !Array.isArray(transcript.segments)) throw new Error('Invalid manifest or transcript');
+        reviewData={manifest,transcript}; drawCandidates();
+      } catch(e) { alert(e.message); }
+    }
+    function drawCandidates() {
+      const list = document.getElementById('candidate-list'); list.replaceChildren();
+      reviewData.manifest.reels.forEach((reel, i) => {
+        const row = document.createElement('div'); row.style.margin = '16px 0';
+        const title = document.createElement('strong'); title.textContent = reel.title || reel.name; row.append(title);
+        reel.ranges.forEach((range, n) => {
+          const controls = document.createElement('div');
+          ['Start', 'End'].forEach((label, k) => {
+            const field = document.createElement('label'); field.textContent = label + ' (seconds) ';
+            const input = document.createElement('input'); input.type='number'; input.step='.01'; input.min='0'; input.value=range[k];
+            input.onchange=()=>{range[k]=Number(input.value); syncEditors();}; field.append(input); controls.append(field);
+          });
+          const play = document.createElement('button'); play.textContent='Preview range'; play.className='btn-secondary';
+          play.onclick=()=>{const v=document.getElementById('source-preview'); v.currentTime=range[0]; v.ontimeupdate=()=>{if(v.currentTime>=range[1])v.pause();}; v.play();};
+          controls.append(play); row.append(controls);
+        });
+        const layout=document.createElement('select');
+        ['fit','crop','split','pip'].forEach(x=>layout.add(new Option(x,x)));
+        layout.value=reel.layout; layout.onchange=()=>{reel.layout=layout.value;syncEditors();}; row.append(layout);
+        const crop=document.createElement('input'); crop.type='range'; crop.min='0'; crop.max='1'; crop.step='.01'; crop.value=reel.crop_x ?? .5;
+        crop.setAttribute('aria-label','Horizontal crop position'); crop.oninput=()=>{reel.crop_x=Number(crop.value);reel.top_crop_x=Number(crop.value);syncEditors();}; row.append(crop);
+        const remove=document.createElement('button'); remove.textContent='Remove candidate'; remove.className='btn-secondary';
+        remove.onclick=()=>{reviewData.manifest.reels.splice(i,1);drawCandidates();}; row.append(remove);
+        reviewData.transcript.segments.filter(s=>reel.ranges.some(r=>s.end>r[0] && s.start<r[1])).forEach(segment=>{
+          const input=document.createElement('textarea'); input.value=segment.text; input.style.width='100%';
+          input.onchange=()=>{segment.text=input.value;segment.words=[];syncEditors();};row.append(input);
+        });
+        const preview=document.createElement('button'); preview.textContent='Preview framing and captions (8 sec)'; preview.className='btn-secondary';
+        preview.onclick=async()=>{
+          preview.disabled=true;
+          try {
+            const res=await fetch('/api/jobs/'+activeJob+'/preview?index='+i,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(reviewData)});
+            if(!res.ok)throw new Error(await res.text());
+            const player=document.getElementById('framing-preview');
+            if(player.src.startsWith('blob:'))URL.revokeObjectURL(player.src);
+            player.src=URL.createObjectURL(await res.blob());player.hidden=false;player.play();
+          } catch(e){alert(e.message);} finally{preview.disabled=false;}
+        };row.append(preview);list.append(row);
+      });
+      syncEditors();
+    }
+    async function approveReview() {
+      try {
+        const res=await fetch('/api/jobs/'+activeJob+'/approve',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(reviewData)});
+        const data=await res.json(); if(!res.ok)throw new Error(JSON.stringify(data.detail));
+        document.getElementById('review-panel').hidden=true;pollLogs();
+      } catch(e) {alert(e.message);}
+    }
     loadStatus();
     fetchExports();
+    refreshJobs();
+    if (activeJob) pollLogs();
   </script>
 </body>
 </html>
