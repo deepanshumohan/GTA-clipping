@@ -1,51 +1,74 @@
 ---
 name: video-to-reels
-description: Turn a supplied video into edited Instagram-ready vertical reels with complete highlights, clean cuts, reviewed on-screen subtitles, and checked MP4 exports. Use for gaming, interviews, tutorials, podcasts, vlogs, events and other footage. Does not publish to social accounts.
+description: Turn a supplied video or stream into edited Instagram-ready vertical reels with complete highlights, clean cuts, reviewed on-screen subtitles, and checked MP4 exports. Supports automated end-to-end production with NVIDIA NVENC hardware acceleration, facecam detection, and multi-modal moment finding.
 ---
 
 # Video to Reels
 
-Deliver edited MP4s, not just timestamps or advice. Read [the editing guide](references/editing-guide.md) for selection, framing and manifest details. Use `scripts/reels.py` for analysis, transcription, moment suggestion, silence detection, rendering and technical checks. The agent makes editorial choices; the script provides deterministic rendering and zero-cost local automation.
+Deliver edited MP4s, not just timestamps or advice. Read [the editing guide](references/editing-guide.md) for selection, framing, and manifest details. Use `scripts/reels.py` for analysis, transcription, moment suggestion, silence detection, hardware-accelerated rendering, and technical checks. The agent makes editorial choices; the script provides deterministic rendering and zero-cost local automation.
 
 ## Defaults
 
-- Use the supplied video. Ask for it only if missing/inaccessible; resolve the source if several files are equally plausible.
-- With no other direction, choose up to 3–6 distinct strong moments from a long video, fewer when material supports fewer. A short source may yield one reel. Aim roughly 15–60 seconds when appropriate; complete stories determine boundaries. Never pad to a quota or enforce 30 seconds.
-- Supply short titles, suggested post captions and a few relevant hashtags.
-- Default to 1080×1920, 30 fps, H.264/AAC MP4 with fast-start. Use 720×1280 when requested or justified by source quality/resources, and disclose it.
-- Subtitle speech in every reel by default after reviewing the transcript. Choose from modern presets (`hormozi`, `neon`, `classic`, `boxed`) and support uppercase styling. Preserve the spoken language, including Hindi/Hinglish. Use synchronized word highlighting (karaoke style) when reliable word timestamps exist.
-- Multiple layout options: `fit` (centered with blurred background), `crop` (fixed offset or exact `crop_box`), `split`/`stacked` (vertical split for facecam + gameplay or dual speakers), and `pip` (picture-in-picture facecam inset).
-- Save under `reels_output/<video_name>/` (or the supplied destination); for multiple inputs, make one folder per source. Sanitize names, preserve sources and previous exports, and never overwrite an existing export without checking it. Exporting is authorized; publishing requires explicit instruction.
+- Use the supplied video or stream URL. Ask for it only if missing/inaccessible.
+- With no other direction, choose up to 3–6 distinct strong moments from a long video, fewer when material supports fewer. Aim roughly 15–60 seconds when appropriate.
+- Supply short titles, suggested post captions, and relevant hashtags.
+- Default to 1080×1920, 30 fps, H.264/AAC MP4 with fast-start.
+- **Hardware Acceleration**: Automatically selects GPU encoding (`h264_nvenc` on NVIDIA, `h264_videotoolbox` on macOS, `h264_qsv` on Intel) with graceful CPU fallback.
+- **Subtitles**: Presets (`hormozi`, `neon`, `classic`, `boxed`) with synchronized karaoke highlighting, high-retention word-by-word pop bounce animations, and customizable word grouping (1–3 words per card).
+- **Layout Options**: `auto` (smart facecam ROI detection), `fit` (centered with blurred background), `crop` (fixed offset or exact `crop_box`), `split`/`stacked` (vertical split for facecam + gameplay), and `pip` (picture-in-picture inset).
+- **Background Music**: Supports royalty-free BGM with automated sidechain audio ducking during speech.
 
 ## Completion standard
 
-The task is complete only when each selected reel has a playable MP4, reviewed burned-in subtitles when speech is present, a short title, paste-ready post caption and relevant hashtags, plus technical QA. Include source time ranges and an editorial/audio/visual review in `review.md`. Provide direct links to every MP4 and `posting.md`, `qa.json`, and `review.md`.
+The task is complete only when each selected reel has a playable MP4, reviewed burned-in subtitles when speech is present, a short title, paste-ready post caption and relevant hashtags, plus technical QA. Provide direct links to every MP4 and `posting.md`, `qa.json`, and `render_report.json`.
 
-## Workflow
+## Quick Start: One-Command Auto Pipeline
 
-1. **Analyze**: Run `analyze` to inspect source duration, dimensions, frame rate, audio, contact sheets, and screen regions.
-2. **Transcribe**: Run `transcribe` unless an accurate transcript exists (uses local Whisper with word timestamps and VAD).
-3. **Auto-Suggest Moments (Optional & Zero-Cost)**: Run `suggest-moments` to generate an initial draft of high-energy candidate cuts based on speech density and excitement keywords.
-4. **Detect Silences (Optional)**: Run `detect-silence` to find dead-air pauses and tighten reel pacing.
-5. **Curate & Refine (`cuts.json`)**: Refine cuts into complete mini-stories (hook → development → payoff). Select layout (`fit`, `crop`, `split`, `pip`) and subtitle preset (`hormozi`, `neon`, `classic`, `boxed`).
-6. **Render & Verify**: Run `render`, then inspect exports and run `verify` for technical decode checks.
-7. **Post Captions**: Prepare `posting.md` with paste-ready captions, titles, and hashtags.
-
-## Commands
-
-Paths below are relative to this skill directory. Quote paths containing spaces.
+Run end-to-end moment finding, facecam detection, transcription, and GPU rendering with a single command:
 
 ```powershell
-python scripts/reels.py analyze --video "INPUT.mp4" --out "OUTPUT/analysis"
-python scripts/reels.py transcribe --video "INPUT.mp4" --out "OUTPUT/transcript.json"
-# Moment detection options (both zero-cost):
-# Option A: Chat-driven (Twitch / YouTube / offline chat logs)
-python scripts/reels.py find-chat-spikes --chat "chat.json" --out "OUTPUT/cuts.json" --subtitle-preset hormozi
-# Option B: Heuristic audio energy + transcript density
-python scripts/reels.py suggest-moments --transcript "OUTPUT/transcript.json" --out "OUTPUT/cuts.json" --subtitle-preset hormozi
-python scripts/reels.py detect-silence --video "INPUT.mp4" --noise-db -30 --min-duration 0.5
-python scripts/reels.py render --video "INPUT.mp4" --manifest "OUTPUT/cuts.json" --out "OUTPUT/exports"
-python scripts/reels.py verify --folder "OUTPUT/exports"
+# From local video file:
+python scripts/reels.py auto --video "INPUT.mp4" --count 5 --preset hormozi --out "reels_output/auto_run"
+
+# From YouTube / Twitch URL directly:
+python scripts/reels.py auto --url "https://youtube.com/watch?v=..." --count 5 --preset hormozi --out "reels_output/auto_run"
+
+# With chat logs and background music auto-ducking:
+python scripts/reels.py auto --video "INPUT.mp4" --chat "chat.json" --bgm "music.mp3" --out "reels_output/auto_run"
 ```
 
-Use subcommand `--help` for options. Dependencies: Python, `imageio-ffmpeg` or system FFmpeg, `Pillow`; transcription needs either `faster-whisper` or `openai-whisper`. A system FFmpeg or `FFMPEG_BINARY` overrides bundled FFmpeg. No external paid service or cloud API is required.
+## Interactive Web Studio
+
+Launch the local web dashboard to visually scrub timelines, inspect facecam detection, preview subtitle presets, and render with one click:
+
+```powershell
+python web_ui.py --port 8000
+```
+Open [http://127.0.0.1:8000](http://127.0.0.1:8000) in your browser.
+
+## Modular CLI Commands
+
+Paths below are relative to this skill directory:
+
+```powershell
+# 1. Detect Streamer Facecam ROI:
+python scripts/reels.py detect-facecam --video "INPUT.mp4"
+
+# 2. Detect Audio Screams / Volume Spikes (Zero API Cost):
+python scripts/reels.py detect-audio-spikes --video "INPUT.mp4" --out "OUTPUT/audio_spikes.json"
+
+# 3. Detect Chat Burst Spikes (Twitch / YouTube):
+python scripts/reels.py find-chat-spikes --chat "chat.json" --out "OUTPUT/cuts.json" --subtitle-preset hormozi
+
+# 4. Multi-Modal Moment Suggestion (Audio + Transcript):
+python scripts/reels.py suggest-moments --transcript "OUTPUT/transcript.json" --video "INPUT.mp4" --out "OUTPUT/cuts.json"
+
+# 5. Local Whisper Speech-to-Text:
+python scripts/reels.py transcribe --video "INPUT.mp4" --out "OUTPUT/transcript.json" --device auto
+
+# 6. Render with GPU NVENC & Subtitles:
+python scripts/reels.py render --video "INPUT.mp4" --manifest "OUTPUT/cuts.json" --out "OUTPUT/exports" --encoder auto
+
+# 7. Verify Technical Compliance:
+python scripts/reels.py verify --folder "OUTPUT/exports"
+```
