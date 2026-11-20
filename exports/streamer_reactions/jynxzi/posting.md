@@ -1,9 +1,9 @@
-## JYNXZI CANNOT BELIEVE GTA 6 REALISM!
+## JYNXZI CRAZIEST GTA 6 MOMENT!
 
-File: `01_Jynxzi_Shocked_By_GTA6_Realism.mp4`
+File: `01_Jynxzi_Best_GTA6_Moments.mp4`
 
-JYNXZI'S HONEST REACTION TO GTA 6 GRAPHICS! 'Holy realism guys! What is this?!' Jynxzi couldn't believe what he was seeing!
+JYNXZI CANNOT HANDLE GTA 6! Unfiltered chaos, instant police panic, and classic Jynxzi screams! Is GTA 6 the greatest game of all time?
 
-#Jynxzi #GTA6 #JynxziClips #GamingReactions #Shorts #Reels
+#Jynxzi #GTA6 #JynxziClips #GamingMoments #Shorts #Reels
 
 #Jynxzi #GTA6 #JynxziClips #Shorts #Reels

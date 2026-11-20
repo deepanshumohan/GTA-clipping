@@ -1,15 +1,15 @@
 [
   {
-    "name": "04_Driving_Across_The_Entire_GTA6_Map",
+    "name": "06_GTA6_In_Game_TikTok_Doomscrolling",
     "ranges": [
       [
         0.0,
-        30.0
+        18.0
       ]
     ],
-    "target_duration": 30.0,
-    "caption_events": 24,
+    "target_duration": 18.0,
+    "caption_events": 16,
     "layout": "fit",
-    "reason": "Real Vice City open-world map driving in GTA 6 showcasing neon streets, ocean drive, and massive state scale."
+    "reason": "Showcases the brand-new in-game TikTok and social media parody phone app with late-night doom scrolling."
   }
 ]

@@ -1,15 +1,15 @@
 [
   {
-    "name": "01_Techno_Gamerz_Ultra_Supercar_Escape",
+    "name": "01_Techno_Gamerz_First_Day_In_Vice_City",
     "ranges": [
       [
         0.0,
-        27.6
+        28.0
       ]
     ],
-    "target_duration": 27.6,
+    "target_duration": 28.0,
     "caption_events": 19,
     "layout": "fit",
-    "reason": "Techno Gamerz tells the story of borrowing his friend's supercar from Liberty City, exploding it, and leading an epic getaway."
+    "reason": "Techno Gamerz exploring Vice City in GTA 6 for the first time, admiring the neon lighting and test driving sports cars."
   }
 ]

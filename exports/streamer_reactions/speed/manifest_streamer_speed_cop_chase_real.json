@@ -1,0 +1,44 @@
+{
+  "source": "/Users/deepanshumohan/Work/gta/creator_gta/streamer_speed_cop_chase_real_voiced.mp4",
+  "transcript": "/Users/deepanshumohan/Work/gta/creator_gta/streamer_speed_cop_chase_real_transcript.json",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "font": "Arial",
+  "normalize_audio": true,
+  "reels": [
+    {
+      "name": "01_Speed_Craziest_GTA6_Cop_Chase",
+      "ranges": [
+        [
+          0.0,
+          26.0
+        ]
+      ],
+      "layout": "fit",
+      "title": "SPEED'S CRAZIEST GTA 6 COP CHASE!",
+      "hook": "SPEED'S CRAZIEST GTA 6 COP CHASE!",
+      "hook_seconds": 3.0,
+      "burn_captions": true,
+      "subtitle_preset": "hormozi",
+      "style_preset": "hormozi",
+      "subtitle_position": "bottom",
+      "words_per_group": 2,
+      "uppercase": true,
+      "word_pop": true,
+      "highlight_words": true,
+      "primary_color": "&H0000FFFF",
+      "secondary_color": "&H0000FF00",
+      "outline_color": "&H00000000",
+      "reason": "Speed actively dodging squad cars, screaming at chat calling him an L driver, and pulling high-speed evasion maneuvers.",
+      "post_caption": "SPEED'S ESCAPE FROM 5 STARS IN GTA 6! Chat called him an L driver so Speed took police evasion into his own hands! Dodging cruisers and pulling insane 180s!\n\n#IShowSpeed #GTA6 #SpeedClips #PoliceChase #Shorts #Reels",
+      "hashtags": [
+        "#IShowSpeed",
+        "#GTA6",
+        "#SpeedClips",
+        "#PoliceChase",
+        "#Shorts"
+      ]
+    }
+  ]
+}

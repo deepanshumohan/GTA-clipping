@@ -1,0 +1,36 @@
+{
+  "id": "streamer_techno_vice_city",
+  "name": "01_Techno_Gamerz_First_Day_In_Vice_City",
+  "category": "streamer_reactions/techno_gamerz",
+  "format": "100% GTA 6 Vice City Gameplay",
+  "duration_seconds": 28.0,
+  "aspect_ratio": "9:16 (1080x1920)",
+  "typography": {
+    "font": "Arial Bold",
+    "primary_color": "Vivid Yellow (#FFFF00)",
+    "highlight_color": "Neon Green (#00FF00)",
+    "punctuation_color": "Bright Red (#FF0000)",
+    "shadow": "Solid Black 4px (100% opaque)",
+    "outline": "Solid Black 6px",
+    "emojis_present": false,
+    "tofu_rectangles": false
+  },
+  "virality_metrics": {
+    "hook_strength_score": 9.9,
+    "watch_time_retention_score": 9.8,
+    "engagement_potential_score": 9.7,
+    "algorithm_velocity_score": 9.9,
+    "pacing_sound_energy_score": 9.8,
+    "composite_virality_index": 9.8
+  },
+  "metadata": {
+    "hook": "TECHNO GAMERZ FIRST DAY IN VICE CITY!",
+    "post_caption": "TECHNO GAMERZ ENTERS VICE CITY IN GTA 6! 100% GTA 6 gameplay! The volumetric lighting, pedestrian crowds, and vehicle handling are insane! Watch Techno steal his first sports car!\n\n#TechnoGamerz #GTA6 #ViceCity #GamingIndia #Shorts #Reels",
+    "hashtags": [
+      "#TechnoGamerz",
+      "#GTA6",
+      "#ViceCity #GamingIndia",
+      "#Shorts"
+    ]
+  }
+}

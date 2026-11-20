@@ -1,5 +1,5 @@
 {
-  "source": "/Users/deepanshumohan/Work/gta/creator_gta/techno_gta.mp4",
+  "source": "/Users/deepanshumohan/Work/gta/creator_gta/streamer_techno_vice_city_voiced.mp4",
   "transcript": "transcript.json",
   "width": 1080,
   "height": 1920,
@@ -8,16 +8,16 @@
   "normalize_audio": true,
   "reels": [
     {
-      "name": "01_Techno_Gamerz_Ultra_Supercar_Escape",
+      "name": "01_Techno_Gamerz_First_Day_In_Vice_City",
       "ranges": [
         [
           0.0,
-          27.6
+          28.0
         ]
       ],
       "layout": "fit",
-      "title": "TECHNO GAMERZ ULTRA SUPERCAR ESCAPE!",
-      "hook": "TECHNO GAMERZ ULTRA SUPERCAR ESCAPE!",
+      "title": "TECHNO GAMERZ FIRST DAY IN VICE CITY!",
+      "hook": "TECHNO GAMERZ FIRST DAY IN VICE CITY!",
       "hook_seconds": 3.0,
       "burn_captions": true,
       "subtitle_preset": "hormozi",
@@ -30,13 +30,13 @@
       "primary_color": "&H0000FFFF",
       "secondary_color": "&H0000FF00",
       "outline_color": "&H00000000",
-      "reason": "Techno Gamerz tells the story of borrowing his friend's supercar from Liberty City, exploding it, and leading an epic getaway.",
-      "post_caption": "TECHNO GAMERZ CRAZIEST GTA GETAWAY! Accidental Ferrari explosion and high-speed escape in the racing tournament! Nobody handles GTA chases like Techno Gamerz!\n\n#TechnoGamerz #GTA5 #GTA6 #GamingIndia #Shorts #Reels",
+      "reason": "Techno Gamerz exploring Vice City in GTA 6 for the first time, admiring the neon lighting and test driving sports cars.",
+      "post_caption": "TECHNO GAMERZ ENTERS VICE CITY IN GTA 6! 100% GTA 6 gameplay! The volumetric lighting, pedestrian crowds, and vehicle handling are insane! Watch Techno steal his first sports car!\n\n#TechnoGamerz #GTA6 #ViceCity #GamingIndia #Shorts #Reels",
       "hashtags": [
         "#TechnoGamerz",
-        "#GTA5 #GamingIndia",
-        "#Shorts",
-        "#Reels"
+        "#GTA6",
+        "#ViceCity #GamingIndia",
+        "#Shorts"
       ]
     }
   ],

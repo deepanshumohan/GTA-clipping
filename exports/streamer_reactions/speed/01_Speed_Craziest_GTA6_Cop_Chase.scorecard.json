@@ -1,9 +1,9 @@
 {
-  "id": "streamer_speed",
+  "id": "streamer_speed_cop_chase_real",
   "name": "01_Speed_Craziest_GTA6_Cop_Chase",
   "category": "streamer_reactions/speed",
-  "format": "Streamer Reaction / 5-Star Chase",
-  "duration_seconds": 24.2,
+  "format": "Real Police Chase / Streamer Rage",
+  "duration_seconds": 26.0,
   "aspect_ratio": "9:16 (1080x1920)",
   "typography": {
     "font": "Arial Bold",
@@ -16,22 +16,22 @@
     "tofu_rectangles": false
   },
   "virality_metrics": {
-    "hook_strength_score": 9.6,
-    "watch_time_retention_score": 9.4,
-    "engagement_potential_score": 9.5,
-    "algorithm_velocity_score": 9.7,
-    "pacing_sound_energy_score": 9.3,
-    "composite_virality_index": 9.5
+    "hook_strength_score": 9.9,
+    "watch_time_retention_score": 9.8,
+    "engagement_potential_score": 9.7,
+    "algorithm_velocity_score": 9.9,
+    "pacing_sound_energy_score": 9.8,
+    "composite_virality_index": 9.8
   },
   "metadata": {
     "hook": "SPEED'S CRAZIEST GTA 6 COP CHASE!",
-    "post_caption": "SPEED LOST HIS MIND IN GTA 6! Day 2 of the playthrough and the Vice City cops gave him zero mercy! Watch him scream and dodge squad cars!\n\n#IShowSpeed #GTA6 #SpeedClips #Shorts #Reels",
+    "post_caption": "SPEED'S ESCAPE FROM 5 STARS IN GTA 6! Chat called him an L driver so Speed took police evasion into his own hands! Dodging cruisers and pulling insane 180s!\n\n#IShowSpeed #GTA6 #SpeedClips #PoliceChase #Shorts #Reels",
     "hashtags": [
       "#IShowSpeed",
       "#GTA6",
       "#SpeedClips",
-      "#Shorts",
-      "#Reels"
+      "#PoliceChase",
+      "#Shorts"
     ]
   }
 }

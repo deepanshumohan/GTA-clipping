@@ -2,171 +2,186 @@
   "segments": [
     {
       "start": 0.5,
-      "end": 4.5,
-      "text": "TESTING IMPOSSIBLE GTA MYTHS!",
+      "end": 3.08,
+      "text": "MYTHPAT'S MIND BLOWN BY GTA 6!",
       "words": [
         {
-          "word": "TESTING",
+          "word": "MYTHPAT'S",
           "start": 0.5,
-          "end": 1.5
+          "end": 0.93
         },
         {
-          "word": "IMPOSSIBLE",
-          "start": 1.5,
-          "end": 2.8
+          "word": "MIND",
+          "start": 0.93,
+          "end": 1.36
+        },
+        {
+          "word": "BLOWN",
+          "start": 1.36,
+          "end": 1.79
+        },
+        {
+          "word": "BY",
+          "start": 1.79,
+          "end": 2.22
         },
         {
           "word": "GTA",
-          "start": 2.8,
-          "end": 3.6
+          "start": 2.22,
+          "end": 2.65
         },
         {
-          "word": "MYTHS!",
-          "start": 3.6,
-          "end": 4.5
+          "word": "6!",
+          "start": 2.65,
+          "end": 3.08
         }
       ]
     },
     {
-      "start": 5.0,
-      "end": 10.0,
-      "text": "CAN WE SURVIVE THE ULTIMATE MEGA JUMP?!",
+      "start": 3.58,
+      "end": 5.88,
+      "text": "LOOK AT THIS NEXT-GEN GRAPHICS ENGINE!",
       "words": [
         {
-          "word": "CAN",
-          "start": 5.0,
-          "end": 5.6
-        },
-        {
-          "word": "WE",
-          "start": 5.6,
-          "end": 6.2
-        },
-        {
-          "word": "SURVIVE",
-          "start": 6.2,
-          "end": 7.2
-        },
-        {
-          "word": "THE",
-          "start": 7.2,
-          "end": 7.8
-        },
-        {
-          "word": "ULTIMATE",
-          "start": 7.8,
-          "end": 8.9
-        },
-        {
-          "word": "MEGA",
-          "start": 8.9,
-          "end": 9.4
-        },
-        {
-          "word": "JUMP?!",
-          "start": 9.4,
-          "end": 10.0
-        }
-      ]
-    },
-    {
-      "start": 10.5,
-      "end": 16.0,
-      "text": "HITTING THE RAMP AT MAXIMUM SPEED!",
-      "words": [
-        {
-          "word": "HITTING",
-          "start": 10.5,
-          "end": 11.5
-        },
-        {
-          "word": "THE",
-          "start": 11.5,
-          "end": 12.1
-        },
-        {
-          "word": "RAMP",
-          "start": 12.1,
-          "end": 13.0
+          "word": "LOOK",
+          "start": 3.58,
+          "end": 3.96
         },
         {
           "word": "AT",
-          "start": 13.0,
-          "end": 13.6
+          "start": 3.96,
+          "end": 4.35
         },
         {
-          "word": "MAXIMUM",
-          "start": 13.6,
-          "end": 15.0
+          "word": "THIS",
+          "start": 4.35,
+          "end": 4.73
         },
         {
-          "word": "SPEED!",
-          "start": 15.0,
-          "end": 16.0
+          "word": "NEXT-GEN",
+          "start": 4.73,
+          "end": 5.11
+        },
+        {
+          "word": "GRAPHICS",
+          "start": 5.11,
+          "end": 5.5
+        },
+        {
+          "word": "ENGINE!",
+          "start": 5.5,
+          "end": 5.88
         }
       ]
     },
     {
-      "start": 16.5,
-      "end": 22.0,
-      "text": "WAIT FOR THE LANDING... IT'S INSANE!",
+      "start": 6.38,
+      "end": 9.11,
+      "text": "EVERY NPC HAS REALISTIC REACTIONS!",
       "words": [
         {
-          "word": "WAIT",
-          "start": 16.5,
-          "end": 17.5
+          "word": "EVERY",
+          "start": 6.38,
+          "end": 6.93
         },
         {
-          "word": "FOR",
-          "start": 17.5,
-          "end": 18.2
+          "word": "NPC",
+          "start": 6.93,
+          "end": 7.47
+        },
+        {
+          "word": "HAS",
+          "start": 7.47,
+          "end": 8.02
+        },
+        {
+          "word": "REALISTIC",
+          "start": 8.02,
+          "end": 8.57
+        },
+        {
+          "word": "REACTIONS!",
+          "start": 8.57,
+          "end": 9.11
+        }
+      ]
+    },
+    {
+      "start": 9.61,
+      "end": 11.93,
+      "text": "THE VEHICLE CRASH PHYSICS ARE UNBELIEVABLE!",
+      "words": [
+        {
+          "word": "THE",
+          "start": 9.61,
+          "end": 10.0
+        },
+        {
+          "word": "VEHICLE",
+          "start": 10.0,
+          "end": 10.39
+        },
+        {
+          "word": "CRASH",
+          "start": 10.39,
+          "end": 10.77
+        },
+        {
+          "word": "PHYSICS",
+          "start": 10.77,
+          "end": 11.16
+        },
+        {
+          "word": "ARE",
+          "start": 11.16,
+          "end": 11.55
+        },
+        {
+          "word": "UNBELIEVABLE!",
+          "start": 11.55,
+          "end": 11.93
+        }
+      ]
+    },
+    {
+      "start": 12.43,
+      "end": 14.59,
+      "text": "MYTHPAT CALLS IT THE GREATEST GAME EVER!",
+      "words": [
+        {
+          "word": "MYTHPAT",
+          "start": 12.43,
+          "end": 12.74
+        },
+        {
+          "word": "CALLS",
+          "start": 12.74,
+          "end": 13.05
+        },
+        {
+          "word": "IT",
+          "start": 13.05,
+          "end": 13.36
         },
         {
           "word": "THE",
-          "start": 18.2,
-          "end": 18.8
+          "start": 13.36,
+          "end": 13.67
         },
         {
-          "word": "LANDING...",
-          "start": 18.8,
-          "end": 20.0
+          "word": "GREATEST",
+          "start": 13.67,
+          "end": 13.98
         },
         {
-          "word": "IT'S",
-          "start": 20.0,
-          "end": 20.8
+          "word": "GAME",
+          "start": 13.98,
+          "end": 14.29
         },
         {
-          "word": "INSANE!",
-          "start": 20.8,
-          "end": 22.0
-        }
-      ]
-    },
-    {
-      "start": 22.5,
-      "end": 27.5,
-      "text": "MYTH CONFIRMED 100% POSSIBLE!",
-      "words": [
-        {
-          "word": "MYTH",
-          "start": 22.5,
-          "end": 23.4
-        },
-        {
-          "word": "CONFIRMED",
-          "start": 23.4,
-          "end": 24.8
-        },
-        {
-          "word": "100%",
-          "start": 24.8,
-          "end": 26.0
-        },
-        {
-          "word": "POSSIBLE!",
-          "start": 26.0,
-          "end": 27.5
+          "word": "EVER!",
+          "start": 14.29,
+          "end": 14.59
         }
       ]
     }

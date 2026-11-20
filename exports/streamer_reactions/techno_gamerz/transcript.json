@@ -1,212 +1,197 @@
 {
   "segments": [
     {
-      "start": 0.0,
-      "end": 5.5,
-      "text": "MAINE GALTI SE FERRARI KO EXPLODE KAR DIYA!",
-      "words": [
-        {
-          "word": "MAINE",
-          "start": 0.0,
-          "end": 0.8
-        },
-        {
-          "word": "GALTI",
-          "start": 0.8,
-          "end": 1.6
-        },
-        {
-          "word": "SE",
-          "start": 1.6,
-          "end": 2.2
-        },
-        {
-          "word": "FERRARI",
-          "start": 2.2,
-          "end": 3.3
-        },
-        {
-          "word": "KO",
-          "start": 3.3,
-          "end": 3.8
-        },
-        {
-          "word": "EXPLODE",
-          "start": 3.8,
-          "end": 4.8
-        },
-        {
-          "word": "KAR",
-          "start": 4.8,
-          "end": 5.1
-        },
-        {
-          "word": "DIYA!",
-          "start": 5.1,
-          "end": 5.5
-        }
-      ]
-    },
-    {
-      "start": 5.5,
-      "end": 10.5,
-      "text": "YE GAADI HUMARE LIBERTY CITY FRIEND KI THI!",
-      "words": [
-        {
-          "word": "YE",
-          "start": 5.5,
-          "end": 6.1
-        },
-        {
-          "word": "GAADI",
-          "start": 6.1,
-          "end": 7.0
-        },
-        {
-          "word": "HUMARE",
-          "start": 7.0,
-          "end": 7.9
-        },
-        {
-          "word": "LIBERTY",
-          "start": 7.9,
-          "end": 8.8
-        },
-        {
-          "word": "CITY",
-          "start": 8.8,
-          "end": 9.4
-        },
-        {
-          "word": "FRIEND",
-          "start": 9.4,
-          "end": 10.0
-        },
-        {
-          "word": "KI",
-          "start": 10.0,
-          "end": 10.3
-        },
-        {
-          "word": "THI!",
-          "start": 10.3,
-          "end": 10.5
-        }
-      ]
-    },
-    {
-      "start": 10.5,
-      "end": 16.0,
-      "text": "RACING TOURNAMENT MEIN PARTICIPATE KARNA THA!",
-      "words": [
-        {
-          "word": "RACING",
-          "start": 10.5,
-          "end": 11.6
-        },
-        {
-          "word": "TOURNAMENT",
-          "start": 11.6,
-          "end": 12.9
-        },
-        {
-          "word": "MEIN",
-          "start": 12.9,
-          "end": 13.5
-        },
-        {
-          "word": "PARTICIPATE",
-          "start": 13.5,
-          "end": 14.8
-        },
-        {
-          "word": "KARNA",
-          "start": 14.8,
-          "end": 15.5
-        },
-        {
-          "word": "THA!",
-          "start": 15.5,
-          "end": 16.0
-        }
-      ]
-    },
-    {
-      "start": 16.0,
-      "end": 21.5,
-      "text": "AB POLICE AUR GANGSTERS DONO PEECHE PADE HAIN!",
-      "words": [
-        {
-          "word": "AB",
-          "start": 16.0,
-          "end": 16.7
-        },
-        {
-          "word": "POLICE",
-          "start": 16.7,
-          "end": 17.8
-        },
-        {
-          "word": "AUR",
-          "start": 17.8,
-          "end": 18.4
-        },
-        {
-          "word": "GANGSTERS",
-          "start": 18.4,
-          "end": 19.6
-        },
-        {
-          "word": "DONO",
-          "start": 19.6,
-          "end": 20.3
-        },
-        {
-          "word": "PEECHE",
-          "start": 20.3,
-          "end": 20.9
-        },
-        {
-          "word": "PADE",
-          "start": 20.9,
-          "end": 21.2
-        },
-        {
-          "word": "HAIN!",
-          "start": 21.2,
-          "end": 21.5
-        }
-      ]
-    },
-    {
-      "start": 21.5,
-      "end": 27.5,
-      "text": "TECHNO GAMERZ ULTRA ESCAPE MISSION!",
+      "start": 0.5,
+      "end": 2.85,
+      "text": "TECHNO GAMERZ FIRST DAY IN VICE CITY!",
       "words": [
         {
           "word": "TECHNO",
-          "start": 21.5,
-          "end": 22.5
+          "start": 0.5,
+          "end": 0.84
         },
         {
           "word": "GAMERZ",
-          "start": 22.5,
-          "end": 23.6
+          "start": 0.84,
+          "end": 1.17
         },
         {
-          "word": "ULTRA",
-          "start": 23.6,
-          "end": 24.6
+          "word": "FIRST",
+          "start": 1.17,
+          "end": 1.51
         },
         {
-          "word": "ESCAPE",
-          "start": 24.6,
-          "end": 25.8
+          "word": "DAY",
+          "start": 1.51,
+          "end": 1.85
         },
         {
-          "word": "MISSION!",
-          "start": 25.8,
-          "end": 27.5
+          "word": "IN",
+          "start": 1.85,
+          "end": 2.18
+        },
+        {
+          "word": "VICE",
+          "start": 2.18,
+          "end": 2.52
+        },
+        {
+          "word": "CITY!",
+          "start": 2.52,
+          "end": 2.85
+        }
+      ]
+    },
+    {
+      "start": 3.35,
+      "end": 6.53,
+      "text": "EXPLORING NEXT-GEN GTA 6 GRAPHICS!",
+      "words": [
+        {
+          "word": "EXPLORING",
+          "start": 3.35,
+          "end": 3.99
+        },
+        {
+          "word": "NEXT-GEN",
+          "start": 3.99,
+          "end": 4.62
+        },
+        {
+          "word": "GTA",
+          "start": 4.62,
+          "end": 5.26
+        },
+        {
+          "word": "6",
+          "start": 5.26,
+          "end": 5.89
+        },
+        {
+          "word": "GRAPHICS!",
+          "start": 5.89,
+          "end": 6.53
+        }
+      ]
+    },
+    {
+      "start": 7.03,
+      "end": 9.28,
+      "text": "THE NEON LIGHTS AND REFLECTIONS ARE REAL!",
+      "words": [
+        {
+          "word": "THE",
+          "start": 7.03,
+          "end": 7.35
+        },
+        {
+          "word": "NEON",
+          "start": 7.35,
+          "end": 7.67
+        },
+        {
+          "word": "LIGHTS",
+          "start": 7.67,
+          "end": 7.99
+        },
+        {
+          "word": "AND",
+          "start": 7.99,
+          "end": 8.31
+        },
+        {
+          "word": "REFLECTIONS",
+          "start": 8.31,
+          "end": 8.64
+        },
+        {
+          "word": "ARE",
+          "start": 8.64,
+          "end": 8.96
+        },
+        {
+          "word": "REAL!",
+          "start": 8.96,
+          "end": 9.28
+        }
+      ]
+    },
+    {
+      "start": 9.78,
+      "end": 12.72,
+      "text": "STEALING HIS FIRST GTA 6 SPORTS CAR!",
+      "words": [
+        {
+          "word": "STEALING",
+          "start": 9.78,
+          "end": 10.2
+        },
+        {
+          "word": "HIS",
+          "start": 10.2,
+          "end": 10.62
+        },
+        {
+          "word": "FIRST",
+          "start": 10.62,
+          "end": 11.04
+        },
+        {
+          "word": "GTA",
+          "start": 11.04,
+          "end": 11.46
+        },
+        {
+          "word": "6",
+          "start": 11.46,
+          "end": 11.88
+        },
+        {
+          "word": "SPORTS",
+          "start": 11.88,
+          "end": 12.3
+        },
+        {
+          "word": "CAR!",
+          "start": 12.3,
+          "end": 12.72
+        }
+      ]
+    },
+    {
+      "start": 13.22,
+      "end": 15.45,
+      "text": "TECHNO'S VICE CITY SPREE BEGINS NOW!",
+      "words": [
+        {
+          "word": "TECHNO'S",
+          "start": 13.22,
+          "end": 13.59
+        },
+        {
+          "word": "VICE",
+          "start": 13.59,
+          "end": 13.96
+        },
+        {
+          "word": "CITY",
+          "start": 13.96,
+          "end": 14.34
+        },
+        {
+          "word": "SPREE",
+          "start": 14.34,
+          "end": 14.71
+        },
+        {
+          "word": "BEGINS",
+          "start": 14.71,
+          "end": 15.08
+        },
+        {
+          "word": "NOW!",
+          "start": 15.08,
+          "end": 15.45
         }
       ]
     }

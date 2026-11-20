@@ -1,0 +1,194 @@
+{
+  "segments": [
+    {
+      "start": 0.5,
+      "end": 2.24,
+      "text": "CHAT CALLED SPEED AN L DRIVER!",
+      "words": [
+        {
+          "word": "CHAT",
+          "start": 0.5,
+          "end": 0.79
+        },
+        {
+          "word": "CALLED",
+          "start": 0.79,
+          "end": 1.08
+        },
+        {
+          "word": "SPEED",
+          "start": 1.08,
+          "end": 1.37
+        },
+        {
+          "word": "AN",
+          "start": 1.37,
+          "end": 1.66
+        },
+        {
+          "word": "L",
+          "start": 1.66,
+          "end": 1.95
+        },
+        {
+          "word": "DRIVER!",
+          "start": 1.95,
+          "end": 2.24
+        }
+      ]
+    },
+    {
+      "start": 2.74,
+      "end": 5.26,
+      "text": "SO HE STOLE A CAR IN GTA 6!",
+      "words": [
+        {
+          "word": "SO",
+          "start": 2.74,
+          "end": 3.06
+        },
+        {
+          "word": "HE",
+          "start": 3.06,
+          "end": 3.37
+        },
+        {
+          "word": "STOLE",
+          "start": 3.37,
+          "end": 3.69
+        },
+        {
+          "word": "A",
+          "start": 3.69,
+          "end": 4.0
+        },
+        {
+          "word": "CAR",
+          "start": 4.0,
+          "end": 4.32
+        },
+        {
+          "word": "IN",
+          "start": 4.32,
+          "end": 4.63
+        },
+        {
+          "word": "GTA",
+          "start": 4.63,
+          "end": 4.95
+        },
+        {
+          "word": "6!",
+          "start": 4.95,
+          "end": 5.26
+        }
+      ]
+    },
+    {
+      "start": 5.76,
+      "end": 7.61,
+      "text": "POLICE SQUAD CARS BOX HIM IN!",
+      "words": [
+        {
+          "word": "POLICE",
+          "start": 5.76,
+          "end": 6.07
+        },
+        {
+          "word": "SQUAD",
+          "start": 6.07,
+          "end": 6.38
+        },
+        {
+          "word": "CARS",
+          "start": 6.38,
+          "end": 6.69
+        },
+        {
+          "word": "BOX",
+          "start": 6.69,
+          "end": 6.99
+        },
+        {
+          "word": "HIM",
+          "start": 6.99,
+          "end": 7.3
+        },
+        {
+          "word": "IN!",
+          "start": 7.3,
+          "end": 7.61
+        }
+      ]
+    },
+    {
+      "start": 8.11,
+      "end": 10.6,
+      "text": "PULLING A HIGH SPEED REVERSE 180!",
+      "words": [
+        {
+          "word": "PULLING",
+          "start": 8.11,
+          "end": 8.52
+        },
+        {
+          "word": "A",
+          "start": 8.52,
+          "end": 8.94
+        },
+        {
+          "word": "HIGH",
+          "start": 8.94,
+          "end": 9.36
+        },
+        {
+          "word": "SPEED",
+          "start": 9.36,
+          "end": 9.77
+        },
+        {
+          "word": "REVERSE",
+          "start": 9.77,
+          "end": 10.19
+        },
+        {
+          "word": "180!",
+          "start": 10.19,
+          "end": 10.6
+        }
+      ]
+    },
+    {
+      "start": 11.1,
+      "end": 13.11,
+      "text": "THEY CAN NEVER CATCH I-SHOW-SPEED!",
+      "words": [
+        {
+          "word": "THEY",
+          "start": 11.1,
+          "end": 11.51
+        },
+        {
+          "word": "CAN",
+          "start": 11.51,
+          "end": 11.91
+        },
+        {
+          "word": "NEVER",
+          "start": 11.91,
+          "end": 12.31
+        },
+        {
+          "word": "CATCH",
+          "start": 12.31,
+          "end": 12.71
+        },
+        {
+          "word": "I-SHOW-SPEED!",
+          "start": 12.71,
+          "end": 13.11
+        }
+      ]
+    }
+  ]
+}

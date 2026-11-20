@@ -1,9 +1,9 @@
-## MYTHPAT TESTS IMPOSSIBLE GTA MYTHS!
+## MYTHPAT REACTS TO GTA 6!
 
-File: `01_Mythpat_Tests_Impossible_GTA_Myths.mp4`
+File: `01_Mythpat_Mindblown_By_GTA6.mp4`
 
-MYTHPAT TESTING IMPOSSIBLE GTA MYTHS! Will this jump break the game or will he survive? Mythpat's reactions are undefeated!
+MYTHPAT REACTS TO GTA 6 FOR THE FIRST TIME! Dimaag hila diya! Mythpat could not believe the graphics, pedestrian physics, and Vice City world scale!
 
-#Mythpat #GTAMyths #GamingIndia #Shorts #Reels
+#Mythpat #GTA6 #GamingReactions #GamingIndia #Shorts #Reels
 
-#Mythpat #GTAMyths #GamingIndia #Shorts #Reels
+#Mythpat #GTA6 #GamingReactions #Shorts #Reels

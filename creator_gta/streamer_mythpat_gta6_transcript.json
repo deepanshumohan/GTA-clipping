@@ -1,0 +1,189 @@
+{
+  "segments": [
+    {
+      "start": 0.5,
+      "end": 3.08,
+      "text": "MYTHPAT'S MIND BLOWN BY GTA 6!",
+      "words": [
+        {
+          "word": "MYTHPAT'S",
+          "start": 0.5,
+          "end": 0.93
+        },
+        {
+          "word": "MIND",
+          "start": 0.93,
+          "end": 1.36
+        },
+        {
+          "word": "BLOWN",
+          "start": 1.36,
+          "end": 1.79
+        },
+        {
+          "word": "BY",
+          "start": 1.79,
+          "end": 2.22
+        },
+        {
+          "word": "GTA",
+          "start": 2.22,
+          "end": 2.65
+        },
+        {
+          "word": "6!",
+          "start": 2.65,
+          "end": 3.08
+        }
+      ]
+    },
+    {
+      "start": 3.58,
+      "end": 5.88,
+      "text": "LOOK AT THIS NEXT-GEN GRAPHICS ENGINE!",
+      "words": [
+        {
+          "word": "LOOK",
+          "start": 3.58,
+          "end": 3.96
+        },
+        {
+          "word": "AT",
+          "start": 3.96,
+          "end": 4.35
+        },
+        {
+          "word": "THIS",
+          "start": 4.35,
+          "end": 4.73
+        },
+        {
+          "word": "NEXT-GEN",
+          "start": 4.73,
+          "end": 5.11
+        },
+        {
+          "word": "GRAPHICS",
+          "start": 5.11,
+          "end": 5.5
+        },
+        {
+          "word": "ENGINE!",
+          "start": 5.5,
+          "end": 5.88
+        }
+      ]
+    },
+    {
+      "start": 6.38,
+      "end": 9.11,
+      "text": "EVERY NPC HAS REALISTIC REACTIONS!",
+      "words": [
+        {
+          "word": "EVERY",
+          "start": 6.38,
+          "end": 6.93
+        },
+        {
+          "word": "NPC",
+          "start": 6.93,
+          "end": 7.47
+        },
+        {
+          "word": "HAS",
+          "start": 7.47,
+          "end": 8.02
+        },
+        {
+          "word": "REALISTIC",
+          "start": 8.02,
+          "end": 8.57
+        },
+        {
+          "word": "REACTIONS!",
+          "start": 8.57,
+          "end": 9.11
+        }
+      ]
+    },
+    {
+      "start": 9.61,
+      "end": 11.93,
+      "text": "THE VEHICLE CRASH PHYSICS ARE UNBELIEVABLE!",
+      "words": [
+        {
+          "word": "THE",
+          "start": 9.61,
+          "end": 10.0
+        },
+        {
+          "word": "VEHICLE",
+          "start": 10.0,
+          "end": 10.39
+        },
+        {
+          "word": "CRASH",
+          "start": 10.39,
+          "end": 10.77
+        },
+        {
+          "word": "PHYSICS",
+          "start": 10.77,
+          "end": 11.16
+        },
+        {
+          "word": "ARE",
+          "start": 11.16,
+          "end": 11.55
+        },
+        {
+          "word": "UNBELIEVABLE!",
+          "start": 11.55,
+          "end": 11.93
+        }
+      ]
+    },
+    {
+      "start": 12.43,
+      "end": 14.59,
+      "text": "MYTHPAT CALLS IT THE GREATEST GAME EVER!",
+      "words": [
+        {
+          "word": "MYTHPAT",
+          "start": 12.43,
+          "end": 12.74
+        },
+        {
+          "word": "CALLS",
+          "start": 12.74,
+          "end": 13.05
+        },
+        {
+          "word": "IT",
+          "start": 13.05,
+          "end": 13.36
+        },
+        {
+          "word": "THE",
+          "start": 13.36,
+          "end": 13.67
+        },
+        {
+          "word": "GREATEST",
+          "start": 13.67,
+          "end": 13.98
+        },
+        {
+          "word": "GAME",
+          "start": 13.98,
+          "end": 14.29
+        },
+        {
+          "word": "EVER!",
+          "start": 14.29,
+          "end": 14.59
+        }
+      ]
+    }
+  ]
+}

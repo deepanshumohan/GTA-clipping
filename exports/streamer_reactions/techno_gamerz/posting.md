@@ -1,9 +1,9 @@
-## TECHNO GAMERZ ULTRA SUPERCAR ESCAPE!
+## TECHNO GAMERZ FIRST DAY IN VICE CITY!
 
-File: `01_Techno_Gamerz_Ultra_Supercar_Escape.mp4`
+File: `01_Techno_Gamerz_First_Day_In_Vice_City.mp4`
 
-TECHNO GAMERZ CRAZIEST GTA GETAWAY! Accidental Ferrari explosion and high-speed escape in the racing tournament! Nobody handles GTA chases like Techno Gamerz!
+TECHNO GAMERZ ENTERS VICE CITY IN GTA 6! 100% GTA 6 gameplay! The volumetric lighting, pedestrian crowds, and vehicle handling are insane! Watch Techno steal his first sports car!
 
-#TechnoGamerz #GTA5 #GTA6 #GamingIndia #Shorts #Reels
+#TechnoGamerz #GTA6 #ViceCity #GamingIndia #Shorts #Reels
 
-#TechnoGamerz #GTA5 #GamingIndia #Shorts #Reels
+#TechnoGamerz #GTA6 #ViceCity #GamingIndia #Shorts

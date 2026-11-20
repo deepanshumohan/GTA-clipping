@@ -1,0 +1,32 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,65,&H0000FFFF,&H0000FF00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,4,2,108,108,518,1
+Style: Caption,Arial,65,&H0000FFFF,&H0000FF00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,4,2,108,108,518,1
+Style: Hook,Arial,59,&H0000FFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,8,108,108,250,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:03.00,Hook,,0,0,0,,TECHNO GAMERZ FIRST DAY IN VICE CITY{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:00.50,0:00:01.17,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k34}TECHNO {\k33}GAMERZ
+Dialogue: 0,0:00:01.17,0:00:01.85,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k34}FIRST {\k34}DAY
+Dialogue: 0,0:00:01.85,0:00:02.52,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k33}IN {\k34}VICE
+Dialogue: 0,0:00:02.52,0:00:02.85,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k33}CITY{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:03.35,0:00:04.62,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k64}EXPLORING {\k63}NEXT-GEN
+Dialogue: 0,0:00:04.62,0:00:05.89,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k64}GTA {\k63}{\c&H0000FF00&}6{\c&H0000FFFF&}
+Dialogue: 0,0:00:05.89,0:00:06.53,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k64}GRAPHICS{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:07.03,0:00:07.67,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k32}THE {\k32}NEON
+Dialogue: 0,0:00:07.67,0:00:08.31,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k32}LIGHTS {\k32}AND
+Dialogue: 0,0:00:08.31,0:00:08.96,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k33}REFLECTIONS {\k32}ARE
+Dialogue: 0,0:00:08.96,0:00:09.28,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k32}REAL{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:09.78,0:00:10.62,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k42}STEALING {\k42}HIS
+Dialogue: 0,0:00:10.62,0:00:11.46,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k42}FIRST {\k42}GTA
+Dialogue: 0,0:00:11.46,0:00:12.30,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k42}{\c&H0000FF00&}6{\c&H0000FFFF&} {\k42}SPORTS
+Dialogue: 0,0:00:12.30,0:00:12.72,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k42}CAR{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:13.22,0:00:13.96,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k37}TECHNO'S {\k37}VICE
+Dialogue: 0,0:00:13.96,0:00:14.71,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k38}CITY {\k37}SPREE
+Dialogue: 0,0:00:14.71,0:00:15.45,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k37}BEGINS {\k37}NOW{\c&H000000FF&}!{\c&H0000FFFF&}

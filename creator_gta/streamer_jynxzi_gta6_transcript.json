@@ -1,0 +1,179 @@
+{
+  "segments": [
+    {
+      "start": 0.5,
+      "end": 3.23,
+      "text": "JYNXZI'S WILDEST GTA 6 MOMENT!",
+      "words": [
+        {
+          "word": "JYNXZI'S",
+          "start": 0.5,
+          "end": 1.05
+        },
+        {
+          "word": "WILDEST",
+          "start": 1.05,
+          "end": 1.59
+        },
+        {
+          "word": "GTA",
+          "start": 1.59,
+          "end": 2.14
+        },
+        {
+          "word": "6",
+          "start": 2.14,
+          "end": 2.69
+        },
+        {
+          "word": "MOMENT!",
+          "start": 2.69,
+          "end": 3.23
+        }
+      ]
+    },
+    {
+      "start": 3.73,
+      "end": 5.93,
+      "text": "HE ACCIDENTALLY CRASHED INTO POLICE!",
+      "words": [
+        {
+          "word": "HE",
+          "start": 3.73,
+          "end": 4.17
+        },
+        {
+          "word": "ACCIDENTALLY",
+          "start": 4.17,
+          "end": 4.61
+        },
+        {
+          "word": "CRASHED",
+          "start": 4.61,
+          "end": 5.05
+        },
+        {
+          "word": "INTO",
+          "start": 5.05,
+          "end": 5.49
+        },
+        {
+          "word": "POLICE!",
+          "start": 5.49,
+          "end": 5.93
+        }
+      ]
+    },
+    {
+      "start": 6.43,
+      "end": 8.44,
+      "text": "WATCH HIS UNFILTERED LIVE REACTION!",
+      "words": [
+        {
+          "word": "WATCH",
+          "start": 6.43,
+          "end": 6.83
+        },
+        {
+          "word": "HIS",
+          "start": 6.83,
+          "end": 7.23
+        },
+        {
+          "word": "UNFILTERED",
+          "start": 7.23,
+          "end": 7.63
+        },
+        {
+          "word": "LIVE",
+          "start": 7.63,
+          "end": 8.03
+        },
+        {
+          "word": "REACTION!",
+          "start": 8.03,
+          "end": 8.44
+        }
+      ]
+    },
+    {
+      "start": 8.94,
+      "end": 10.59,
+      "text": "WHAT IS HAPPENING IN THIS GAME?!",
+      "words": [
+        {
+          "word": "WHAT",
+          "start": 8.94,
+          "end": 9.21
+        },
+        {
+          "word": "IS",
+          "start": 9.21,
+          "end": 9.49
+        },
+        {
+          "word": "HAPPENING",
+          "start": 9.49,
+          "end": 9.76
+        },
+        {
+          "word": "IN",
+          "start": 9.76,
+          "end": 10.04
+        },
+        {
+          "word": "THIS",
+          "start": 10.04,
+          "end": 10.31
+        },
+        {
+          "word": "GAME?!",
+          "start": 10.31,
+          "end": 10.59
+        }
+      ]
+    },
+    {
+      "start": 11.09,
+      "end": 13.83,
+      "text": "PURE PEAK JYNXZI COMEDY IN GTA 6!",
+      "words": [
+        {
+          "word": "PURE",
+          "start": 11.09,
+          "end": 11.48
+        },
+        {
+          "word": "PEAK",
+          "start": 11.48,
+          "end": 11.87
+        },
+        {
+          "word": "JYNXZI",
+          "start": 11.87,
+          "end": 12.26
+        },
+        {
+          "word": "COMEDY",
+          "start": 12.26,
+          "end": 12.65
+        },
+        {
+          "word": "IN",
+          "start": 12.65,
+          "end": 13.04
+        },
+        {
+          "word": "GTA",
+          "start": 13.04,
+          "end": 13.44
+        },
+        {
+          "word": "6!",
+          "start": 13.44,
+          "end": 13.83
+        }
+      ]
+    }
+  ]
+}

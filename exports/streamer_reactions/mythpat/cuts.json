@@ -1,5 +1,5 @@
 {
-  "source": "/Users/deepanshumohan/Work/gta/creator_gta/mythpat_gta.mp4",
+  "source": "/Users/deepanshumohan/Work/gta/creator_gta/streamer_mythpat_gta6_voiced.mp4",
   "transcript": "transcript.json",
   "width": 1080,
   "height": 1920,
@@ -8,7 +8,7 @@
   "normalize_audio": true,
   "reels": [
     {
-      "name": "01_Mythpat_Tests_Impossible_GTA_Myths",
+      "name": "01_Mythpat_Mindblown_By_GTA6",
       "ranges": [
         [
           0.0,
@@ -16,8 +16,8 @@
         ]
       ],
       "layout": "fit",
-      "title": "MYTHPAT TESTS IMPOSSIBLE GTA MYTHS!",
-      "hook": "MYTHPAT TESTS IMPOSSIBLE GTA MYTHS!",
+      "title": "MYTHPAT REACTS TO GTA 6!",
+      "hook": "MYTHPAT REACTS TO GTA 6!",
       "hook_seconds": 3.0,
       "burn_captions": true,
       "subtitle_preset": "hormozi",
@@ -30,12 +30,12 @@
       "primary_color": "&H0000FFFF",
       "secondary_color": "&H0000FF00",
       "outline_color": "&H00000000",
-      "reason": "Mythpat testing viral stunts and impossible challenges in GTA.",
-      "post_caption": "MYTHPAT TESTING IMPOSSIBLE GTA MYTHS! Will this jump break the game or will he survive? Mythpat's reactions are undefeated!\n\n#Mythpat #GTAMyths #GamingIndia #Shorts #Reels",
+      "reason": "Mythpat's hilarious and energetic reaction to GTA 6 Vice City open-world gameplay.",
+      "post_caption": "MYTHPAT REACTS TO GTA 6 FOR THE FIRST TIME! Dimaag hila diya! Mythpat could not believe the graphics, pedestrian physics, and Vice City world scale!\n\n#Mythpat #GTA6 #GamingReactions #GamingIndia #Shorts #Reels",
       "hashtags": [
         "#Mythpat",
-        "#GTAMyths",
-        "#GamingIndia",
+        "#GTA6",
+        "#GamingReactions",
         "#Shorts",
         "#Reels"
       ]

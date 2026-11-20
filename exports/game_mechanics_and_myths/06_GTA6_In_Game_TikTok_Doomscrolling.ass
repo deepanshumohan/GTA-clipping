@@ -1,0 +1,29 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,65,&H0000FFFF,&H0000FF00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,4,2,108,108,518,1
+Style: Caption,Arial,65,&H0000FFFF,&H0000FF00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,4,2,108,108,518,1
+Style: Hook,Arial,59,&H0000FFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,8,108,108,250,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:03.00,Hook,,0,0,0,,GTA 6 IN-GAME TIKTOK IS UNHINGED{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:00.50,0:00:01.49,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k49}GTA {\k50}{\c&H0000FF00&}6{\c&H0000FFFF&}
+Dialogue: 0,0:00:01.49,0:00:02.47,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k49}ADDED {\k49}IN-GAME
+Dialogue: 0,0:00:02.47,0:00:02.97,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k50}DOOMSCROLLING{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:03.47,0:00:04.36,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k44}JASON {\k45}SCROLLS
+Dialogue: 0,0:00:04.36,0:00:05.24,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k44}PHONE {\k44}BEFORE
+Dialogue: 0,0:00:05.24,0:00:05.69,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k45}SLEEPING{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:06.19,0:00:06.92,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k37}WATCH {\k36}THE
+Dialogue: 0,0:00:06.92,0:00:07.66,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k37}CRAZY {\k37}SOCIAL
+Dialogue: 0,0:00:07.66,0:00:08.40,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k37}MEDIA {\k37}FEED{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:08.90,0:00:09.65,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k37}ALLIGATORS {\k38}IN
+Dialogue: 0,0:00:09.65,0:00:10.41,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k38}POOLS {\k38}AND
+Dialogue: 0,0:00:10.41,0:00:11.16,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k38}FLORIDA {\k37}MEMES{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:11.66,0:00:12.62,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k48}ROCKSTAR {\k48}{\c&H0000FF00&}PARODIED{\c&H0000FFFF&}
+Dialogue: 0,0:00:12.62,0:00:13.57,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k47}MODERN {\k48}TIKTOK
+Dialogue: 0,0:00:13.57,0:00:14.05,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k48}CULTURE{\c&H000000FF&}!{\c&H0000FFFF&}

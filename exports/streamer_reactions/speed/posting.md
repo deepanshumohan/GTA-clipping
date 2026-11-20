@@ -2,8 +2,8 @@
 
 File: `01_Speed_Craziest_GTA6_Cop_Chase.mp4`
 
-SPEED LOST HIS MIND IN GTA 6! Day 2 of the playthrough and the Vice City cops gave him zero mercy! Watch him scream and dodge squad cars!
+SPEED'S ESCAPE FROM 5 STARS IN GTA 6! Chat called him an L driver so Speed took police evasion into his own hands! Dodging cruisers and pulling insane 180s!
 
-#IShowSpeed #GTA6 #SpeedClips #Shorts #Reels
+#IShowSpeed #GTA6 #SpeedClips #PoliceChase #Shorts #Reels
 
-#IShowSpeed #GTA6 #SpeedClips #Shorts #Reels
+#IShowSpeed #GTA6 #SpeedClips #PoliceChase #Shorts
