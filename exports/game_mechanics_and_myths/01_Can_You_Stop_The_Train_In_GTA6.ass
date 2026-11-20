@@ -11,47 +11,22 @@ Style: Caption,Arial,65,&H0000FFFF,&H0000FF00,&H00000000,&H00000000,-1,0,0,0,100
 Style: Hook,Arial,59,&H0000FFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,8,108,108,250,1
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.34,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k18}BY {\k16}THE
 Dialogue: 0,0:00:00.00,0:00:03.00,Hook,,0,0,0,,CAN YOU FINALLY STOP THE TRAIN{\c&H000000FF&}?!{\c&H0000FFFF&}
-Dialogue: 0,0:00:00.34,0:00:00.86,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k20}WAY {\k32}GUYS,
-Dialogue: 0,0:00:01.04,0:00:01.44,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k12}YOU {\k28}CAN
-Dialogue: 0,0:00:01.44,0:00:02.18,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k44}STOP {\k30}THE
-Dialogue: 0,0:00:02.18,0:00:02.80,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k36}TRAIN {\k26}IN
-Dialogue: 0,0:00:02.80,0:00:03.66,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k34}GTA {\k52}{\c&H0000FF00&}6{\c&H0000FFFF&}
-Dialogue: 0,0:00:03.66,0:00:04.34,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k46}UNLIKE {\k22}THE
-Dialogue: 0,0:00:04.34,0:00:05.04,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k50}INVINCIBLE {\k20}{\c&H0000FF00&}1{\c&H0000FFFF&}
-Dialogue: 0,0:00:05.04,0:00:05.52,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k12}IN {\k36}GTA
-Dialogue: 0,0:00:05.52,0:00:05.96,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k44}{\c&H0000FF00&}5.{\c&H0000FFFF&}
-Dialogue: 0,0:00:06.04,0:00:06.38,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k12}LITERALLY {\k22}ALL
-Dialogue: 0,0:00:06.38,0:00:06.58,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k10}YOU {\k10}HAVE
-Dialogue: 0,0:00:06.58,0:00:06.80,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k12}TO {\k10}DO
-Dialogue: 0,0:00:06.80,0:00:07.16,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k18}IS {\k18}DRIVE
-Dialogue: 0,0:00:07.16,0:00:07.50,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k16}A {\k18}CAR
-Dialogue: 0,0:00:07.50,0:00:07.80,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k14}IN {\k16}FRONT
-Dialogue: 0,0:00:07.80,0:00:08.08,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k16}OF {\k12}IT
-Dialogue: 0,0:00:08.08,0:00:08.44,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k22}AND {\k14}THEN
-Dialogue: 0,0:00:08.44,0:00:08.80,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k10}IT {\k26}STOPS.
-Dialogue: 0,0:00:09.06,0:00:09.24,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k6}I {\k12}DON'T
-Dialogue: 0,0:00:09.24,0:00:09.48,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k10}KNOW {\k14}IF
-Dialogue: 0,0:00:09.48,0:00:09.68,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k10}THIS {\k10}IS
-Dialogue: 0,0:00:09.68,0:00:10.02,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k14}THE {\k20}ONLY
-Dialogue: 0,0:00:10.02,0:00:10.52,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k32}TRAIN {\k18}BUT
-Dialogue: 0,0:00:10.52,0:00:10.82,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k16}IT'S {\k14}ALSO
-Dialogue: 0,0:00:10.82,0:00:11.42,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k30}REALLY {\k30}COOL
-Dialogue: 0,0:00:11.42,0:00:11.76,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k34}LOOKING.
-Dialogue: 0,0:00:11.88,0:00:12.10,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k14}IT'S {\k8}LIKE
-Dialogue: 0,0:00:12.10,0:00:12.60,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k12}A {\k38}PASSENGER
-Dialogue: 0,0:00:12.60,0:00:13.24,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k56}TRAIN, {\k8}YOU
-Dialogue: 0,0:00:13.24,0:00:13.52,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k14}CAN {\k14}EVEN
-Dialogue: 0,0:00:13.52,0:00:14.14,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k22}GO {\k40}INSIDE
-Dialogue: 0,0:00:14.14,0:00:14.48,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k22}OF {\k12}IT
-Dialogue: 0,0:00:14.48,0:00:14.74,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k18}AND {\k8}THEN
-Dialogue: 0,0:00:14.74,0:00:15.06,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k12}YOU {\k20}SEE
-Dialogue: 0,0:00:15.06,0:00:15.36,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k18}ALL {\k12}OF
-Dialogue: 0,0:00:15.36,0:00:15.94,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k12}THE {\k46}PASSENGERS.
-Dialogue: 0,0:00:16.18,0:00:16.60,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k8}A {\k34}HUGE
-Dialogue: 0,0:00:16.60,0:00:17.14,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k28}STEP {\k26}UP
-Dialogue: 0,0:00:17.14,0:00:17.54,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k22}FROM {\k18}{\c&H0000FF00&}WHAT{\c&H0000FFFF&}
-Dialogue: 0,0:00:17.54,0:00:17.88,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k20}WE {\k14}HAD
-Dialogue: 0,0:00:17.88,0:00:18.10,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k12}IN {\k10}THE
-Dialogue: 0,0:00:18.10,0:00:18.80,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k34}PREVIOUS {\k36}GAME.
+Dialogue: 0,0:00:00.50,0:00:01.10,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k30}TESTING {\k30}IF
+Dialogue: 0,0:00:01.10,0:00:01.71,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k30}YOU {\k31}CAN
+Dialogue: 0,0:00:01.71,0:00:02.31,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k30}STOP {\k30}THE
+Dialogue: 0,0:00:02.31,0:00:02.91,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k30}TRAIN {\k30}IN
+Dialogue: 0,0:00:02.91,0:00:03.52,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k30}GTA {\k31}{\c&H0000FF00&}6{\c&H000000FF&}!{\c&H0000FFFF&}{\c&H0000FFFF&}
+Dialogue: 0,0:00:04.12,0:00:05.00,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k44}IN {\k44}GTA
+Dialogue: 0,0:00:05.00,0:00:05.88,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k44}{\c&H0000FF00&}5{\c&H0000FFFF&} {\k44}THE
+Dialogue: 0,0:00:05.88,0:00:06.77,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k44}TRAIN {\k45}WAS
+Dialogue: 0,0:00:06.77,0:00:07.65,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k44}{\c&H0000FF00&}100%{\c&H0000FFFF&} {\k44}UNSTOPPABLE{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:08.25,0:00:09.05,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k40}BLOCKING {\k40}THE
+Dialogue: 0,0:00:09.05,0:00:09.85,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k40}TRACKS {\k40}WITH
+Dialogue: 0,0:00:09.85,0:00:10.65,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k40}MULTIPLE {\k40}VEHICLES{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:11.25,0:00:11.83,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k29}LOOK {\k29}AT
+Dialogue: 0,0:00:11.83,0:00:12.40,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k28}THIS {\k29}HIGH
+Dialogue: 0,0:00:12.40,0:00:12.97,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k29}SPEED {\k28}IMPACT{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:13.57,0:00:14.28,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k36}THE {\k35}TRAIN
+Dialogue: 0,0:00:14.28,0:00:14.98,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k35}DERAILS {\k35}AND
+Dialogue: 0,0:00:14.98,0:00:15.68,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k35}FINALLY {\k35}STOPS{\c&H000000FF&}!{\c&H0000FFFF&}

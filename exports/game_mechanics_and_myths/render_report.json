@@ -4,12 +4,12 @@
     "ranges": [
       [
         0.0,
-        29.8
+        30.0
       ]
     ],
-    "target_duration": 29.8,
-    "caption_events": 52,
+    "target_duration": 30.0,
+    "caption_events": 24,
     "layout": "fit",
-    "reason": "Testing full-throttle highway speedrun from the highest northern point of the map down to Michael's hangar in under 5 minutes."
+    "reason": "Real Vice City open-world map driving in GTA 6 showcasing neon streets, ocean drive, and massive state scale."
   }
 ]

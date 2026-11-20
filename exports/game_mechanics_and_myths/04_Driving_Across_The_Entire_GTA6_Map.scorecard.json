@@ -1,9 +1,9 @@
 {
-  "id": "mechanics_04",
+  "id": "mechanics_04_live",
   "name": "04_Driving_Across_The_Entire_GTA6_Map",
   "category": "game_mechanics_and_myths",
-  "format": "Map Speedrun / World Scale Fact",
-  "duration_seconds": 29.8,
+  "format": "Map Exploration & Scale Fact",
+  "duration_seconds": 30.0,
   "aspect_ratio": "9:16 (1080x1920)",
   "typography": {
     "font": "Arial Bold",
@@ -16,20 +16,20 @@
     "tofu_rectangles": false
   },
   "virality_metrics": {
-    "hook_strength_score": 9.6,
-    "watch_time_retention_score": 9.4,
-    "engagement_potential_score": 9.5,
-    "algorithm_velocity_score": 9.7,
-    "pacing_sound_energy_score": 9.3,
-    "composite_virality_index": 9.5
+    "hook_strength_score": 9.8,
+    "watch_time_retention_score": 9.6,
+    "engagement_potential_score": 9.7,
+    "algorithm_velocity_score": 9.8,
+    "pacing_sound_energy_score": 9.7,
+    "composite_virality_index": 9.7
   },
   "metadata": {
-    "hook": "HOW FAST CAN YOU DRIVE ACROSS GTA 6?!",
-    "post_caption": "HOW FAST CAN YOU DRIVE ACROSS THE ENTIRE GTA 6 MAP?! Speedrunning the highway at 220 MPH to test the true scale of Vice City! Map size is massive!\n\n#GTA6Map #Speedrun #GamingFacts #Shorts #Reels",
+    "hook": "DRIVING ACROSS THE ENTIRE GTA 6 MAP!",
+    "post_caption": "DRIVING ACROSS THE ENTIRE GTA 6 MAP! Testing the true scale of Vice City and Leonida at 220 MPH! Traffic density, volumetric lighting, and map size are unprecedented!\n\n#GTA6Map #ViceCity #GTA6 #Speedrun #Shorts #Reels",
     "hashtags": [
       "#GTA6Map",
-      "#Speedrun",
-      "#GamingFacts",
+      "#ViceCity",
+      "#GTA6",
       "#Shorts",
       "#Reels"
     ]

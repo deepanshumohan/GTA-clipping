@@ -1,5 +1,5 @@
 {
-  "source": "/Users/deepanshumohan/Work/gta/jynxzi_segments/clip_10.mp4",
+  "source": "/Users/deepanshumohan/Work/gta/creator_gta/tier_05_damage_voiced.mp4",
   "transcript": "transcript.json",
   "width": 1080,
   "height": 1920,
@@ -8,16 +8,16 @@
   "normalize_audio": true,
   "reels": [
     {
-      "name": "10_Top_5_Craziest_Streamer_Fails_And_Moments",
+      "name": "05_GTA6_Damage_Physics_Item_Tier_List",
       "ranges": [
         [
           0.0,
-          31.4
+          30.0
         ]
       ],
       "layout": "fit",
-      "title": "TOP 5 CRAZIEST STREAMER GTA FAILS!",
-      "hook": "TOP 5 CRAZIEST GTA FAILS!",
+      "title": "GTA 6 DAMAGE PHYSICS TIER LIST!",
+      "hook": "GTA 6 DAMAGE PHYSICS TIER LIST!",
       "hook_seconds": 3.0,
       "burn_captions": true,
       "subtitle_preset": "hormozi",
@@ -30,12 +30,13 @@
       "primary_color": "&H0000FFFF",
       "secondary_color": "&H0000FF00",
       "outline_color": "&H00000000",
-      "reason": "Jynxzi mistaking a runway in GTA and crash landing into buildings: I thought that was my landing strip!",
-      "post_caption": "TOP 5 CRAZIEST STREAMER GTA FAILS! Jynxzi thought the highway was a landing strip... watch what happens next! Pure chaos!\n\n#GTAFails #Jynxzi #GamingMemes #Shorts #Reels",
+      "reason": "Ranking the damage physics and deformation of cars, trucks, trains, planes, buses, and storefront shops from S-Tier to F-Tier.",
+      "post_caption": "GTA 6 DAMAGE PHYSICS TIER LIST! Ranking vehicle destruction from S-Tier to God-Tier! Supercars deform dynamically, trucks plow through barriers, and trains can finally be stopped! Where do you rank the physics?\n\n#TierList #GTA6 #GamingPhysics #CarCrash #Shorts #Reels",
       "hashtags": [
-        "#GTAFails",
-        "#Jynxzi",
-        "#GamingMemes",
+        "#TierList",
+        "#GTA6",
+        "#GamingPhysics",
+        "#CarCrash",
         "#Shorts",
         "#Reels"
       ]

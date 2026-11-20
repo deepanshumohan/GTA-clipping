@@ -1,0 +1,219 @@
+{
+  "segments": [
+    {
+      "start": 0.5,
+      "end": 3.52,
+      "text": "TESTING IF YOU CAN STOP THE TRAIN IN GTA 6!",
+      "words": [
+        {
+          "word": "TESTING",
+          "start": 0.5,
+          "end": 0.8
+        },
+        {
+          "word": "IF",
+          "start": 0.8,
+          "end": 1.1
+        },
+        {
+          "word": "YOU",
+          "start": 1.1,
+          "end": 1.4
+        },
+        {
+          "word": "CAN",
+          "start": 1.4,
+          "end": 1.71
+        },
+        {
+          "word": "STOP",
+          "start": 1.71,
+          "end": 2.01
+        },
+        {
+          "word": "THE",
+          "start": 2.01,
+          "end": 2.31
+        },
+        {
+          "word": "TRAIN",
+          "start": 2.31,
+          "end": 2.61
+        },
+        {
+          "word": "IN",
+          "start": 2.61,
+          "end": 2.91
+        },
+        {
+          "word": "GTA",
+          "start": 2.91,
+          "end": 3.21
+        },
+        {
+          "word": "6!",
+          "start": 3.21,
+          "end": 3.52
+        }
+      ]
+    },
+    {
+      "start": 4.12,
+      "end": 7.65,
+      "text": "IN GTA 5 THE TRAIN WAS 100% UNSTOPPABLE!",
+      "words": [
+        {
+          "word": "IN",
+          "start": 4.12,
+          "end": 4.56
+        },
+        {
+          "word": "GTA",
+          "start": 4.56,
+          "end": 5.0
+        },
+        {
+          "word": "5",
+          "start": 5.0,
+          "end": 5.44
+        },
+        {
+          "word": "THE",
+          "start": 5.44,
+          "end": 5.88
+        },
+        {
+          "word": "TRAIN",
+          "start": 5.88,
+          "end": 6.32
+        },
+        {
+          "word": "WAS",
+          "start": 6.32,
+          "end": 6.77
+        },
+        {
+          "word": "100%",
+          "start": 6.77,
+          "end": 7.21
+        },
+        {
+          "word": "UNSTOPPABLE!",
+          "start": 7.21,
+          "end": 7.65
+        }
+      ]
+    },
+    {
+      "start": 8.25,
+      "end": 10.65,
+      "text": "BLOCKING THE TRACKS WITH MULTIPLE VEHICLES!",
+      "words": [
+        {
+          "word": "BLOCKING",
+          "start": 8.25,
+          "end": 8.65
+        },
+        {
+          "word": "THE",
+          "start": 8.65,
+          "end": 9.05
+        },
+        {
+          "word": "TRACKS",
+          "start": 9.05,
+          "end": 9.45
+        },
+        {
+          "word": "WITH",
+          "start": 9.45,
+          "end": 9.85
+        },
+        {
+          "word": "MULTIPLE",
+          "start": 9.85,
+          "end": 10.25
+        },
+        {
+          "word": "VEHICLES!",
+          "start": 10.25,
+          "end": 10.65
+        }
+      ]
+    },
+    {
+      "start": 11.25,
+      "end": 12.97,
+      "text": "LOOK AT THIS HIGH SPEED IMPACT!",
+      "words": [
+        {
+          "word": "LOOK",
+          "start": 11.25,
+          "end": 11.54
+        },
+        {
+          "word": "AT",
+          "start": 11.54,
+          "end": 11.83
+        },
+        {
+          "word": "THIS",
+          "start": 11.83,
+          "end": 12.11
+        },
+        {
+          "word": "HIGH",
+          "start": 12.11,
+          "end": 12.4
+        },
+        {
+          "word": "SPEED",
+          "start": 12.4,
+          "end": 12.69
+        },
+        {
+          "word": "IMPACT!",
+          "start": 12.69,
+          "end": 12.97
+        }
+      ]
+    },
+    {
+      "start": 13.57,
+      "end": 15.68,
+      "text": "THE TRAIN DERAILS AND FINALLY STOPS!",
+      "words": [
+        {
+          "word": "THE",
+          "start": 13.57,
+          "end": 13.93
+        },
+        {
+          "word": "TRAIN",
+          "start": 13.93,
+          "end": 14.28
+        },
+        {
+          "word": "DERAILS",
+          "start": 14.28,
+          "end": 14.63
+        },
+        {
+          "word": "AND",
+          "start": 14.63,
+          "end": 14.98
+        },
+        {
+          "word": "FINALLY",
+          "start": 14.98,
+          "end": 15.33
+        },
+        {
+          "word": "STOPS!",
+          "start": 15.33,
+          "end": 15.68
+        }
+      ]
+    }
+  ]
+}

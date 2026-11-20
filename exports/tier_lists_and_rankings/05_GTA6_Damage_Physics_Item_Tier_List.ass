@@ -1,0 +1,33 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,65,&H0000FFFF,&H0000FF00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,4,2,108,108,518,1
+Style: Caption,Arial,65,&H0000FFFF,&H0000FF00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,4,2,108,108,518,1
+Style: Hook,Arial,59,&H0000FFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,8,108,108,250,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:03.00,Hook,,0,0,0,,GTA 6 DAMAGE PHYSICS TIER LIST{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:00.50,0:00:01.27,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k38}RANKING {\k39}GTA
+Dialogue: 0,0:00:01.27,0:00:02.03,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k38}{\c&H0000FF00&}6{\c&H0000FFFF&} {\k38}DAMAGE
+Dialogue: 0,0:00:02.03,0:00:02.80,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k39}PHYSICS {\k38}FROM
+Dialogue: 0,0:00:02.80,0:00:03.57,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k38}BEST {\k39}TO
+Dialogue: 0,0:00:03.57,0:00:03.95,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k38}WORST{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:04.55,0:00:05.53,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k49}S-TIER: {\k49}SUPERCAR
+Dialogue: 0,0:00:05.53,0:00:06.51,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k49}CRUMPLE {\k49}ZONES
+Dialogue: 0,0:00:06.51,0:00:07.49,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k49}AND {\k49}CHASSIS
+Dialogue: 0,0:00:07.49,0:00:07.98,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k49}TWIST{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:08.58,0:00:09.42,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k42}A-TIER: {\k42}HEAVY
+Dialogue: 0,0:00:09.42,0:00:10.25,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k41}TRUCKS {\k42}AND
+Dialogue: 0,0:00:10.25,0:00:11.09,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k42}BUSES {\k42}{\c&H0000FF00&}PLOWING{\c&H0000FFFF&}
+Dialogue: 0,0:00:11.09,0:00:11.93,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k42}THROUGH {\k42}TRAFFIC{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:12.53,0:00:13.65,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k56}B-TIER: {\k56}STOREFRONT
+Dialogue: 0,0:00:13.65,0:00:14.76,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k55}SHOPS {\k56}AND
+Dialogue: 0,0:00:14.76,0:00:15.88,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k56}DESTRUCTIBLE {\k56}PROPS{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:16.48,0:00:17.50,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k51}GOD-TIER: {\k51}THE
+Dialogue: 0,0:00:17.50,0:00:18.51,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k51}PASSENGER {\k50}TRAIN
+Dialogue: 0,0:00:18.51,0:00:19.53,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k51}FINALLY {\k51}DERAILING{\c&H000000FF&}!{\c&H0000FFFF&}

@@ -1,9 +1,9 @@
-## TOP 5 CRAZIEST STREAMER GTA FAILS!
+## GTA 6 DAMAGE PHYSICS TIER LIST!
 
-File: `10_Top_5_Craziest_Streamer_Fails_And_Moments.mp4`
+File: `05_GTA6_Damage_Physics_Item_Tier_List.mp4`
 
-TOP 5 CRAZIEST STREAMER GTA FAILS! Jynxzi thought the highway was a landing strip... watch what happens next! Pure chaos!
+GTA 6 DAMAGE PHYSICS TIER LIST! Ranking vehicle destruction from S-Tier to God-Tier! Supercars deform dynamically, trucks plow through barriers, and trains can finally be stopped! Where do you rank the physics?
 
-#GTAFails #Jynxzi #GamingMemes #Shorts #Reels
+#TierList #GTA6 #GamingPhysics #CarCrash #Shorts #Reels
 
-#GTAFails #Jynxzi #GamingMemes #Shorts #Reels
+#TierList #GTA6 #GamingPhysics #CarCrash #Shorts #Reels

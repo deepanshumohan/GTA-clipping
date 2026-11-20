@@ -11,55 +11,27 @@ Style: Caption,Arial,65,&H0000FFFF,&H0000FF00,&H00000000,&H00000000,-1,0,0,0,100
 Style: Hook,Arial,59,&H0000FFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,8,108,108,250,1
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.22,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k8}TO {\k14}RUN
-Dialogue: 0,0:00:00.00,0:00:03.00,Hook,,0,0,0,,HOW FAST CAN YOU DRIVE ACROSS GTA 6{\c&H000000FF&}?!{\c&H0000FFFF&}
-Dialogue: 0,0:00:00.22,0:00:00.68,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k16}THE {\k30}ENTIRE
-Dialogue: 0,0:00:00.68,0:00:01.20,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k22}MAP {\k30}AND
-Dialogue: 0,0:00:01.20,0:00:01.42,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k4}TO {\k18}UNDER
-Dialogue: 0,0:00:01.42,0:00:01.84,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k22}FIVE {\k20}MINUTES
-Dialogue: 0,0:00:01.84,0:00:01.98,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k8}OF {\k6}A
-Dialogue: 0,0:00:01.98,0:00:02.28,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k12}GOOD {\k18}TIME.
-Dialogue: 0,0:00:02.74,0:00:03.10,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k20}SO {\k16}MY
-Dialogue: 0,0:00:03.10,0:00:03.38,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k12}GOAL {\k16}IS
-Dialogue: 0,0:00:03.38,0:00:03.60,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k6}TO {\k16}START
-Dialogue: 0,0:00:03.60,0:00:04.04,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k26}HERE {\k18}AT
-Dialogue: 0,0:00:04.04,0:00:04.56,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k12}THE {\k40}VERY
-Dialogue: 0,0:00:04.56,0:00:05.14,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k36}HIGHEST {\k22}POINT
-Dialogue: 0,0:00:05.14,0:00:05.40,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k14}OF {\k12}THE
-Dialogue: 0,0:00:05.40,0:00:06.04,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k16}MAP {\k48}AND
-Dialogue: 0,0:00:06.04,0:00:06.82,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k22}GO {\k56}ALL
-Dialogue: 0,0:00:06.82,0:00:07.48,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k46}THE {\k20}WAY
-Dialogue: 0,0:00:07.48,0:00:08.28,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k36}TO {\k44}MICHAEL'S
-Dialogue: 0,0:00:08.28,0:00:08.66,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k22}HANGAR {\k16}DOWN
-Dialogue: 0,0:00:08.66,0:00:08.88,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k22}HERE.
-Dialogue: 0,0:00:09.24,0:00:09.54,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k6}I {\k24}ASSUME
-Dialogue: 0,0:00:09.54,0:00:10.10,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k22}I {\k34}DON'T
-Dialogue: 0,0:00:10.10,0:00:10.46,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k20}WANT {\k16}TO
-Dialogue: 0,0:00:10.46,0:00:11.00,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k12}GET {\k42}HYPED.
-Dialogue: 0,0:00:14.56,0:00:15.36,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k40}YEAH, {\k40}WAIT,
-Dialogue: 0,0:00:16.32,0:00:16.96,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k52}DRY, {\k12}DRY,
-Dialogue: 0,0:00:17.08,0:00:17.12,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k4}DRY.
-Dialogue: 0,0:00:18.10,0:00:18.58,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k32}I {\k16}DIDN'T
-Dialogue: 0,0:00:18.58,0:00:18.90,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k18}START {\k14}THE
-Dialogue: 0,0:00:18.90,0:00:19.66,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k58}TIMER, {\k18}THAT
-Dialogue: 0,0:00:19.66,0:00:20.20,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k14}WAS {\k40}PRACTICE.
-Dialogue: 0,0:00:20.62,0:00:20.84,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k10}JUST {\k12}TO
-Dialogue: 0,0:00:20.84,0:00:21.24,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k22}SHOW {\k18}YOU
-Dialogue: 0,0:00:21.24,0:00:21.84,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k24}GUYS {\k36}HOW
-Dialogue: 0,0:00:21.84,0:00:23.04,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k82}DIFFICULT {\k38}THIS
-Dialogue: 0,0:00:23.04,0:00:23.48,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k18}COULD {\k26}BE.
-Dialogue: 0,0:00:23.80,0:00:24.22,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k26}OBVIOUSLY {\k16}I
-Dialogue: 0,0:00:24.22,0:00:24.46,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k14}WOULD {\k10}NEVER
-Dialogue: 0,0:00:24.46,0:00:25.22,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k50}NORMALLY {\k26}SCROLL
-Dialogue: 0,0:00:25.22,0:00:25.42,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k16}UP {\k4}LIKE
-Dialogue: 0,0:00:25.42,0:00:25.60,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k18}THAT.
-Dialogue: 0,0:00:25.68,0:00:25.82,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k4}IT {\k10}WAS
-Dialogue: 0,0:00:25.82,0:00:26.08,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k14}JUST {\k12}A
-Dialogue: 0,0:00:26.08,0:00:26.50,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k42}DEMONSTRATION.
-Dialogue: 0,0:00:26.86,0:00:27.12,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k12}THERE'S {\k14}POINT
-Dialogue: 0,0:00:27.12,0:00:27.48,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k12}OF {\k24}HELPING
-Dialogue: 0,0:00:27.48,0:00:28.46,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k46}STARTING {\k52}WITH
-Dialogue: 0,0:00:28.46,0:00:28.76,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k12}ALL {\k18}THESE
-Dialogue: 0,0:00:28.76,0:00:29.20,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k22}ROCKS {\k22}HERE.
-Dialogue: 0,0:00:29.20,0:00:29.52,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k20}WE'LL {\k12}GO
-Dialogue: 0,0:00:29.52,0:00:29.76,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k24}AROUND.
+Dialogue: 0,0:00:00.00,0:00:03.00,Hook,,0,0,0,,DRIVING ACROSS THE ENTIRE GTA 6 MAP{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:00.50,0:00:01.17,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k33}HOW {\k34}LONG
+Dialogue: 0,0:00:01.17,0:00:01.83,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k33}TO {\k33}DRIVE
+Dialogue: 0,0:00:01.83,0:00:02.50,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k33}ACROSS {\k34}THE
+Dialogue: 0,0:00:02.50,0:00:03.16,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k33}ENTIRE {\k33}GTA
+Dialogue: 0,0:00:03.16,0:00:03.83,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k33}{\c&H0000FF00&}6{\c&H0000FFFF&} {\k34}MAP{\c&H000000FF&}?!{\c&H0000FFFF&}
+Dialogue: 0,0:00:04.43,0:00:05.11,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k34}STARTING {\k34}IN
+Dialogue: 0,0:00:05.11,0:00:05.79,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k34}DOWNTOWN {\k34}VICE
+Dialogue: 0,0:00:05.79,0:00:06.47,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k34}CITY {\k34}AT
+Dialogue: 0,0:00:06.47,0:00:07.15,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k34}FULL {\k34}THROTTLE{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:07.75,0:00:08.74,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k50}SPEEDING {\k49}DOWN
+Dialogue: 0,0:00:08.74,0:00:09.73,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k49}OCEAN {\k50}DRIVE
+Dialogue: 0,0:00:09.73,0:00:10.71,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k49}AT {\k49}{\c&H0000FF00&}220{\c&H0000FFFF&}
+Dialogue: 0,0:00:10.71,0:00:11.20,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k49}MPH{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:11.80,0:00:12.53,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k37}THE {\k36}DENSITY
+Dialogue: 0,0:00:12.53,0:00:13.26,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k37}OF {\k36}TRAFFIC
+Dialogue: 0,0:00:13.26,0:00:14.00,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k37}AND {\k37}PEDESTRIANS
+Dialogue: 0,0:00:14.00,0:00:14.73,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k36}IS {\k37}UNREAL{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:15.33,0:00:15.89,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k28}THIS {\k28}MAP
+Dialogue: 0,0:00:15.89,0:00:16.45,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k28}IS {\k28}MORE
+Dialogue: 0,0:00:16.45,0:00:17.02,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k28}THAN {\k29}TWICE
+Dialogue: 0,0:00:17.02,0:00:17.58,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k28}AS {\k28}BIG
+Dialogue: 0,0:00:17.58,0:00:18.14,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k28}AS {\k28}GTA
+Dialogue: 0,0:00:18.14,0:00:18.42,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k28}{\c&H0000FF00&}5{\c&H000000FF&}!{\c&H0000FFFF&}{\c&H0000FFFF&}

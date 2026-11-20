@@ -1,0 +1,259 @@
+{
+  "segments": [
+    {
+      "start": 0.5,
+      "end": 3.83,
+      "text": "HOW LONG TO DRIVE ACROSS THE ENTIRE GTA 6 MAP?!",
+      "words": [
+        {
+          "word": "HOW",
+          "start": 0.5,
+          "end": 0.83
+        },
+        {
+          "word": "LONG",
+          "start": 0.83,
+          "end": 1.17
+        },
+        {
+          "word": "TO",
+          "start": 1.17,
+          "end": 1.5
+        },
+        {
+          "word": "DRIVE",
+          "start": 1.5,
+          "end": 1.83
+        },
+        {
+          "word": "ACROSS",
+          "start": 1.83,
+          "end": 2.16
+        },
+        {
+          "word": "THE",
+          "start": 2.16,
+          "end": 2.5
+        },
+        {
+          "word": "ENTIRE",
+          "start": 2.5,
+          "end": 2.83
+        },
+        {
+          "word": "GTA",
+          "start": 2.83,
+          "end": 3.16
+        },
+        {
+          "word": "6",
+          "start": 3.16,
+          "end": 3.49
+        },
+        {
+          "word": "MAP?!",
+          "start": 3.49,
+          "end": 3.83
+        }
+      ]
+    },
+    {
+      "start": 4.43,
+      "end": 7.15,
+      "text": "STARTING IN DOWNTOWN VICE CITY AT FULL THROTTLE!",
+      "words": [
+        {
+          "word": "STARTING",
+          "start": 4.43,
+          "end": 4.77
+        },
+        {
+          "word": "IN",
+          "start": 4.77,
+          "end": 5.11
+        },
+        {
+          "word": "DOWNTOWN",
+          "start": 5.11,
+          "end": 5.45
+        },
+        {
+          "word": "VICE",
+          "start": 5.45,
+          "end": 5.79
+        },
+        {
+          "word": "CITY",
+          "start": 5.79,
+          "end": 6.13
+        },
+        {
+          "word": "AT",
+          "start": 6.13,
+          "end": 6.47
+        },
+        {
+          "word": "FULL",
+          "start": 6.47,
+          "end": 6.81
+        },
+        {
+          "word": "THROTTLE!",
+          "start": 6.81,
+          "end": 7.15
+        }
+      ]
+    },
+    {
+      "start": 7.75,
+      "end": 11.2,
+      "text": "SPEEDING DOWN OCEAN DRIVE AT 220 MPH!",
+      "words": [
+        {
+          "word": "SPEEDING",
+          "start": 7.75,
+          "end": 8.25
+        },
+        {
+          "word": "DOWN",
+          "start": 8.25,
+          "end": 8.74
+        },
+        {
+          "word": "OCEAN",
+          "start": 8.74,
+          "end": 9.23
+        },
+        {
+          "word": "DRIVE",
+          "start": 9.23,
+          "end": 9.73
+        },
+        {
+          "word": "AT",
+          "start": 9.73,
+          "end": 10.22
+        },
+        {
+          "word": "220",
+          "start": 10.22,
+          "end": 10.71
+        },
+        {
+          "word": "MPH!",
+          "start": 10.71,
+          "end": 11.2
+        }
+      ]
+    },
+    {
+      "start": 11.8,
+      "end": 14.73,
+      "text": "THE DENSITY OF TRAFFIC AND PEDESTRIANS IS UNREAL!",
+      "words": [
+        {
+          "word": "THE",
+          "start": 11.8,
+          "end": 12.17
+        },
+        {
+          "word": "DENSITY",
+          "start": 12.17,
+          "end": 12.53
+        },
+        {
+          "word": "OF",
+          "start": 12.53,
+          "end": 12.9
+        },
+        {
+          "word": "TRAFFIC",
+          "start": 12.9,
+          "end": 13.26
+        },
+        {
+          "word": "AND",
+          "start": 13.26,
+          "end": 13.63
+        },
+        {
+          "word": "PEDESTRIANS",
+          "start": 13.63,
+          "end": 14.0
+        },
+        {
+          "word": "IS",
+          "start": 14.0,
+          "end": 14.36
+        },
+        {
+          "word": "UNREAL!",
+          "start": 14.36,
+          "end": 14.73
+        }
+      ]
+    },
+    {
+      "start": 15.33,
+      "end": 18.42,
+      "text": "THIS MAP IS MORE THAN TWICE AS BIG AS GTA 5!",
+      "words": [
+        {
+          "word": "THIS",
+          "start": 15.33,
+          "end": 15.61
+        },
+        {
+          "word": "MAP",
+          "start": 15.61,
+          "end": 15.89
+        },
+        {
+          "word": "IS",
+          "start": 15.89,
+          "end": 16.17
+        },
+        {
+          "word": "MORE",
+          "start": 16.17,
+          "end": 16.45
+        },
+        {
+          "word": "THAN",
+          "start": 16.45,
+          "end": 16.73
+        },
+        {
+          "word": "TWICE",
+          "start": 16.73,
+          "end": 17.02
+        },
+        {
+          "word": "AS",
+          "start": 17.02,
+          "end": 17.3
+        },
+        {
+          "word": "BIG",
+          "start": 17.3,
+          "end": 17.58
+        },
+        {
+          "word": "AS",
+          "start": 17.58,
+          "end": 17.86
+        },
+        {
+          "word": "GTA",
+          "start": 17.86,
+          "end": 18.14
+        },
+        {
+          "word": "5!",
+          "start": 18.14,
+          "end": 18.42
+        }
+      ]
+    }
+  ]
+}

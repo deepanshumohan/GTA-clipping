@@ -1,0 +1,219 @@
+{
+  "segments": [
+    {
+      "start": 0.5,
+      "end": 3.95,
+      "text": "RANKING GTA 6 DAMAGE PHYSICS FROM BEST TO WORST!",
+      "words": [
+        {
+          "word": "RANKING",
+          "start": 0.5,
+          "end": 0.88
+        },
+        {
+          "word": "GTA",
+          "start": 0.88,
+          "end": 1.27
+        },
+        {
+          "word": "6",
+          "start": 1.27,
+          "end": 1.65
+        },
+        {
+          "word": "DAMAGE",
+          "start": 1.65,
+          "end": 2.03
+        },
+        {
+          "word": "PHYSICS",
+          "start": 2.03,
+          "end": 2.42
+        },
+        {
+          "word": "FROM",
+          "start": 2.42,
+          "end": 2.8
+        },
+        {
+          "word": "BEST",
+          "start": 2.8,
+          "end": 3.18
+        },
+        {
+          "word": "TO",
+          "start": 3.18,
+          "end": 3.57
+        },
+        {
+          "word": "WORST!",
+          "start": 3.57,
+          "end": 3.95
+        }
+      ]
+    },
+    {
+      "start": 4.55,
+      "end": 7.98,
+      "text": "S-TIER: SUPERCAR CRUMPLE ZONES AND CHASSIS TWIST!",
+      "words": [
+        {
+          "word": "S-TIER:",
+          "start": 4.55,
+          "end": 5.04
+        },
+        {
+          "word": "SUPERCAR",
+          "start": 5.04,
+          "end": 5.53
+        },
+        {
+          "word": "CRUMPLE",
+          "start": 5.53,
+          "end": 6.02
+        },
+        {
+          "word": "ZONES",
+          "start": 6.02,
+          "end": 6.51
+        },
+        {
+          "word": "AND",
+          "start": 6.51,
+          "end": 7.0
+        },
+        {
+          "word": "CHASSIS",
+          "start": 7.0,
+          "end": 7.49
+        },
+        {
+          "word": "TWIST!",
+          "start": 7.49,
+          "end": 7.98
+        }
+      ]
+    },
+    {
+      "start": 8.58,
+      "end": 11.93,
+      "text": "A-TIER: HEAVY TRUCKS AND BUSES PLOWING THROUGH TRAFFIC!",
+      "words": [
+        {
+          "word": "A-TIER:",
+          "start": 8.58,
+          "end": 9.0
+        },
+        {
+          "word": "HEAVY",
+          "start": 9.0,
+          "end": 9.42
+        },
+        {
+          "word": "TRUCKS",
+          "start": 9.42,
+          "end": 9.83
+        },
+        {
+          "word": "AND",
+          "start": 9.83,
+          "end": 10.25
+        },
+        {
+          "word": "BUSES",
+          "start": 10.25,
+          "end": 10.67
+        },
+        {
+          "word": "PLOWING",
+          "start": 10.67,
+          "end": 11.09
+        },
+        {
+          "word": "THROUGH",
+          "start": 11.09,
+          "end": 11.51
+        },
+        {
+          "word": "TRAFFIC!",
+          "start": 11.51,
+          "end": 11.93
+        }
+      ]
+    },
+    {
+      "start": 12.53,
+      "end": 15.88,
+      "text": "B-TIER: STOREFRONT SHOPS AND DESTRUCTIBLE PROPS!",
+      "words": [
+        {
+          "word": "B-TIER:",
+          "start": 12.53,
+          "end": 13.09
+        },
+        {
+          "word": "STOREFRONT",
+          "start": 13.09,
+          "end": 13.65
+        },
+        {
+          "word": "SHOPS",
+          "start": 13.65,
+          "end": 14.2
+        },
+        {
+          "word": "AND",
+          "start": 14.2,
+          "end": 14.76
+        },
+        {
+          "word": "DESTRUCTIBLE",
+          "start": 14.76,
+          "end": 15.32
+        },
+        {
+          "word": "PROPS!",
+          "start": 15.32,
+          "end": 15.88
+        }
+      ]
+    },
+    {
+      "start": 16.48,
+      "end": 19.53,
+      "text": "GOD-TIER: THE PASSENGER TRAIN FINALLY DERAILING!",
+      "words": [
+        {
+          "word": "GOD-TIER:",
+          "start": 16.48,
+          "end": 16.99
+        },
+        {
+          "word": "THE",
+          "start": 16.99,
+          "end": 17.5
+        },
+        {
+          "word": "PASSENGER",
+          "start": 17.5,
+          "end": 18.01
+        },
+        {
+          "word": "TRAIN",
+          "start": 18.01,
+          "end": 18.51
+        },
+        {
+          "word": "FINALLY",
+          "start": 18.51,
+          "end": 19.02
+        },
+        {
+          "word": "DERAILING!",
+          "start": 19.02,
+          "end": 19.53
+        }
+      ]
+    }
+  ]
+}

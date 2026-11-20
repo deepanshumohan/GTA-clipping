@@ -1,0 +1,209 @@
+{
+  "segments": [
+    {
+      "start": 0.5,
+      "end": 3.68,
+      "text": "GTA 6 POLICE LOGIC MAKES ZERO SENSE!",
+      "words": [
+        {
+          "word": "GTA",
+          "start": 0.5,
+          "end": 0.95
+        },
+        {
+          "word": "6",
+          "start": 0.95,
+          "end": 1.41
+        },
+        {
+          "word": "POLICE",
+          "start": 1.41,
+          "end": 1.86
+        },
+        {
+          "word": "LOGIC",
+          "start": 1.86,
+          "end": 2.31
+        },
+        {
+          "word": "MAKES",
+          "start": 2.31,
+          "end": 2.77
+        },
+        {
+          "word": "ZERO",
+          "start": 2.77,
+          "end": 3.22
+        },
+        {
+          "word": "SENSE!",
+          "start": 3.22,
+          "end": 3.68
+        }
+      ]
+    },
+    {
+      "start": 4.28,
+      "end": 7.32,
+      "text": "ACCIDENTALLY BUMP A COP... INSTANT 5 STARS!",
+      "words": [
+        {
+          "word": "ACCIDENTALLY",
+          "start": 4.28,
+          "end": 4.71
+        },
+        {
+          "word": "BUMP",
+          "start": 4.71,
+          "end": 5.15
+        },
+        {
+          "word": "A",
+          "start": 5.15,
+          "end": 5.58
+        },
+        {
+          "word": "COP...",
+          "start": 5.58,
+          "end": 6.02
+        },
+        {
+          "word": "INSTANT",
+          "start": 6.02,
+          "end": 6.45
+        },
+        {
+          "word": "5",
+          "start": 6.45,
+          "end": 6.89
+        },
+        {
+          "word": "STARS!",
+          "start": 6.89,
+          "end": 7.32
+        }
+      ]
+    },
+    {
+      "start": 7.92,
+      "end": 10.82,
+      "text": "SWAT SPAWNS ROADBLOCKS AHEAD OF YOUR GPS!",
+      "words": [
+        {
+          "word": "SWAT",
+          "start": 7.92,
+          "end": 8.34
+        },
+        {
+          "word": "SPAWNS",
+          "start": 8.34,
+          "end": 8.75
+        },
+        {
+          "word": "ROADBLOCKS",
+          "start": 8.75,
+          "end": 9.17
+        },
+        {
+          "word": "AHEAD",
+          "start": 9.17,
+          "end": 9.58
+        },
+        {
+          "word": "OF",
+          "start": 9.58,
+          "end": 9.99
+        },
+        {
+          "word": "YOUR",
+          "start": 9.99,
+          "end": 10.41
+        },
+        {
+          "word": "GPS!",
+          "start": 10.41,
+          "end": 10.82
+        }
+      ]
+    },
+    {
+      "start": 11.42,
+      "end": 13.61,
+      "text": "CHOPPERS SPOTLIGHT EVERY TURN YOU MAKE!",
+      "words": [
+        {
+          "word": "CHOPPERS",
+          "start": 11.42,
+          "end": 11.79
+        },
+        {
+          "word": "SPOTLIGHT",
+          "start": 11.79,
+          "end": 12.15
+        },
+        {
+          "word": "EVERY",
+          "start": 12.15,
+          "end": 12.52
+        },
+        {
+          "word": "TURN",
+          "start": 12.52,
+          "end": 12.88
+        },
+        {
+          "word": "YOU",
+          "start": 12.88,
+          "end": 13.24
+        },
+        {
+          "word": "MAKE!",
+          "start": 13.24,
+          "end": 13.61
+        }
+      ]
+    },
+    {
+      "start": 14.21,
+      "end": 16.49,
+      "text": "THERE IS LITERALLY ZERO CHANCE TO ESCAPE!",
+      "words": [
+        {
+          "word": "THERE",
+          "start": 14.21,
+          "end": 14.54
+        },
+        {
+          "word": "IS",
+          "start": 14.54,
+          "end": 14.86
+        },
+        {
+          "word": "LITERALLY",
+          "start": 14.86,
+          "end": 15.19
+        },
+        {
+          "word": "ZERO",
+          "start": 15.19,
+          "end": 15.51
+        },
+        {
+          "word": "CHANCE",
+          "start": 15.51,
+          "end": 15.84
+        },
+        {
+          "word": "TO",
+          "start": 15.84,
+          "end": 16.17
+        },
+        {
+          "word": "ESCAPE!",
+          "start": 16.17,
+          "end": 16.49
+        }
+      ]
+    }
+  ]
+}

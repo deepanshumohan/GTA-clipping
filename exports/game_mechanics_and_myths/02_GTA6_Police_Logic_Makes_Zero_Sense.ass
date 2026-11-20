@@ -11,60 +11,23 @@ Style: Caption,Arial,65,&H0000FFFF,&H0000FF00,&H00000000,&H00000000,-1,0,0,0,100
 Style: Hook,Arial,59,&H0000FFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,8,108,108,250,1
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.36,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k16}SINCE {\k20}THE
 Dialogue: 0,0:00:00.00,0:00:03.00,Hook,,0,0,0,,GTA 6 POLICE LOGIC MAKES ZERO SENSE{\c&H000000FF&}!{\c&H0000FFFF&}
-Dialogue: 0,0:00:00.36,0:00:00.76,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k20}MOMENT {\k20}THAT
-Dialogue: 0,0:00:00.76,0:00:01.30,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k24}GTA {\k30}{\c&H0000FF00&}6{\c&H0000FFFF&}
-Dialogue: 0,0:00:01.30,0:00:01.72,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k24}CAME {\k18}OUT,
-Dialogue: 0,0:00:01.82,0:00:02.16,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k16}PEOPLE {\k18}HAVE
-Dialogue: 0,0:00:02.16,0:00:02.54,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k18}LOW {\k20}-KEY
-Dialogue: 0,0:00:02.54,0:00:03.06,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k14}BEEN {\k38}REALIZING
-Dialogue: 0,0:00:03.06,0:00:03.74,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k36}HOW {\k32}WEIRD
-Dialogue: 0,0:00:03.74,0:00:04.04,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k22}SOME {\k8}OF
-Dialogue: 0,0:00:04.04,0:00:04.54,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k14}THE {\k36}FEATURES
-Dialogue: 0,0:00:04.54,0:00:04.88,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k34}ARE.
-Dialogue: 0,0:00:04.98,0:00:05.18,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k12}LIKE, {\k8}ON
-Dialogue: 0,0:00:05.18,0:00:05.42,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k10}THE {\k14}MORE
-Dialogue: 0,0:00:05.42,0:00:06.10,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k32}NORMAL {\k36}SIDE
-Dialogue: 0,0:00:06.10,0:00:06.44,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k14}OF {\k20}THINGS,
-Dialogue: 0,0:00:06.62,0:00:07.08,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k18}JASON {\k28}CAN
-Dialogue: 0,0:00:07.08,0:00:07.86,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k20}GET {\k58}UNALIVED
-Dialogue: 0,0:00:07.86,0:00:08.30,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k20}BY {\k24}THINGS
-Dialogue: 0,0:00:08.30,0:00:08.68,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k20}LIKE {\k18}A
-Dialogue: 0,0:00:08.68,0:00:09.60,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k36}CROCODILE {\k56}OR
-Dialogue: 0,0:00:09.60,0:00:10.08,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k16}A {\k32}TIGER,
-Dialogue: 0,0:00:10.28,0:00:10.54,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k6}BUT {\k20}THEY'VE
-Dialogue: 0,0:00:10.54,0:00:11.14,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k22}ALSO {\k38}INCLUDED
-Dialogue: 0,0:00:11.14,0:00:11.86,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k32}REALLY {\k40}RANDOM
-Dialogue: 0,0:00:11.86,0:00:12.58,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k40}ELEMENTS {\k32}LIKE
-Dialogue: 0,0:00:12.58,0:00:13.42,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k32}DOGS {\k52}RIDING
-Dialogue: 0,0:00:13.42,0:00:14.08,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k66}JESSKEYS,
-Dialogue: 0,0:00:14.24,0:00:14.56,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k14}WHICH {\k18}KIND
-Dialogue: 0,0:00:14.56,0:00:14.76,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k10}OF {\k10}HAS
-Dialogue: 0,0:00:14.76,0:00:15.22,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k24}PEOPLE {\k22}MAD
-Dialogue: 0,0:00:15.22,0:00:15.44,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k12}IN {\k10}THE
-Dialogue: 0,0:00:15.44,0:00:16.18,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k30}COMMENTS {\k44}CONSIDERING
-Dialogue: 0,0:00:16.18,0:00:16.74,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k36}THIS {\k20}GAME
-Dialogue: 0,0:00:16.74,0:00:17.04,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k14}IS {\k16}SUPPOSED
-Dialogue: 0,0:00:17.04,0:00:17.38,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k24}TO {\k10}BE
-Dialogue: 0,0:00:17.38,0:00:17.86,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k48}REALISTIC.
-Dialogue: 0,0:00:18.18,0:00:18.42,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k22}THOUGHTS {\k2}HAVE
-Dialogue: 0,0:00:18.42,0:00:18.82,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k22}MENTIONED {\k18}THEY
-Dialogue: 0,0:00:18.82,0:00:19.12,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k18}MADE {\k12}IT
-Dialogue: 0,0:00:19.12,0:00:19.76,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k40}ILLEGAL {\k24}TO
-Dialogue: 0,0:00:19.76,0:00:20.02,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k16}BE {\k10}A
-Dialogue: 0,0:00:20.02,0:00:20.40,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k38}FURRY,
-Dialogue: 0,0:00:20.58,0:00:20.76,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k6}AND {\k12}THERE
-Dialogue: 0,0:00:20.76,0:00:21.28,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k14}ARE {\k38}LITERAL
-Dialogue: 0,0:00:21.28,0:00:22.64,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k54}EMERGENCY {\k82}{\c&H0000FF00&}BROADCASTS{\c&H0000FFFF&}
-Dialogue: 0,0:00:22.64,0:00:22.94,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k12}SAYING {\k18}THAT
-Dialogue: 0,0:00:22.94,0:00:23.20,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k14}IF {\k12}YOU
-Dialogue: 0,0:00:23.20,0:00:23.74,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k22}HEAR {\k32}SOMEONE
-Dialogue: 0,0:00:23.74,0:00:24.30,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k26}SAY {\k30}SOMETHING
-Dialogue: 0,0:00:24.30,0:00:24.78,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k22}LIKE {\k26}RAW
-Dialogue: 0,0:00:24.78,0:00:25.28,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k50}XD,
-Dialogue: 0,0:00:25.58,0:00:25.84,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k12}YOU {\k14}NEED
-Dialogue: 0,0:00:25.84,0:00:26.22,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k14}TO {\k24}REPORT
-Dialogue: 0,0:00:26.22,0:00:26.56,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k20}THEM {\k14}TO
-Dialogue: 0,0:00:26.56,0:00:26.92,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k8}THE {\k28}POLICE
-Dialogue: 0,0:00:26.92,0:00:27.40,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k48}IMMEDIATELY.
+Dialogue: 0,0:00:00.50,0:00:01.41,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k45}GTA {\k46}{\c&H0000FF00&}6{\c&H0000FFFF&}
+Dialogue: 0,0:00:01.41,0:00:02.31,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k45}POLICE {\k45}LOGIC
+Dialogue: 0,0:00:02.31,0:00:03.22,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k46}MAKES {\k45}ZERO
+Dialogue: 0,0:00:03.22,0:00:03.68,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k46}SENSE{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:04.28,0:00:05.15,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k43}ACCIDENTALLY {\k44}BUMP
+Dialogue: 0,0:00:05.15,0:00:06.02,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k43}A {\k44}COP...
+Dialogue: 0,0:00:06.02,0:00:06.89,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k43}INSTANT {\k44}{\c&H0000FF00&}5{\c&H0000FFFF&}
+Dialogue: 0,0:00:06.89,0:00:07.32,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k43}STARS{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:07.92,0:00:08.75,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k42}SWAT {\k41}SPAWNS
+Dialogue: 0,0:00:08.75,0:00:09.58,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k42}ROADBLOCKS {\k41}AHEAD
+Dialogue: 0,0:00:09.58,0:00:10.41,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k41}OF {\k42}YOUR
+Dialogue: 0,0:00:10.41,0:00:10.82,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k41}GPS{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:11.42,0:00:12.15,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k37}CHOPPERS {\k36}SPOTLIGHT
+Dialogue: 0,0:00:12.15,0:00:12.88,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k37}EVERY {\k36}TURN
+Dialogue: 0,0:00:12.88,0:00:13.61,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k36}YOU {\k37}MAKE{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:14.21,0:00:14.86,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k33}THERE {\k32}IS
+Dialogue: 0,0:00:14.86,0:00:15.51,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k33}LITERALLY {\k32}ZERO
+Dialogue: 0,0:00:15.51,0:00:16.17,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k33}CHANCE {\k33}TO
+Dialogue: 0,0:00:16.17,0:00:16.49,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k32}ESCAPE{\c&H000000FF&}!{\c&H0000FFFF&}

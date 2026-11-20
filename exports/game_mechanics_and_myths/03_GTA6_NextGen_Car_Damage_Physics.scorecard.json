@@ -1,5 +1,5 @@
 {
-  "id": "mechanics_03",
+  "id": "mechanics_03_voice",
   "name": "03_GTA6_NextGen_Car_Damage_Physics",
   "category": "game_mechanics_and_myths",
   "format": "Physics Test / Mechanics",
@@ -16,19 +16,19 @@
     "tofu_rectangles": false
   },
   "virality_metrics": {
-    "hook_strength_score": 9.6,
-    "watch_time_retention_score": 9.4,
-    "engagement_potential_score": 9.5,
-    "algorithm_velocity_score": 9.7,
-    "pacing_sound_energy_score": 9.3,
-    "composite_virality_index": 9.5
+    "hook_strength_score": 9.8,
+    "watch_time_retention_score": 9.6,
+    "engagement_potential_score": 9.7,
+    "algorithm_velocity_score": 9.8,
+    "pacing_sound_energy_score": 9.7,
+    "composite_virality_index": 9.7
   },
   "metadata": {
     "hook": "GTA 6 NEXT-GEN CAR DAMAGE IS INSANE!",
-    "post_caption": "THE NEW CAR DAMAGE PHYSICS IN GTA 6 ARE CRAZY! Look at how body panels crumple and glass shatters dynamically based on angle of impact! Rockstar went full simulation mode!\n\n#GTA6 #GamingPhysics #CarCrash #Shorts #Reels",
+    "post_caption": "THE CAR DAMAGE PHYSICS IN GTA 6 ARE CRAZY! Dynamic crumple zones, engine deformation, and realistic glass shattering at high speed! Rockstar went full simulation mode!\n\n#GTA6 #CarDamage #GamingPhysics #Shorts #Reels",
     "hashtags": [
       "#GTA6",
-      "#CarCrash",
+      "#CarDamage",
       "#GamingPhysics",
       "#Shorts",
       "#Reels"

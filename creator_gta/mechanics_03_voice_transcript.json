@@ -1,0 +1,174 @@
+{
+  "segments": [
+    {
+      "start": 0.5,
+      "end": 3.64,
+      "text": "TESTING NEXT-GEN CAR DAMAGE IN GTA 6!",
+      "words": [
+        {
+          "word": "TESTING",
+          "start": 0.5,
+          "end": 0.95
+        },
+        {
+          "word": "NEXT-GEN",
+          "start": 0.95,
+          "end": 1.4
+        },
+        {
+          "word": "CAR",
+          "start": 1.4,
+          "end": 1.85
+        },
+        {
+          "word": "DAMAGE",
+          "start": 1.85,
+          "end": 2.3
+        },
+        {
+          "word": "IN",
+          "start": 2.3,
+          "end": 2.75
+        },
+        {
+          "word": "GTA",
+          "start": 2.75,
+          "end": 3.19
+        },
+        {
+          "word": "6!",
+          "start": 3.19,
+          "end": 3.64
+        }
+      ]
+    },
+    {
+      "start": 4.24,
+      "end": 6.44,
+      "text": "HIGH-SPEED IMPACT CRASH DEFORMATION!",
+      "words": [
+        {
+          "word": "HIGH-SPEED",
+          "start": 4.24,
+          "end": 4.79
+        },
+        {
+          "word": "IMPACT",
+          "start": 4.79,
+          "end": 5.34
+        },
+        {
+          "word": "CRASH",
+          "start": 5.34,
+          "end": 5.89
+        },
+        {
+          "word": "DEFORMATION!",
+          "start": 5.89,
+          "end": 6.44
+        }
+      ]
+    },
+    {
+      "start": 7.04,
+      "end": 9.21,
+      "text": "PANELS CRUMPLE DYNAMICALLY ON ANGLE!",
+      "words": [
+        {
+          "word": "PANELS",
+          "start": 7.04,
+          "end": 7.48
+        },
+        {
+          "word": "CRUMPLE",
+          "start": 7.48,
+          "end": 7.91
+        },
+        {
+          "word": "DYNAMICALLY",
+          "start": 7.91,
+          "end": 8.35
+        },
+        {
+          "word": "ON",
+          "start": 8.35,
+          "end": 8.78
+        },
+        {
+          "word": "ANGLE!",
+          "start": 8.78,
+          "end": 9.21
+        }
+      ]
+    },
+    {
+      "start": 9.81,
+      "end": 13.23,
+      "text": "FULL WHEEL DETACHMENT AT 150 MPH!",
+      "words": [
+        {
+          "word": "FULL",
+          "start": 9.81,
+          "end": 10.38
+        },
+        {
+          "word": "WHEEL",
+          "start": 10.38,
+          "end": 10.95
+        },
+        {
+          "word": "DETACHMENT",
+          "start": 10.95,
+          "end": 11.52
+        },
+        {
+          "word": "AT",
+          "start": 11.52,
+          "end": 12.09
+        },
+        {
+          "word": "150",
+          "start": 12.09,
+          "end": 12.66
+        },
+        {
+          "word": "MPH!",
+          "start": 12.66,
+          "end": 13.23
+        }
+      ]
+    },
+    {
+      "start": 13.83,
+      "end": 16.07,
+      "text": "ROCKSTAR REBUILT PHYSICS FROM SCRATCH!",
+      "words": [
+        {
+          "word": "ROCKSTAR",
+          "start": 13.83,
+          "end": 14.27
+        },
+        {
+          "word": "REBUILT",
+          "start": 14.27,
+          "end": 14.72
+        },
+        {
+          "word": "PHYSICS",
+          "start": 14.72,
+          "end": 15.17
+        },
+        {
+          "word": "FROM",
+          "start": 15.17,
+          "end": 15.62
+        },
+        {
+          "word": "SCRATCH!",
+          "start": 15.62,
+          "end": 16.07
+        }
+      ]
+    }
+  ]
+}

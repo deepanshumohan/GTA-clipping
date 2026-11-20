@@ -1,5 +1,5 @@
 {
-  "source": "/Users/deepanshumohan/Work/gta/creator_gta/gta6_speedrun.mp4",
+  "source": "/Users/deepanshumohan/Work/gta/creator_gta/mechanics_04_live_voiced.mp4",
   "transcript": "transcript.json",
   "width": 1080,
   "height": 1920,
@@ -12,12 +12,12 @@
       "ranges": [
         [
           0.0,
-          29.8
+          30.0
         ]
       ],
       "layout": "fit",
-      "title": "HOW FAST CAN YOU DRIVE ACROSS GTA 6?!",
-      "hook": "HOW FAST CAN YOU DRIVE ACROSS GTA 6?!",
+      "title": "DRIVING ACROSS THE ENTIRE GTA 6 MAP!",
+      "hook": "DRIVING ACROSS THE ENTIRE GTA 6 MAP!",
       "hook_seconds": 3.0,
       "burn_captions": true,
       "subtitle_preset": "hormozi",
@@ -30,12 +30,12 @@
       "primary_color": "&H0000FFFF",
       "secondary_color": "&H0000FF00",
       "outline_color": "&H00000000",
-      "reason": "Testing full-throttle highway speedrun from the highest northern point of the map down to Michael's hangar in under 5 minutes.",
-      "post_caption": "HOW FAST CAN YOU DRIVE ACROSS THE ENTIRE GTA 6 MAP?! Speedrunning the highway at 220 MPH to test the true scale of Vice City! Map size is massive!\n\n#GTA6Map #Speedrun #GamingFacts #Shorts #Reels",
+      "reason": "Real Vice City open-world map driving in GTA 6 showcasing neon streets, ocean drive, and massive state scale.",
+      "post_caption": "DRIVING ACROSS THE ENTIRE GTA 6 MAP! Testing the true scale of Vice City and Leonida at 220 MPH! Traffic density, volumetric lighting, and map size are unprecedented!\n\n#GTA6Map #ViceCity #GTA6 #Speedrun #Shorts #Reels",
       "hashtags": [
         "#GTA6Map",
-        "#Speedrun",
-        "#GamingFacts",
+        "#ViceCity",
+        "#GTA6",
         "#Shorts",
         "#Reels"
       ]
