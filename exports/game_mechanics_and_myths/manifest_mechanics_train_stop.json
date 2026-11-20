@@ -1,0 +1,44 @@
+{
+  "source": "/Users/deepanshumohan/Work/gta/scratch/render_tmp/mechanics_train_stop_premuxed.mp4",
+  "transcript": "/Users/deepanshumohan/Work/gta/scratch/render_tmp/mechanics_train_stop_transcript.json",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "font": "Arial",
+  "normalize_audio": true,
+  "reels": [
+    {
+      "name": "01_Can_You_Stop_The_Train_In_GTA6",
+      "ranges": [
+        [
+          0.0,
+          30.0
+        ]
+      ],
+      "layout": "fit",
+      "title": "CAN YOU STOP THE GTA 6 TRAIN?!",
+      "hook": "CAN YOU FINALLY STOP THE TRAIN?!",
+      "hook_seconds": 3.0,
+      "burn_captions": true,
+      "subtitle_preset": "hormozi",
+      "style_preset": "hormozi",
+      "subtitle_position": "bottom",
+      "words_per_group": 2,
+      "uppercase": true,
+      "word_pop": true,
+      "highlight_words": true,
+      "primary_color": "&H0000FFFF",
+      "secondary_color": "&H0000FF00",
+      "outline_color": "&H00000000",
+      "reason": "Live collision test parking a heavy pickup across tracks to verify if the GTA 6 passenger train can be derailed or stopped.",
+      "post_caption": "CAN YOU FINALLY STOP THE GTA 6 TRAIN?! In GTA 5 the train was literally indestructible, but in GTA 6 next-gen physics allow real collisions and emergency stops! Watch the high-speed impact!\n\n#GTA6 #GTAMyths #GamingMythbusters #Shorts #Reels",
+      "hashtags": [
+        "#GTA6",
+        "#GTAMyths",
+        "#Gaming",
+        "#Shorts",
+        "#Reels"
+      ]
+    }
+  ]
+}

@@ -11,20 +11,24 @@ Style: Caption,Arial,65,&H0000FFFF,&H0000FF00,&H00000000,&H00000000,-1,0,0,0,100
 Style: Hook,Arial,59,&H0000FFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,8,108,108,250,1
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.69,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k35}SPEED {\k34}GOT
 Dialogue: 0,0:00:00.00,0:00:03.00,Hook,,0,0,0,,SPEED'S CRAZIEST GTA 6 COP CHASE{\c&H000000FF&}!{\c&H0000FFFF&}
-Dialogue: 0,0:00:00.50,0:00:01.08,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k29}CHAT {\k29}CALLED
-Dialogue: 0,0:00:01.08,0:00:01.66,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k29}SPEED {\k29}AN
-Dialogue: 0,0:00:01.66,0:00:02.24,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k29}L {\k29}DRIVER{\c&H000000FF&}!{\c&H0000FFFF&}
-Dialogue: 0,0:00:02.74,0:00:03.37,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k32}SO {\k31}HE
-Dialogue: 0,0:00:03.37,0:00:04.00,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k32}STOLE {\k31}A
-Dialogue: 0,0:00:04.00,0:00:04.63,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k32}CAR {\k31}IN
-Dialogue: 0,0:00:04.63,0:00:05.26,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k32}GTA {\k31}{\c&H0000FF00&}6{\c&H000000FF&}!{\c&H0000FFFF&}{\c&H0000FFFF&}
-Dialogue: 0,0:00:05.76,0:00:06.38,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k31}POLICE {\k31}SQUAD
-Dialogue: 0,0:00:06.38,0:00:06.99,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k31}CARS {\k30}BOX
-Dialogue: 0,0:00:06.99,0:00:07.61,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k31}HIM {\k31}IN{\c&H000000FF&}!{\c&H0000FFFF&}
-Dialogue: 0,0:00:08.11,0:00:08.94,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k41}PULLING {\k42}A
-Dialogue: 0,0:00:08.94,0:00:09.77,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k42}HIGH {\k41}SPEED
-Dialogue: 0,0:00:09.77,0:00:10.60,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k42}REVERSE {\k41}{\c&H0000FF00&}180{\c&H000000FF&}!{\c&H0000FFFF&}{\c&H0000FFFF&}
-Dialogue: 0,0:00:11.10,0:00:11.91,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k41}THEY {\k40}CAN
-Dialogue: 0,0:00:11.91,0:00:12.71,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k40}NEVER {\k40}CATCH
-Dialogue: 0,0:00:12.71,0:00:13.11,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k40}I-SHOW-SPEED{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:00.69,0:00:01.38,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k35}A {\k34}WANTED
+Dialogue: 0,0:00:01.38,0:00:02.07,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k35}LEVEL {\k34}IN
+Dialogue: 0,0:00:02.07,0:00:02.76,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k35}GTA {\k34}{\c&H0000FF00&}6{\c&H0000FFFF&}
+Dialogue: 0,0:00:02.76,0:00:03.46,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k35}AND {\k35}CHAT
+Dialogue: 0,0:00:03.46,0:00:04.15,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k34}TOLD {\k35}HIM
+Dialogue: 0,0:00:04.15,0:00:04.84,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k34}HE {\k35}WAS
+Dialogue: 0,0:00:04.84,0:00:05.18,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k34}COOKED{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:05.18,0:00:07.27,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k104}LOSE {\k105}THE
+Dialogue: 0,0:00:07.27,0:00:09.35,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k104}COPS {\k104}BY
+Dialogue: 0,0:00:09.35,0:00:10.39,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k104}HIDING{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:10.39,0:00:12.12,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k87}SPEED: {\k86}{\c&H0000FF00&}WHAT{\c&H0000FFFF&}
+Dialogue: 0,0:00:12.12,0:00:13.86,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k87}THE {\k87}HECK{\c&H000000FF&}?!{\c&H0000FFFF&}
+Dialogue: 0,0:00:13.86,0:00:15.59,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k86}NO {\k87}WAY{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:15.59,0:00:17.67,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k104}SQUAD {\k104}CRUISERS
+Dialogue: 0,0:00:17.67,0:00:19.76,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k104}SURROUNDING {\k105}THE
+Dialogue: 0,0:00:19.76,0:00:20.80,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k104}ALLEY{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:20.80,0:00:22.53,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k86}PEAK {\k87}ISHOWSPEED
+Dialogue: 0,0:00:22.53,0:00:24.27,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k87}PANIC {\k87}IN
+Dialogue: 0,0:00:24.27,0:00:26.00,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k86}GTA {\k87}{\c&H0000FF00&}6{\c&H000000FF&}!{\c&H0000FFFF&}{\c&H0000FFFF&}

@@ -11,27 +11,24 @@ Style: Caption,Arial,65,&H0000FFFF,&H0000FF00,&H00000000,&H00000000,-1,0,0,0,100
 Style: Hook,Arial,59,&H0000FFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,8,108,108,250,1
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.98,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k49}HOW {\k49}FAST
 Dialogue: 0,0:00:00.00,0:00:03.00,Hook,,0,0,0,,DRIVING ACROSS THE ENTIRE GTA 6 MAP{\c&H000000FF&}!{\c&H0000FFFF&}
-Dialogue: 0,0:00:00.50,0:00:01.17,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k33}HOW {\k34}LONG
-Dialogue: 0,0:00:01.17,0:00:01.83,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k33}TO {\k33}DRIVE
-Dialogue: 0,0:00:01.83,0:00:02.50,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k33}ACROSS {\k34}THE
-Dialogue: 0,0:00:02.50,0:00:03.16,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k33}ENTIRE {\k33}GTA
-Dialogue: 0,0:00:03.16,0:00:03.83,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k33}{\c&H0000FF00&}6{\c&H0000FFFF&} {\k34}MAP{\c&H000000FF&}?!{\c&H0000FFFF&}
-Dialogue: 0,0:00:04.43,0:00:05.11,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k34}STARTING {\k34}IN
-Dialogue: 0,0:00:05.11,0:00:05.79,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k34}DOWNTOWN {\k34}VICE
-Dialogue: 0,0:00:05.79,0:00:06.47,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k34}CITY {\k34}AT
-Dialogue: 0,0:00:06.47,0:00:07.15,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k34}FULL {\k34}THROTTLE{\c&H000000FF&}!{\c&H0000FFFF&}
-Dialogue: 0,0:00:07.75,0:00:08.74,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k50}SPEEDING {\k49}DOWN
-Dialogue: 0,0:00:08.74,0:00:09.73,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k49}OCEAN {\k50}DRIVE
-Dialogue: 0,0:00:09.73,0:00:10.71,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k49}AT {\k49}{\c&H0000FF00&}220{\c&H0000FFFF&}
-Dialogue: 0,0:00:10.71,0:00:11.20,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k49}MPH{\c&H000000FF&}!{\c&H0000FFFF&}
-Dialogue: 0,0:00:11.80,0:00:12.53,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k37}THE {\k36}DENSITY
-Dialogue: 0,0:00:12.53,0:00:13.26,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k37}OF {\k36}TRAFFIC
-Dialogue: 0,0:00:13.26,0:00:14.00,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k37}AND {\k37}PEDESTRIANS
-Dialogue: 0,0:00:14.00,0:00:14.73,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k36}IS {\k37}UNREAL{\c&H000000FF&}!{\c&H0000FFFF&}
-Dialogue: 0,0:00:15.33,0:00:15.89,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k28}THIS {\k28}MAP
-Dialogue: 0,0:00:15.89,0:00:16.45,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k28}IS {\k28}MORE
-Dialogue: 0,0:00:16.45,0:00:17.02,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k28}THAN {\k29}TWICE
-Dialogue: 0,0:00:17.02,0:00:17.58,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k28}AS {\k28}BIG
-Dialogue: 0,0:00:17.58,0:00:18.14,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k28}AS {\k28}GTA
-Dialogue: 0,0:00:18.14,0:00:18.42,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k28}{\c&H0000FF00&}5{\c&H000000FF&}!{\c&H0000FFFF&}{\c&H0000FFFF&}
+Dialogue: 0,0:00:00.98,0:00:01.96,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k49}CAN {\k49}YOU
+Dialogue: 0,0:00:01.96,0:00:02.95,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k50}DRIVE {\k49}ACROSS
+Dialogue: 0,0:00:02.95,0:00:03.93,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k49}THE {\k49}ENTIRE
+Dialogue: 0,0:00:03.93,0:00:04.91,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k49}GTA {\k49}{\c&H0000FF00&}6{\c&H0000FFFF&}
+Dialogue: 0,0:00:04.91,0:00:05.89,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k49}MAP{\c&H000000FF&}?{\c&H0000FFFF&} {\k49}FULL
+Dialogue: 0,0:00:05.89,0:00:06.38,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k49}THROTTLE{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:06.38,0:00:07.86,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k74}STARTING {\k74}IN
+Dialogue: 0,0:00:07.86,0:00:09.34,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k74}DOWNTOWN {\k74}VICE
+Dialogue: 0,0:00:09.34,0:00:10.81,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k73}CITY {\k74}AT
+Dialogue: 0,0:00:10.81,0:00:12.29,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k74}TOP {\k74}SPEED{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:12.29,0:00:14.26,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k98}HIGHWAY {\k99}BRIDGES
+Dialogue: 0,0:00:14.26,0:00:16.22,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k98}SPANNING {\k98}ACROSS
+Dialogue: 0,0:00:16.22,0:00:18.19,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k99}THE {\k98}KEYS{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:18.19,0:00:20.55,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k118}{\c&H0000FF00&}220{\c&H0000FFFF&} {\k118}MPH
+Dialogue: 0,0:00:20.55,0:00:22.92,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k118}SUPERCAR {\k119}ENGINE
+Dialogue: 0,0:00:22.92,0:00:24.10,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k118}SCREAMING{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:24.10,0:00:26.06,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k98}THE {\k98}STATE
+Dialogue: 0,0:00:26.06,0:00:28.03,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k99}OF {\k98}LEONIDA
+Dialogue: 0,0:00:28.03,0:00:30.00,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k99}IS {\k98}MASSIVE{\c&H000000FF&}!{\c&H0000FFFF&}

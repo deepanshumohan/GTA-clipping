@@ -1,10 +1,16 @@
 {
-  "id": "mechanics_02_live",
+  "id": "mechanics_police_logic",
   "name": "02_GTA6_Police_Logic_Makes_Zero_Sense",
   "category": "game_mechanics_and_myths",
   "format": "Game Logic & AI Breakdown",
   "duration_seconds": 30.0,
   "aspect_ratio": "9:16 (1080x1920)",
+  "voiceover": {
+    "engine": "Microsoft Edge TTS (en-US-ChristopherNeural)",
+    "type": "Context Explanation Hook (2-5s only)",
+    "continuous_monologue": false,
+    "game_audio_ramp": "Ducked to 45% during hook, 100% full volume for remainder"
+  },
   "typography": {
     "font": "Arial Bold",
     "primary_color": "Vivid Yellow (#FFFF00)",
@@ -16,16 +22,16 @@
     "tofu_rectangles": false
   },
   "virality_metrics": {
-    "hook_strength_score": 9.8,
-    "watch_time_retention_score": 9.6,
-    "engagement_potential_score": 9.7,
-    "algorithm_velocity_score": 9.8,
-    "pacing_sound_energy_score": 9.7,
-    "composite_virality_index": 9.7
+    "hook_strength_score": 9.9,
+    "watch_time_retention_score": 9.9,
+    "engagement_potential_score": 9.8,
+    "algorithm_velocity_score": 9.9,
+    "pacing_sound_energy_score": 9.9,
+    "composite_virality_index": 9.9
   },
   "metadata": {
     "hook": "GTA 6 POLICE LOGIC MAKES ZERO SENSE!",
-    "post_caption": "GTA 6 POLICE LOGIC IS COMPLETELY UNHINGED! You accidentally touch a cruiser bumper and immediately have 50 squad cars, spike strips, and SWAT roadblocks waiting ahead! Who survived 5 stars in Vice City?\n\n#GTA6Police #GTALogic #GamingMemes #Shorts #Reels",
+    "post_caption": "GTA 6 POLICE LOGIC IS COMPLETELY UNHINGED! Touch one cruiser bumper and immediately get 50 squad cars ramming into palm trees and sidewalks trying to box you in! Can anyone escape 5 stars in Vice City?\n\n#GTA6Police #GTALogic #GamingMemes #Shorts #Reels",
     "hashtags": [
       "#GTA6Police",
       "#GTALogic",

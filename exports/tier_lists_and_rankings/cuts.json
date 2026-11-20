@@ -1,5 +1,5 @@
 {
-  "source": "/Users/deepanshumohan/Work/gta/creator_gta/tier_05_damage_voiced.mp4",
+  "source": "/Users/deepanshumohan/Work/gta/scratch/render_tmp/mechanics_damage_tier_list_premuxed.mp4",
   "transcript": "transcript.json",
   "width": 1080,
   "height": 1920,
@@ -16,8 +16,8 @@
         ]
       ],
       "layout": "fit",
-      "title": "GTA 6 DAMAGE PHYSICS TIER LIST!",
-      "hook": "GTA 6 DAMAGE PHYSICS TIER LIST!",
+      "title": "GTA 6 DAMAGE PHYSICS ITEM TIER LIST!",
+      "hook": "GTA 6 DAMAGE PHYSICS ITEM TIER LIST!",
       "hook_seconds": 3.0,
       "burn_captions": true,
       "subtitle_preset": "hormozi",
@@ -30,13 +30,12 @@
       "primary_color": "&H0000FFFF",
       "secondary_color": "&H0000FF00",
       "outline_color": "&H00000000",
-      "reason": "Ranking the damage physics and deformation of cars, trucks, trains, planes, buses, and storefront shops from S-Tier to F-Tier.",
-      "post_caption": "GTA 6 DAMAGE PHYSICS TIER LIST! Ranking vehicle destruction from S-Tier to God-Tier! Supercars deform dynamically, trucks plow through barriers, and trains can finally be stopped! Where do you rank the physics?\n\n#TierList #GTA6 #GamingPhysics #CarCrash #Shorts #Reels",
+      "reason": "Ranking the destruction physics of cars, trucks, buses, shops, and the train from worst to god-tier.",
+      "post_caption": "GTA 6 DAMAGE PHYSICS TIER LIST! Ranking vehicle destruction from B-Tier to God-Tier! Watch how supercars crumple vs heavy trucks! Do you agree with this ranking?\n\n#GTA6 #TierList #DamagePhysics #GamingShorts #Reels",
       "hashtags": [
-        "#TierList",
         "#GTA6",
-        "#GamingPhysics",
-        "#CarCrash",
+        "#TierList",
+        "#DamagePhysics",
         "#Shorts",
         "#Reels"
       ]

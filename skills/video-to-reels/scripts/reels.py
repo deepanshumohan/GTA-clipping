@@ -447,7 +447,9 @@ EMOJI_REGEX = re.compile(
 )
 
 def clean_no_emoji(text):
-    return EMOJI_REGEX.sub('', text).strip()
+    # Strip all emojis, pictographs, symbols, and non-ASCII glyphs to guarantee NO tofu boxes (□) in ASS fonts
+    text = re.sub(r'[^\x00-\x7F]+', ' ', str(text))
+    return re.sub(r'\s+', ' ', text).strip()
 
 def red_punct(text):
     # Formats exclamation marks and question marks in bright red {\c&H000000FF&}!{\c&H0000FFFF&}

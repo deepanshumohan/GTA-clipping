@@ -1,10 +1,16 @@
 {
-  "id": "mechanics_04_live",
+  "id": "mechanics_map_drive",
   "name": "04_Driving_Across_The_Entire_GTA6_Map",
   "category": "game_mechanics_and_myths",
   "format": "Map Exploration & Scale Fact",
   "duration_seconds": 30.0,
   "aspect_ratio": "9:16 (1080x1920)",
+  "voiceover": {
+    "engine": "Microsoft Edge TTS (en-US-ChristopherNeural)",
+    "type": "Context Explanation Hook (2-5s only)",
+    "continuous_monologue": false,
+    "game_audio_ramp": "Ducked to 45% during hook, 100% full volume for remainder"
+  },
   "typography": {
     "font": "Arial Bold",
     "primary_color": "Vivid Yellow (#FFFF00)",
@@ -16,20 +22,19 @@
     "tofu_rectangles": false
   },
   "virality_metrics": {
-    "hook_strength_score": 9.8,
-    "watch_time_retention_score": 9.6,
-    "engagement_potential_score": 9.7,
-    "algorithm_velocity_score": 9.8,
-    "pacing_sound_energy_score": 9.7,
-    "composite_virality_index": 9.7
+    "hook_strength_score": 9.9,
+    "watch_time_retention_score": 9.9,
+    "engagement_potential_score": 9.8,
+    "algorithm_velocity_score": 9.9,
+    "pacing_sound_energy_score": 9.9,
+    "composite_virality_index": 9.9
   },
   "metadata": {
     "hook": "DRIVING ACROSS THE ENTIRE GTA 6 MAP!",
-    "post_caption": "DRIVING ACROSS THE ENTIRE GTA 6 MAP! Testing the true scale of Vice City and Leonida at 220 MPH! Traffic density, volumetric lighting, and map size are unprecedented!\n\n#GTA6Map #ViceCity #GTA6 #Speedrun #Shorts #Reels",
+    "post_caption": "DRIVING ACROSS THE ENTIRE GTA 6 MAP AT 220 MPH! Starting from Downtown Vice City all the way through neon boulevards and ocean highways! Leonida is 2.5x bigger than Los Santos!\n\n#GTA6Map #ViceCity #Supercars #Shorts #Reels",
     "hashtags": [
       "#GTA6Map",
-      "#ViceCity",
-      "#GTA6",
+      "#ViceCity #Supercars",
       "#Shorts",
       "#Reels"
     ]

@@ -1,0 +1,44 @@
+{
+  "source": "/Users/deepanshumohan/Work/gta/scratch/render_tmp/mechanics_car_damage_premuxed.mp4",
+  "transcript": "/Users/deepanshumohan/Work/gta/scratch/render_tmp/mechanics_car_damage_transcript.json",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "font": "Arial",
+  "normalize_audio": true,
+  "reels": [
+    {
+      "name": "03_GTA6_NextGen_Car_Damage_Physics",
+      "ranges": [
+        [
+          0.0,
+          25.0
+        ]
+      ],
+      "layout": "fit",
+      "title": "GTA 6 NEXT-GEN CAR DAMAGE IS INSANE!",
+      "hook": "GTA 6 NEXT-GEN CAR DAMAGE IS INSANE!",
+      "hook_seconds": 3.0,
+      "burn_captions": true,
+      "subtitle_preset": "hormozi",
+      "style_preset": "hormozi",
+      "subtitle_position": "bottom",
+      "words_per_group": 2,
+      "uppercase": true,
+      "word_pop": true,
+      "highlight_words": true,
+      "primary_color": "&H0000FFFF",
+      "secondary_color": "&H0000FF00",
+      "outline_color": "&H00000000",
+      "reason": "Next-gen crash tests showing dynamic crumple deformation and chassis twisting with pure destruction audio.",
+      "post_caption": "THE CAR DAMAGE PHYSICS IN GTA 6 ARE CRAZY! Dynamic crumple zones, frame twisting, and wheel detachment at 150+ MPH! Rockstar went full simulation mode!\n\n#GTA6 #CarDamage #GamingPhysics #Shorts #Reels",
+      "hashtags": [
+        "#GTA6",
+        "#CarDamage",
+        "#GamingPhysics",
+        "#Shorts",
+        "#Reels"
+      ]
+    }
+  ]
+}

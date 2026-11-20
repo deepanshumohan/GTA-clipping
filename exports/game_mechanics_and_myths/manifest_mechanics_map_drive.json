@@ -1,0 +1,43 @@
+{
+  "source": "/Users/deepanshumohan/Work/gta/scratch/render_tmp/mechanics_map_drive_premuxed.mp4",
+  "transcript": "/Users/deepanshumohan/Work/gta/scratch/render_tmp/mechanics_map_drive_transcript.json",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "font": "Arial",
+  "normalize_audio": true,
+  "reels": [
+    {
+      "name": "04_Driving_Across_The_Entire_GTA6_Map",
+      "ranges": [
+        [
+          0.0,
+          30.0
+        ]
+      ],
+      "layout": "fit",
+      "title": "DRIVING ACROSS THE ENTIRE GTA 6 MAP!",
+      "hook": "DRIVING ACROSS THE ENTIRE GTA 6 MAP!",
+      "hook_seconds": 3.0,
+      "burn_captions": true,
+      "subtitle_preset": "hormozi",
+      "style_preset": "hormozi",
+      "subtitle_position": "bottom",
+      "words_per_group": 2,
+      "uppercase": true,
+      "word_pop": true,
+      "highlight_words": true,
+      "primary_color": "&H0000FFFF",
+      "secondary_color": "&H0000FF00",
+      "outline_color": "&H00000000",
+      "reason": "High-speed 220 MPH supercar run across Vice City highways, neon bridges, and state thoroughfares.",
+      "post_caption": "DRIVING ACROSS THE ENTIRE GTA 6 MAP AT 220 MPH! Starting from Downtown Vice City all the way through neon boulevards and ocean highways! Leonida is 2.5x bigger than Los Santos!\n\n#GTA6Map #ViceCity #Supercars #Shorts #Reels",
+      "hashtags": [
+        "#GTA6Map",
+        "#ViceCity #Supercars",
+        "#Shorts",
+        "#Reels"
+      ]
+    }
+  ]
+}

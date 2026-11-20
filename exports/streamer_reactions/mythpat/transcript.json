@@ -1,187 +1,227 @@
 {
   "segments": [
     {
-      "start": 0.5,
-      "end": 3.08,
-      "text": "MYTHPAT'S MIND BLOWN BY GTA 6!",
+      "start": 0.0,
+      "end": 7.01,
+      "text": "MYTHPAT MIND WAS COMPLETELY BLOWN BY GTA 6 GRAPHICS! WATCH HIS REACTION!",
       "words": [
         {
-          "word": "MYTHPAT'S",
-          "start": 0.5,
-          "end": 0.93
+          "word": "MYTHPAT",
+          "start": 0.0,
+          "end": 0.58
         },
         {
           "word": "MIND",
-          "start": 0.93,
-          "end": 1.36
+          "start": 0.58,
+          "end": 1.17
+        },
+        {
+          "word": "WAS",
+          "start": 1.17,
+          "end": 1.75
+        },
+        {
+          "word": "COMPLETELY",
+          "start": 1.75,
+          "end": 2.34
         },
         {
           "word": "BLOWN",
-          "start": 1.36,
-          "end": 1.79
+          "start": 2.34,
+          "end": 2.92
         },
         {
           "word": "BY",
-          "start": 1.79,
-          "end": 2.22
+          "start": 2.92,
+          "end": 3.5
         },
         {
           "word": "GTA",
-          "start": 2.22,
-          "end": 2.65
+          "start": 3.5,
+          "end": 4.09
         },
         {
-          "word": "6!",
-          "start": 2.65,
-          "end": 3.08
+          "word": "6",
+          "start": 4.09,
+          "end": 4.67
+        },
+        {
+          "word": "GRAPHICS!",
+          "start": 4.67,
+          "end": 5.26
+        },
+        {
+          "word": "WATCH",
+          "start": 5.26,
+          "end": 5.84
+        },
+        {
+          "word": "HIS",
+          "start": 5.84,
+          "end": 6.42
+        },
+        {
+          "word": "REACTION!",
+          "start": 6.42,
+          "end": 7.01
         }
       ]
     },
     {
-      "start": 3.58,
-      "end": 5.88,
+      "start": 7.01,
+      "end": 12.26,
+      "text": "MYTHPAT: DIMAAG HILA DIYA IS GAME NE!",
+      "words": [
+        {
+          "word": "MYTHPAT:",
+          "start": 7.01,
+          "end": 7.76
+        },
+        {
+          "word": "DIMAAG",
+          "start": 7.76,
+          "end": 8.51
+        },
+        {
+          "word": "HILA",
+          "start": 8.51,
+          "end": 9.26
+        },
+        {
+          "word": "DIYA",
+          "start": 9.26,
+          "end": 10.01
+        },
+        {
+          "word": "IS",
+          "start": 10.01,
+          "end": 10.76
+        },
+        {
+          "word": "GAME",
+          "start": 10.76,
+          "end": 11.51
+        },
+        {
+          "word": "NE!",
+          "start": 11.51,
+          "end": 12.26
+        }
+      ]
+    },
+    {
+      "start": 12.26,
+      "end": 17.5,
       "text": "LOOK AT THIS NEXT-GEN GRAPHICS ENGINE!",
       "words": [
         {
           "word": "LOOK",
-          "start": 3.58,
-          "end": 3.96
+          "start": 12.26,
+          "end": 13.13
         },
         {
           "word": "AT",
-          "start": 3.96,
-          "end": 4.35
+          "start": 13.13,
+          "end": 14.01
         },
         {
           "word": "THIS",
-          "start": 4.35,
-          "end": 4.73
+          "start": 14.01,
+          "end": 14.88
         },
         {
           "word": "NEXT-GEN",
-          "start": 4.73,
-          "end": 5.11
+          "start": 14.88,
+          "end": 15.75
         },
         {
           "word": "GRAPHICS",
-          "start": 5.11,
-          "end": 5.5
+          "start": 15.75,
+          "end": 16.63
         },
         {
           "word": "ENGINE!",
-          "start": 5.5,
-          "end": 5.88
+          "start": 16.63,
+          "end": 17.5
         }
       ]
     },
     {
-      "start": 6.38,
-      "end": 9.11,
-      "text": "EVERY NPC HAS REALISTIC REACTIONS!",
-      "words": [
-        {
-          "word": "EVERY",
-          "start": 6.38,
-          "end": 6.93
-        },
-        {
-          "word": "NPC",
-          "start": 6.93,
-          "end": 7.47
-        },
-        {
-          "word": "HAS",
-          "start": 7.47,
-          "end": 8.02
-        },
-        {
-          "word": "REALISTIC",
-          "start": 8.02,
-          "end": 8.57
-        },
-        {
-          "word": "REACTIONS!",
-          "start": 8.57,
-          "end": 9.11
-        }
-      ]
-    },
-    {
-      "start": 9.61,
-      "end": 11.93,
-      "text": "THE VEHICLE CRASH PHYSICS ARE UNBELIEVABLE!",
+      "start": 17.5,
+      "end": 22.75,
+      "text": "THE REALISTIC PEDESTRIAN CROWDS AND CARS!",
       "words": [
         {
           "word": "THE",
-          "start": 9.61,
-          "end": 10.0
+          "start": 17.5,
+          "end": 18.38
         },
         {
-          "word": "VEHICLE",
-          "start": 10.0,
-          "end": 10.39
+          "word": "REALISTIC",
+          "start": 18.38,
+          "end": 19.25
         },
         {
-          "word": "CRASH",
-          "start": 10.39,
-          "end": 10.77
+          "word": "PEDESTRIAN",
+          "start": 19.25,
+          "end": 20.13
         },
         {
-          "word": "PHYSICS",
-          "start": 10.77,
-          "end": 11.16
+          "word": "CROWDS",
+          "start": 20.13,
+          "end": 21.0
         },
         {
-          "word": "ARE",
-          "start": 11.16,
-          "end": 11.55
+          "word": "AND",
+          "start": 21.0,
+          "end": 21.88
         },
         {
-          "word": "UNBELIEVABLE!",
-          "start": 11.55,
-          "end": 11.93
+          "word": "CARS!",
+          "start": 21.88,
+          "end": 22.75
         }
       ]
     },
     {
-      "start": 12.43,
-      "end": 14.59,
+      "start": 22.75,
+      "end": 28.0,
       "text": "MYTHPAT CALLS IT THE GREATEST GAME EVER!",
       "words": [
         {
           "word": "MYTHPAT",
-          "start": 12.43,
-          "end": 12.74
+          "start": 22.75,
+          "end": 23.5
         },
         {
           "word": "CALLS",
-          "start": 12.74,
-          "end": 13.05
+          "start": 23.5,
+          "end": 24.25
         },
         {
           "word": "IT",
-          "start": 13.05,
-          "end": 13.36
+          "start": 24.25,
+          "end": 25.0
         },
         {
           "word": "THE",
-          "start": 13.36,
-          "end": 13.67
+          "start": 25.0,
+          "end": 25.75
         },
         {
           "word": "GREATEST",
-          "start": 13.67,
-          "end": 13.98
+          "start": 25.75,
+          "end": 26.5
         },
         {
           "word": "GAME",
-          "start": 13.98,
-          "end": 14.29
+          "start": 26.5,
+          "end": 27.25
         },
         {
           "word": "EVER!",
-          "start": 14.29,
-          "end": 14.59
+          "start": 27.25,
+          "end": 28.0
         }
       ]
     }

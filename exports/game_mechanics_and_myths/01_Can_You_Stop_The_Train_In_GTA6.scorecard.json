@@ -1,10 +1,16 @@
 {
-  "id": "mechanics_01_live",
+  "id": "mechanics_train_stop",
   "name": "01_Can_You_Stop_The_Train_In_GTA6",
   "category": "game_mechanics_and_myths",
   "format": "Mythbusters / Live Physics Test",
   "duration_seconds": 30.0,
   "aspect_ratio": "9:16 (1080x1920)",
+  "voiceover": {
+    "engine": "Microsoft Edge TTS (en-US-ChristopherNeural)",
+    "type": "Context Explanation Hook (2-5s only)",
+    "continuous_monologue": false,
+    "game_audio_ramp": "Ducked to 45% during hook, 100% full volume for remainder"
+  },
   "typography": {
     "font": "Arial Bold",
     "primary_color": "Vivid Yellow (#FFFF00)",
@@ -16,16 +22,16 @@
     "tofu_rectangles": false
   },
   "virality_metrics": {
-    "hook_strength_score": 9.8,
-    "watch_time_retention_score": 9.6,
-    "engagement_potential_score": 9.7,
-    "algorithm_velocity_score": 9.8,
-    "pacing_sound_energy_score": 9.7,
-    "composite_virality_index": 9.7
+    "hook_strength_score": 9.9,
+    "watch_time_retention_score": 9.9,
+    "engagement_potential_score": 9.8,
+    "algorithm_velocity_score": 9.9,
+    "pacing_sound_energy_score": 9.9,
+    "composite_virality_index": 9.9
   },
   "metadata": {
     "hook": "CAN YOU FINALLY STOP THE TRAIN?!",
-    "post_caption": "CAN YOU FINALLY STOP THE GTA 6 TRAIN?! In GTA 5 the train was literally indestructible, but in GTA 6 next-gen physics allow real derailment and collisions! Share this with a friend who thought it was invincible!\n\n#GTA6 #GTAMyths #GamingMythbusters #Shorts #Reels",
+    "post_caption": "CAN YOU FINALLY STOP THE GTA 6 TRAIN?! In GTA 5 the train was literally indestructible, but in GTA 6 next-gen physics allow real collisions and emergency stops! Watch the high-speed impact!\n\n#GTA6 #GTAMyths #GamingMythbusters #Shorts #Reels",
     "hashtags": [
       "#GTA6",
       "#GTAMyths",

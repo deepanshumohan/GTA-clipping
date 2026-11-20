@@ -2,9 +2,15 @@
   "id": "mechanics_tiktok_doomscroll",
   "name": "06_GTA6_In_Game_TikTok_Doomscrolling",
   "category": "game_mechanics_and_myths",
-  "format": "In-Game Feature Showcase",
+  "format": "In-Game Feature Showcase (<20s)",
   "duration_seconds": 18.0,
   "aspect_ratio": "9:16 (1080x1920)",
+  "voiceover": {
+    "engine": "Microsoft Edge TTS (en-US-ChristopherNeural)",
+    "type": "Context Explanation Hook (2-5s only)",
+    "continuous_monologue": false,
+    "game_audio_ramp": "Ducked to 45% during hook, 100% full volume for remainder"
+  },
   "typography": {
     "font": "Arial Bold",
     "primary_color": "Vivid Yellow (#FFFF00)",
@@ -17,15 +23,15 @@
   },
   "virality_metrics": {
     "hook_strength_score": 9.9,
-    "watch_time_retention_score": 9.8,
-    "engagement_potential_score": 9.7,
+    "watch_time_retention_score": 9.9,
+    "engagement_potential_score": 9.8,
     "algorithm_velocity_score": 9.9,
-    "pacing_sound_energy_score": 9.8,
-    "composite_virality_index": 9.8
+    "pacing_sound_energy_score": 9.9,
+    "composite_virality_index": 9.9
   },
   "metadata": {
-    "hook": "GTA 6 IN-GAME TIKTOK IS UNHINGED!",
-    "post_caption": "GTA 6 ADDED IN-GAME TIKTOK AND DOOMSCROLLING! Jason literally lies in bed scrolling through unhinged Vice City social media posts! Florida memes, alligators, and crazy videos! Rockstar's attention to detail is undefeated!\n\n#GTA6 #GTA6TikTok #Doomscrolling #GamingShorts #Reels",
+    "hook": "GTA 6 IN-GAME TIKTOK DOOMSCROLLING!",
+    "post_caption": "GTA 6 ADDED IN-GAME TIKTOK AND DOOMSCROLLING! Unhinged Vice City social media posts, live stream comments, alligator pool rescues, and viral memes! Rockstar's satire is unmatched!\n\n#GTA6 #GTA6TikTok #Doomscrolling #GamingShorts #Reels",
     "hashtags": [
       "#GTA6",
       "#GTA6TikTok",

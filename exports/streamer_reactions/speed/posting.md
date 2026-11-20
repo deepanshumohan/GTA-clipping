@@ -2,7 +2,7 @@
 
 File: `01_Speed_Craziest_GTA6_Cop_Chase.mp4`
 
-SPEED'S ESCAPE FROM 5 STARS IN GTA 6! Chat called him an L driver so Speed took police evasion into his own hands! Dodging cruisers and pulling insane 180s!
+SPEED'S ESCAPE FROM THE COPS IN GTA 6! Chat told him he was cooked, and Speed went into pure panic mode dodging police cruisers on foot!
 
 #IShowSpeed #GTA6 #SpeedClips #PoliceChase #Shorts #Reels
 

@@ -66,3 +66,6 @@ reels_output/.cache/
 *_segments/
 bin/
 reels_output/test_*/
+
+scratch/
+test_edge.*

@@ -1,6 +1,6 @@
 {
-  "source": "/Users/deepanshumohan/Work/gta/creator_gta/streamer_techno_vice_city_voiced.mp4",
-  "transcript": "/Users/deepanshumohan/Work/gta/creator_gta/streamer_techno_vice_city_transcript.json",
+  "source": "/Users/deepanshumohan/Work/gta/scratch/render_tmp/streamer_techno_vice_city_premuxed.mp4",
+  "transcript": "/Users/deepanshumohan/Work/gta/scratch/render_tmp/streamer_techno_vice_city_transcript.json",
   "width": 1080,
   "height": 1920,
   "fps": 30,
@@ -30,12 +30,13 @@
       "primary_color": "&H0000FFFF",
       "secondary_color": "&H0000FF00",
       "outline_color": "&H00000000",
-      "reason": "Techno Gamerz exploring Vice City in GTA 6 for the first time, admiring the neon lighting and test driving sports cars.",
-      "post_caption": "TECHNO GAMERZ ENTERS VICE CITY IN GTA 6! 100% GTA 6 gameplay! The volumetric lighting, pedestrian crowds, and vehicle handling are insane! Watch Techno steal his first sports car!\n\n#TechnoGamerz #GTA6 #ViceCity #GamingIndia #Shorts #Reels",
+      "reason": "Techno Gamerz stealing a supercar in Vice City with 2-star police chase and energetic Hindi commentary.",
+      "post_caption": "TECHNO GAMERZ ENTERS VICE CITY IN GTA 6! 100% GTA 6 gameplay! Techno steals his first sports car, triggers an instant police pursuit, and pulls off an insane escape!\n\n#TechnoGamerz #GTA6 #ViceCity #GamingIndia #Shorts #Reels",
       "hashtags": [
         "#TechnoGamerz",
         "#GTA6",
-        "#ViceCity #GamingIndia",
+        "#ViceCity",
+        "#GamingIndia",
         "#Shorts"
       ]
     }

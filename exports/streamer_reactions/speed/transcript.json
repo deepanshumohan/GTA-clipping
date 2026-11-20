@@ -1,192 +1,222 @@
 {
   "segments": [
     {
-      "start": 0.5,
-      "end": 2.24,
-      "text": "CHAT CALLED SPEED AN L DRIVER!",
+      "start": 0.0,
+      "end": 5.18,
+      "text": "SPEED GOT A WANTED LEVEL IN GTA 6 AND CHAT TOLD HIM HE WAS COOKED!",
       "words": [
-        {
-          "word": "CHAT",
-          "start": 0.5,
-          "end": 0.79
-        },
-        {
-          "word": "CALLED",
-          "start": 0.79,
-          "end": 1.08
-        },
         {
           "word": "SPEED",
-          "start": 1.08,
-          "end": 1.37
+          "start": 0.0,
+          "end": 0.35
         },
         {
-          "word": "AN",
-          "start": 1.37,
-          "end": 1.66
-        },
-        {
-          "word": "L",
-          "start": 1.66,
-          "end": 1.95
-        },
-        {
-          "word": "DRIVER!",
-          "start": 1.95,
-          "end": 2.24
-        }
-      ]
-    },
-    {
-      "start": 2.74,
-      "end": 5.26,
-      "text": "SO HE STOLE A CAR IN GTA 6!",
-      "words": [
-        {
-          "word": "SO",
-          "start": 2.74,
-          "end": 3.06
-        },
-        {
-          "word": "HE",
-          "start": 3.06,
-          "end": 3.37
-        },
-        {
-          "word": "STOLE",
-          "start": 3.37,
-          "end": 3.69
+          "word": "GOT",
+          "start": 0.35,
+          "end": 0.69
         },
         {
           "word": "A",
-          "start": 3.69,
-          "end": 4.0
+          "start": 0.69,
+          "end": 1.04
         },
         {
-          "word": "CAR",
-          "start": 4.0,
-          "end": 4.32
+          "word": "WANTED",
+          "start": 1.04,
+          "end": 1.38
+        },
+        {
+          "word": "LEVEL",
+          "start": 1.38,
+          "end": 1.73
         },
         {
           "word": "IN",
-          "start": 4.32,
-          "end": 4.63
+          "start": 1.73,
+          "end": 2.07
         },
         {
           "word": "GTA",
-          "start": 4.63,
-          "end": 4.95
+          "start": 2.07,
+          "end": 2.42
         },
         {
-          "word": "6!",
-          "start": 4.95,
-          "end": 5.26
-        }
-      ]
-    },
-    {
-      "start": 5.76,
-      "end": 7.61,
-      "text": "POLICE SQUAD CARS BOX HIM IN!",
-      "words": [
-        {
-          "word": "POLICE",
-          "start": 5.76,
-          "end": 6.07
+          "word": "6",
+          "start": 2.42,
+          "end": 2.76
         },
         {
-          "word": "SQUAD",
-          "start": 6.07,
-          "end": 6.38
+          "word": "AND",
+          "start": 2.76,
+          "end": 3.11
         },
         {
-          "word": "CARS",
-          "start": 6.38,
-          "end": 6.69
+          "word": "CHAT",
+          "start": 3.11,
+          "end": 3.46
         },
         {
-          "word": "BOX",
-          "start": 6.69,
-          "end": 6.99
+          "word": "TOLD",
+          "start": 3.46,
+          "end": 3.8
         },
         {
           "word": "HIM",
-          "start": 6.99,
-          "end": 7.3
+          "start": 3.8,
+          "end": 4.15
         },
         {
-          "word": "IN!",
-          "start": 7.3,
-          "end": 7.61
+          "word": "HE",
+          "start": 4.15,
+          "end": 4.49
+        },
+        {
+          "word": "WAS",
+          "start": 4.49,
+          "end": 4.84
+        },
+        {
+          "word": "COOKED!",
+          "start": 4.84,
+          "end": 5.18
         }
       ]
     },
     {
-      "start": 8.11,
-      "end": 10.6,
-      "text": "PULLING A HIGH SPEED REVERSE 180!",
+      "start": 5.18,
+      "end": 10.39,
+      "text": "LOSE THE COPS BY HIDING!",
       "words": [
         {
-          "word": "PULLING",
-          "start": 8.11,
-          "end": 8.52
+          "word": "LOSE",
+          "start": 5.18,
+          "end": 6.22
         },
         {
-          "word": "A",
-          "start": 8.52,
-          "end": 8.94
+          "word": "THE",
+          "start": 6.22,
+          "end": 7.27
         },
         {
-          "word": "HIGH",
-          "start": 8.94,
-          "end": 9.36
+          "word": "COPS",
+          "start": 7.27,
+          "end": 8.31
         },
         {
-          "word": "SPEED",
-          "start": 9.36,
-          "end": 9.77
+          "word": "BY",
+          "start": 8.31,
+          "end": 9.35
         },
         {
-          "word": "REVERSE",
-          "start": 9.77,
-          "end": 10.19
-        },
-        {
-          "word": "180!",
-          "start": 10.19,
-          "end": 10.6
+          "word": "HIDING!",
+          "start": 9.35,
+          "end": 10.39
         }
       ]
     },
     {
-      "start": 11.1,
-      "end": 13.11,
-      "text": "THEY CAN NEVER CATCH I-SHOW-SPEED!",
+      "start": 10.39,
+      "end": 15.59,
+      "text": "SPEED: WHAT THE HECK?! NO WAY!",
       "words": [
         {
-          "word": "THEY",
-          "start": 11.1,
-          "end": 11.51
+          "word": "SPEED:",
+          "start": 10.39,
+          "end": 11.26
         },
         {
-          "word": "CAN",
-          "start": 11.51,
-          "end": 11.91
+          "word": "WHAT",
+          "start": 11.26,
+          "end": 12.12
         },
         {
-          "word": "NEVER",
-          "start": 11.91,
-          "end": 12.31
+          "word": "THE",
+          "start": 12.12,
+          "end": 12.99
         },
         {
-          "word": "CATCH",
-          "start": 12.31,
-          "end": 12.71
+          "word": "HECK?!",
+          "start": 12.99,
+          "end": 13.86
         },
         {
-          "word": "I-SHOW-SPEED!",
-          "start": 12.71,
-          "end": 13.11
+          "word": "NO",
+          "start": 13.86,
+          "end": 14.72
+        },
+        {
+          "word": "WAY!",
+          "start": 14.72,
+          "end": 15.59
+        }
+      ]
+    },
+    {
+      "start": 15.59,
+      "end": 20.8,
+      "text": "SQUAD CRUISERS SURROUNDING THE ALLEY!",
+      "words": [
+        {
+          "word": "SQUAD",
+          "start": 15.59,
+          "end": 16.63
+        },
+        {
+          "word": "CRUISERS",
+          "start": 16.63,
+          "end": 17.67
+        },
+        {
+          "word": "SURROUNDING",
+          "start": 17.67,
+          "end": 18.71
+        },
+        {
+          "word": "THE",
+          "start": 18.71,
+          "end": 19.76
+        },
+        {
+          "word": "ALLEY!",
+          "start": 19.76,
+          "end": 20.8
+        }
+      ]
+    },
+    {
+      "start": 20.8,
+      "end": 26.0,
+      "text": "PEAK ISHOWSPEED PANIC IN GTA 6!",
+      "words": [
+        {
+          "word": "PEAK",
+          "start": 20.8,
+          "end": 21.66
+        },
+        {
+          "word": "ISHOWSPEED",
+          "start": 21.66,
+          "end": 22.53
+        },
+        {
+          "word": "PANIC",
+          "start": 22.53,
+          "end": 23.4
+        },
+        {
+          "word": "IN",
+          "start": 23.4,
+          "end": 24.27
+        },
+        {
+          "word": "GTA",
+          "start": 24.27,
+          "end": 25.13
+        },
+        {
+          "word": "6!",
+          "start": 25.13,
+          "end": 26.0
         }
       ]
     }
