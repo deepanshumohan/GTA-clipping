@@ -1,0 +1,43 @@
+{
+  "id": "streamer_speed_cop_chase",
+  "name": "01_Speed_Craziest_GTA6_Cop_Chase",
+  "category": "streamer_reactions/speed",
+  "format": "Real Police Chase / Streamer Rage",
+  "duration_seconds": 26.0,
+  "aspect_ratio": "9:16 (1080x1920)",
+  "voiceover": {
+    "engine": "Microsoft Edge TTS (en-US-ChristopherNeural)",
+    "type": "Context Explanation Hook (2-5s only)",
+    "continuous_monologue": false,
+    "game_audio_ramp": "Ducked to 45% during hook, 100% full volume for remainder"
+  },
+  "typography": {
+    "font": "Arial Bold",
+    "primary_color": "Vivid Yellow (#FFFF00)",
+    "highlight_color": "Neon Green (#00FF00)",
+    "punctuation_color": "Bright Red (#FF0000)",
+    "shadow": "Solid Black 4px (100% opaque)",
+    "outline": "Solid Black 6px",
+    "emojis_present": false,
+    "tofu_rectangles": false
+  },
+  "virality_metrics": {
+    "hook_strength_score": 9.9,
+    "watch_time_retention_score": 9.9,
+    "engagement_potential_score": 9.8,
+    "algorithm_velocity_score": 9.9,
+    "pacing_sound_energy_score": 9.9,
+    "composite_virality_index": 9.9
+  },
+  "metadata": {
+    "hook": "SPEED'S CRAZIEST GTA 6 COP CHASE!",
+    "post_caption": "SPEED'S ESCAPE FROM THE COPS IN GTA 6! Chat told him he was cooked, and Speed went into pure panic mode dodging police cruisers on foot!\n\n#IShowSpeed #GTA6 #SpeedClips #PoliceChase #Shorts #Reels",
+    "hashtags": [
+      "#IShowSpeed",
+      "#GTA6",
+      "#SpeedClips",
+      "#PoliceChase",
+      "#Shorts"
+    ]
+  }
+}

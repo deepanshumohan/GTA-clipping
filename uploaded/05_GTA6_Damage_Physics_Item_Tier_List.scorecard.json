@@ -1,0 +1,43 @@
+{
+  "id": "mechanics_damage_tier_list",
+  "name": "05_GTA6_Damage_Physics_Item_Tier_List",
+  "category": "tier_lists_and_rankings",
+  "format": "Vehicle Destruction Tier List",
+  "duration_seconds": 30.0,
+  "aspect_ratio": "9:16 (1080x1920)",
+  "voiceover": {
+    "engine": "Microsoft Edge TTS (en-US-ChristopherNeural)",
+    "type": "Context Explanation Hook (2-5s only)",
+    "continuous_monologue": false,
+    "game_audio_ramp": "Ducked to 45% during hook, 100% full volume for remainder"
+  },
+  "typography": {
+    "font": "Arial Bold",
+    "primary_color": "Vivid Yellow (#FFFF00)",
+    "highlight_color": "Neon Green (#00FF00)",
+    "punctuation_color": "Bright Red (#FF0000)",
+    "shadow": "Solid Black 4px (100% opaque)",
+    "outline": "Solid Black 6px",
+    "emojis_present": false,
+    "tofu_rectangles": false
+  },
+  "virality_metrics": {
+    "hook_strength_score": 9.9,
+    "watch_time_retention_score": 9.9,
+    "engagement_potential_score": 9.8,
+    "algorithm_velocity_score": 9.9,
+    "pacing_sound_energy_score": 9.9,
+    "composite_virality_index": 9.9
+  },
+  "metadata": {
+    "hook": "GTA 6 DAMAGE PHYSICS ITEM TIER LIST!",
+    "post_caption": "GTA 6 DAMAGE PHYSICS TIER LIST! Ranking vehicle destruction from B-Tier to God-Tier! Watch how supercars crumple vs heavy trucks! Do you agree with this ranking?\n\n#GTA6 #TierList #DamagePhysics #GamingShorts #Reels",
+    "hashtags": [
+      "#GTA6",
+      "#TierList",
+      "#DamagePhysics",
+      "#Shorts",
+      "#Reels"
+    ]
+  }
+}

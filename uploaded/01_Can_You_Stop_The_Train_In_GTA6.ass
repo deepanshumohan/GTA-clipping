@@ -1,0 +1,30 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,65,&H0000FFFF,&H0000FF00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,4,2,108,108,518,1
+Style: Caption,Arial,65,&H0000FFFF,&H0000FF00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,4,2,108,108,518,1
+Style: Hook,Arial,59,&H0000FFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,8,108,108,250,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.99,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k50}CAN {\k49}YOU
+Dialogue: 0,0:00:00.00,0:00:03.00,Hook,,0,0,0,,CAN YOU FINALLY STOP THE TRAIN{\c&H000000FF&}?!{\c&H0000FFFF&}
+Dialogue: 0,0:00:00.99,0:00:01.98,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k50}FINALLY {\k49}STOP
+Dialogue: 0,0:00:01.98,0:00:02.97,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k50}THE {\k49}TRAIN
+Dialogue: 0,0:00:02.97,0:00:03.96,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k50}IN {\k49}GTA
+Dialogue: 0,0:00:03.96,0:00:04.95,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k50}{\c&H0000FF00&}6{\c&H000000FF&}?{\c&H0000FFFF&}{\c&H0000FFFF&} {\k49}WATCH
+Dialogue: 0,0:00:04.95,0:00:05.45,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k50}THIS{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:05.45,0:00:07.90,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k123}BLOCKING {\k122}TRACKS
+Dialogue: 0,0:00:07.90,0:00:10.36,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k123}WITH {\k123}HEAVY
+Dialogue: 0,0:00:10.36,0:00:11.59,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k123}TRUCK{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:11.59,0:00:14.65,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k153}HIGH {\k153}SPEED
+Dialogue: 0,0:00:14.66,0:00:17.72,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k153}PASSENGER {\k153}IMPACT{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:17.72,0:00:19.77,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k103}THE {\k102}BRAKES
+Dialogue: 0,0:00:19.77,0:00:21.82,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k102}SCREECH {\k103}AND
+Dialogue: 0,0:00:21.82,0:00:23.86,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k102}LOCK {\k102}UP{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:23.86,0:00:26.93,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k154}THE {\k153}TRAIN
+Dialogue: 0,0:00:26.93,0:00:30.00,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k154}FINALLY {\k153}STOPS{\c&H000000FF&}!{\c&H0000FFFF&}

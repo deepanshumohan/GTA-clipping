@@ -1,0 +1,33 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,65,&H0000FFFF,&H0000FF00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,4,2,108,108,518,1
+Style: Caption,Arial,65,&H0000FFFF,&H0000FF00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,4,2,108,108,518,1
+Style: Hook,Arial,59,&H0000FFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,8,108,108,250,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.09,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k55}GTA {\k54}{\c&H0000FF00&}6{\c&H0000FFFF&}
+Dialogue: 0,0:00:00.00,0:00:03.00,Hook,,0,0,0,,GTA 6 POLICE LOGIC MAKES ZERO SENSE{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:01.09,0:00:02.18,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k55}POLICE {\k54}LOGIC
+Dialogue: 0,0:00:02.18,0:00:03.28,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k55}MAKES {\k55}ZERO
+Dialogue: 0,0:00:03.28,0:00:04.37,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k54}SENSE{\c&H000000FF&}!{\c&H0000FFFF&} {\k55}WATCH
+Dialogue: 0,0:00:04.37,0:00:05.46,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k54}HOW {\k55}AGGRESSIVE
+Dialogue: 0,0:00:05.46,0:00:06.55,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k55}THEY {\k54}GET{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:06.55,0:00:08.51,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k98}TOUCH {\k98}A
+Dialogue: 0,0:00:08.51,0:00:10.46,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k97}BUMPER... {\k98}INSTANT
+Dialogue: 0,0:00:10.46,0:00:12.41,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k98}{\c&H0000FF00&}5{\c&H0000FFFF&} {\k97}STARS{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:12.41,0:00:14.37,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k98}SQUAD {\k98}CRUISERS
+Dialogue: 0,0:00:14.37,0:00:16.32,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k98}RAM {\k98}FROM
+Dialogue: 0,0:00:16.32,0:00:18.28,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k98}ALL {\k98}SIDES{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:18.28,0:00:19.95,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k83}{\c&H0000FF00&}CRASHING{\c&H0000FFFF&} {\k84}INTO
+Dialogue: 0,0:00:19.95,0:00:21.63,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k84}PALM {\k84}TREES
+Dialogue: 0,0:00:21.63,0:00:23.30,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k83}ON {\k84}OCEAN
+Dialogue: 0,0:00:23.30,0:00:24.14,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k84}DRIVE{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:24.14,0:00:26.09,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k97}SURVIVING {\k98}FIVE
+Dialogue: 0,0:00:26.09,0:00:28.05,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k98}STARS {\k98}IN
+Dialogue: 0,0:00:28.05,0:00:30.00,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k97}VICE {\k98}CITY{\c&H000000FF&}!{\c&H0000FFFF&}

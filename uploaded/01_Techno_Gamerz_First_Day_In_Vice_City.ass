@@ -1,0 +1,34 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,65,&H0000FFFF,&H0000FF00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,4,2,108,108,518,1
+Style: Caption,Arial,65,&H0000FFFF,&H0000FF00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,4,2,108,108,518,1
+Style: Hook,Arial,59,&H0000FFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,8,108,108,250,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.00,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k50}TECHNO {\k50}GAMERZ
+Dialogue: 0,0:00:00.00,0:00:03.00,Hook,,0,0,0,,TECHNO GAMERZ FIRST DAY IN VICE CITY{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:01.00,0:00:02.00,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k50}STOLE {\k50}HIS
+Dialogue: 0,0:00:02.00,0:00:02.99,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k49}FIRST {\k50}CAR
+Dialogue: 0,0:00:02.99,0:00:03.99,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k50}IN {\k50}GTA
+Dialogue: 0,0:00:03.99,0:00:04.99,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k50}{\c&H0000FF00&}6{\c&H0000FFFF&} {\k50}VICE
+Dialogue: 0,0:00:04.99,0:00:05.99,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k50}CITY{\c&H000000FF&}!{\c&H0000FFFF&} {\k50}WATCH
+Dialogue: 0,0:00:05.99,0:00:06.98,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k50}{\c&H0000FF00&}WHAT{\c&H0000FFFF&} {\k49}HAPPENS{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:06.98,0:00:08.49,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k75}TECHNO: {\k76}GADI
+Dialogue: 0,0:00:08.49,0:00:09.99,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k75}CHURA {\k75}LIYA
+Dialogue: 0,0:00:09.99,0:00:11.49,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k75}VICE {\k75}CITY
+Dialogue: 0,0:00:11.49,0:00:12.24,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k75}MEIN{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:12.24,0:00:14.34,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k105}{\c&H0000FF00&}2-STAR{\c&H0000FFFF&} {\k105}POLICE
+Dialogue: 0,0:00:14.34,0:00:16.44,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k105}CHASE {\k105}INSTANTLY
+Dialogue: 0,0:00:16.44,0:00:17.49,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k105}ESCALATES{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:17.49,0:00:19.24,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k88}HIGH {\k87}SPEED
+Dialogue: 0,0:00:19.24,0:00:20.99,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k88}GETAWAY {\k87}THROUGH
+Dialogue: 0,0:00:20.99,0:00:22.75,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k88}NEON {\k88}STREETS{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:22.75,0:00:24.50,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k87}TECHNO'S {\k88}VICE
+Dialogue: 0,0:00:24.50,0:00:26.25,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k87}CITY {\k88}SPREE
+Dialogue: 0,0:00:26.25,0:00:28.00,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k87}BEGINS {\k88}NOW{\c&H000000FF&}!{\c&H0000FFFF&}
