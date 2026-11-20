@@ -1,9 +1,9 @@
-## THE CAR DAMAGE PHYSICS IN GTA ARE INSANE! 🚗💥
+## HOW FAST CAN YOU DRIVE ACROSS GTA 6?!
 
-File: `09_NextGen_Car_Damage_And_Crash_Physics.mp4`
+File: `04_Driving_Across_The_Entire_GTA6_Map.mp4`
 
-THE CAR DAMAGE PHYSICS IN GTA 6 ARE OUT OF CONTROL! 🚗💥 High-speed impact testing: tire deformation, suspension breakage, and realistic rollover mechanics! Rockstar went full simulation mode!
+HOW FAST CAN YOU DRIVE ACROSS THE ENTIRE GTA 6 MAP?! Speedrunning the highway at 220 MPH to test the true scale of Vice City! Map size is massive!
 
-#CarDamage #GamingPhysics #CrashTest #GTA6 #Shorts
+#GTA6Map #Speedrun #GamingFacts #Shorts #Reels
 
-#CarDamage #PhysicsTest #GTA6 #Gaming #Shorts
+#GTA6Map #Speedrun #GamingFacts #Shorts #Reels

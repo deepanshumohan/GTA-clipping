@@ -6,21 +6,31 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Caption,Arial,56,&H0000FFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,2,108,108,480,1
+Style: Default,Arial,65,&H0000FFFF,&H0000FF00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,4,2,108,108,518,1
+Style: Caption,Arial,65,&H0000FFFF,&H0000FF00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,4,2,108,108,518,1
 Style: Hook,Arial,59,&H0000FFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,8,108,108,250,1
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:03.00,Hook,,0,0,0,,TOP 5 CREEPIEST GTA SECRETS! 👻
-Dialogue: 0,0:00:00.00,0:00:03.66,Caption,,0,0,0,,I WANT MY RESPECTING AMERICAN FARMING TRADITIONS AND YOU PUT YOUR DICK IN HIS HAIR FOR
-Dialogue: 0,0:00:03.66,0:00:05.12,Caption,,0,0,0,,{\k48}I'LL {\k10}GO {\k26}FIND {\k22}A {\k26}SCARAP {\k14}RIGHT
-Dialogue: 0,0:00:05.12,0:00:05.72,Caption,,0,0,0,,{\k60}NOW
-Dialogue: 0,0:00:05.72,0:00:07.64,Caption,,0,0,0,,{\k54}YOU {\k16}DO {\k28}THAT, {\k24}DOUGIE {\k62}AND {\k8}YOU
-Dialogue: 0,0:00:07.64,0:00:09.12,Caption,,0,0,0,,{\k16}THINK {\k12}OF {\k38}AMERICA {\k48}AND {\k10}YOU {\k24}SHOW
-Dialogue: 0,0:00:09.12,0:00:10.58,Caption,,0,0,0,,{\k20}THAT {\k34}STRAW {\k24}STUFF {\k44}SUFFERED {\k12}A {\k12}GOOD
-Dialogue: 0,0:00:10.58,0:00:10.90,Caption,,0,0,0,,{\k32}TIME
-Dialogue: 0,0:00:10.90,0:00:21.14,Caption,,0,0,0,,WE DID OUR FOR RIGHTEOUS. I SEE THE AMERICAN DREAM HERE LIBERALS MELTED REAL TIME ON THE RICHARD BASTION SHOW BECAUSE THEY LIKELY WANT TO KILL US WHEN AMERICA'S ENEMIES THREATENED HER WITH 💀
-Dialogue: 0,0:00:21.14,0:00:22.06,Caption,,0,0,0,,{\k92}PROGRETTE
-Dialogue: 0,0:00:22.64,0:00:23.92,Caption,,0,0,0,,{\k52}ALL {\k22}RIGHT, {\k18}WHERE'S {\k36}LUCIA?
-Dialogue: 0,0:00:27.52,0:00:30.44,Caption,,0,0,0,,{\k88}THAT {\k88}IS {\k58}NOT {\k58}LUCIA.
-Dialogue: 0,0:00:31.28,0:00:32.88,Caption,,0,0,0,,{\k88}IS {\k6}SHE {\k22}F**KING {\k12}A {\k32}CIGARETTE?
-Dialogue: 0,0:00:33.32,0:00:33.98,Caption,,0,0,0,,{\k22}OH {\k44}GOD {\k1}👀
+Dialogue: 0,0:00:00.00,0:00:00.24,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k12}{\c&H0000FF00&}WHAT{\c&H0000FFFF&} {\k12}THE
+Dialogue: 0,0:00:00.00,0:00:03.00,Hook,,0,0,0,,TOP 5 CREEPIEST GTA SECRETS{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:00.24,0:00:01.38,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k100}FUCK{\c&H000000FF&}?{\c&H0000FFFF&} {\k14}TWO
+Dialogue: 0,0:00:01.38,0:00:01.94,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k32}BULLETS {\k24}IN
+Dialogue: 0,0:00:01.94,0:00:02.34,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k10}THE {\k30}FACE{\c&H000000FF&}?{\c&H0000FFFF&}
+Dialogue: 0,0:00:03.64,0:00:04.16,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k52}{\c&H0000FF00&}WHAT{\c&H000000FF&}?{\c&H0000FFFF&}{\c&H0000FFFF&}
+Dialogue: 0,0:00:10.12,0:00:10.76,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k52}I {\k12}GUESS
+Dialogue: 0,0:00:10.76,0:00:11.06,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k16}IF {\k14}IT'S
+Dialogue: 0,0:00:11.06,0:00:11.30,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k10}NOT {\k14}A
+Dialogue: 0,0:00:11.30,0:00:11.90,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k36}{\c&H0000FF00&}HEADSHOT,{\c&H0000FFFF&} {\k24}IT'S
+Dialogue: 0,0:00:11.90,0:00:12.14,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k8}NOT {\k16}EVEN
+Dialogue: 0,0:00:12.14,0:00:12.90,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k32}WORTH {\k44}DOING,
+Dialogue: 0,0:00:13.50,0:00:13.96,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k46}RIGHT{\c&H000000FF&}?{\c&H0000FFFF&}
+Dialogue: 0,0:00:18.60,0:00:19.40,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k52}YO {\k28}JASON,
+Dialogue: 0,0:00:19.62,0:00:19.82,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k2}I {\k18}SAID
+Dialogue: 0,0:00:19.82,0:00:20.32,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k16}TO {\k34}REASON
+Dialogue: 0,0:00:20.32,0:00:20.80,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k26}WITH {\k22}THEM,
+Dialogue: 0,0:00:20.92,0:00:21.86,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k26}NOT {\k68}SUBTLY
+Dialogue: 0,0:00:21.86,0:00:22.56,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k44}THREATEN {\k26}THEM
+Dialogue: 0,0:00:22.56,0:00:23.10,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k54}AGAIN.
+Dialogue: 0,0:00:30.00,0:00:30.46,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k22}THERE {\k24}YOU
+Dialogue: 0,0:00:30.46,0:00:30.84,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k38}ARE.
+Dialogue: 0,0:00:33.20,0:00:34.00,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}WOO{\c&H000000FF&}!{\c&H0000FFFF&} YOU F**K THIS.

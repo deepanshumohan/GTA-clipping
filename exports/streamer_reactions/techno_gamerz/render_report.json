@@ -1,0 +1,15 @@
+[
+  {
+    "name": "01_Techno_Gamerz_Ultra_Supercar_Escape",
+    "ranges": [
+      [
+        0.0,
+        27.6
+      ]
+    ],
+    "target_duration": 27.6,
+    "caption_events": 19,
+    "layout": "fit",
+    "reason": "Techno Gamerz tells the story of borrowing his friend's supercar from Liberty City, exploding it, and leading an epic getaway."
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "source": "/Users/deepanshumohan/Work/gta/creator_gta/techno_gta.mp4",
+  "transcript": "/Users/deepanshumohan/Work/gta/exports/streamer_reactions/techno_gamerz/transcript_streamer_techno.json",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "font": "Arial",
+  "normalize_audio": true,
+  "reels": [
+    {
+      "name": "01_Techno_Gamerz_Ultra_Supercar_Escape",
+      "ranges": [
+        [
+          0.0,
+          27.6
+        ]
+      ],
+      "layout": "fit",
+      "title": "TECHNO GAMERZ ULTRA SUPERCAR ESCAPE!",
+      "hook": "TECHNO GAMERZ ULTRA SUPERCAR ESCAPE!",
+      "hook_seconds": 3.0,
+      "burn_captions": true,
+      "subtitle_preset": "hormozi",
+      "style_preset": "hormozi",
+      "subtitle_position": "bottom",
+      "words_per_group": 2,
+      "uppercase": true,
+      "word_pop": true,
+      "highlight_words": true,
+      "primary_color": "&H0000FFFF",
+      "secondary_color": "&H0000FF00",
+      "outline_color": "&H00000000",
+      "reason": "Techno Gamerz tells the story of borrowing his friend's supercar from Liberty City, exploding it, and leading an epic getaway.",
+      "post_caption": "TECHNO GAMERZ CRAZIEST GTA GETAWAY! Accidental Ferrari explosion and high-speed escape in the racing tournament! Nobody handles GTA chases like Techno Gamerz!\n\n#TechnoGamerz #GTA5 #GTA6 #GamingIndia #Shorts #Reels",
+      "hashtags": [
+        "#TechnoGamerz",
+        "#GTA5 #GamingIndia",
+        "#Shorts",
+        "#Reels"
+      ]
+    }
+  ]
+}

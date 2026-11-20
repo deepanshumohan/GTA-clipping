@@ -1,0 +1,104 @@
+{
+  "source": "/Users/deepanshumohan/Work/gta/creator_gta/gamerfleet_gta.mp4",
+  "language": "ml",
+  "language_probability": null,
+  "model": "openai-whisper-base",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 0.08,
+      "text": "a",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.08,
+          "word": " a"
+        }
+      ]
+    },
+    {
+      "start": 15.56,
+      "end": 16.96,
+      "text": "to",
+      "words": [
+        {
+          "start": 15.56,
+          "end": 16.96,
+          "word": " to"
+        }
+      ]
+    },
+    {
+      "start": 24.66,
+      "end": 26.06,
+      "text": "all",
+      "words": [
+        {
+          "start": 24.66,
+          "end": 26.06,
+          "word": " all"
+        }
+      ]
+    },
+    {
+      "start": 26.06,
+      "end": 26.64,
+      "text": "call",
+      "words": [
+        {
+          "start": 26.06,
+          "end": 26.64,
+          "word": " call"
+        }
+      ]
+    },
+    {
+      "start": 26.64,
+      "end": 26.78,
+      "text": "and",
+      "words": [
+        {
+          "start": 26.64,
+          "end": 26.78,
+          "word": " and"
+        }
+      ]
+    },
+    {
+      "start": 26.78,
+      "end": 26.96,
+      "text": "and",
+      "words": [
+        {
+          "start": 26.78,
+          "end": 26.96,
+          "word": " and"
+        }
+      ]
+    },
+    {
+      "start": 26.96,
+      "end": 27.58,
+      "text": "no",
+      "words": [
+        {
+          "start": 26.96,
+          "end": 27.58,
+          "word": " no"
+        }
+      ]
+    },
+    {
+      "start": 27.58,
+      "end": 29.98,
+      "text": "or",
+      "words": [
+        {
+          "start": 27.58,
+          "end": 29.98,
+          "word": " or"
+        }
+      ]
+    }
+  ]
+}

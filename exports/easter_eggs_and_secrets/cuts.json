@@ -1,36 +1,43 @@
 {
+  "source": "/Users/deepanshumohan/Work/gta/jynxzi_segments/clip_08.mp4",
+  "transcript": "transcript.json",
   "width": 1080,
   "height": 1920,
   "fps": 30,
   "font": "Arial",
   "normalize_audio": true,
-  "transcript": "transcript.json",
   "reels": [
     {
       "name": "07_Hidden_Streamer_References_In_GTA6",
-      "title": "STREAMER EASTER EGGS HIDDEN IN GTA 6?! 🎮",
-      "reason": "Showcasing viral social media parodies of Speed, Kai Cenat, and Jynxzi in Vice City.",
       "ranges": [
         [
           0.0,
-          35.0
+          31.2
         ]
       ],
       "layout": "fit",
-      "crop_x": 0.5,
-      "subtitle_preset": "hormozi",
-      "uppercase": true,
-      "use_emojis": true,
-      "highlight_words": true,
-      "hook": "STREAMERS IN GTA 6?! 🎮",
+      "title": "STREAMER EASTER EGGS IN GTA 6?!",
+      "hook": "STREAMERS IN GTA 6?!",
+      "hook_seconds": 3.0,
       "burn_captions": true,
-      "post_caption": "HIDDEN STREAMER EASTER EGGS IN GTA 6?! 🎮 Rockstar included parody social media clips referencing top creators like Speed, Kai, and Florida memes! Spot all the references in the social feed!\n\n#IShowSpeed #KaiCenat #Jynxzi #GTA6EasterEggs #Shorts",
+      "subtitle_preset": "hormozi",
+      "style_preset": "hormozi",
+      "subtitle_position": "bottom",
+      "words_per_group": 2,
+      "uppercase": true,
+      "word_pop": true,
+      "highlight_words": true,
+      "primary_color": "&H0000FFFF",
+      "secondary_color": "&H0000FF00",
+      "outline_color": "&H00000000",
+      "reason": "Spotting parody creator references and social media parodies in Vice City.",
+      "post_caption": "HIDDEN STREAMER EASTER EGGS IN GTA 6?! Rockstar included parody social media clips referencing top creators! Spot all the references in the social feed!\n\n#GTA6 #EasterEggs #StreamerClips #Shorts #Reels",
       "hashtags": [
-        "#IShowSpeed",
-        "#KaiCenat",
-        "#Jynxzi",
         "#GTA6",
-        "#Shorts"
+        "#EasterEggs",
+        "#StreamerClips",
+        "#Shorts",
+        "#Reels"
       ]
     }
   ],

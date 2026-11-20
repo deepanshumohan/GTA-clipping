@@ -1,0 +1,44 @@
+{
+  "source": "/Users/deepanshumohan/Work/gta/reference_shorts/f6-b-bOEraE.mp4",
+  "transcript": "/Users/deepanshumohan/Work/gta/exports/game_mechanics_and_myths/transcript_mechanics_02.json",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "font": "Arial",
+  "normalize_audio": true,
+  "reels": [
+    {
+      "name": "02_GTA6_Police_Logic_Makes_Zero_Sense",
+      "ranges": [
+        [
+          0.0,
+          27.4
+        ]
+      ],
+      "layout": "crop",
+      "title": "GTA 6 POLICE LOGIC MAKES ZERO SENSE!",
+      "hook": "GTA 6 POLICE LOGIC MAKES ZERO SENSE!",
+      "hook_seconds": 3.0,
+      "burn_captions": true,
+      "subtitle_preset": "hormozi",
+      "style_preset": "hormozi",
+      "subtitle_position": "bottom",
+      "words_per_group": 2,
+      "uppercase": true,
+      "word_pop": true,
+      "highlight_words": true,
+      "primary_color": "&H0000FFFF",
+      "secondary_color": "&H0000FF00",
+      "outline_color": "&H00000000",
+      "reason": "Shows real GTA 6 police pursuit mechanics, news helicopter broadcasts on live TV, and NPCs livestreaming crimes.",
+      "post_caption": "GTA 6 POLICE LOGIC IS COMPLETELY UNHINGED! From live news helicopters broadcasting your robbery to NPCs livestreaming you on in-game TikTok... Rockstar added features we never expected!\n\n#GTA6Police #GTALogic #GamingMemes #Shorts #Reels",
+      "hashtags": [
+        "#GTA6",
+        "#GTALogic",
+        "#GamingMemes",
+        "#Shorts",
+        "#Reels"
+      ]
+    }
+  ]
+}

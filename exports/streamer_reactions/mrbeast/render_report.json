@@ -1,0 +1,15 @@
+[
+  {
+    "name": "01_MrBeast_Ultimate_GTA_Stunt_Challenge",
+    "ranges": [
+      [
+        0.0,
+        28.0
+      ]
+    ],
+    "target_duration": 28.0,
+    "caption_events": 68,
+    "layout": "fit",
+    "reason": "MrBeast and crew attempting wild obstacle course stunts in GTA."
+  }
+]

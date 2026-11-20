@@ -1,34 +1,41 @@
 {
+  "source": "/Users/deepanshumohan/Work/gta/jynxzi_segments/clip_10.mp4",
+  "transcript": "transcript.json",
   "width": 1080,
   "height": 1920,
   "fps": 30,
   "font": "Arial",
   "normalize_audio": true,
-  "transcript": "transcript.json",
   "reels": [
     {
       "name": "10_Top_5_Craziest_Streamer_Fails_And_Moments",
-      "title": "TOP 5 CRAZIEST STREAMER MOMENTS IN GTA! 😱",
-      "reason": "Countdown of the 5 most hilarious, chaotic stream clutches and catastrophic fails.",
       "ranges": [
         [
           0.0,
-          33.6
+          31.4
         ]
       ],
       "layout": "fit",
-      "crop_x": 0.5,
-      "subtitle_preset": "hormozi",
-      "uppercase": true,
-      "use_emojis": true,
-      "highlight_words": true,
-      "hook": "TOP 5 CRAZIEST STREAMER MOMENTS! 😱",
+      "title": "TOP 5 CRAZIEST STREAMER GTA FAILS!",
+      "hook": "TOP 5 CRAZIEST GTA FAILS!",
+      "hook_seconds": 3.0,
       "burn_captions": true,
-      "post_caption": "TOP 5 CRAZIEST STREAMER FAILS IN GTA! 😱 Jynxzi landing on the wrong runway, Speed fighting NPCs, and CaseOh breaking game physics! Which streamer had the wildest reaction? 😂\n\n#StreamerFails #Jynxzi #FunnyMoments #TwitchGaming #Shorts",
+      "subtitle_preset": "hormozi",
+      "style_preset": "hormozi",
+      "subtitle_position": "bottom",
+      "words_per_group": 2,
+      "uppercase": true,
+      "word_pop": true,
+      "highlight_words": true,
+      "primary_color": "&H0000FFFF",
+      "secondary_color": "&H0000FF00",
+      "outline_color": "&H00000000",
+      "reason": "Jynxzi mistaking a runway in GTA and crash landing into buildings: I thought that was my landing strip!",
+      "post_caption": "TOP 5 CRAZIEST STREAMER GTA FAILS! Jynxzi thought the highway was a landing strip... watch what happens next! Pure chaos!\n\n#GTAFails #Jynxzi #GamingMemes #Shorts #Reels",
       "hashtags": [
-        "#StreamerMoments",
-        "#FunnyFails",
-        "#GamingClips",
+        "#GTAFails",
+        "#Jynxzi",
+        "#GamingMemes",
         "#Shorts",
         "#Reels"
       ]

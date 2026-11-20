@@ -1,258 +1,161 @@
 {
-  "source": "/Users/deepanshumohan/Work/gta/jynxzi_segments/clip_06.mp4",
+  "source": "/Users/deepanshumohan/Work/gta/jynxzi_segments/clip_08.mp4",
   "language": "en",
   "language_probability": null,
   "model": "openai-whisper-base",
   "segments": [
     {
-      "start": 0.0,
-      "end": 2.34,
-      "text": "What the fuck? Two bullets in the face?",
+      "start": 10.760000000000003,
+      "end": 11.6,
+      "text": "I",
       "words": [
         {
-          "start": 0.0,
-          "end": 0.12,
-          "word": " What"
-        },
-        {
-          "start": 0.12,
-          "end": 0.24,
-          "word": " the"
-        },
-        {
-          "start": 0.24,
-          "end": 0.86,
-          "word": " fuck?"
-        },
-        {
-          "start": 1.24,
-          "end": 1.38,
-          "word": " Two"
-        },
-        {
-          "start": 1.38,
-          "end": 1.7,
-          "word": " bullets"
-        },
-        {
-          "start": 1.7,
-          "end": 1.94,
-          "word": " in"
-        },
-        {
-          "start": 1.94,
-          "end": 2.04,
-          "word": " the"
-        },
-        {
-          "start": 2.04,
-          "end": 2.34,
-          "word": " face?"
-        }
-      ]
-    },
-    {
-      "start": 3.640000000000004,
-      "end": 4.16,
-      "text": "What?",
-      "words": [
-        {
-          "start": 3.640000000000004,
-          "end": 4.16,
-          "word": " What?"
-        }
-      ]
-    },
-    {
-      "start": 10.120000000000005,
-      "end": 13.96,
-      "text": "I guess if it's not a headshot, it's not even worth doing, right?",
-      "words": [
-        {
-          "start": 10.120000000000005,
-          "end": 10.64,
+          "start": 10.760000000000003,
+          "end": 11.6,
           "word": " I"
-        },
-        {
-          "start": 10.64,
-          "end": 10.76,
-          "word": " guess"
-        },
-        {
-          "start": 10.76,
-          "end": 10.92,
-          "word": " if"
-        },
-        {
-          "start": 10.92,
-          "end": 11.06,
-          "word": " it's"
-        },
-        {
-          "start": 11.06,
-          "end": 11.16,
-          "word": " not"
-        },
-        {
-          "start": 11.16,
-          "end": 11.3,
-          "word": " a"
-        },
-        {
-          "start": 11.3,
-          "end": 11.66,
-          "word": " headshot,"
-        },
-        {
-          "start": 11.66,
-          "end": 11.9,
-          "word": " it's"
-        },
-        {
-          "start": 11.9,
-          "end": 11.98,
-          "word": " not"
-        },
-        {
-          "start": 11.98,
-          "end": 12.14,
-          "word": " even"
-        },
-        {
-          "start": 12.14,
-          "end": 12.46,
-          "word": " worth"
-        },
-        {
-          "start": 12.46,
-          "end": 12.9,
-          "word": " doing,"
-        },
-        {
-          "start": 13.5,
-          "end": 13.96,
-          "word": " right?"
         }
       ]
     },
     {
-      "start": 18.600000000000005,
-      "end": 23.1,
-      "text": "Yo Jason, I said to reason with them, not subtly threaten them again.",
+      "start": 16.0,
+      "end": 17.88,
+      "text": "Read me you know read me",
       "words": [
         {
-          "start": 18.600000000000005,
-          "end": 19.12,
-          "word": " Yo"
+          "start": 15.720000000000002,
+          "end": 16.14,
+          "word": " Read"
         },
         {
-          "start": 19.12,
-          "end": 19.4,
-          "word": " Jason,"
+          "start": 16.14,
+          "end": 16.88,
+          "word": " me"
         },
         {
-          "start": 19.62,
-          "end": 19.64,
-          "word": " I"
-        },
-        {
-          "start": 19.64,
-          "end": 19.82,
-          "word": " said"
-        },
-        {
-          "start": 19.82,
-          "end": 19.98,
-          "word": " to"
-        },
-        {
-          "start": 19.98,
-          "end": 20.32,
-          "word": " reason"
-        },
-        {
-          "start": 20.32,
-          "end": 20.58,
-          "word": " with"
-        },
-        {
-          "start": 20.58,
-          "end": 20.8,
-          "word": " them,"
-        },
-        {
-          "start": 20.92,
-          "end": 21.18,
-          "word": " not"
-        },
-        {
-          "start": 21.18,
-          "end": 21.86,
-          "word": " subtly"
-        },
-        {
-          "start": 21.86,
-          "end": 22.3,
-          "word": " threaten"
-        },
-        {
-          "start": 22.3,
-          "end": 22.56,
-          "word": " them"
-        },
-        {
-          "start": 22.56,
-          "end": 23.1,
-          "word": " again."
-        }
-      ]
-    },
-    {
-      "start": 30.0,
-      "end": 30.84,
-      "text": "There you are.",
-      "words": [
-        {
-          "start": 30.0,
-          "end": 30.22,
-          "word": " There"
-        },
-        {
-          "start": 30.22,
-          "end": 30.46,
+          "start": 16.88,
+          "end": 17.02,
           "word": " you"
         },
         {
-          "start": 30.46,
-          "end": 30.84,
-          "word": " are."
+          "start": 17.02,
+          "end": 17.14,
+          "word": " know"
+        },
+        {
+          "start": 17.14,
+          "end": 17.58,
+          "word": " read"
+        },
+        {
+          "start": 17.58,
+          "end": 17.88,
+          "word": " me"
         }
       ]
     },
     {
-      "start": 33.2,
-      "end": 34.98,
-      "text": "Woo! You f**k this.",
+      "start": 22.0,
+      "end": 24.04,
+      "text": "Yes, you need to visit the",
       "words": [
         {
-          "start": 33.0,
-          "end": 33.38,
-          "word": " Woo!"
+          "start": 21.680000000000007,
+          "end": 22.100000000000005,
+          "word": " Yes,"
         },
         {
-          "start": 33.92,
-          "end": 34.22,
-          "word": " You"
+          "start": 22.100000000000005,
+          "end": 22.94,
+          "word": " you"
         },
         {
-          "start": 34.22,
-          "end": 34.76,
-          "word": " f**k"
+          "start": 22.94,
+          "end": 23.18,
+          "word": " need"
         },
         {
-          "start": 34.76,
-          "end": 34.98,
-          "word": " this."
+          "start": 23.18,
+          "end": 23.32,
+          "word": " to"
+        },
+        {
+          "start": 23.32,
+          "end": 23.62,
+          "word": " visit"
+        },
+        {
+          "start": 23.62,
+          "end": 24.04,
+          "word": " the"
+        }
+      ]
+    },
+    {
+      "start": 24.04,
+      "end": 24.78,
+      "text": "Sticky",
+      "words": [
+        {
+          "start": 24.04,
+          "end": 24.78,
+          "word": " Sticky"
+        }
+      ]
+    },
+    {
+      "start": 24.78,
+      "end": 31.22,
+      "text": "The fucking the barbecue gonna do about an existential crisis",
+      "words": [
+        {
+          "start": 24.78,
+          "end": 25.68,
+          "word": " The"
+        },
+        {
+          "start": 25.68,
+          "end": 28.42,
+          "word": " fucking"
+        },
+        {
+          "start": 28.42,
+          "end": 28.64,
+          "word": " the"
+        },
+        {
+          "start": 28.64,
+          "end": 28.98,
+          "word": " barbecue"
+        },
+        {
+          "start": 28.98,
+          "end": 29.44,
+          "word": " gonna"
+        },
+        {
+          "start": 29.44,
+          "end": 29.62,
+          "word": " do"
+        },
+        {
+          "start": 29.62,
+          "end": 29.88,
+          "word": " about"
+        },
+        {
+          "start": 29.88,
+          "end": 30.06,
+          "word": " an"
+        },
+        {
+          "start": 30.06,
+          "end": 30.56,
+          "word": " existential"
+        },
+        {
+          "start": 30.56,
+          "end": 31.22,
+          "word": " crisis"
         }
       ]
     }

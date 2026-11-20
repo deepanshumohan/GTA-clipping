@@ -1,0 +1,45 @@
+{
+  "source": "/Users/deepanshumohan/Work/gta/jynxzi_segments/clip_04.mp4",
+  "transcript": "transcript.json",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "font": "Arial",
+  "normalize_audio": true,
+  "reels": [
+    {
+      "name": "01_Jynxzi_Shocked_By_GTA6_Realism",
+      "ranges": [
+        [
+          0.0,
+          26.0
+        ]
+      ],
+      "layout": "fit",
+      "title": "JYNXZI CANNOT BELIEVE GTA 6 REALISM!",
+      "hook": "JYNXZI CANNOT BELIEVE GTA 6 REALISM!",
+      "hook_seconds": 3.0,
+      "burn_captions": true,
+      "subtitle_preset": "hormozi",
+      "style_preset": "hormozi",
+      "subtitle_position": "bottom",
+      "words_per_group": 2,
+      "uppercase": true,
+      "word_pop": true,
+      "highlight_words": true,
+      "primary_color": "&H0000FFFF",
+      "secondary_color": "&H0000FF00",
+      "outline_color": "&H00000000",
+      "reason": "Jynxzi reacting live to GTA 6 next-gen detail and realism: 'Yo Holy Realism! Yo GTA 6 holy realism guys! Wow!'",
+      "post_caption": "JYNXZI'S HONEST REACTION TO GTA 6 GRAPHICS! 'Holy realism guys! What is this?!' Jynxzi couldn't believe what he was seeing!\n\n#Jynxzi #GTA6 #JynxziClips #GamingReactions #Shorts #Reels",
+      "hashtags": [
+        "#Jynxzi",
+        "#GTA6",
+        "#JynxziClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    }
+  ],
+  "expected_audio": true
+}

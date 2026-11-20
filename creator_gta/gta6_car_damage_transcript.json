@@ -1,0 +1,82 @@
+{
+  "source": "/Users/deepanshumohan/Work/gta/creator_gta/gta6_car_damage.mp4",
+  "language": "en",
+  "language_probability": null,
+  "model": "openai-whisper-base",
+  "segments": [
+    {
+      "start": 12.139999999999999,
+      "end": 14.94,
+      "text": "just looking around",
+      "words": [
+        {
+          "start": 12.139999999999999,
+          "end": 13.54,
+          "word": " just"
+        },
+        {
+          "start": 13.54,
+          "end": 14.94,
+          "word": " looking"
+        }
+      ]
+    },
+    {
+      "start": 15.76,
+      "end": 16.58,
+      "text": "i'll say",
+      "words": [
+        {
+          "start": 15.76,
+          "end": 16.18,
+          "word": " i'll"
+        },
+        {
+          "start": 16.18,
+          "end": 16.58,
+          "word": " say"
+        }
+      ]
+    },
+    {
+      "start": 19.2,
+      "end": 21.36,
+      "text": "look over here",
+      "words": [
+        {
+          "start": 18.94,
+          "end": 19.64,
+          "word": " look"
+        },
+        {
+          "start": 19.64,
+          "end": 19.82,
+          "word": " over"
+        },
+        {
+          "start": 19.82,
+          "end": 21.36,
+          "word": " here分"
+        }
+      ]
+    },
+    {
+      "start": 21.36,
+      "end": 22.18,
+      "text": "分",
+      "words": [
+        {
+          "start": 21.36,
+          "end": 22.18,
+          "word": " server"
+        }
+      ]
+    },
+    {
+      "start": 24.240000000000002,
+      "end": 28.240000000000002,
+      "text": "server",
+      "words": []
+    }
+  ]
+}

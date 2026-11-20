@@ -360,9 +360,11 @@ def build_ass_style(preset, font, width, height, custom_opts=None):
         outline_col = custom_opts.get('outline_color') or '&H00000000'# Solid Pitch Black
         back_col = '&H00000000'                                      # Solid Pitch Black Shadow (100% opaque)
         bold = -1
-        outline = 5                                                  # High-contrast 5px outline
+        outline = 6                                                  # High-contrast 6px outline
         shadow = 4                                                   # Deep 4px drop shadow for ultra readability
         border_style = 1
+        font_size = custom_opts.get('font_size') or round(width * 0.060)
+        margin_v = custom_opts.get('margin_v') or round(height * 0.27)
     elif preset == 'neon':
         primary = custom_opts.get('primary_color') or '&H0000FF00'    # Neon Green
         secondary = custom_opts.get('secondary_color') or '&H00FFFFFF'# White
@@ -432,13 +434,32 @@ def get_sentiment_emoji(text):
     return None
 
 
+EMOJI_REGEX = re.compile(
+    r'['
+    r'\U00010000-\U0010ffff'
+    r'\u2600-\u27bf'
+    r'\u2300-\u23ff'
+    r'\u2b50-\u2b55'
+    r'\u200d\ufe0f'
+    r'\u20e3'
+    r']+',
+    flags=re.UNICODE
+)
+
+def clean_no_emoji(text):
+    return EMOJI_REGEX.sub('', text).strip()
+
+def red_punct(text):
+    # Formats exclamation marks and question marks in bright red {\c&H000000FF&}!{\c&H0000FFFF&}
+    return re.sub(r'([!?]+)', lambda m: f"{{\\c&H000000FF&}}{m.group(1)}{{\\c&H0000FFFF&}}", text)
+
 def caption_file(path, reel, transcript, width, height, font, duration):
     if any(x in font for x in ',\r\n'):
         raise ValueError('Font name must not contain commas/newlines')
     events = []
     offset = 0
     word_pop = reel.get('word_pop', False) or (str(reel.get('animation', '')).lower() == 'pop')
-    words_per_group = reel.get('words_per_group')
+    words_per_group = reel.get('words_per_group', 2)
     if words_per_group and not reel.get('captions'):
         captions = phrases(transcript, max_words=int(words_per_group))
     else:
@@ -446,7 +467,7 @@ def caption_file(path, reel, transcript, width, height, font, duration):
 
     highlight_words = reel.get('highlight_words', True)
     uppercase = reel.get('uppercase', False)
-    use_emojis = reel.get('use_emojis', reel.get('emojis', True))
+    use_emojis = False  # Disabled to prevent unicode rectangle (tofu) glyph boxes in ffmpeg
     
     preset = reel.get('subtitle_preset') or reel.get('style_preset', 'default')
     custom_opts = {
@@ -477,6 +498,7 @@ def caption_file(path, reel, transcript, width, height, font, duration):
                             if we <= ws:
                                 continue
                             token = str(w.get('word', '')).strip()
+                            token = clean_no_emoji(token)
                             if uppercase:
                                 token = token.upper()
                             if token:
@@ -484,35 +506,31 @@ def caption_file(path, reel, transcript, width, height, font, duration):
                                 span_end = min(end, max(we, next_start))
                                 cs = max(1, round((span_end - ws) * 100))
                                 is_accent = any(k in token.lower() for k in ACCENT_KEYS) or any(ch.isdigit() for ch in token)
+                                styled_token = red_punct(ass_text(token))
                                 if is_accent:
-                                    phrase.append(f"{{\\k{cs}}}{{\\c&H00FFFF00&}}{ass_text(token)}{{\\r}}")
+                                    phrase.append(f"{{\\k{cs}}}{{\\c&H0000FF00&}}{styled_token}{{\\c&H0000FFFF&}}")
                                 else:
-                                    phrase.append(f"{{\\k{cs}}}{ass_text(token)}")
+                                    phrase.append(f"{{\\k{cs}}}{styled_token}")
                         if phrase:
-                            if use_emojis:
-                                em = get_sentiment_emoji(c.get('text', ''))
-                                if em and not any(em in p for p in phrase):
-                                    phrase.append(f"{{\\k1}}{em}")
                             line_content = pop_prefix + ' '.join(phrase)
                             events.append((offset + start - a, offset + end - a, 'Caption', line_content))
                     else:
-                        txt = ass_text(c['text'])
+                        txt = ass_text(clean_no_emoji(c['text']))
                         if uppercase:
                             txt = txt.upper()
-                        if use_emojis:
-                            em = get_sentiment_emoji(c.get('text', ''))
-                            if em and em not in txt:
-                                txt += f" {em}"
+                        txt = red_punct(txt)
                         line_content = pop_prefix + txt
                         events.append((offset + start - a, offset + end - a, 'Caption', line_content))
             offset += b - a
     if reel.get('hook'):
-        hook_txt = ass_text(reel['hook'])
+        hook_raw = clean_no_emoji(reel['hook'])
         if uppercase:
-            hook_txt = hook_txt.upper()
+            hook_raw = hook_raw.upper()
+        hook_txt = red_punct(ass_text(hook_raw))
         events.append((0, min(duration, float(reel.get('hook_seconds', 3))), 'Hook', hook_txt))
 
     caption_style, hook_style = build_ass_style(preset, font, width, height, custom_opts)
+    default_style = caption_style.replace('Style: Caption,', 'Style: Default,')
     header = f'''[Script Info]
 ScriptType: v4.00+
 PlayResX: {width}
@@ -521,6 +539,7 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+{default_style}
 {caption_style}
 {hook_style}
 [Events]

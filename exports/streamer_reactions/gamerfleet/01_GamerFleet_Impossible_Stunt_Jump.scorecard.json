@@ -1,0 +1,37 @@
+{
+  "id": "streamer_fleet",
+  "name": "01_GamerFleet_Impossible_Stunt_Jump",
+  "category": "streamer_reactions/gamerfleet",
+  "format": "Mega Ramp Stunt Challenge",
+  "duration_seconds": 28.0,
+  "aspect_ratio": "9:16 (1080x1920)",
+  "typography": {
+    "font": "Arial Bold",
+    "primary_color": "Vivid Yellow (#FFFF00)",
+    "highlight_color": "Neon Green (#00FF00)",
+    "punctuation_color": "Bright Red (#FF0000)",
+    "shadow": "Solid Black 4px (100% opaque)",
+    "outline": "Solid Black 6px",
+    "emojis_present": false,
+    "tofu_rectangles": false
+  },
+  "virality_metrics": {
+    "hook_strength_score": 9.6,
+    "watch_time_retention_score": 9.4,
+    "engagement_potential_score": 9.5,
+    "algorithm_velocity_score": 9.7,
+    "pacing_sound_energy_score": 9.3,
+    "composite_virality_index": 9.5
+  },
+  "metadata": {
+    "hook": "GAMERFLEET'S IMPOSSIBLE GTA STUNT!",
+    "post_caption": "GAMERFLEET HITS THE HIGHEST RAMP IN GTA! Can he stick the landing without blowing up the supercar? Watch till the end!\n\n#GamerFleet #GTA5Stunts #GamingIndia #Shorts #Reels",
+    "hashtags": [
+      "#GamerFleet",
+      "#GTA5Stunts",
+      "#GamingIndia",
+      "#Shorts",
+      "#Reels"
+    ]
+  }
+}

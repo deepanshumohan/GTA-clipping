@@ -1,0 +1,37 @@
+{
+  "id": "streamer_speed",
+  "name": "01_Speed_Craziest_GTA6_Cop_Chase",
+  "category": "streamer_reactions/speed",
+  "format": "Streamer Reaction / 5-Star Chase",
+  "duration_seconds": 24.2,
+  "aspect_ratio": "9:16 (1080x1920)",
+  "typography": {
+    "font": "Arial Bold",
+    "primary_color": "Vivid Yellow (#FFFF00)",
+    "highlight_color": "Neon Green (#00FF00)",
+    "punctuation_color": "Bright Red (#FF0000)",
+    "shadow": "Solid Black 4px (100% opaque)",
+    "outline": "Solid Black 6px",
+    "emojis_present": false,
+    "tofu_rectangles": false
+  },
+  "virality_metrics": {
+    "hook_strength_score": 9.6,
+    "watch_time_retention_score": 9.4,
+    "engagement_potential_score": 9.5,
+    "algorithm_velocity_score": 9.7,
+    "pacing_sound_energy_score": 9.3,
+    "composite_virality_index": 9.5
+  },
+  "metadata": {
+    "hook": "SPEED'S CRAZIEST GTA 6 COP CHASE!",
+    "post_caption": "SPEED LOST HIS MIND IN GTA 6! Day 2 of the playthrough and the Vice City cops gave him zero mercy! Watch him scream and dodge squad cars!\n\n#IShowSpeed #GTA6 #SpeedClips #Shorts #Reels",
+    "hashtags": [
+      "#IShowSpeed",
+      "#GTA6",
+      "#SpeedClips",
+      "#Shorts",
+      "#Reels"
+    ]
+  }
+}

@@ -6,10 +6,11 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Caption,Arial,56,&H0000FFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,2,108,108,480,1
+Style: Default,Arial,65,&H0000FFFF,&H0000FF00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,4,2,108,108,518,1
+Style: Caption,Arial,65,&H0000FFFF,&H0000FF00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,4,2,108,108,518,1
 Style: Hook,Arial,59,&H0000FFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,8,108,108,250,1
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:03.00,Hook,,0,0,0,,DEFINITIVE GTA TIER LIST! 🏆
-Dialogue: 0,0:00:05.12,0:00:29.98,Caption,,0,0,0,,नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा न�
-Dialogue: 0,0:00:29.98,0:00:30.00,Caption,,0,0,0,,दी LAUT खीब बंटेहदा नूपिजा नूपिज ESTÀ नूपिसर नूपिजा नूपिजा नूपिजा नूपिजा नूप। नूपिजा नूपि जऐ में टील नूप्जे जार नूपिजा नूपिजै नूपिजतततनकाजति यूपिजा नूपिजा नूपिजीबू में बाटि
+Dialogue: 0,0:00:00.00,0:00:03.00,Hook,,0,0,0,,DEFINITIVE GTA TIER LIST{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:05.12,0:00:29.98,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा न�
+Dialogue: 0,0:00:29.98,0:00:30.00,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}दी LAUT खीब बंटेहदा नूपिजा नूपिज ESTÀ नूपिसर नूपिजा नूपिजा नूपिजा नूपिजा नूप। नूपिजा नूपि जऐ में टील नूप्जे जार नूपिजा नूपिजै नूपिजतततनकाजति यूपिजा नूपिजा नूपिजीबू में बाटि

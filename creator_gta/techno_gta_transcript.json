@@ -1,0 +1,560 @@
+{
+  "source": "/Users/deepanshumohan/Work/gta/creator_gta/techno_gta.mp4",
+  "language": "hi",
+  "language_probability": null,
+  "model": "openai-whisper-base",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.44,
+      "text": "mk-nye galti se frari ki f-toblx ke car ko",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.44,
+          "word": " mk"
+        },
+        {
+          "start": 0.44,
+          "end": 0.72,
+          "word": "-nye"
+        },
+        {
+          "start": 0.72,
+          "end": 1.06,
+          "word": " galti"
+        },
+        {
+          "start": 1.06,
+          "end": 1.2,
+          "word": " se"
+        },
+        {
+          "start": 1.2,
+          "end": 1.62,
+          "word": " frari"
+        },
+        {
+          "start": 1.62,
+          "end": 1.86,
+          "word": " ki"
+        },
+        {
+          "start": 1.86,
+          "end": 2.18,
+          "word": " f"
+        },
+        {
+          "start": 2.18,
+          "end": 2.7,
+          "word": "-toblx"
+        },
+        {
+          "start": 2.7,
+          "end": 2.86,
+          "word": " ke"
+        },
+        {
+          "start": 2.86,
+          "end": 3.22,
+          "word": " car"
+        },
+        {
+          "start": 3.22,
+          "end": 3.44,
+          "word": " ko"
+        }
+      ]
+    },
+    {
+      "start": 3.44,
+      "end": 5.52,
+      "text": "pula explodogar diya tha",
+      "words": [
+        {
+          "start": 3.44,
+          "end": 4.14,
+          "word": " pula"
+        },
+        {
+          "start": 4.14,
+          "end": 5.2,
+          "word": " explodogar"
+        },
+        {
+          "start": 5.2,
+          "end": 5.38,
+          "word": " diya"
+        },
+        {
+          "start": 5.38,
+          "end": 5.52,
+          "word": " tha"
+        }
+      ]
+    },
+    {
+      "start": 5.52,
+      "end": 7.34,
+      "text": "aur iya baat to tome siyaat pata iyo ki ki",
+      "words": [
+        {
+          "start": 5.52,
+          "end": 5.94,
+          "word": " aur"
+        },
+        {
+          "start": 5.94,
+          "end": 6.08,
+          "word": " iya"
+        },
+        {
+          "start": 6.08,
+          "end": 6.26,
+          "word": " baat"
+        },
+        {
+          "start": 6.26,
+          "end": 6.32,
+          "word": " to"
+        },
+        {
+          "start": 6.32,
+          "end": 6.46,
+          "word": " tome"
+        },
+        {
+          "start": 6.46,
+          "end": 6.74,
+          "word": " siyaat"
+        },
+        {
+          "start": 6.74,
+          "end": 6.96,
+          "word": " pata"
+        },
+        {
+          "start": 6.96,
+          "end": 7.08,
+          "word": " iyo"
+        },
+        {
+          "start": 7.08,
+          "end": 7.2,
+          "word": " ki"
+        },
+        {
+          "start": 7.2,
+          "end": 7.34,
+          "word": " ki"
+        }
+      ]
+    },
+    {
+      "start": 7.34,
+      "end": 9.24,
+      "text": "ki bhai vogadi humare kut ki nei thi",
+      "words": [
+        {
+          "start": 7.34,
+          "end": 7.36,
+          "word": " ki"
+        },
+        {
+          "start": 7.36,
+          "end": 7.44,
+          "word": " bhai"
+        },
+        {
+          "start": 7.44,
+          "end": 8.04,
+          "word": " vogadi"
+        },
+        {
+          "start": 8.04,
+          "end": 8.42,
+          "word": " humare"
+        },
+        {
+          "start": 8.42,
+          "end": 8.72,
+          "word": " kut"
+        },
+        {
+          "start": 8.72,
+          "end": 8.88,
+          "word": " ki"
+        },
+        {
+          "start": 8.88,
+          "end": 9.1,
+          "word": " nei"
+        },
+        {
+          "start": 9.1,
+          "end": 9.24,
+          "word": " thi"
+        }
+      ]
+    },
+    {
+      "start": 9.24,
+      "end": 12.76,
+      "text": "humla ko sepne liberti wale friend se udhar paar le kar aayi thi",
+      "words": [
+        {
+          "start": 9.24,
+          "end": 9.86,
+          "word": " humla"
+        },
+        {
+          "start": 9.86,
+          "end": 9.94,
+          "word": " ko"
+        },
+        {
+          "start": 9.94,
+          "end": 10.2,
+          "word": " sepne"
+        },
+        {
+          "start": 10.2,
+          "end": 10.76,
+          "word": " liberti"
+        },
+        {
+          "start": 10.76,
+          "end": 10.9,
+          "word": " wale"
+        },
+        {
+          "start": 10.9,
+          "end": 11.22,
+          "word": " friend"
+        },
+        {
+          "start": 11.22,
+          "end": 11.46,
+          "word": " se"
+        },
+        {
+          "start": 11.46,
+          "end": 11.92,
+          "word": " udhar"
+        },
+        {
+          "start": 11.92,
+          "end": 12.14,
+          "word": " paar"
+        },
+        {
+          "start": 12.14,
+          "end": 12.26,
+          "word": " le"
+        },
+        {
+          "start": 12.26,
+          "end": 12.48,
+          "word": " kar"
+        },
+        {
+          "start": 12.48,
+          "end": 12.68,
+          "word": " aayi"
+        },
+        {
+          "start": 12.68,
+          "end": 12.76,
+          "word": " thi"
+        }
+      ]
+    },
+    {
+      "start": 12.76,
+      "end": 15.76,
+      "text": "ekki racing tournament me paar disipit karni ki le",
+      "words": [
+        {
+          "start": 12.76,
+          "end": 13.18,
+          "word": " ekki"
+        },
+        {
+          "start": 13.18,
+          "end": 13.5,
+          "word": " racing"
+        },
+        {
+          "start": 13.5,
+          "end": 14.04,
+          "word": " tournament"
+        },
+        {
+          "start": 14.04,
+          "end": 14.36,
+          "word": " me"
+        },
+        {
+          "start": 14.36,
+          "end": 14.8,
+          "word": " paar"
+        },
+        {
+          "start": 14.8,
+          "end": 15.2,
+          "word": " disipit"
+        },
+        {
+          "start": 15.2,
+          "end": 15.6,
+          "word": " karni"
+        },
+        {
+          "start": 15.6,
+          "end": 15.68,
+          "word": " ki"
+        },
+        {
+          "start": 15.68,
+          "end": 15.76,
+          "word": " le"
+        }
+      ]
+    },
+    {
+      "start": 15.76,
+      "end": 17.46,
+      "text": "ju sa price pull bhoot zadada",
+      "words": [
+        {
+          "start": 15.76,
+          "end": 15.86,
+          "word": " ju"
+        },
+        {
+          "start": 15.86,
+          "end": 15.94,
+          "word": " sa"
+        },
+        {
+          "start": 15.94,
+          "end": 16.42,
+          "word": " price"
+        },
+        {
+          "start": 16.42,
+          "end": 16.6,
+          "word": " pull"
+        },
+        {
+          "start": 16.6,
+          "end": 17.12,
+          "word": " bhoot"
+        },
+        {
+          "start": 17.12,
+          "end": 17.46,
+          "word": " zadada"
+        }
+      ]
+    },
+    {
+      "start": 17.46,
+      "end": 18.88,
+      "text": "bhaot fortunate li",
+      "words": [
+        {
+          "start": 17.46,
+          "end": 18.16,
+          "word": " bhaot"
+        },
+        {
+          "start": 18.16,
+          "end": 18.6,
+          "word": " fortunate"
+        },
+        {
+          "start": 18.6,
+          "end": 18.88,
+          "word": " li"
+        }
+      ]
+    },
+    {
+      "start": 19.419999999999998,
+      "end": 20.98,
+      "text": "nahi humme ho price pull mila",
+      "words": [
+        {
+          "start": 19.419999999999998,
+          "end": 19.9,
+          "word": " nahi"
+        },
+        {
+          "start": 19.9,
+          "end": 20.08,
+          "word": " humme"
+        },
+        {
+          "start": 20.08,
+          "end": 20.18,
+          "word": " ho"
+        },
+        {
+          "start": 20.18,
+          "end": 20.5,
+          "word": " price"
+        },
+        {
+          "start": 20.5,
+          "end": 20.7,
+          "word": " pull"
+        },
+        {
+          "start": 20.7,
+          "end": 20.98,
+          "word": " mila"
+        }
+      ]
+    },
+    {
+      "start": 20.98,
+      "end": 23.72,
+      "text": "orto aur wo cari bi humare haat to se jalege",
+      "words": [
+        {
+          "start": 20.98,
+          "end": 21.74,
+          "word": " orto"
+        },
+        {
+          "start": 21.74,
+          "end": 21.92,
+          "word": " aur"
+        },
+        {
+          "start": 21.92,
+          "end": 22.02,
+          "word": " wo"
+        },
+        {
+          "start": 22.02,
+          "end": 22.52,
+          "word": " cari"
+        },
+        {
+          "start": 22.52,
+          "end": 22.62,
+          "word": " bi"
+        },
+        {
+          "start": 22.62,
+          "end": 22.94,
+          "word": " humare"
+        },
+        {
+          "start": 22.94,
+          "end": 23.2,
+          "word": " haat"
+        },
+        {
+          "start": 23.2,
+          "end": 23.26,
+          "word": " to"
+        },
+        {
+          "start": 23.26,
+          "end": 23.38,
+          "word": " se"
+        },
+        {
+          "start": 23.38,
+          "end": 23.72,
+          "word": " jalege"
+        }
+      ]
+    },
+    {
+      "start": 23.72,
+      "end": 27.62,
+      "text": "amo jo ye ni samajara ki bhai aakir khe se me aapne hoos tos ko",
+      "words": [
+        {
+          "start": 23.72,
+          "end": 24.32,
+          "word": " amo"
+        },
+        {
+          "start": 24.32,
+          "end": 24.4,
+          "word": " jo"
+        },
+        {
+          "start": 24.4,
+          "end": 24.68,
+          "word": " ye"
+        },
+        {
+          "start": 24.68,
+          "end": 24.88,
+          "word": " ni"
+        },
+        {
+          "start": 24.88,
+          "end": 25.28,
+          "word": " samajara"
+        },
+        {
+          "start": 25.28,
+          "end": 25.48,
+          "word": " ki"
+        },
+        {
+          "start": 25.48,
+          "end": 25.66,
+          "word": " bhai"
+        },
+        {
+          "start": 25.66,
+          "end": 26.1,
+          "word": " aakir"
+        },
+        {
+          "start": 26.1,
+          "end": 26.4,
+          "word": " khe"
+        },
+        {
+          "start": 26.4,
+          "end": 26.58,
+          "word": " se"
+        },
+        {
+          "start": 26.58,
+          "end": 26.72,
+          "word": " me"
+        },
+        {
+          "start": 26.72,
+          "end": 26.96,
+          "word": " aapne"
+        },
+        {
+          "start": 26.96,
+          "end": 27.18,
+          "word": " hoos"
+        },
+        {
+          "start": 27.18,
+          "end": 27.46,
+          "word": " tos"
+        },
+        {
+          "start": 27.46,
+          "end": 27.62,
+          "word": " ko"
+        }
+      ]
+    }
+  ]
+}

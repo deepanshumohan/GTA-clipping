@@ -1,0 +1,27 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,65,&H0000FFFF,&H0000FF00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,4,2,108,108,518,1
+Style: Caption,Arial,65,&H0000FFFF,&H0000FF00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,4,2,108,108,518,1
+Style: Hook,Arial,59,&H0000FFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,8,108,108,250,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.40,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k40}{\c&H0000FF00&}WHAT{\c&H000000FF&}?{\c&H0000FFFF&}{\c&H0000FFFF&}
+Dialogue: 0,0:00:00.00,0:00:03.00,Hook,,0,0,0,,JYNXZI CANNOT BELIEVE GTA 6 REALISM{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:05.30,0:00:05.98,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k54}I {\k14}THINK
+Dialogue: 0,0:00:05.98,0:00:06.24,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k14}HE {\k12}WAS
+Dialogue: 0,0:00:06.24,0:00:06.82,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k38}ACTUALLY {\k20}GONNA
+Dialogue: 0,0:00:06.82,0:00:07.68,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k16}BE {\k70}THERE.
+Dialogue: 0,0:00:10.80,0:00:12.14,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k94}YO, {\k40}{\c&H0000FF00&}HOLY{\c&H0000FFFF&}
+Dialogue: 0,0:00:12.14,0:00:12.96,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k82}REALISM.
+Dialogue: 0,0:00:15.12,0:00:18.94,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}YO, I JUST SAW A MAN, I DIDN'T SEE HIS TIP. I SAW HIS SHAFT.
+Dialogue: 0,0:00:19.70,0:00:20.38,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k50}YO, {\k18}GTA
+Dialogue: 0,0:00:20.38,0:00:21.16,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k46}{\c&H0000FF00&}6,{\c&H0000FFFF&} {\k32}{\c&H0000FF00&}HOLY{\c&H0000FFFF&}
+Dialogue: 0,0:00:21.16,0:00:22.10,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k60}REALISM {\k34}GUYS.
+Dialogue: 0,0:00:23.26,0:00:24.28,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k86}WOW, {\k16}{\c&H0000FF00&}WHAT{\c&H0000FFFF&}
+Dialogue: 0,0:00:24.28,0:00:24.94,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k20}THE {\k46}FUCK{\c&H000000FF&}?{\c&H0000FFFF&}

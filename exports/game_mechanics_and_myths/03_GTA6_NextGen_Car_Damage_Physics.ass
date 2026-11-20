@@ -1,0 +1,29 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,65,&H0000FFFF,&H0000FF00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,4,2,108,108,518,1
+Style: Caption,Arial,65,&H0000FFFF,&H0000FF00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,4,2,108,108,518,1
+Style: Hook,Arial,59,&H0000FFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,8,108,108,250,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:03.00,Hook,,0,0,0,,GTA 6 NEXT-GEN CAR DAMAGE IS INSANE{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:00.50,0:00:02.40,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k110}NEXT-GEN {\k80}CAR
+Dialogue: 0,0:00:02.40,0:00:03.90,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k100}DAMAGE {\k50}IN
+Dialogue: 0,0:00:03.90,0:00:05.00,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k60}GTA {\k50}{\c&H0000FF00&}6{\c&H000000FF&}!{\c&H0000FFFF&}{\c&H0000FFFF&}
+Dialogue: 0,0:00:05.50,0:00:08.00,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k110}TESTING {\k140}HIGH-SPEED
+Dialogue: 0,0:00:08.00,0:00:10.50,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k110}IMPACT {\k140}DEFORMATION{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:11.00,0:00:12.30,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k80}LOOK {\k50}AT
+Dialogue: 0,0:00:12.30,0:00:13.40,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k60}HOW {\k50}THE
+Dialogue: 0,0:00:13.40,0:00:15.40,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k110}PANELS {\k90}CRUMPLE
+Dialogue: 0,0:00:15.40,0:00:16.50,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k110}DYNAMICALLY{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:17.00,0:00:19.10,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k80}WHEEL {\k130}DETACHMENT
+Dialogue: 0,0:00:19.10,0:00:20.40,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k60}AT {\k70}{\c&H0000FF00&}150{\c&H0000FFFF&}
+Dialogue: 0,0:00:20.40,0:00:21.00,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k60}MPH{\c&H000000FF&}!{\c&H0000FFFF&}
+Dialogue: 0,0:00:21.50,0:00:23.20,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k90}ROCKSTAR {\k80}REBUILT
+Dialogue: 0,0:00:23.20,0:00:24.40,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k80}PHYSICS {\k40}FROM
+Dialogue: 0,0:00:24.40,0:00:25.00,Caption,,0,0,0,,{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}{\k60}SCRATCH{\c&H000000FF&}!{\c&H0000FFFF&}

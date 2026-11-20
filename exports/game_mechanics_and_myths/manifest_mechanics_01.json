@@ -1,0 +1,44 @@
+{
+  "source": "/Users/deepanshumohan/Work/gta/reference_shorts/kDqBfTQVw74.mp4",
+  "transcript": "/Users/deepanshumohan/Work/gta/exports/game_mechanics_and_myths/transcript_mechanics_01.json",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "font": "Arial",
+  "normalize_audio": true,
+  "reels": [
+    {
+      "name": "01_Can_You_Stop_The_Train_In_GTA6",
+      "ranges": [
+        [
+          0.0,
+          18.8
+        ]
+      ],
+      "layout": "crop",
+      "title": "CAN YOU STOP THE GTA 6 TRAIN?!",
+      "hook": "CAN YOU FINALLY STOP THE TRAIN?!",
+      "hook_seconds": 3.0,
+      "burn_captions": true,
+      "subtitle_preset": "hormozi",
+      "style_preset": "hormozi",
+      "subtitle_position": "bottom",
+      "words_per_group": 2,
+      "uppercase": true,
+      "word_pop": true,
+      "highlight_words": true,
+      "primary_color": "&H0000FFFF",
+      "secondary_color": "&H0000FF00",
+      "outline_color": "&H00000000",
+      "reason": "Actual GTA 6 gameplay showing a player driving a car onto the tracks to stop the passenger train, proving it's no longer invincible.",
+      "post_caption": "CAN YOU FINALLY STOP THE GTA 6 TRAIN?! In GTA 5 the train was 100% invincible, but in GTA 6 you can actually stop it by driving a car directly in front of the engine! Share this with a friend who thought it was impossible!\n\n#GTA6 #GTAMyths #GamingMythbusters #Shorts #Reels",
+      "hashtags": [
+        "#GTA6",
+        "#GTAMyths",
+        "#Gaming",
+        "#Shorts",
+        "#Reels"
+      ]
+    }
+  ]
+}

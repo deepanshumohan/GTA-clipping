@@ -1,0 +1,279 @@
+{
+  "source": "/Users/deepanshumohan/Work/gta/jynxzi_segments/clip_04.mp4",
+  "language": "en",
+  "language_probability": null,
+  "model": "openai-whisper-base",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 0.4,
+      "text": "What?",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.4,
+          "word": " What?"
+        }
+      ]
+    },
+    {
+      "start": 5.3,
+      "end": 7.68,
+      "text": "I think he was actually gonna be there.",
+      "words": [
+        {
+          "start": 5.3,
+          "end": 5.84,
+          "word": " I"
+        },
+        {
+          "start": 5.84,
+          "end": 5.98,
+          "word": " think"
+        },
+        {
+          "start": 5.98,
+          "end": 6.12,
+          "word": " he"
+        },
+        {
+          "start": 6.12,
+          "end": 6.24,
+          "word": " was"
+        },
+        {
+          "start": 6.24,
+          "end": 6.62,
+          "word": " actually"
+        },
+        {
+          "start": 6.62,
+          "end": 6.82,
+          "word": " gonna"
+        },
+        {
+          "start": 6.82,
+          "end": 6.98,
+          "word": " be"
+        },
+        {
+          "start": 6.98,
+          "end": 7.68,
+          "word": " there."
+        }
+      ]
+    },
+    {
+      "start": 10.799999999999997,
+      "end": 12.96,
+      "text": "Yo, Holy Realism.",
+      "words": [
+        {
+          "start": 10.799999999999997,
+          "end": 11.34,
+          "word": " Yo,"
+        },
+        {
+          "start": 11.74,
+          "end": 12.14,
+          "word": " Holy"
+        },
+        {
+          "start": 12.14,
+          "end": 12.96,
+          "word": " Realism."
+        }
+      ]
+    },
+    {
+      "start": 15.12,
+      "end": 18.94,
+      "text": "Yo, I just saw a man, I didn't see his tip. I saw his shaft.",
+      "words": [
+        {
+          "start": 15.12,
+          "end": 15.66,
+          "word": " Yo,"
+        },
+        {
+          "start": 15.9,
+          "end": 16.02,
+          "word": " I"
+        },
+        {
+          "start": 16.02,
+          "end": 16.18,
+          "word": " just"
+        },
+        {
+          "start": 16.18,
+          "end": 16.56,
+          "word": " saw"
+        },
+        {
+          "start": 16.56,
+          "end": 16.86,
+          "word": " a"
+        },
+        {
+          "start": 16.86,
+          "end": 17.1,
+          "word": " man,"
+        },
+        {
+          "start": 17.24,
+          "end": 17.34,
+          "word": " I"
+        },
+        {
+          "start": 17.34,
+          "end": 17.48,
+          "word": " didn't"
+        },
+        {
+          "start": 17.48,
+          "end": 17.66,
+          "word": " see"
+        },
+        {
+          "start": 17.66,
+          "end": 17.82,
+          "word": " his"
+        },
+        {
+          "start": 17.82,
+          "end": 18.02,
+          "word": " tip."
+        },
+        {
+          "start": 18.26,
+          "end": 18.38,
+          "word": " saw"
+        },
+        {
+          "start": 18.38,
+          "end": 18.58,
+          "word": " his"
+        },
+        {
+          "start": 18.58,
+          "end": 18.94,
+          "word": " shaft."
+        }
+      ]
+    },
+    {
+      "start": 19.7,
+      "end": 22.1,
+      "text": "Yo, GTA 6, Holy Realism guys.",
+      "words": [
+        {
+          "start": 19.7,
+          "end": 19.86,
+          "word": " Yo,"
+        },
+        {
+          "start": 20.2,
+          "end": 20.38,
+          "word": " GTA"
+        },
+        {
+          "start": 20.38,
+          "end": 20.74,
+          "word": " 6,"
+        },
+        {
+          "start": 20.84,
+          "end": 21.16,
+          "word": " Holy"
+        },
+        {
+          "start": 21.16,
+          "end": 21.76,
+          "word": " Realism"
+        },
+        {
+          "start": 21.76,
+          "end": 22.1,
+          "word": " guys."
+        }
+      ]
+    },
+    {
+      "start": 23.26,
+      "end": 24.94,
+      "text": "Wow, what the fuck?",
+      "words": [
+        {
+          "start": 23.26,
+          "end": 23.8,
+          "word": " Wow,"
+        },
+        {
+          "start": 24.12,
+          "end": 24.28,
+          "word": " what"
+        },
+        {
+          "start": 24.28,
+          "end": 24.48,
+          "word": " the"
+        },
+        {
+          "start": 24.48,
+          "end": 24.94,
+          "word": " fuck?"
+        }
+      ]
+    },
+    {
+      "start": 30.0,
+      "end": 31.96,
+      "text": "Okay, now we're talking.",
+      "words": [
+        {
+          "start": 30.0,
+          "end": 30.8,
+          "word": " Okay,"
+        },
+        {
+          "start": 30.8,
+          "end": 31.36,
+          "word": " now"
+        },
+        {
+          "start": 31.36,
+          "end": 31.58,
+          "word": " we're"
+        },
+        {
+          "start": 31.58,
+          "end": 31.96,
+          "word": " talking."
+        }
+      ]
+    },
+    {
+      "start": 34.0,
+      "end": 35.0,
+      "text": "So, I was just...",
+      "words": [
+        {
+          "start": 33.5,
+          "end": 34.04,
+          "word": " So,"
+        },
+        {
+          "start": 34.32,
+          "end": 34.46,
+          "word": " was"
+        },
+        {
+          "start": 34.46,
+          "end": 35.0,
+          "word": " just..."
+        }
+      ]
+    }
+  ]
+}

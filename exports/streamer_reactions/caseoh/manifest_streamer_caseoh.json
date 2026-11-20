@@ -1,0 +1,44 @@
+{
+  "source": "/Users/deepanshumohan/Work/gta/creator_gta/caseoh_gta.mp4",
+  "transcript": "/Users/deepanshumohan/Work/gta/exports/streamer_reactions/caseoh/transcript_streamer_caseoh.json",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "font": "Arial",
+  "normalize_audio": true,
+  "reels": [
+    {
+      "name": "01_CaseOh_First_GTA6_Shootout_Rage",
+      "ranges": [
+        [
+          0.0,
+          25.9
+        ]
+      ],
+      "layout": "fit",
+      "title": "CASEOH LOSES HIS MIND IN GTA 6!",
+      "hook": "CASEOH LOSES HIS MIND IN GTA 6!",
+      "hook_seconds": 3.0,
+      "burn_captions": true,
+      "subtitle_preset": "hormozi",
+      "style_preset": "hormozi",
+      "subtitle_position": "bottom",
+      "words_per_group": 2,
+      "uppercase": true,
+      "word_pop": true,
+      "highlight_words": true,
+      "primary_color": "&H0000FFFF",
+      "secondary_color": "&H0000FF00",
+      "outline_color": "&H00000000",
+      "reason": "100% GTA shootout footage with CaseOh raging: 'Oh buddy, you don't know what you just walked into big dog! Chat lock in!'",
+      "post_caption": "CASEOH IN A GTA SHOOTOUT IS PEAK COMEDY! 'You don't know what you walked into big dog! Chat lock in!' CaseOh takes zero prisoners!\n\n#CaseOh #CaseOhClips #GTA #TwitchClips #Shorts #Reels",
+      "hashtags": [
+        "#CaseOh",
+        "#CaseOhClips",
+        "#GTA",
+        "#Shorts",
+        "#Reels"
+      ]
+    }
+  ]
+}

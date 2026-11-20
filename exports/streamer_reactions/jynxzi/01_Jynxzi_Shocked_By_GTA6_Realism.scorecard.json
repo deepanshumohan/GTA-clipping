@@ -1,0 +1,37 @@
+{
+  "id": "streamer_jynxzi",
+  "name": "01_Jynxzi_Shocked_By_GTA6_Realism",
+  "category": "streamer_reactions/jynxzi",
+  "format": "Streamer Reaction / Next-Gen Realism",
+  "duration_seconds": 26.0,
+  "aspect_ratio": "9:16 (1080x1920)",
+  "typography": {
+    "font": "Arial Bold",
+    "primary_color": "Vivid Yellow (#FFFF00)",
+    "highlight_color": "Neon Green (#00FF00)",
+    "punctuation_color": "Bright Red (#FF0000)",
+    "shadow": "Solid Black 4px (100% opaque)",
+    "outline": "Solid Black 6px",
+    "emojis_present": false,
+    "tofu_rectangles": false
+  },
+  "virality_metrics": {
+    "hook_strength_score": 9.6,
+    "watch_time_retention_score": 9.4,
+    "engagement_potential_score": 9.5,
+    "algorithm_velocity_score": 9.7,
+    "pacing_sound_energy_score": 9.3,
+    "composite_virality_index": 9.5
+  },
+  "metadata": {
+    "hook": "JYNXZI CANNOT BELIEVE GTA 6 REALISM!",
+    "post_caption": "JYNXZI'S HONEST REACTION TO GTA 6 GRAPHICS! 'Holy realism guys! What is this?!' Jynxzi couldn't believe what he was seeing!\n\n#Jynxzi #GTA6 #JynxziClips #GamingReactions #Shorts #Reels",
+    "hashtags": [
+      "#Jynxzi",
+      "#GTA6",
+      "#JynxziClips",
+      "#Shorts",
+      "#Reels"
+    ]
+  }
+}

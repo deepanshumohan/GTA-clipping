@@ -1,0 +1,214 @@
+{
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.5,
+      "text": "MAINE GALTI SE FERRARI KO EXPLODE KAR DIYA!",
+      "words": [
+        {
+          "word": "MAINE",
+          "start": 0.0,
+          "end": 0.8
+        },
+        {
+          "word": "GALTI",
+          "start": 0.8,
+          "end": 1.6
+        },
+        {
+          "word": "SE",
+          "start": 1.6,
+          "end": 2.2
+        },
+        {
+          "word": "FERRARI",
+          "start": 2.2,
+          "end": 3.3
+        },
+        {
+          "word": "KO",
+          "start": 3.3,
+          "end": 3.8
+        },
+        {
+          "word": "EXPLODE",
+          "start": 3.8,
+          "end": 4.8
+        },
+        {
+          "word": "KAR",
+          "start": 4.8,
+          "end": 5.1
+        },
+        {
+          "word": "DIYA!",
+          "start": 5.1,
+          "end": 5.5
+        }
+      ]
+    },
+    {
+      "start": 5.5,
+      "end": 10.5,
+      "text": "YE GAADI HUMARE LIBERTY CITY FRIEND KI THI!",
+      "words": [
+        {
+          "word": "YE",
+          "start": 5.5,
+          "end": 6.1
+        },
+        {
+          "word": "GAADI",
+          "start": 6.1,
+          "end": 7.0
+        },
+        {
+          "word": "HUMARE",
+          "start": 7.0,
+          "end": 7.9
+        },
+        {
+          "word": "LIBERTY",
+          "start": 7.9,
+          "end": 8.8
+        },
+        {
+          "word": "CITY",
+          "start": 8.8,
+          "end": 9.4
+        },
+        {
+          "word": "FRIEND",
+          "start": 9.4,
+          "end": 10.0
+        },
+        {
+          "word": "KI",
+          "start": 10.0,
+          "end": 10.3
+        },
+        {
+          "word": "THI!",
+          "start": 10.3,
+          "end": 10.5
+        }
+      ]
+    },
+    {
+      "start": 10.5,
+      "end": 16.0,
+      "text": "RACING TOURNAMENT MEIN PARTICIPATE KARNA THA!",
+      "words": [
+        {
+          "word": "RACING",
+          "start": 10.5,
+          "end": 11.6
+        },
+        {
+          "word": "TOURNAMENT",
+          "start": 11.6,
+          "end": 12.9
+        },
+        {
+          "word": "MEIN",
+          "start": 12.9,
+          "end": 13.5
+        },
+        {
+          "word": "PARTICIPATE",
+          "start": 13.5,
+          "end": 14.8
+        },
+        {
+          "word": "KARNA",
+          "start": 14.8,
+          "end": 15.5
+        },
+        {
+          "word": "THA!",
+          "start": 15.5,
+          "end": 16.0
+        }
+      ]
+    },
+    {
+      "start": 16.0,
+      "end": 21.5,
+      "text": "AB POLICE AUR GANGSTERS DONO PEECHE PADE HAIN!",
+      "words": [
+        {
+          "word": "AB",
+          "start": 16.0,
+          "end": 16.7
+        },
+        {
+          "word": "POLICE",
+          "start": 16.7,
+          "end": 17.8
+        },
+        {
+          "word": "AUR",
+          "start": 17.8,
+          "end": 18.4
+        },
+        {
+          "word": "GANGSTERS",
+          "start": 18.4,
+          "end": 19.6
+        },
+        {
+          "word": "DONO",
+          "start": 19.6,
+          "end": 20.3
+        },
+        {
+          "word": "PEECHE",
+          "start": 20.3,
+          "end": 20.9
+        },
+        {
+          "word": "PADE",
+          "start": 20.9,
+          "end": 21.2
+        },
+        {
+          "word": "HAIN!",
+          "start": 21.2,
+          "end": 21.5
+        }
+      ]
+    },
+    {
+      "start": 21.5,
+      "end": 27.5,
+      "text": "TECHNO GAMERZ ULTRA ESCAPE MISSION!",
+      "words": [
+        {
+          "word": "TECHNO",
+          "start": 21.5,
+          "end": 22.5
+        },
+        {
+          "word": "GAMERZ",
+          "start": 22.5,
+          "end": 23.6
+        },
+        {
+          "word": "ULTRA",
+          "start": 23.6,
+          "end": 24.6
+        },
+        {
+          "word": "ESCAPE",
+          "start": 24.6,
+          "end": 25.8
+        },
+        {
+          "word": "MISSION!",
+          "start": 25.8,
+          "end": 27.5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,463 @@
+{
+  "source": "/Users/deepanshumohan/Work/gta/reference_shorts/kDqBfTQVw74.mp4",
+  "language": "en",
+  "language_probability": null,
+  "model": "openai-whisper-base",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.96,
+      "text": "By the way guys, you can stop the train in GTA 6 unlike the Invincible 1 in GTA 5.",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.18,
+          "word": " By"
+        },
+        {
+          "start": 0.18,
+          "end": 0.34,
+          "word": " the"
+        },
+        {
+          "start": 0.34,
+          "end": 0.54,
+          "word": " way"
+        },
+        {
+          "start": 0.54,
+          "end": 0.86,
+          "word": " guys,"
+        },
+        {
+          "start": 1.04,
+          "end": 1.16,
+          "word": " you"
+        },
+        {
+          "start": 1.16,
+          "end": 1.44,
+          "word": " can"
+        },
+        {
+          "start": 1.44,
+          "end": 1.88,
+          "word": " stop"
+        },
+        {
+          "start": 1.88,
+          "end": 2.18,
+          "word": " the"
+        },
+        {
+          "start": 2.18,
+          "end": 2.54,
+          "word": " train"
+        },
+        {
+          "start": 2.54,
+          "end": 2.8,
+          "word": " in"
+        },
+        {
+          "start": 2.8,
+          "end": 3.14,
+          "word": " GTA"
+        },
+        {
+          "start": 3.14,
+          "end": 3.66,
+          "word": " 6"
+        },
+        {
+          "start": 3.66,
+          "end": 4.12,
+          "word": " unlike"
+        },
+        {
+          "start": 4.12,
+          "end": 4.34,
+          "word": " the"
+        },
+        {
+          "start": 4.34,
+          "end": 4.84,
+          "word": " Invincible"
+        },
+        {
+          "start": 4.84,
+          "end": 5.04,
+          "word": " 1"
+        },
+        {
+          "start": 5.04,
+          "end": 5.16,
+          "word": " in"
+        },
+        {
+          "start": 5.16,
+          "end": 5.52,
+          "word": " GTA"
+        },
+        {
+          "start": 5.52,
+          "end": 5.96,
+          "word": " 5."
+        }
+      ]
+    },
+    {
+      "start": 6.04,
+      "end": 8.8,
+      "text": "Literally all you have to do is drive a car in front of it and then it stops.",
+      "words": [
+        {
+          "start": 6.04,
+          "end": 6.16,
+          "word": " Literally"
+        },
+        {
+          "start": 6.16,
+          "end": 6.38,
+          "word": " all"
+        },
+        {
+          "start": 6.38,
+          "end": 6.48,
+          "word": " you"
+        },
+        {
+          "start": 6.48,
+          "end": 6.58,
+          "word": " have"
+        },
+        {
+          "start": 6.58,
+          "end": 6.7,
+          "word": " to"
+        },
+        {
+          "start": 6.7,
+          "end": 6.8,
+          "word": " do"
+        },
+        {
+          "start": 6.8,
+          "end": 6.98,
+          "word": " is"
+        },
+        {
+          "start": 6.98,
+          "end": 7.16,
+          "word": " drive"
+        },
+        {
+          "start": 7.16,
+          "end": 7.32,
+          "word": " a"
+        },
+        {
+          "start": 7.32,
+          "end": 7.5,
+          "word": " car"
+        },
+        {
+          "start": 7.5,
+          "end": 7.64,
+          "word": " in"
+        },
+        {
+          "start": 7.64,
+          "end": 7.8,
+          "word": " front"
+        },
+        {
+          "start": 7.8,
+          "end": 7.96,
+          "word": " of"
+        },
+        {
+          "start": 7.96,
+          "end": 8.08,
+          "word": " it"
+        },
+        {
+          "start": 8.08,
+          "end": 8.3,
+          "word": " and"
+        },
+        {
+          "start": 8.3,
+          "end": 8.44,
+          "word": " then"
+        },
+        {
+          "start": 8.44,
+          "end": 8.54,
+          "word": " it"
+        },
+        {
+          "start": 8.54,
+          "end": 8.8,
+          "word": " stops."
+        }
+      ]
+    },
+    {
+      "start": 9.06,
+      "end": 11.76,
+      "text": "I don't know if this is the only train but it's also really cool looking.",
+      "words": [
+        {
+          "start": 9.06,
+          "end": 9.12,
+          "word": " I"
+        },
+        {
+          "start": 9.12,
+          "end": 9.24,
+          "word": " don't"
+        },
+        {
+          "start": 9.24,
+          "end": 9.34,
+          "word": " know"
+        },
+        {
+          "start": 9.34,
+          "end": 9.48,
+          "word": " if"
+        },
+        {
+          "start": 9.48,
+          "end": 9.58,
+          "word": " this"
+        },
+        {
+          "start": 9.58,
+          "end": 9.68,
+          "word": " is"
+        },
+        {
+          "start": 9.68,
+          "end": 9.82,
+          "word": " the"
+        },
+        {
+          "start": 9.82,
+          "end": 10.02,
+          "word": " only"
+        },
+        {
+          "start": 10.02,
+          "end": 10.34,
+          "word": " train"
+        },
+        {
+          "start": 10.34,
+          "end": 10.52,
+          "word": " but"
+        },
+        {
+          "start": 10.52,
+          "end": 10.68,
+          "word": " it's"
+        },
+        {
+          "start": 10.68,
+          "end": 10.82,
+          "word": " also"
+        },
+        {
+          "start": 10.82,
+          "end": 11.12,
+          "word": " really"
+        },
+        {
+          "start": 11.12,
+          "end": 11.42,
+          "word": " cool"
+        },
+        {
+          "start": 11.42,
+          "end": 11.76,
+          "word": " looking."
+        }
+      ]
+    },
+    {
+      "start": 11.88,
+      "end": 15.94,
+      "text": "It's like a passenger train, you can even go inside of it and then you see all of the passengers.",
+      "words": [
+        {
+          "start": 11.88,
+          "end": 12.02,
+          "word": " It's"
+        },
+        {
+          "start": 12.02,
+          "end": 12.1,
+          "word": " like"
+        },
+        {
+          "start": 12.1,
+          "end": 12.22,
+          "word": " a"
+        },
+        {
+          "start": 12.22,
+          "end": 12.6,
+          "word": " passenger"
+        },
+        {
+          "start": 12.6,
+          "end": 13.06,
+          "word": " train,"
+        },
+        {
+          "start": 13.16,
+          "end": 13.24,
+          "word": " you"
+        },
+        {
+          "start": 13.24,
+          "end": 13.38,
+          "word": " can"
+        },
+        {
+          "start": 13.38,
+          "end": 13.52,
+          "word": " even"
+        },
+        {
+          "start": 13.52,
+          "end": 13.74,
+          "word": " go"
+        },
+        {
+          "start": 13.74,
+          "end": 14.14,
+          "word": " inside"
+        },
+        {
+          "start": 14.14,
+          "end": 14.36,
+          "word": " of"
+        },
+        {
+          "start": 14.36,
+          "end": 14.48,
+          "word": " it"
+        },
+        {
+          "start": 14.48,
+          "end": 14.66,
+          "word": " and"
+        },
+        {
+          "start": 14.66,
+          "end": 14.74,
+          "word": " then"
+        },
+        {
+          "start": 14.74,
+          "end": 14.86,
+          "word": " you"
+        },
+        {
+          "start": 14.86,
+          "end": 15.06,
+          "word": " see"
+        },
+        {
+          "start": 15.06,
+          "end": 15.24,
+          "word": " all"
+        },
+        {
+          "start": 15.24,
+          "end": 15.36,
+          "word": " of"
+        },
+        {
+          "start": 15.36,
+          "end": 15.48,
+          "word": " the"
+        },
+        {
+          "start": 15.48,
+          "end": 15.94,
+          "word": " passengers."
+        }
+      ]
+    },
+    {
+      "start": 16.18,
+      "end": 18.8,
+      "text": "A huge step up from what we had in the previous game.",
+      "words": [
+        {
+          "start": 16.18,
+          "end": 16.26,
+          "word": " A"
+        },
+        {
+          "start": 16.26,
+          "end": 16.6,
+          "word": " huge"
+        },
+        {
+          "start": 16.6,
+          "end": 16.88,
+          "word": " step"
+        },
+        {
+          "start": 16.88,
+          "end": 17.14,
+          "word": " up"
+        },
+        {
+          "start": 17.14,
+          "end": 17.36,
+          "word": " from"
+        },
+        {
+          "start": 17.36,
+          "end": 17.54,
+          "word": " what"
+        },
+        {
+          "start": 17.54,
+          "end": 17.74,
+          "word": " we"
+        },
+        {
+          "start": 17.74,
+          "end": 17.88,
+          "word": " had"
+        },
+        {
+          "start": 17.88,
+          "end": 18.0,
+          "word": " in"
+        },
+        {
+          "start": 18.0,
+          "end": 18.1,
+          "word": " the"
+        },
+        {
+          "start": 18.1,
+          "end": 18.44,
+          "word": " previous"
+        },
+        {
+          "start": 18.44,
+          "end": 18.8,
+          "word": " game."
+        }
+      ]
+    }
+  ]
+}

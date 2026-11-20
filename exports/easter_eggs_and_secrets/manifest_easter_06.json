@@ -1,0 +1,44 @@
+{
+  "source": "/Users/deepanshumohan/Work/gta/jynxzi_segments/clip_06.mp4",
+  "transcript": "/Users/deepanshumohan/Work/gta/jynxzi_segments/clip_06_transcript.json",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "font": "Arial",
+  "normalize_audio": true,
+  "reels": [
+    {
+      "name": "06_Top_5_Creepiest_GTA_Easter_Eggs",
+      "ranges": [
+        [
+          0.0,
+          34.0
+        ]
+      ],
+      "layout": "fit",
+      "title": "TOP 5 CREEPIEST GTA SECRETS!",
+      "hook": "TOP 5 CREEPIEST GTA SECRETS!",
+      "hook_seconds": 3.0,
+      "burn_captions": true,
+      "subtitle_preset": "hormozi",
+      "style_preset": "hormozi",
+      "subtitle_position": "bottom",
+      "words_per_group": 2,
+      "uppercase": true,
+      "word_pop": true,
+      "highlight_words": true,
+      "primary_color": "&H0000FFFF",
+      "secondary_color": "&H0000FF00",
+      "outline_color": "&H00000000",
+      "reason": "Uncovering dark secrets and creepy easter eggs hidden in Rockstar games.",
+      "post_caption": "TOP 5 CREEPIEST EASTER EGGS IN GTA! From haunted locations to ghost sightings... Rockstar hides some truly disturbing secrets! Did you know about this one?\n\n#EasterEggs #GamingSecrets #GTA #Shorts #Reels",
+      "hashtags": [
+        "#EasterEggs",
+        "#GamingSecrets",
+        "#GTA",
+        "#Shorts",
+        "#Reels"
+      ]
+    }
+  ]
+}

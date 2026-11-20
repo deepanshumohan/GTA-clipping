@@ -1,0 +1,174 @@
+{
+  "segments": [
+    {
+      "start": 0.5,
+      "end": 4.5,
+      "text": "TESTING IMPOSSIBLE GTA MYTHS!",
+      "words": [
+        {
+          "word": "TESTING",
+          "start": 0.5,
+          "end": 1.5
+        },
+        {
+          "word": "IMPOSSIBLE",
+          "start": 1.5,
+          "end": 2.8
+        },
+        {
+          "word": "GTA",
+          "start": 2.8,
+          "end": 3.6
+        },
+        {
+          "word": "MYTHS!",
+          "start": 3.6,
+          "end": 4.5
+        }
+      ]
+    },
+    {
+      "start": 5.0,
+      "end": 10.0,
+      "text": "CAN WE SURVIVE THE ULTIMATE MEGA JUMP?!",
+      "words": [
+        {
+          "word": "CAN",
+          "start": 5.0,
+          "end": 5.6
+        },
+        {
+          "word": "WE",
+          "start": 5.6,
+          "end": 6.2
+        },
+        {
+          "word": "SURVIVE",
+          "start": 6.2,
+          "end": 7.2
+        },
+        {
+          "word": "THE",
+          "start": 7.2,
+          "end": 7.8
+        },
+        {
+          "word": "ULTIMATE",
+          "start": 7.8,
+          "end": 8.9
+        },
+        {
+          "word": "MEGA",
+          "start": 8.9,
+          "end": 9.4
+        },
+        {
+          "word": "JUMP?!",
+          "start": 9.4,
+          "end": 10.0
+        }
+      ]
+    },
+    {
+      "start": 10.5,
+      "end": 16.0,
+      "text": "HITTING THE RAMP AT MAXIMUM SPEED!",
+      "words": [
+        {
+          "word": "HITTING",
+          "start": 10.5,
+          "end": 11.5
+        },
+        {
+          "word": "THE",
+          "start": 11.5,
+          "end": 12.1
+        },
+        {
+          "word": "RAMP",
+          "start": 12.1,
+          "end": 13.0
+        },
+        {
+          "word": "AT",
+          "start": 13.0,
+          "end": 13.6
+        },
+        {
+          "word": "MAXIMUM",
+          "start": 13.6,
+          "end": 15.0
+        },
+        {
+          "word": "SPEED!",
+          "start": 15.0,
+          "end": 16.0
+        }
+      ]
+    },
+    {
+      "start": 16.5,
+      "end": 22.0,
+      "text": "WAIT FOR THE LANDING... IT'S INSANE!",
+      "words": [
+        {
+          "word": "WAIT",
+          "start": 16.5,
+          "end": 17.5
+        },
+        {
+          "word": "FOR",
+          "start": 17.5,
+          "end": 18.2
+        },
+        {
+          "word": "THE",
+          "start": 18.2,
+          "end": 18.8
+        },
+        {
+          "word": "LANDING...",
+          "start": 18.8,
+          "end": 20.0
+        },
+        {
+          "word": "IT'S",
+          "start": 20.0,
+          "end": 20.8
+        },
+        {
+          "word": "INSANE!",
+          "start": 20.8,
+          "end": 22.0
+        }
+      ]
+    },
+    {
+      "start": 22.5,
+      "end": 27.5,
+      "text": "MYTH CONFIRMED 100% POSSIBLE!",
+      "words": [
+        {
+          "word": "MYTH",
+          "start": 22.5,
+          "end": 23.4
+        },
+        {
+          "word": "CONFIRMED",
+          "start": 23.4,
+          "end": 24.8
+        },
+        {
+          "word": "100%",
+          "start": 24.8,
+          "end": 26.0
+        },
+        {
+          "word": "POSSIBLE!",
+          "start": 26.0,
+          "end": 27.5
+        }
+      ]
+    }
+  ]
+}

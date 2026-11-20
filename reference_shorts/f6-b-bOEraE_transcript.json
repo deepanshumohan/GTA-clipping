@@ -1,0 +1,587 @@
+{
+  "source": "/Users/deepanshumohan/Work/gta/reference_shorts/f6-b-bOEraE.mp4",
+  "language": "en",
+  "language_probability": null,
+  "model": "openai-whisper-base",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.88,
+      "text": "Since the moment that GTA 6 came out, people have low-key been realizing how weird some of the features are.",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.16,
+          "word": " Since"
+        },
+        {
+          "start": 0.16,
+          "end": 0.36,
+          "word": " the"
+        },
+        {
+          "start": 0.36,
+          "end": 0.56,
+          "word": " moment"
+        },
+        {
+          "start": 0.56,
+          "end": 0.76,
+          "word": " that"
+        },
+        {
+          "start": 0.76,
+          "end": 1.0,
+          "word": " GTA"
+        },
+        {
+          "start": 1.0,
+          "end": 1.3,
+          "word": " 6"
+        },
+        {
+          "start": 1.3,
+          "end": 1.54,
+          "word": " came"
+        },
+        {
+          "start": 1.54,
+          "end": 1.72,
+          "word": " out,"
+        },
+        {
+          "start": 1.82,
+          "end": 1.98,
+          "word": " people"
+        },
+        {
+          "start": 1.98,
+          "end": 2.16,
+          "word": " have"
+        },
+        {
+          "start": 2.16,
+          "end": 2.34,
+          "word": " low"
+        },
+        {
+          "start": 2.34,
+          "end": 2.54,
+          "word": "-key"
+        },
+        {
+          "start": 2.54,
+          "end": 2.68,
+          "word": " been"
+        },
+        {
+          "start": 2.68,
+          "end": 3.06,
+          "word": " realizing"
+        },
+        {
+          "start": 3.06,
+          "end": 3.42,
+          "word": " how"
+        },
+        {
+          "start": 3.42,
+          "end": 3.74,
+          "word": " weird"
+        },
+        {
+          "start": 3.74,
+          "end": 3.96,
+          "word": " some"
+        },
+        {
+          "start": 3.96,
+          "end": 4.04,
+          "word": " of"
+        },
+        {
+          "start": 4.04,
+          "end": 4.18,
+          "word": " the"
+        },
+        {
+          "start": 4.18,
+          "end": 4.54,
+          "word": " features"
+        },
+        {
+          "start": 4.54,
+          "end": 4.88,
+          "word": " are."
+        }
+      ]
+    },
+    {
+      "start": 4.98,
+      "end": 10.08,
+      "text": "Like, on the more normal side of things, Jason can get unalived by things like a crocodile or a tiger,",
+      "words": [
+        {
+          "start": 4.98,
+          "end": 5.02,
+          "word": " Like,"
+        },
+        {
+          "start": 5.1,
+          "end": 5.18,
+          "word": " on"
+        },
+        {
+          "start": 5.18,
+          "end": 5.28,
+          "word": " the"
+        },
+        {
+          "start": 5.28,
+          "end": 5.42,
+          "word": " more"
+        },
+        {
+          "start": 5.42,
+          "end": 5.74,
+          "word": " normal"
+        },
+        {
+          "start": 5.74,
+          "end": 6.1,
+          "word": " side"
+        },
+        {
+          "start": 6.1,
+          "end": 6.24,
+          "word": " of"
+        },
+        {
+          "start": 6.24,
+          "end": 6.44,
+          "word": " things,"
+        },
+        {
+          "start": 6.62,
+          "end": 6.8,
+          "word": " Jason"
+        },
+        {
+          "start": 6.8,
+          "end": 7.08,
+          "word": " can"
+        },
+        {
+          "start": 7.08,
+          "end": 7.28,
+          "word": " get"
+        },
+        {
+          "start": 7.28,
+          "end": 7.86,
+          "word": " unalived"
+        },
+        {
+          "start": 7.86,
+          "end": 8.06,
+          "word": " by"
+        },
+        {
+          "start": 8.06,
+          "end": 8.3,
+          "word": " things"
+        },
+        {
+          "start": 8.3,
+          "end": 8.5,
+          "word": " like"
+        },
+        {
+          "start": 8.5,
+          "end": 8.68,
+          "word": " a"
+        },
+        {
+          "start": 8.68,
+          "end": 9.04,
+          "word": " crocodile"
+        },
+        {
+          "start": 9.04,
+          "end": 9.6,
+          "word": " or"
+        },
+        {
+          "start": 9.6,
+          "end": 9.76,
+          "word": " a"
+        },
+        {
+          "start": 9.76,
+          "end": 10.08,
+          "word": " tiger,"
+        }
+      ]
+    },
+    {
+      "start": 10.28,
+      "end": 14.08,
+      "text": "but they've also included really random elements like dogs riding jesskeys,",
+      "words": [
+        {
+          "start": 10.28,
+          "end": 10.34,
+          "word": " but"
+        },
+        {
+          "start": 10.34,
+          "end": 10.54,
+          "word": " they've"
+        },
+        {
+          "start": 10.54,
+          "end": 10.76,
+          "word": " also"
+        },
+        {
+          "start": 10.76,
+          "end": 11.14,
+          "word": " included"
+        },
+        {
+          "start": 11.14,
+          "end": 11.46,
+          "word": " really"
+        },
+        {
+          "start": 11.46,
+          "end": 11.86,
+          "word": " random"
+        },
+        {
+          "start": 11.86,
+          "end": 12.26,
+          "word": " elements"
+        },
+        {
+          "start": 12.26,
+          "end": 12.58,
+          "word": " like"
+        },
+        {
+          "start": 12.58,
+          "end": 12.9,
+          "word": " dogs"
+        },
+        {
+          "start": 12.9,
+          "end": 13.42,
+          "word": " riding"
+        },
+        {
+          "start": 13.42,
+          "end": 14.08,
+          "word": " jesskeys,"
+        }
+      ]
+    },
+    {
+      "start": 14.24,
+      "end": 17.86,
+      "text": "which kind of has people mad in the comments considering this game is supposed to be realistic.",
+      "words": [
+        {
+          "start": 14.24,
+          "end": 14.38,
+          "word": " which"
+        },
+        {
+          "start": 14.38,
+          "end": 14.56,
+          "word": " kind"
+        },
+        {
+          "start": 14.56,
+          "end": 14.66,
+          "word": " of"
+        },
+        {
+          "start": 14.66,
+          "end": 14.76,
+          "word": " has"
+        },
+        {
+          "start": 14.76,
+          "end": 15.0,
+          "word": " people"
+        },
+        {
+          "start": 15.0,
+          "end": 15.22,
+          "word": " mad"
+        },
+        {
+          "start": 15.22,
+          "end": 15.34,
+          "word": " in"
+        },
+        {
+          "start": 15.34,
+          "end": 15.44,
+          "word": " the"
+        },
+        {
+          "start": 15.44,
+          "end": 15.74,
+          "word": " comments"
+        },
+        {
+          "start": 15.74,
+          "end": 16.18,
+          "word": " considering"
+        },
+        {
+          "start": 16.18,
+          "end": 16.54,
+          "word": " this"
+        },
+        {
+          "start": 16.54,
+          "end": 16.74,
+          "word": " game"
+        },
+        {
+          "start": 16.74,
+          "end": 16.88,
+          "word": " is"
+        },
+        {
+          "start": 16.88,
+          "end": 17.04,
+          "word": " supposed"
+        },
+        {
+          "start": 17.04,
+          "end": 17.28,
+          "word": " to"
+        },
+        {
+          "start": 17.28,
+          "end": 17.38,
+          "word": " be"
+        },
+        {
+          "start": 17.38,
+          "end": 17.86,
+          "word": " realistic."
+        }
+      ]
+    },
+    {
+      "start": 18.18,
+      "end": 20.4,
+      "text": "Thoughts have mentioned they made it illegal to be a furry,",
+      "words": [
+        {
+          "start": 18.18,
+          "end": 18.4,
+          "word": " Thoughts"
+        },
+        {
+          "start": 18.4,
+          "end": 18.42,
+          "word": " have"
+        },
+        {
+          "start": 18.42,
+          "end": 18.64,
+          "word": " mentioned"
+        },
+        {
+          "start": 18.64,
+          "end": 18.82,
+          "word": " they"
+        },
+        {
+          "start": 18.82,
+          "end": 19.0,
+          "word": " made"
+        },
+        {
+          "start": 19.0,
+          "end": 19.12,
+          "word": " it"
+        },
+        {
+          "start": 19.12,
+          "end": 19.52,
+          "word": " illegal"
+        },
+        {
+          "start": 19.52,
+          "end": 19.76,
+          "word": " to"
+        },
+        {
+          "start": 19.76,
+          "end": 19.92,
+          "word": " be"
+        },
+        {
+          "start": 19.92,
+          "end": 20.02,
+          "word": " a"
+        },
+        {
+          "start": 20.02,
+          "end": 20.4,
+          "word": " furry,"
+        }
+      ]
+    },
+    {
+      "start": 20.58,
+      "end": 25.28,
+      "text": "and there are literal emergency broadcasts saying that if you hear someone say something like raw XD,",
+      "words": [
+        {
+          "start": 20.58,
+          "end": 20.64,
+          "word": " and"
+        },
+        {
+          "start": 20.64,
+          "end": 20.76,
+          "word": " there"
+        },
+        {
+          "start": 20.76,
+          "end": 20.9,
+          "word": " are"
+        },
+        {
+          "start": 20.9,
+          "end": 21.28,
+          "word": " literal"
+        },
+        {
+          "start": 21.28,
+          "end": 21.82,
+          "word": " emergency"
+        },
+        {
+          "start": 21.82,
+          "end": 22.64,
+          "word": " broadcasts"
+        },
+        {
+          "start": 22.64,
+          "end": 22.76,
+          "word": " saying"
+        },
+        {
+          "start": 22.76,
+          "end": 22.94,
+          "word": " that"
+        },
+        {
+          "start": 22.94,
+          "end": 23.08,
+          "word": " if"
+        },
+        {
+          "start": 23.08,
+          "end": 23.2,
+          "word": " you"
+        },
+        {
+          "start": 23.2,
+          "end": 23.42,
+          "word": " hear"
+        },
+        {
+          "start": 23.42,
+          "end": 23.74,
+          "word": " someone"
+        },
+        {
+          "start": 23.74,
+          "end": 24.0,
+          "word": " say"
+        },
+        {
+          "start": 24.0,
+          "end": 24.3,
+          "word": " something"
+        },
+        {
+          "start": 24.3,
+          "end": 24.52,
+          "word": " like"
+        },
+        {
+          "start": 24.52,
+          "end": 24.78,
+          "word": " raw"
+        },
+        {
+          "start": 24.78,
+          "end": 25.28,
+          "word": " XD,"
+        }
+      ]
+    },
+    {
+      "start": 25.58,
+      "end": 27.44,
+      "text": "you need to report them to the police immediately.",
+      "words": [
+        {
+          "start": 25.58,
+          "end": 25.7,
+          "word": " you"
+        },
+        {
+          "start": 25.7,
+          "end": 25.84,
+          "word": " need"
+        },
+        {
+          "start": 25.84,
+          "end": 25.98,
+          "word": " to"
+        },
+        {
+          "start": 25.98,
+          "end": 26.22,
+          "word": " report"
+        },
+        {
+          "start": 26.22,
+          "end": 26.42,
+          "word": " them"
+        },
+        {
+          "start": 26.42,
+          "end": 26.56,
+          "word": " to"
+        },
+        {
+          "start": 26.56,
+          "end": 26.64,
+          "word": " the"
+        },
+        {
+          "start": 26.64,
+          "end": 26.92,
+          "word": " police"
+        },
+        {
+          "start": 26.92,
+          "end": 27.44,
+          "word": " immediately."
+        }
+      ]
+    }
+  ]
+}

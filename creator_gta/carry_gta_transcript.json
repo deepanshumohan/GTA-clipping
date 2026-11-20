@@ -1,0 +1,112 @@
+{
+  "source": "/Users/deepanshumohan/Work/gta/creator_gta/carry_gta.mp4",
+  "language": "hi",
+  "language_probability": null,
+  "model": "openai-whisper-base",
+  "segments": [
+    {
+      "start": 12.36,
+      "end": 15.08,
+      "text": "Jeppi P수가",
+      "words": [
+        {
+          "start": 12.36,
+          "end": 13.76,
+          "word": " Jeppi"
+        },
+        {
+          "start": 13.76,
+          "end": 15.08,
+          "word": " P수가"
+        }
+      ]
+    },
+    {
+      "start": 15.08,
+      "end": 15.46,
+      "text": "ei...",
+      "words": [
+        {
+          "start": 15.08,
+          "end": 15.46,
+          "word": " ei..."
+        }
+      ]
+    },
+    {
+      "start": 19.42,
+      "end": 19.8,
+      "text": "Choco",
+      "words": [
+        {
+          "start": 19.1,
+          "end": 19.8,
+          "word": " Choco"
+        }
+      ]
+    },
+    {
+      "start": 19.8,
+      "end": 27.62,
+      "text": "Jeppi Puku",
+      "words": [
+        {
+          "start": 19.8,
+          "end": 20.96,
+          "word": " Jeppi"
+        },
+        {
+          "start": 20.96,
+          "end": 27.62,
+          "word": " Puku"
+        }
+      ]
+    },
+    {
+      "start": 27.62,
+      "end": 28.68,
+      "text": "तो पपत्धरियाप।",
+      "words": [
+        {
+          "start": 27.62,
+          "end": 27.76,
+          "word": " तो"
+        },
+        {
+          "start": 27.76,
+          "end": 28.68,
+          "word": " पपत्धरियाप।"
+        }
+      ]
+    },
+    {
+      "start": 28.68,
+      "end": 28.72,
+      "text": "तो पपत्धरियाप।",
+      "words": [
+        {
+          "start": 28.68,
+          "end": 28.7,
+          "word": " तो"
+        },
+        {
+          "start": 28.7,
+          "end": 28.72,
+          "word": " पपत्धरियाप।"
+        }
+      ]
+    },
+    {
+      "start": 29.7,
+      "end": 29.98,
+      "text": "वपत्धर्प।",
+      "words": [
+        {
+          "start": 29.7,
+          "end": 29.98,
+          "word": " वपत्धर्प।"
+        }
+      ]
+    }
+  ]
+}
