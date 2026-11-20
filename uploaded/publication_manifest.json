@@ -1,17 +1,21 @@
 {
   "published_at": "2026-11-20T23:51:57.044275",
+  "updated_youtube_at": "2026-11-21T00:35:00.000000",
   "channel_instagram": "https://www.instagram.com/woldoplays/",
   "channel_youtube": "https://www.youtube.com/@WoldoPlays",
-  "total_published": 10,
+  "total_published_instagram": 10,
+  "total_published_youtube": 10,
   "reels": [
     {
       "source": "01_Can_You_Stop_The_Train_In_GTA6",
       "id": "woldo-gta6-01-train-stop",
-      "title": "CAN YOU FINALLY STOP THE TRAIN?!",
+      "title": "CAN YOU FINALLY STOP THE TRAIN?! #Shorts",
       "status": {
         "instagram": "PUBLISHED",
-        "youtube": "READY_FOR_UPLOAD"
+        "youtube": "PUBLISHED"
       },
+      "youtube_id": "oIkI7j5wC1A",
+      "youtube_url": "https://youtube.com/shorts/oIkI7j5wC1A",
       "moved_files": [
         "01_Can_You_Stop_The_Train_In_GTA6.mp4",
         "01_Can_You_Stop_The_Train_In_GTA6.ass",
@@ -21,11 +25,13 @@
     {
       "source": "02_GTA6_Police_Logic_Makes_Zero_Sense",
       "id": "woldo-gta6-02-police-logic",
-      "title": "GTA 6 POLICE LOGIC MAKES ZERO SENSE!",
+      "title": "GTA 6 POLICE LOGIC MAKES ZERO SENSE! #Shorts",
       "status": {
         "instagram": "PUBLISHED",
-        "youtube": "READY_FOR_UPLOAD"
+        "youtube": "PUBLISHED"
       },
+      "youtube_id": "Ygti_DxOwjY",
+      "youtube_url": "https://youtube.com/shorts/Ygti_DxOwjY",
       "moved_files": [
         "02_GTA6_Police_Logic_Makes_Zero_Sense.mp4",
         "02_GTA6_Police_Logic_Makes_Zero_Sense.ass",
@@ -35,11 +41,13 @@
     {
       "source": "03_GTA6_NextGen_Car_Damage_Physics",
       "id": "woldo-gta6-03-car-damage",
-      "title": "GTA 6 NEXT-GEN CAR DAMAGE IS INSANE!",
+      "title": "GTA 6 NEXT-GEN CAR DAMAGE IS INSANE! #Shorts",
       "status": {
         "instagram": "PUBLISHED",
-        "youtube": "READY_FOR_UPLOAD"
+        "youtube": "PUBLISHED"
       },
+      "youtube_id": "z3IccTKP_ns",
+      "youtube_url": "https://youtube.com/shorts/z3IccTKP_ns",
       "moved_files": [
         "03_GTA6_NextGen_Car_Damage_Physics.mp4",
         "03_GTA6_NextGen_Car_Damage_Physics.ass",
@@ -49,11 +57,13 @@
     {
       "source": "04_Driving_Across_The_Entire_GTA6_Map",
       "id": "woldo-gta6-04-map-drive",
-      "title": "DRIVING ACROSS THE ENTIRE GTA 6 MAP!",
+      "title": "DRIVING ACROSS THE ENTIRE GTA 6 MAP! #Shorts",
       "status": {
         "instagram": "PUBLISHED",
-        "youtube": "READY_FOR_UPLOAD"
+        "youtube": "PUBLISHED"
       },
+      "youtube_id": "VcA2ESUzqrU",
+      "youtube_url": "https://youtube.com/shorts/VcA2ESUzqrU",
       "moved_files": [
         "04_Driving_Across_The_Entire_GTA6_Map.mp4",
         "04_Driving_Across_The_Entire_GTA6_Map.ass",
@@ -63,11 +73,13 @@
     {
       "source": "05_GTA6_Damage_Physics_Item_Tier_List",
       "id": "woldo-gta6-05-damage-tier-list",
-      "title": "GTA 6 DAMAGE PHYSICS ITEM TIER LIST!",
+      "title": "GTA 6 DAMAGE PHYSICS ITEM TIER LIST! #Shorts",
       "status": {
         "instagram": "PUBLISHED",
-        "youtube": "READY_FOR_UPLOAD"
+        "youtube": "PUBLISHED"
       },
+      "youtube_id": "YulqVcZXakw",
+      "youtube_url": "https://youtube.com/shorts/YulqVcZXakw",
       "moved_files": [
         "05_GTA6_Damage_Physics_Item_Tier_List.mp4",
         "05_GTA6_Damage_Physics_Item_Tier_List.ass",
@@ -77,11 +89,13 @@
     {
       "source": "06_GTA6_In_Game_TikTok_Doomscrolling",
       "id": "woldo-gta6-06-tiktok-doomscroll",
-      "title": "GTA 6 IN-GAME TIKTOK DOOMSCROLLING!",
+      "title": "GTA 6 IN-GAME TIKTOK DOOMSCROLLING! #Shorts",
       "status": {
         "instagram": "PUBLISHED",
-        "youtube": "READY_FOR_UPLOAD"
+        "youtube": "PUBLISHED"
       },
+      "youtube_id": "RXp6SGvFjEc",
+      "youtube_url": "https://youtube.com/shorts/RXp6SGvFjEc",
       "moved_files": [
         "06_GTA6_In_Game_TikTok_Doomscrolling.mp4",
         "06_GTA6_In_Game_TikTok_Doomscrolling.ass",
@@ -91,11 +105,13 @@
     {
       "source": "01_Speed_Craziest_GTA6_Cop_Chase",
       "id": "woldo-gta6-07-speed-cop-chase",
-      "title": "SPEED'S CRAZIEST GTA 6 COP CHASE!",
+      "title": "SPEED'S CRAZIEST GTA 6 COP CHASE! #Shorts",
       "status": {
         "instagram": "PUBLISHED",
-        "youtube": "READY_FOR_UPLOAD"
+        "youtube": "PUBLISHED"
       },
+      "youtube_id": "YzeO7gJHdqU",
+      "youtube_url": "https://youtube.com/shorts/YzeO7gJHdqU",
       "moved_files": [
         "01_Speed_Craziest_GTA6_Cop_Chase.mp4",
         "01_Speed_Craziest_GTA6_Cop_Chase.ass",
@@ -105,11 +121,13 @@
     {
       "source": "01_Techno_Gamerz_First_Day_In_Vice_City",
       "id": "woldo-gta6-08-techno-gamerz",
-      "title": "TECHNO GAMERZ FIRST DAY IN VICE CITY!",
+      "title": "TECHNO GAMERZ FIRST DAY IN VICE CITY! #Shorts",
       "status": {
         "instagram": "PUBLISHED",
-        "youtube": "READY_FOR_UPLOAD"
+        "youtube": "PUBLISHED"
       },
+      "youtube_id": "YyT8wlst_J8",
+      "youtube_url": "https://youtube.com/shorts/YyT8wlst_J8",
       "moved_files": [
         "01_Techno_Gamerz_First_Day_In_Vice_City.mp4",
         "01_Techno_Gamerz_First_Day_In_Vice_City.ass",
@@ -119,11 +137,13 @@
     {
       "source": "01_Mythpat_Mindblown_By_GTA6",
       "id": "woldo-gta6-09-mythpat-reaction",
-      "title": "MYTHPAT REACTS TO GTA 6!",
+      "title": "MYTHPAT REACTS TO GTA 6! #Shorts",
       "status": {
         "instagram": "PUBLISHED",
-        "youtube": "READY_FOR_UPLOAD"
+        "youtube": "PUBLISHED"
       },
+      "youtube_id": "VBC18zQUQAk",
+      "youtube_url": "https://youtube.com/shorts/VBC18zQUQAk",
       "moved_files": [
         "01_Mythpat_Mindblown_By_GTA6.mp4",
         "01_Mythpat_Mindblown_By_GTA6.ass",
@@ -133,11 +153,13 @@
     {
       "source": "01_Jynxzi_Best_GTA6_Moments",
       "id": "woldo-gta6-10-jynxzi-moments",
-      "title": "JYNXZI CRAZIEST GTA 6 MOMENT!",
+      "title": "JYNXZI CRAZIEST GTA 6 MOMENT! #Shorts",
       "status": {
         "instagram": "PUBLISHED",
-        "youtube": "READY_FOR_UPLOAD"
+        "youtube": "PUBLISHED"
       },
+      "youtube_id": "xp5ReobAoC4",
+      "youtube_url": "https://youtube.com/shorts/xp5ReobAoC4",
       "moved_files": [
         "01_Jynxzi_Best_GTA6_Moments.mp4",
         "01_Jynxzi_Best_GTA6_Moments.ass",
