@@ -14,6 +14,9 @@ import re
 import shutil
 import subprocess
 import warnings
+import hashlib
+import uuid
+from functools import lru_cache
 from pathlib import Path
 
 
@@ -56,7 +59,12 @@ def run(args, **kwargs):
 def save(path, value):
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(value, ensure_ascii=False, indent=2), encoding='utf-8')
+    temporary = path.with_name(path.name + '.' + uuid.uuid4().hex + '.tmp')
+    try:
+        temporary.write_text(json.dumps(value, ensure_ascii=False, indent=2), encoding='utf-8')
+        temporary.replace(path)
+    finally:
+        temporary.unlink(missing_ok=True)
 
 
 def load(path):
@@ -178,19 +186,60 @@ def ensure_ffmpeg_on_path():
     ff = ffmpeg()
     ff_dir = str(Path(ff).parent)
     if ff_dir not in os.environ.get('PATH', ''):
-        os.environ['PATH'] = f"{ff_dir}:{os.environ.get('PATH', '')}"
+        os.environ['PATH'] = f"{ff_dir}{os.pathsep}{os.environ.get('PATH', '')}"
+
+
+@lru_cache(maxsize=1)
+def detect_hardware_encoder():
+    """Detects best available FFmpeg encoder (h264_nvenc, h264_videotoolbox, h264_qsv, libx264)."""
+    # Test h264_nvenc (NVIDIA) - require >=256x256 test canvas
+    try:
+        res = subprocess.run([
+            ffmpeg(), '-v', 'quiet', '-f', 'lavfi', '-i', 'color=c=black:s=256x256:d=0.1',
+            '-c:v', 'h264_nvenc', '-f', 'null', '-'
+        ], capture_output=True, timeout=3)
+        if res.returncode == 0:
+            return 'h264_nvenc'
+    except Exception:
+        pass
+    # Test videotoolbox (macOS)
+    try:
+        res = subprocess.run([
+            ffmpeg(), '-v', 'quiet', '-f', 'lavfi', '-i', 'color=c=black:s=256x256:d=0.1',
+            '-c:v', 'h264_videotoolbox', '-f', 'null', '-'
+        ], capture_output=True, timeout=3)
+        if res.returncode == 0:
+            return 'h264_videotoolbox'
+    except Exception:
+        pass
+    # Test qsv (Intel)
+    try:
+        res = subprocess.run([
+            ffmpeg(), '-v', 'quiet', '-f', 'lavfi', '-i', 'color=c=black:s=256x256:d=0.1',
+            '-c:v', 'h264_qsv', '-f', 'null', '-'
+        ], capture_output=True, timeout=3)
+        if res.returncode == 0:
+            return 'h264_qsv'
+    except Exception:
+        pass
+    return 'libx264'
 
 
 def transcribe(args):
     if not probe(args.video)['has_audio']:
         raise ValueError('No audio stream; use visual selection without captions')
     ensure_ffmpeg_on_path()
-    import ssl
-    try:
-        import certifi
-        ssl._create_default_https_context = lambda: ssl.create_default_context(cafile=certifi.where())
-    except Exception:
-        ssl._create_default_https_context = ssl._create_unverified_context
+    device = getattr(args, 'device', 'auto')
+    compute_type = getattr(args, 'compute_type', 'auto')
+    if device == 'auto':
+        try:
+            import torch
+            device = 'cuda' if torch.cuda.is_available() else 'cpu'
+        except Exception:
+            device = 'cpu'
+    if compute_type == 'auto':
+        compute_type = 'float16' if device == 'cuda' else 'int8'
+
     try:
         from faster_whisper import WhisperModel
     except ImportError:
@@ -198,9 +247,9 @@ def transcribe(args):
             import whisper
         except ImportError as e:
             raise RuntimeError('Install faster-whisper or openai-whisper to transcribe speech') from e
-        model = whisper.load_model(args.model, device=args.device)
+        model = whisper.load_model(args.model, device=device)
         decoded = model.transcribe(str(args.video), language=args.language, word_timestamps=True,
-                                   fp16=args.device != 'cpu', verbose=False)
+                                   fp16=device != 'cpu', verbose=False)
         result = {'source': str(Path(args.video).resolve()), 'language': decoded.get('language'),
                   'language_probability': None, 'model': f'openai-whisper-{args.model}', 'segments': []}
         for s in decoded['segments']:
@@ -211,7 +260,7 @@ def transcribe(args):
                        for w in s.get('words', []) if w.get('start') is not None and w.get('end') is not None
                        and w['end'] > w['start']]))
     else:
-        model = WhisperModel(args.model, device=args.device, compute_type=args.compute_type)
+        model = WhisperModel(args.model, device=device, compute_type=compute_type)
         segments, info = model.transcribe(str(args.video), language=args.language,
                                           word_timestamps=True, vad_filter=True, beam_size=5)
         result = {'source': str(Path(args.video).resolve()), 'language': info.language,
@@ -250,9 +299,10 @@ def word_alignment_matches(text, words, start=None, end=None):
     return True
 
 
-def phrases(transcript):
+def phrases(transcript, max_words=None):
     segments = transcript.get('segments', []) if isinstance(transcript, dict) else transcript
     result = []
+    limit = int(max_words) if max_words and int(max_words) > 0 else 6
     for s in segments:
         words = s.get('words', [])
         if not words:
@@ -265,7 +315,7 @@ def phrases(transcript):
         for w in words:
             group.append(w)
             length = len(' '.join(x['word'].strip() for x in group))
-            if len(group) >= 6 or length >= 35 or re.search(r'[.!?।]$', w['word'].strip()):
+            if len(group) >= limit or (max_words is None and (length >= 35 or re.search(r'[.!?।]$', w['word'].strip()))):
                 result.append(dict(start=group[0]['start'], end=group[-1]['end'],
                                    text=' '.join(x['word'].strip() for x in group), words=group.copy()))
                 group = []
@@ -387,7 +437,13 @@ def caption_file(path, reel, transcript, width, height, font, duration):
         raise ValueError('Font name must not contain commas/newlines')
     events = []
     offset = 0
-    captions = reel.get('captions', phrases(transcript))
+    word_pop = reel.get('word_pop', False) or (str(reel.get('animation', '')).lower() == 'pop')
+    words_per_group = reel.get('words_per_group')
+    if words_per_group and not reel.get('captions'):
+        captions = phrases(transcript, max_words=int(words_per_group))
+    else:
+        captions = reel.get('captions', phrases(transcript))
+
     highlight_words = reel.get('highlight_words', True)
     uppercase = reel.get('uppercase', False)
     use_emojis = reel.get('use_emojis', reel.get('emojis', True))
@@ -401,6 +457,9 @@ def caption_file(path, reel, transcript, width, height, font, duration):
         'font_size': reel.get('font_size'),
         'highlight_words': highlight_words
     }
+
+    pop_prefix = r"{\fscx115\fscy115\t(0,80,\fscx100\fscy100)}" if word_pop else ""
+    ACCENT_KEYS = {'omg', 'dead', 'clutch', 'fail', 'insane', 'win', 'what', 'bro', 'damn', 'holy', 'headshot', 'crash', 'died', 'secret', 'beast'}
 
     if reel.get('burn_captions', True):
         for a, b in reel['ranges']:
@@ -424,13 +483,18 @@ def caption_file(path, reel, transcript, width, height, font, duration):
                                 next_start = float(timed[wi + 1]['start']) if wi + 1 < len(timed) else we
                                 span_end = min(end, max(we, next_start))
                                 cs = max(1, round((span_end - ws) * 100))
-                                phrase.append(f"{{\\k{cs}}}{ass_text(token)}")
+                                is_accent = any(k in token.lower() for k in ACCENT_KEYS) or any(ch.isdigit() for ch in token)
+                                if is_accent:
+                                    phrase.append(f"{{\\k{cs}}}{{\\c&H00FFFF00&}}{ass_text(token)}{{\\r}}")
+                                else:
+                                    phrase.append(f"{{\\k{cs}}}{ass_text(token)}")
                         if phrase:
                             if use_emojis:
                                 em = get_sentiment_emoji(c.get('text', ''))
                                 if em and not any(em in p for p in phrase):
                                     phrase.append(f"{{\\k1}}{em}")
-                            events.append((offset + start - a, offset + end - a, 'Caption', ' '.join(phrase)))
+                            line_content = pop_prefix + ' '.join(phrase)
+                            events.append((offset + start - a, offset + end - a, 'Caption', line_content))
                     else:
                         txt = ass_text(c['text'])
                         if uppercase:
@@ -439,7 +503,8 @@ def caption_file(path, reel, transcript, width, height, font, duration):
                             em = get_sentiment_emoji(c.get('text', ''))
                             if em and em not in txt:
                                 txt += f" {em}"
-                        events.append((offset + start - a, offset + end - a, 'Caption', txt))
+                        line_content = pop_prefix + txt
+                        events.append((offset + start - a, offset + end - a, 'Caption', line_content))
             offset += b - a
     if reel.get('hook'):
         hook_txt = ass_text(reel['hook'])
@@ -497,9 +562,16 @@ def validate_manifest(m, info):
         if not isinstance(crop_x, (int, float)) or isinstance(crop_x, bool) or not math.isfinite(crop_x) or not 0 <= crop_x <= 1:
             raise ValueError('crop_x must be 0–1')
             
+        for key in ('top_crop_x', 'bottom_crop_x'):
+            if key in reel and (not isinstance(reel[key], (int, float)) or not math.isfinite(reel[key]) or not 0 <= reel[key] <= 1):
+                raise ValueError(f'{key} must be between 0 and 1')
+        if not .1 <= float(reel.get('split_ratio', .5)) <= .9:
+            raise ValueError('split_ratio must be between .1 and .9')
+        if not .1 <= float(reel.get('pip_scale', .35)) <= .8:
+            raise ValueError('pip_scale must be between .1 and .8')
         if 'crop_box' in reel:
             box = reel['crop_box']
-            if not isinstance(box, (list, tuple)) or len(box) != 4 or not all(isinstance(v, (int, float)) and 0 <= v <= 1 for v in box):
+            if not isinstance(box, (list, tuple)) or len(box) != 4 or not all(isinstance(v, (int, float)) and math.isfinite(v) and 0 <= v <= 1 for v in box) or box[2] <= 0 or box[3] <= 0 or box[0]+box[2] > 1 or box[1]+box[3] > 1:
                 raise ValueError(f'{name}: crop_box must be [x, y, w, h] normalized between 0 and 1')
 
         if not isinstance(reel.get('ranges'), list) or not reel['ranges']:
@@ -738,6 +810,8 @@ def render(args):
                 raise FileExistsError('Output exists; choose a new folder or explicitly --overwrite')
     out.mkdir(parents=True, exist_ok=True)
     posting, report = [], []
+    requested_encoder = getattr(args, 'encoder', 'auto')
+    selected_encoder = detect_hardware_encoder() if requested_encoder == 'auto' else requested_encoder
     
     for reel in m['reels']:
         name, ranges = reel['name'], reel['ranges']
@@ -767,24 +841,70 @@ def render(args):
         else:
             graph.append('[canvas]format=yuv420p[final]')
             
-        if info['has_audio'] and m.get('normalize_audio', True):
-            graph.append('[sound]loudnorm=I=-16:TP=-1.5:LRA=11[normalized]')
+        # Check for BGM mixing with auto-ducking
+        bgm_file = getattr(args, 'bgm', None) or m.get('bgm')
+        bgm_volume = float(getattr(args, 'bgm_volume', 0.2) or m.get('bgm_volume', 0.2))
+        bgm_idx = len(ranges)
+        has_bgm = bool(bgm_file and Path(bgm_file).exists())
+        if has_bgm:
+            cmd += ['-stream_loop', '-1', '-i', str(Path(bgm_file).resolve())]
+            if info['has_audio']:
+                graph.append(f'[{bgm_idx}:a]volume={bgm_volume}[bgm_raw]')
+                graph.append(f'[bgm_raw][sound]sidechaincompress=threshold=0.03:ratio=4:attack=50:release=300[ducked_bgm]')
+                graph.append(f'[sound][ducked_bgm]amix=inputs=2:duration=first[mixed_sound]')
+                sound_label = '[mixed_sound]'
+            else:
+                graph.append(f'[{bgm_idx}:a]volume={bgm_volume}[mixed_sound]')
+                sound_label = '[mixed_sound]'
+        else:
+            sound_label = '[sound]'
+
+        if (info['has_audio'] or has_bgm) and m.get('normalize_audio', True):
+            graph.append(f'{sound_label}loudnorm=I=-16:TP=-1.5:LRA=11[normalized]')
+            final_audio = '[normalized]'
+        elif info['has_audio'] or has_bgm:
+            final_audio = sound_label
+        else:
+            final_audio = None
             
         cmd += ['-filter_complex', ';'.join(graph), '-map', '[final]']
-        if info['has_audio']:
-            cmd += ['-map', '[normalized]' if m.get('normalize_audio', True) else '[sound]',
-                    '-c:a', 'aac', '-b:a', '192k', '-ar', '48000']
+        if final_audio:
+            cmd += ['-map', final_audio, '-c:a', 'aac', '-b:a', '192k', '-ar', '48000']
                     
         target = out / (name + '.mp4')
-        cmd += ['-c:v', 'libx264', '-preset', args.preset, '-crf', '18', '-pix_fmt', 'yuv420p',
-                '-t', str(duration), '-movflags', '+faststart', str(target)]
+        encoder = selected_encoder
+        encoding_start = len(cmd)
+            
+        if encoder == 'h264_nvenc':
+            cmd += ['-c:v', 'h264_nvenc', '-preset', 'p5', '-cq', '19', '-b:v', '8M',
+                    '-maxrate', '12M', '-bufsize', '16M', '-pix_fmt', 'yuv420p',
+                    '-t', str(duration), '-movflags', '+faststart', str(target)]
+        elif encoder == 'h264_videotoolbox':
+            cmd += ['-c:v', 'h264_videotoolbox', '-b:v', '8M', '-pix_fmt', 'yuv420p',
+                    '-t', str(duration), '-movflags', '+faststart', str(target)]
+        elif encoder == 'h264_qsv':
+            cmd += ['-c:v', 'h264_qsv', '-global_quality', '20', '-pix_fmt', 'nv12',
+                    '-t', str(duration), '-movflags', '+faststart', str(target)]
+        else:
+            cmd += ['-c:v', 'libx264', '-preset', getattr(args, 'preset', 'fast'), '-crf', '18', '-pix_fmt', 'yuv420p',
+                    '-t', str(duration), '-movflags', '+faststart', str(target)]
                 
         try:
             run(cmd, cwd=out)
-        except Exception:
+        except subprocess.CalledProcessError:
             if target.exists():
                 target.unlink()
-            raise
+            if requested_encoder != 'auto' or encoder == 'libx264':
+                raise
+            warnings.warn(f'{encoder} failed; retrying with libx264')
+            selected_encoder = 'libx264'
+            cmd = cmd[:encoding_start] + ['-c:v', 'libx264', '-preset', 'fast', '-crf', '18',
+                '-pix_fmt', 'yuv420p', '-t', str(duration), '-movflags', '+faststart', str(target)]
+            try:
+                run(cmd, cwd=out)
+            except Exception:
+                target.unlink(missing_ok=True)
+                raise
             
         report.append(dict(name=name, ranges=ranges, target_duration=duration, caption_events=event_count,
                            layout=reel.get('layout', 'fit'), reason=reel.get('reason', '')))
@@ -795,15 +915,82 @@ def render(args):
     if m.get('transcript'):
         save(out / 'transcript.json', transcript)
         m['transcript'] = 'transcript.json'
+    m['expected_audio'] = bool(info['has_audio'] or (getattr(args, 'bgm', None) or m.get('bgm')))
     save(out / 'cuts.json', m)
     save(out / 'render_report.json', report)
     (out / 'posting.md').write_text('\n'.join(posting), encoding='utf-8')
+
+
+def inspect_export(path, info):
+    """Measured diagnostics are warnings: black/static footage may be intentional."""
+    result = {'warnings': [], 'scope': 'Heuristic video diagnostics; manual playback review required'}
+    filters = ['blackdetect=d=0.5:pix_th=0.10', 'freezedetect=n=-50dB:d=2']
+    command = [ffmpeg(), '-hide_banner', '-nostats', '-i', str(path), '-vf', ','.join(filters)]
+    if info['has_audio']:
+        command += ['-af', 'loudnorm=I=-16:TP=-1.5:LRA=11:print_format=json']
+    command += ['-f', 'null', '-']
+    scan = subprocess.run(command, capture_output=True, text=True, errors='replace')
+    result['analysis_ok'] = scan.returncode == 0
+    result['black_intervals'] = [dict(start=float(a), end=float(b), duration=float(d))
+        for a, b, d in re.findall(r'black_start:([\d.]+) black_end:([\d.]+) black_duration:([\d.]+)', scan.stderr)]
+    result['freeze_events'] = re.findall(r'freeze_(?:start|end|duration): [^\r\n]+', scan.stderr)
+    if result['black_intervals']:
+        result['warnings'].append('Black frames detected; inspect intentional fades versus missing video')
+    if result['freeze_events']:
+        result['warnings'].append('Static/frozen frames detected; inspect gameplay or slides manually')
+    if not info['has_audio']:
+        result['warnings'].append('No audio stream')
+    else:
+        match = re.search(r'\{\s*"input_i".*?\}', scan.stderr, re.S)
+        if match:
+            measurement = json.loads(match.group())
+            result['loudness'] = {k: measurement[k] for k in ('input_i', 'input_tp', 'input_lra')}
+            if not -18 <= float(measurement['input_i']) <= -14:
+                result['warnings'].append('Integrated loudness outside -16 LUFS ?2')
+            if float(measurement['input_tp']) > -1:
+                result['warnings'].append('True peak exceeds -1 dBTP')
+        else:
+            result['warnings'].append('Loudness measurement unavailable')
+    # Estimate ASS line width using the selected font where Pillow can resolve it.
+    # This is explicitly advisory: libass wrapping and font fallback can differ.
+    result['caption_overflow'] = []
+    ass = Path(path).with_suffix('.ass')
+    if ass.exists():
+        styles = {}
+        for line in ass.read_text(encoding='utf-8-sig').splitlines():
+            if line.startswith('Style: '):
+                fields = line[7:].split(',')
+                styles[fields[0]] = (fields[1], float(fields[2]), int(fields[19]), int(fields[20]))
+            elif line.startswith('Dialogue: '):
+                fields = line.split(',', 9)
+                style = styles.get(fields[3])
+                text = re.sub(r'\{[^}]*\}', '', fields[-1])
+                if style:
+                    font_name, size, left, right = style
+                    try:
+                        from PIL import ImageFont
+                        try:
+                            font = ImageFont.truetype(font_name, int(size))
+                        except OSError:
+                            font = ImageFont.truetype(font_name + '.ttf', int(size))
+                        available = info['width'] - left - right
+                        if max((font.getlength(t) for t in text.split(r'\N')), default=0) > available * 2:
+                            result['caption_overflow'].append({'time': fields[1], 'text': text})
+                    except (ImportError, OSError):
+                        result['caption_measurement'] = 'Font unavailable; manual caption review required'
+        if result['caption_overflow']:
+            result['warnings'].append('Caption text may exceed two lines; inspect caption framing')
+    if not result['analysis_ok']:
+        result['warnings'].append('Diagnostic scan failed')
+    return result
 
 
 def verify(args):
     results = []
     report_path = Path(args.folder) / 'render_report.json'
     expected = {r['name']: r['target_duration'] for r in load(report_path)} if report_path.exists() else {}
+    manifest_path = Path(args.folder) / 'cuts.json'
+    manifest = load(manifest_path) if manifest_path.exists() else {}
     for p in sorted(Path(args.folder).glob('*.mp4')):
         info = probe(p)
         decoded = subprocess.run([ffmpeg(), '-v', 'error', '-xerror', '-i', str(p), '-f', 'null', '-'],
@@ -814,12 +1001,14 @@ def verify(args):
         if p.stem in expected:
             result['target_duration'] = expected[p.stem]
             result['duration_ok'] = abs(info['duration'] - expected[p.stem]) <= max(.15, 2/info['fps'])
+        result['audio_ok'] = not manifest.get('expected_audio', False) or info['has_audio']
+        result['diagnostics'] = inspect_export(p, info)
         results.append(result)
         print(f'{p.name}: decode={result["decode_ok"]}, {info["width"]}x{info["height"]}, {info["duration"]:.2f}s')
     if not results:
         raise ValueError('No MP4 files found')
     save(Path(args.folder) / 'qa.json', {'checks': results, 'scope': 'Technical decode/metadata only; visual, caption and listening review are separate.'})
-    if not all(x['decode_ok'] and x['vertical_9_16'] and x.get('duration_ok', True) for x in results):
+    if not all(x['decode_ok'] and x['audio_ok'] and x['vertical_9_16'] and x.get('duration_ok', True) for x in results):
         raise SystemExit(1)
 
 
@@ -851,8 +1040,181 @@ def detect_silence(args):
     return silences
 
 
+def detect_audio_spikes_core(video_path, bucket_seconds=1.0, rolling_minutes=3.0, min_ratio=2.0, top_k=10, before=15.0, after=15.0, min_gap=60.0):
+    """Detect sudden audio volume spikes (screams, laughter, explosions) using raw audio RMS."""
+    try:
+        import numpy as np
+    except ImportError:
+        return []
+        
+    cmd = [ffmpeg(), '-v', 'quiet', '-i', str(video_path), '-vn', '-ac', '1', '-ar', '16000', '-f', 's16le', '-']
+    if bucket_seconds <= 0 or top_k < 1:
+        raise ValueError('bucket_seconds and top_k must be positive')
+    sr = 16000
+    samples_per_bucket = max(1, int(sr * bucket_seconds))
+    rms_buckets, times = [], []
+    # Retain one RMS value per bucket, never the complete decoded VOD.
+    with subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL) as proc:
+        try:
+            while True:
+                raw = proc.stdout.read(samples_per_bucket * 2)
+                if not raw:
+                    break
+                raw = raw[:len(raw) // 2 * 2]
+                chunk = np.frombuffer(raw, dtype=np.int16).astype(np.float32)
+                if chunk.size:
+                    times.append(len(rms_buckets) * bucket_seconds)
+                    rms_buckets.append(float(np.sqrt(np.mean(chunk**2))))
+            if proc.wait() != 0:
+                return []
+        finally:
+            if proc.poll() is None:
+                proc.kill()
+                proc.wait()
+    num_buckets = len(rms_buckets)
+    if num_buckets < 5:
+        return []
+
+    rms_arr = np.array(rms_buckets)
+    window_buckets = max(5, int((rolling_minutes * 60) / bucket_seconds))
+    half_w = window_buckets // 2
+    
+    candidates = []
+    for i in range(num_buckets):
+        w_start = max(0, i - half_w)
+        w_end = min(num_buckets, i + half_w + 1)
+        baseline = float(np.median(rms_arr[w_start:w_end]))
+        if baseline < 50.0:
+            baseline = 50.0
+        ratio = rms_arr[i] / baseline
+        if ratio >= min_ratio and rms_arr[i] > 250.0:
+            candidates.append({
+                'time': times[i],
+                'rms': rms_arr[i],
+                'baseline': baseline,
+                'ratio': ratio,
+                'start': max(0.0, times[i] - before),
+                'end': min(len(times) * bucket_seconds, times[i] + after)
+            })
+            
+    candidates.sort(key=lambda x: x['ratio'], reverse=True)
+    selected = []
+    for c in candidates:
+        if not any(abs(c['time'] - s['time']) < min_gap for s in selected):
+            selected.append(c)
+            if len(selected) >= top_k:
+                break
+                
+    selected.sort(key=lambda x: x['time'])
+    return selected
+
+
+def detect_audio_spikes(args):
+    """CLI handler for audio energy spike detection."""
+    spikes = detect_audio_spikes_core(args.video, bucket_seconds=getattr(args, 'bucket', 1.0),
+                                      rolling_minutes=getattr(args, 'window', 3.0),
+                                      min_ratio=getattr(args, 'min_ratio', 2.0),
+                                      top_k=getattr(args, 'top', 10),
+                                      min_gap=getattr(args, 'gap', 60.0))
+    out_data = {'video': str(args.video), 'spike_count': len(spikes), 'spikes': spikes}
+    if getattr(args, 'out', None):
+        save(args.out, out_data)
+    print(f'Detected {len(spikes)} audio energy spikes (ratio>={getattr(args, "min_ratio", 2.0)}x):')
+    for idx, s in enumerate(spikes, 1):
+        m, sec = divmod(int(s['time']), 60)
+        h, m = divmod(m, 60)
+        ts_str = f"{h:02}:{m:02}:{sec:02}" if h > 0 else f"{m:02}:{sec:02}"
+        print(f"  #{idx:02d} [{ts_str}] {s['ratio']:.1f}x volume spike (RMS {s['rms']:.0f} vs baseline {s['baseline']:.0f})")
+    return spikes
+
+
+def detect_facecam(video_path, num_samples=12):
+    """Detects streamer facecam corner and coordinates using frame sampling and motion/skin analysis."""
+    info = probe(video_path)
+    dur = info['duration']
+    if dur <= 2.0:
+        return {'has_facecam': False, 'layout': 'fit', 'recommended_layout': 'fit'}
+        
+    try:
+        import cv2
+        import numpy as np
+    except ImportError:
+        return {'has_facecam': False, 'layout': 'fit', 'recommended_layout': 'fit'}
+        
+    c = cv2.VideoCapture(str(video_path))
+    if not c.isOpened():
+        return {'has_facecam': False, 'layout': 'fit', 'recommended_layout': 'fit'}
+        
+    sample_times = np.linspace(dur * 0.1, dur * 0.9, num_samples)
+    frames = []
+    for t in sample_times:
+        c.set(cv2.CAP_PROP_POS_MSEC, t * 1000.0)
+        ret, frame = c.read()
+        if ret:
+            frames.append(frame)
+    c.release()
+    
+    if len(frames) < 4:
+        return {'has_facecam': False, 'layout': 'fit', 'recommended_layout': 'fit'}
+        
+    H, W, _ = frames[0].shape
+    corners = {
+        'top-left': (0, int(H * 0.35), 0, int(W * 0.30), [0.0, 0.0, 0.30, 0.35]),
+        'top-right': (0, int(H * 0.35), int(W * 0.70), W, [0.70, 0.0, 0.30, 0.35]),
+        'bottom-left': (int(H * 0.65), H, 0, int(W * 0.30), [0.0, 0.65, 0.30, 0.35]),
+        'bottom-right': (int(H * 0.65), H, int(W * 0.70), W, [0.70, 0.65, 0.30, 0.35]),
+    }
+    
+    scores = {}
+    for name, (y1, y2, x1, x2, box) in corners.items():
+        diffs = []
+        skin_ratios = []
+        for i in range(1, len(frames)):
+            c_curr = frames[i][y1:y2, x1:x2]
+            c_prev = frames[i-1][y1:y2, x1:x2]
+            diff = float(np.mean(np.abs(c_curr.astype(float) - c_prev.astype(float))))
+            diffs.append(diff)
+            
+            ycrcb = cv2.cvtColor(c_curr, cv2.COLOR_BGR2YCrCb)
+            mask = cv2.inRange(ycrcb, np.array([0, 133, 77]), np.array([255, 173, 127]))
+            skin_ratios.append(float(np.mean(mask > 0)))
+            
+        mean_diff = float(np.mean(diffs))
+        mean_skin = float(np.mean(skin_ratios))
+        scores[name] = {
+            'score': mean_diff * (1.0 + 4.0 * mean_skin),
+            'motion': mean_diff,
+            'skin': mean_skin,
+            'box': box
+        }
+        
+    best_corner = max(scores, key=lambda k: scores[k]['score'])
+    best_data = scores[best_corner]
+    has_cam = best_data['skin'] >= 0.03 and best_data['motion'] >= 2.0
+    return {
+        'has_facecam': has_cam,
+        'corner': best_corner,
+        'crop_box': best_data['box'],
+        'scores': {k: v['score'] for k, v in scores.items()},
+        'recommended_layout': 'split' if has_cam else 'fit',
+        'top_crop_x': 0.15 if 'left' in best_corner else 0.85
+    }
+
+
+def detect_facecam_cmd(args):
+    """CLI handler for facecam detection."""
+    res = detect_facecam(args.video)
+    if getattr(args, 'out', None):
+        save(args.out, res)
+    if res['has_facecam']:
+        print(f"Facecam DETECTED at corner '{res['corner']}'! Recommended layout: '{res['recommended_layout']}' (top_crop_x={res['top_crop_x']})")
+    else:
+        print("No streamer facecam detected (pure gameplay/full screen). Recommended layout: 'fit'")
+    return res
+
+
 def suggest_moments(args):
-    """Scans transcript for high-energy candidate clips using speech density and keywords."""
+    """Scans transcript and optional audio energy for high-energy candidate clips."""
     transcript_path = Path(args.transcript).resolve()
     data = load(transcript_path)
     segments = data.get('segments', []) if isinstance(data, dict) else data
@@ -867,20 +1229,52 @@ def suggest_moments(args):
         "died": 2.5, "first try": 3.0, "challenge": 2.0, "secret": 2.5, "trick": 2.0
     }
     
+    # Check for audio energy spikes if video supplied
+    audio_spikes = []
+    if getattr(args, 'video', None):
+        try:
+            audio_cache = getattr(args, 'audio_cache', None)
+            if audio_cache and Path(audio_cache).exists():
+                audio_spikes = load(audio_cache)
+            else:
+                audio_spikes = detect_audio_spikes_core(args.video, top_k=25, min_gap=20.0)
+                if audio_cache:
+                    save(audio_cache, audio_spikes)
+            if audio_spikes:
+                print(f"Fusing {len(audio_spikes)} audio volume spikes into moment virality score...")
+        except Exception as e:
+            warnings.warn(f"Audio spike analysis skipped: {e}")
+            
+    chat_peaks = []
+    if getattr(args, 'chat', None):
+        messages = parse_chat_file(args.chat)
+        chat_peaks, _, _ = find_chat_spikes_core(
+            messages, top_k=100, min_ratio=1.8,
+            skip_intro_minutes=getattr(args, 'skip_intro', 0))
     scored_segs = []
     for seg in segments:
         text = seg.get('text', '')
-        duration = max(0.4, float(seg.get('end', 0)) - float(seg.get('start', 0)))
+        start_t = float(seg.get('start', 0))
+        end_t = float(seg.get('end', 0))
+        duration = max(0.4, end_t - start_t)
         words = text.split()
         wps = len(words) / duration
         
-        kw_score = sum(weight for kw, weight in KEYWORDS.items() if kw in text.lower())
+        kw_score = sum(weight for kw, weight in KEYWORDS.items() if re.search(r'\b' + re.escape(kw) + r'\b', text.lower()))
         punct_score = text.count('!') * 2.0 + text.count('?') * 1.5
         
-        score = (wps * 1.0) + kw_score + punct_score
+        # Audio spike boost
+        audio_boost = 1.0
+        for aspike in audio_spikes:
+            if start_t - 5.0 <= aspike['time'] <= end_t + 5.0:
+                audio_boost = max(audio_boost, 1.0 + 0.4 * min(4.0, aspike['ratio']))
+                
+        chat_boost = max([1.0] + [1 + min(4.0, p['ratio']) * .4
+            for p in chat_peaks if p['start'] <= end_t and p['end'] >= start_t])
+        score = (wps + kw_score + punct_score) * audio_boost * chat_boost
         scored_segs.append({
-            'start': float(seg['start']),
-            'end': float(seg['end']),
+            'start': start_t,
+            'end': end_t,
             'text': text,
             'score': score
         })
@@ -900,7 +1294,9 @@ def suggest_moments(args):
             accum_text.append(scored_segs[j]['text'])
             total_score += scored_segs[j]['score']
             if dur >= min_dur:
-                density_score = total_score / (dur ** 0.5)
+                # Prefer complete sentences or pauses while retaining a hard duration limit.
+                boundary = bool(re.search(r'[.!?][\"\']?$', scored_segs[j]['text'].strip())) or j == len(scored_segs)-1 or scored_segs[j+1]['start'] - end_time >= .5
+                density_score = total_score / (dur ** 0.5) * (1.25 if boundary else 1.0)
                 candidates.append({
                     'start': round(start_time, 2),
                     'end': round(end_time, 2),
@@ -915,7 +1311,7 @@ def suggest_moments(args):
         overlap = False
         for s in selected:
             ov = max(0.0, min(c['end'], s['end']) - max(c['start'], s['start']))
-            if ov > 5.0:
+            if ov > 0:
                 overlap = True
                 break
         if not overlap:
@@ -928,22 +1324,24 @@ def suggest_moments(args):
         'height': 1920,
         'fps': 30,
         'transcript': str(transcript_path.name),
-        'font': 'Arial',
+        'font': getattr(args, 'font', 'Arial'),
         'normalize_audio': True,
         'reels': []
     }
     
     for idx, s in enumerate(selected, 1):
         clean_title = f"Highlight {idx:02d}"
+        em = get_sentiment_emoji(s['preview']) or '🔥'
         manifest['reels'].append({
             'name': f"{idx:02d}_moment",
             'title': clean_title,
-            'reason': f"High-energy moment with speech density score {s['score']:.1f}",
+            'reason': f"High-energy moment with virality density score {s['score']:.1f}",
             'ranges': [[s['start'], s['end']]],
             'layout': args.default_layout,
             'crop_x': 0.5,
             'subtitle_preset': args.subtitle_preset,
             'uppercase': args.uppercase,
+            'hook': '',
             'burn_captions': True,
             'highlight_words': True,
             'post_caption': f"{clean_title}: {s['preview']}...",
@@ -1166,10 +1564,172 @@ def find_chat_spikes(args):
     print(f"Next step: python skills/video-to-reels/scripts/reels.py render --video \"<video_file>\" --manifest \"{args.out}\" --out \"reels_output/exports\"\n")
 
 
+def transcript_cache_key(video, args):
+    digest = hashlib.sha256()
+    with open(video, 'rb') as source:
+        for chunk in iter(lambda: source.read(1024 * 1024), b''):
+            digest.update(chunk)
+    settings = {k: getattr(args, k, None) for k in ('model', 'language', 'device', 'compute_type')}
+    digest.update(json.dumps(settings, sort_keys=True).encode())
+    digest.update(b'transcript-cache-v1')
+    return digest.hexdigest()
+
+
+def auto_pipeline(args):
+    """End-to-end autonomous pipeline: Ingest/Download -> Audio+Chat+Speech Detection -> Transcribe -> Manifest -> NVENC Render -> QA."""
+    out_dir = Path(args.out).resolve()
+    if not getattr(args, 'exact_output', False):
+        out_dir = out_dir / ('run-' + uuid.uuid4().hex[:12])
+    out_dir.mkdir(parents=True, exist_ok=True)
+    print(f'RUN_DIRECTORY={out_dir}', flush=True)
+    
+    # 1. Resolve video source
+    if getattr(args, 'url', None):
+        print(f"\n[1/5] Ingesting video from URL via yt-dlp: {args.url}...", flush=True)
+        try:
+            import yt_dlp
+        except ImportError:
+            raise RuntimeError("yt-dlp is required for URL downloads. Run: pip install yt-dlp")
+            
+        ydl_opts = {
+            'format': 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best',
+            'outtmpl': str(out_dir / 'source_video.%(ext)s'),
+            'quiet': False
+        }
+        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+            ydl.download([args.url])
+        matched = list(out_dir.glob('source_video.*'))
+        if not matched:
+            raise RuntimeError("Failed to download video from URL")
+        video_path = matched[0].resolve()
+    elif getattr(args, 'video', None):
+        video_path = Path(args.video).resolve()
+        if not video_path.exists():
+            raise FileNotFoundError(f"Source video not found: {video_path}")
+        print(f"\n[1/5] Using source video: {video_path.name}...", flush=True)
+    else:
+        raise ValueError("Must provide either --video or --url")
+        
+    v_info = probe(video_path)
+    print(f"      Duration: {v_info['duration']:.1f}s | Resolution: {v_info['width']}x{v_info['height']} | FPS: {v_info['fps']:.1f}")
+    
+    chosen_layout = args.layout
+    top_crop_x = 0.5
+    if chosen_layout == 'auto':
+        print("[2/5] Detecting streamer facecam for smart layout...", flush=True)
+        cam_res = detect_facecam(video_path)
+        chosen_layout = cam_res['recommended_layout']
+        top_crop_x = cam_res.get('top_crop_x', 0.5)
+        print(f"      Layout auto-selected: '{chosen_layout}' (facecam={'yes' if cam_res['has_facecam'] else 'no'})", flush=True)
+    else:
+        print(f"[2/5] Using requested layout: '{chosen_layout}'", flush=True)
+        
+    # 2. Local Whisper Transcription
+    transcript_file = out_dir / 'transcript.json'
+    cache_key = transcript_cache_key(video_path, args)
+    cache_dir = Path(getattr(args, 'cache_dir', None) or Path(args.out).resolve().parent / '.reels_cache')
+    cache_file = cache_dir / (cache_key + '.json')
+    if cache_file.exists():
+        cached = load(cache_file)
+        cached['source'] = str(video_path)
+        validate_transcript(cached, v_info['duration'])
+        save(transcript_file, cached)
+    if not transcript_file.exists() or load(transcript_file).get('cache_key') != cache_key:
+        print(f"[3/5] Transcribing speech with local Whisper (device={args.device})...", flush=True)
+        class TransArgs:
+            pass
+        t_args = TransArgs()
+        t_args.video = str(video_path)
+        t_args.out = str(transcript_file)
+        t_args.model = args.model
+        t_args.language = args.language
+        t_args.device = args.device
+        t_args.compute_type = args.compute_type
+        transcribe(t_args)
+        data = load(transcript_file)
+        data['cache_key'] = cache_key
+        save(transcript_file, data)
+        save(cache_file, data)
+    else:
+        print(f"[3/5] Reusing existing transcript: {transcript_file.name}", flush=True)
+        
+    # 3. Moment Detection (Multimodal)
+    print(f"[4/5] Running multi-modal moment analysis (Chat + Audio Screams + Speech)...", flush=True)
+    cuts_file = out_dir / 'cuts.json'
+    from types import SimpleNamespace
+    s_args = SimpleNamespace(transcript=str(transcript_file), video=str(video_path),
+        chat=getattr(args, 'chat', None), skip_intro=args.skip_intro,
+        out=str(cuts_file), min_duration=15.0, max_duration=45.0,
+        max_reels=args.count, default_layout=chosen_layout,
+        subtitle_preset=args.preset, uppercase=args.uppercase, font=args.font)
+    s_args.audio_cache = cache_dir / (cache_key + '-audio.json')
+    suggest_moments(s_args)
+    m_data = load(cuts_file)
+    for r in m_data.get('reels', []):
+        r.update(words_per_group=args.words_per_group, word_pop=args.word_pop, top_crop_x=top_crop_x)
+    m_data['source'] = str(video_path)
+    save(cuts_file, m_data)
+    if not m_data['reels']:
+        raise ValueError('No candidate moments found; try a longer source or select ranges manually')
+    if getattr(args, 'prepare_only', False):
+        print(f'REVIEW_READY={cuts_file}', flush=True)
+        return
+
+    # 4. Render vertical 9:16 reels
+    print(f"\n[5/5] Rendering {args.count} vertical 9:16 reels with hardware acceleration...", flush=True)
+    class RendArgs:
+        pass
+    r_args = RendArgs()
+    r_args.video = str(video_path)
+    r_args.manifest = str(cuts_file)
+    r_args.out = str(out_dir / 'exports')
+    r_args.preset = 'fast'
+    r_args.encoder = args.encoder
+    r_args.bgm = args.bgm
+    r_args.bgm_volume = args.bgm_volume
+    r_args.overwrite = False
+    render(r_args)
+    
+    # Verify & QA
+    class VerArgs:
+        pass
+    v_args = VerArgs()
+    v_args.folder = str(out_dir / 'exports')
+    verify(v_args)
+    
+    print(f"\nSUCCESS! All reels generated and verified in: {out_dir / 'exports'}")
+    print(f"Paste-ready social captions & hashtags: {out_dir / 'exports' / 'posting.md'}\n")
+
+
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     sub = p.add_subparsers(dest='command', required=True)
     
+    auto_cmd = sub.add_parser('auto', help="End-to-end automatic video/stream to viral vertical reels")
+    auto_cmd.add_argument('--video', default=None, help="Path to local input video MP4")
+    auto_cmd.add_argument('--url', default=None, help="YouTube/Twitch stream URL (downloaded via yt-dlp)")
+    auto_cmd.add_argument('--chat', default=None, help="Path to Twitch JSON or YouTube live_chat.json")
+    auto_cmd.add_argument('--out', default='reels_output/auto_run', help="Output directory")
+    auto_cmd.add_argument('--count', type=int, default=5, help="Number of reels to extract (default 5)")
+    auto_cmd.add_argument('--preset', default='hormozi', choices=['hormozi', 'yellow_shadow', 'yellow', 'neon', 'classic', 'boxed', 'default'])
+    auto_cmd.add_argument('--layout', default='auto', choices=['auto', 'fit', 'crop', 'split', 'pip'])
+    auto_cmd.add_argument('--encoder', default='auto', choices=['auto', 'h264_nvenc', 'h264_videotoolbox', 'h264_qsv', 'libx264'])
+    auto_cmd.add_argument('--bgm', default=None, help="Optional background music MP3 for auto-ducking")
+    auto_cmd.add_argument('--bgm-volume', type=float, default=0.20, help="Background music volume relative to voice")
+    auto_cmd.add_argument('--words-per-group', type=int, default=3, help="Words per subtitle card (e.g. 2-3 for fast retention)")
+    auto_cmd.add_argument('--word-pop', action=argparse.BooleanOptionalAction, default=True, help="Enable dynamic pop-bounce subtitle animation")
+    auto_cmd.add_argument('--uppercase', action=argparse.BooleanOptionalAction, default=True, help="Uppercase all subtitle words")
+    auto_cmd.add_argument('--font', default='Arial', help="Subtitle font family")
+    auto_cmd.add_argument('--model', default='base', help="Whisper model size (tiny, base, small, medium, large-v3)")
+    auto_cmd.add_argument('--language', default=None, help="Spoken language code (e.g. en, hi)")
+    auto_cmd.add_argument('--device', default='auto', help="Whisper device: auto (prefers cuda if available), cpu, cuda")
+    auto_cmd.add_argument('--compute-type', default='auto', help="Compute type: auto (float16 for cuda, int8 for cpu)")
+    auto_cmd.add_argument('--skip-intro', type=float, default=15.0, help="Stream intro minutes to ignore")
+    auto_cmd.add_argument('--prepare-only', action='store_true', help='Generate editable candidates without rendering')
+    auto_cmd.add_argument('--cache-dir', default=None, help='Shared content-keyed transcript cache')
+    auto_cmd.add_argument('--exact-output', action='store_true', help=argparse.SUPPRESS)
+    auto_cmd.set_defaults(func=auto_pipeline)
+
     a = sub.add_parser('analyze')
     a.add_argument('--video', required=True)
     a.add_argument('--out', required=True)
@@ -1181,8 +1741,8 @@ def main():
     t.add_argument('--out', required=True)
     t.add_argument('--model', default='base')
     t.add_argument('--language', default=None)
-    t.add_argument('--device', default='cpu')
-    t.add_argument('--compute-type', default='int8')
+    t.add_argument('--device', default='auto')
+    t.add_argument('--compute-type', default='auto')
     t.set_defaults(func=transcribe)
     
     r = sub.add_parser('render')
@@ -1190,6 +1750,9 @@ def main():
     r.add_argument('--manifest', required=True)
     r.add_argument('--out', required=True)
     r.add_argument('--preset', default='fast')
+    r.add_argument('--encoder', default='auto', choices=['auto', 'h264_nvenc', 'h264_videotoolbox', 'h264_qsv', 'libx264'])
+    r.add_argument('--bgm', default=None, help="Background music audio file for auto-ducking")
+    r.add_argument('--bgm-volume', type=float, default=0.20, help="Background music volume")
     r.add_argument('--overwrite', action='store_true')
     r.set_defaults(func=render)
     
@@ -1199,6 +1762,7 @@ def main():
     
     sm = sub.add_parser('suggest-moments')
     sm.add_argument('--transcript', required=True)
+    sm.add_argument('--video', default=None, help="Optional video MP4 to fuse audio volume/scream spikes")
     sm.add_argument('--out', required=True)
     sm.add_argument('--min-duration', type=float, default=20.0)
     sm.add_argument('--max-duration', type=float, default=50.0)
@@ -1214,6 +1778,21 @@ def main():
     ds.add_argument('--min-duration', type=float, default=0.5)
     ds.add_argument('--out', default=None)
     ds.set_defaults(func=detect_silence)
+
+    das = sub.add_parser('detect-audio-spikes')
+    das.add_argument('--video', required=True, help="Video MP4 to analyze for screams and loudness peaks")
+    das.add_argument('--out', default=None, help="Output JSON path")
+    das.add_argument('--top', type=int, default=10, help="Number of peaks to report")
+    das.add_argument('--bucket', type=float, default=1.0, help="RMS bucket size in seconds")
+    das.add_argument('--window', type=float, default=3.0, help="Rolling baseline window in minutes")
+    das.add_argument('--min-ratio', type=float, default=2.0, help="Multiplier over baseline")
+    das.add_argument('--gap', type=float, default=60.0, help="Minimum gap between distinct audio peaks in seconds")
+    das.set_defaults(func=detect_audio_spikes)
+
+    dfc = sub.add_parser('detect-facecam')
+    dfc.add_argument('--video', required=True, help="Video MP4 to inspect for facecam ROI")
+    dfc.add_argument('--out', default=None, help="Optional JSON output path")
+    dfc.set_defaults(func=detect_facecam_cmd)
 
     cs = sub.add_parser('find-chat-spikes')
     cs.add_argument('--chat', required=True, help="Path to Twitch chat.json or YouTube .live_chat.json")
@@ -1234,6 +1813,8 @@ def main():
     args = p.parse_args()
     if hasattr(args, 'samples') and args.samples < 1:
         p.error('--samples must be positive')
+    if hasattr(args, 'count') and not 1 <= args.count <= 15:
+        p.error('--count must be between 1 and 15')
     args.func(args)
 
 
