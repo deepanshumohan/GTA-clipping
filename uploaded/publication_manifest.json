@@ -1,10 +1,10 @@
 {
-  "published_at": "2026-11-20T23:51:57.044275",
-  "updated_youtube_at": "2026-11-21T00:35:00.000000",
+  "updated_at": "2026-11-21T00:43:00.000000",
   "channel_instagram": "https://www.instagram.com/woldoplays/",
   "channel_youtube": "https://www.youtube.com/@WoldoPlays",
   "total_published_instagram": 10,
   "total_published_youtube": 10,
+  "status_summary": "100% COMPLETE - All 10 videos live and public on both Instagram and YouTube Shorts",
   "reels": [
     {
       "source": "01_Can_You_Stop_The_Train_In_GTA6",
@@ -12,7 +12,7 @@
       "title": "CAN YOU FINALLY STOP THE TRAIN?! #Shorts",
       "status": {
         "instagram": "PUBLISHED",
-        "youtube": "PUBLISHED"
+        "youtube": "PUBLISHED_PUBLIC"
       },
       "youtube_id": "oIkI7j5wC1A",
       "youtube_url": "https://youtube.com/shorts/oIkI7j5wC1A",
@@ -28,7 +28,7 @@
       "title": "GTA 6 POLICE LOGIC MAKES ZERO SENSE! #Shorts",
       "status": {
         "instagram": "PUBLISHED",
-        "youtube": "PUBLISHED"
+        "youtube": "PUBLISHED_PUBLIC"
       },
       "youtube_id": "Ygti_DxOwjY",
       "youtube_url": "https://youtube.com/shorts/Ygti_DxOwjY",
@@ -44,7 +44,7 @@
       "title": "GTA 6 NEXT-GEN CAR DAMAGE IS INSANE! #Shorts",
       "status": {
         "instagram": "PUBLISHED",
-        "youtube": "PUBLISHED"
+        "youtube": "PUBLISHED_PUBLIC"
       },
       "youtube_id": "z3IccTKP_ns",
       "youtube_url": "https://youtube.com/shorts/z3IccTKP_ns",
@@ -60,7 +60,7 @@
       "title": "DRIVING ACROSS THE ENTIRE GTA 6 MAP! #Shorts",
       "status": {
         "instagram": "PUBLISHED",
-        "youtube": "PUBLISHED"
+        "youtube": "PUBLISHED_PUBLIC"
       },
       "youtube_id": "VcA2ESUzqrU",
       "youtube_url": "https://youtube.com/shorts/VcA2ESUzqrU",
@@ -76,7 +76,7 @@
       "title": "GTA 6 DAMAGE PHYSICS ITEM TIER LIST! #Shorts",
       "status": {
         "instagram": "PUBLISHED",
-        "youtube": "PUBLISHED"
+        "youtube": "PUBLISHED_PUBLIC"
       },
       "youtube_id": "YulqVcZXakw",
       "youtube_url": "https://youtube.com/shorts/YulqVcZXakw",
@@ -92,7 +92,7 @@
       "title": "GTA 6 IN-GAME TIKTOK DOOMSCROLLING! #Shorts",
       "status": {
         "instagram": "PUBLISHED",
-        "youtube": "PUBLISHED"
+        "youtube": "PUBLISHED_PUBLIC"
       },
       "youtube_id": "RXp6SGvFjEc",
       "youtube_url": "https://youtube.com/shorts/RXp6SGvFjEc",
@@ -108,7 +108,7 @@
       "title": "SPEED'S CRAZIEST GTA 6 COP CHASE! #Shorts",
       "status": {
         "instagram": "PUBLISHED",
-        "youtube": "PUBLISHED"
+        "youtube": "PUBLISHED_PUBLIC"
       },
       "youtube_id": "YzeO7gJHdqU",
       "youtube_url": "https://youtube.com/shorts/YzeO7gJHdqU",
@@ -124,7 +124,7 @@
       "title": "TECHNO GAMERZ FIRST DAY IN VICE CITY! #Shorts",
       "status": {
         "instagram": "PUBLISHED",
-        "youtube": "PUBLISHED"
+        "youtube": "PUBLISHED_PUBLIC"
       },
       "youtube_id": "YyT8wlst_J8",
       "youtube_url": "https://youtube.com/shorts/YyT8wlst_J8",
@@ -140,7 +140,7 @@
       "title": "MYTHPAT REACTS TO GTA 6! #Shorts",
       "status": {
         "instagram": "PUBLISHED",
-        "youtube": "PUBLISHED"
+        "youtube": "PUBLISHED_PUBLIC"
       },
       "youtube_id": "VBC18zQUQAk",
       "youtube_url": "https://youtube.com/shorts/VBC18zQUQAk",
@@ -156,7 +156,7 @@
       "title": "JYNXZI CRAZIEST GTA 6 MOMENT! #Shorts",
       "status": {
         "instagram": "PUBLISHED",
-        "youtube": "PUBLISHED"
+        "youtube": "PUBLISHED_PUBLIC"
       },
       "youtube_id": "xp5ReobAoC4",
       "youtube_url": "https://youtube.com/shorts/xp5ReobAoC4",
