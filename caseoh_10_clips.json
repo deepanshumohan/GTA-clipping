@@ -1,0 +1,279 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "font": "Arial",
+  "normalize_audio": true,
+  "reels": [
+    {
+      "name": "01_chat_spike_01_53_10",
+      "title": "Chat Explosion #1: LOST SEEMSGOOD POINTS",
+      "reason": "Chat spike at 01:53:10: 228 msgs in 20.0s (2.0x normal). Key reaction: LOST SEEMSGOOD POINTS",
+      "ranges": [
+        [
+          6780.0,
+          6815.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "yellow_shadow",
+      "uppercase": true,
+      "use_emojis": true,
+      "hook": "CHAT LOST IT HERE! 🔥",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (2.0x normal volume) LOST SEEMSGOOD POINTS",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "02_chat_spike_02_11_50",
+      "title": "Chat Explosion #2: MOD LOL WWWW",
+      "reason": "Chat spike at 02:11:50: 225 msgs in 20.0s (1.7x normal). Key reaction: MOD LOL WWWW",
+      "ranges": [
+        [
+          7900.0,
+          7935.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "yellow_shadow",
+      "uppercase": true,
+      "use_emojis": true,
+      "hook": "CHAT: MOD LOL WWWW! 😂",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (1.7x normal volume) MOD LOL WWWW",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "03_chat_spike_02_35_00",
+      "title": "Chat Explosion #3: BOSS TPFUFUN WWWWW",
+      "reason": "Chat spike at 02:35:00: 211 msgs in 20.0s (1.7x normal). Key reaction: BOSS TPFUFUN WWWWW",
+      "ranges": [
+        [
+          9290.0,
+          9325.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "yellow_shadow",
+      "uppercase": true,
+      "use_emojis": true,
+      "hook": "CHAT: BOSS TPFUFUN WWWWW! 🔥",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (1.7x normal volume) BOSS TPFUFUN WWWWW",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "04_chat_spike_02_50_30",
+      "title": "Chat Explosion #4: DINODANCE LOL CASEOHDAILYDOODLEDANCE",
+      "reason": "Chat spike at 02:50:30: 226 msgs in 20.0s (1.7x normal). Key reaction: DINODANCE LOL CASEOHDAILYDOODLEDANCE",
+      "ranges": [
+        [
+          10220.0,
+          10255.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "yellow_shadow",
+      "uppercase": true,
+      "use_emojis": true,
+      "hook": "CHAT: DINODANCE LOL CASEOHDAILYDOODLEDANCE! 😂",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (1.7x normal volume) DINODANCE LOL CASEOHDAILYDOODLEDANCE",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "05_chat_spike_03_19_00",
+      "title": "Chat Explosion #5: CASEOHDAILYDOODLESTWERK DINODANCE CASEOHSPOOKYDAILYDOODLES",
+      "reason": "Chat spike at 03:19:00: 203 msgs in 20.0s (1.7x normal). Key reaction: CASEOHDAILYDOODLESTWERK DINODANCE CASEOHSPOOKYDAILYDOODLES",
+      "ranges": [
+        [
+          11930.0,
+          11965.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "yellow_shadow",
+      "uppercase": true,
+      "use_emojis": true,
+      "hook": "CHAT: CASEOHDAILYDOODLESTWERK DINODANCE CASEOHSPOOKYDAILYDOODLES! 🔥",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (1.7x normal volume) CASEOHDAILYDOODLESTWERK DINODANCE CASEOHSPOOKYDAILYDOODLES",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "06_chat_spike_03_28_20",
+      "title": "Chat Explosion #6: SABAPING CASEOHHAMSTER LOL",
+      "reason": "Chat spike at 03:28:20: 221 msgs in 20.0s (1.7x normal). Key reaction: SABAPING CASEOHHAMSTER LOL",
+      "ranges": [
+        [
+          12490.0,
+          12525.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "yellow_shadow",
+      "uppercase": true,
+      "use_emojis": true,
+      "hook": "CHAT: SABAPING CASEOHHAMSTER LOL! 😂",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (1.7x normal volume) SABAPING CASEOHHAMSTER LOL",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "07_chat_spike_03_32_00",
+      "title": "Chat Explosion #7: CASE OMG BOB",
+      "reason": "Chat spike at 03:32:00: 220 msgs in 20.0s (1.8x normal). Key reaction: CASE OMG BOB",
+      "ranges": [
+        [
+          12710.0,
+          12745.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "yellow_shadow",
+      "uppercase": true,
+      "use_emojis": true,
+      "hook": "CHAT: CASE OMG BOB! 🔥",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (1.8x normal volume) CASE OMG BOB",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "08_chat_spike_03_39_05",
+      "title": "Chat Explosion #8: LOL TPFUFUN FEELSVI",
+      "reason": "Chat spike at 03:39:05: 224 msgs in 20.0s (1.9x normal). Key reaction: LOL TPFUFUN FEELSVI",
+      "ranges": [
+        [
+          13135.0,
+          13170.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "yellow_shadow",
+      "uppercase": true,
+      "use_emojis": true,
+      "hook": "CHAT: LOL TPFUFUN FEELSVI! 😂",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (1.9x normal volume) LOL TPFUFUN FEELSVI",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "09_chat_spike_03_47_20",
+      "title": "Chat Explosion #9: CHANGE LOL CLICK",
+      "reason": "Chat spike at 03:47:20: 217 msgs in 20.0s (1.7x normal). Key reaction: CHANGE LOL CLICK",
+      "ranges": [
+        [
+          13630.0,
+          13665.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "yellow_shadow",
+      "uppercase": true,
+      "use_emojis": true,
+      "hook": "CHAT: CHANGE LOL CLICK! 😂",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (1.7x normal volume) CHANGE LOL CLICK",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "10_chat_spike_03_53_40",
+      "title": "Chat Explosion #10: LENNY SPIDER NAME",
+      "reason": "Chat spike at 03:53:40: 192 msgs in 20.0s (1.7x normal). Key reaction: LENNY SPIDER NAME",
+      "ranges": [
+        [
+          14010.0,
+          14045.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "yellow_shadow",
+      "uppercase": true,
+      "use_emojis": true,
+      "hook": "CHAT: LENNY SPIDER NAME! 🔥",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (1.7x normal volume) LENNY SPIDER NAME",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    }
+  ]
+}

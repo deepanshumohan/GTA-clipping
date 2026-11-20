@@ -1,0 +1,20 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,Arial,56,&H0000FFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,2,108,108,480,1
+Style: Hook,Arial,59,&H0000FFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,8,108,108,250,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:03.00,Hook,,0,0,0,,CHAT: MOD LOL WWWW! 😂
+Dialogue: 0,0:00:00.00,0:00:03.02,Caption,,0,0,0,,{\k150}YO, {\k26}MOD {\k24}WHOEVER {\k58}SAID {\k44}THAT.
+Dialogue: 0,0:00:04.48,0:00:05.70,Caption,,0,0,0,,{\k74}REALLY {\k48}DUDE! {\k1}👀
+Dialogue: 0,0:00:12.00,0:00:20.26,Caption,,0,0,0,,IS THAT CHECKPOINT? PAY HIM. PAY HIM. THIS LOOKS FRIENDLY. LOOK, IT'S A LITTLE CHRISTMAS.
+Dialogue: 0,0:00:24.00,0:00:26.16,Caption,,0,0,0,,{\k72}YOU {\k72}REALLY {\k26}THOUGHT {\k18}THAT {\k14}WAS {\k14}GONNA
+Dialogue: 0,0:00:26.16,0:00:27.26,Caption,,0,0,0,,{\k30}WORK {\k34}NOT {\k46}TODAY.
+Dialogue: 0,0:00:31.02,0:00:32.90,Caption,,0,0,0,,{\k72}THE {\k42}GAME {\k14}OF {\k10}THE {\k30}GAME {\k20}IS
+Dialogue: 0,0:00:32.90,0:00:34.14,Caption,,0,0,0,,{\k40}TREES, {\k38}HATE {\k46}YOU.

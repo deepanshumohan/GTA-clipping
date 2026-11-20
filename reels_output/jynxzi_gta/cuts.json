@@ -1,0 +1,67 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "font": "Arial",
+  "normalize_audio": true,
+  "transcript": "transcript.json",
+  "virality_score": {
+    "total": 86,
+    "tier": "A-Tier (High Virality ⚡)",
+    "breakdown": {
+      "chat_spike_multiplier": "22/25 (3.1x normal volume)",
+      "viewer_sentiment": "20/25 (Key reactions: LOL, SAID, LAND)",
+      "two_second_hook": "19/20 (Hook: 'I thought that was my landing strip. Oh...')",
+      "speech_density": "11/15 (1.1 words/sec)",
+      "payoff_impact": "14/15 (Dynamic climax reaction)"
+    },
+    "name": "10_Jynxzi_10_spike_09_11_45",
+    "title": "Chat Explosion #10: LOL SAID LAND",
+    "duration": 35.03
+  },
+  "reels": [
+    {
+      "name": "10_Jynxzi_10_spike_09_11_45",
+      "title": "Chat Explosion #10: LOL SAID LAND",
+      "reason": "Chat spike at 09:11:45: 113 msgs in 20.0s (3.1x normal). Key reaction: LOL SAID LAND",
+      "ranges": [
+        [
+          0.0,
+          35.032667
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "yellow_shadow",
+      "uppercase": true,
+      "use_emojis": true,
+      "hook": "CHAT: LOL SAID LAND! 😂",
+      "burn_captions": true,
+      "highlight_words": true,
+      "virality_score": {
+        "total": 86,
+        "tier": "A-Tier (High Virality ⚡)",
+        "breakdown": {
+          "chat_spike_multiplier": "22/25 (3.1x normal volume)",
+          "viewer_sentiment": "20/25 (Key reactions: LOL, SAID, LAND)",
+          "two_second_hook": "19/20 (Hook: 'I thought that was my landing strip. Oh...')",
+          "speech_density": "11/15 (1.1 words/sec)",
+          "payoff_impact": "14/15 (Dynamic climax reaction)"
+        },
+        "name": "10_Jynxzi_10_spike_09_11_45",
+        "title": "Chat Explosion #10: LOL SAID LAND",
+        "duration": 35.03
+      },
+      "post_caption": "Chat Explosion #10: LOL SAID LAND | Chat erupted with 3.1x spike! 🔥 Score: 86/100",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#Jynxzi",
+        "#ViralClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    }
+  ],
+  "expected_audio": true
+}

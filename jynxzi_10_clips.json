@@ -1,0 +1,279 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "font": "Arial",
+  "normalize_audio": true,
+  "reels": [
+    {
+      "name": "01_chat_spike_03_00_30",
+      "title": "Chat Explosion #1: LOL SIDE LMAO",
+      "reason": "Chat spike at 03:00:30: 221 msgs in 20.0s (2.9x normal). Key reaction: LOL SIDE LMAO",
+      "ranges": [
+        [
+          10820.0,
+          10855.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "yellow_shadow",
+      "uppercase": true,
+      "use_emojis": true,
+      "hook": "CHAT LOST IT HERE! 😂",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (2.9x normal volume) LOL SIDE LMAO",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "02_chat_spike_04_29_30",
+      "title": "Chat Explosion #2: BRO CAN GAME",
+      "reason": "Chat spike at 04:29:30: 192 msgs in 20.0s (2.8x normal). Key reaction: BRO CAN GAME",
+      "ranges": [
+        [
+          16160.0,
+          16195.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "yellow_shadow",
+      "uppercase": true,
+      "use_emojis": true,
+      "hook": "CHAT: BRO CAN GAME! 🔥",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (2.8x normal volume) BRO CAN GAME",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "03_chat_spike_04_54_35",
+      "title": "Chat Explosion #3: DIET LOL YOUR",
+      "reason": "Chat spike at 04:54:35: 208 msgs in 20.0s (2.8x normal). Key reaction: DIET LOL YOUR",
+      "ranges": [
+        [
+          17665.0,
+          17700.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "yellow_shadow",
+      "uppercase": true,
+      "use_emojis": true,
+      "hook": "CHAT: DIET LOL YOUR! 💀",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (2.8x normal volume) DIET LOL YOUR",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "04_chat_spike_05_59_25",
+      "title": "Chat Explosion #4: BANNED BAND LOL",
+      "reason": "Chat spike at 05:59:25: 217 msgs in 20.0s (2.9x normal). Key reaction: BANNED BAND LOL",
+      "ranges": [
+        [
+          21555.0,
+          21590.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "yellow_shadow",
+      "uppercase": true,
+      "use_emojis": true,
+      "hook": "CHAT: BANNED BAND LOL! 😂",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (2.9x normal volume) BANNED BAND LOL",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "05_chat_spike_06_15_25",
+      "title": "Chat Explosion #5: 911 CAUGHT WOW",
+      "reason": "Chat spike at 06:15:25: 212 msgs in 20.0s (2.8x normal). Key reaction: 911 CAUGHT WOW",
+      "ranges": [
+        [
+          22515.0,
+          22550.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "yellow_shadow",
+      "uppercase": true,
+      "use_emojis": true,
+      "hook": "CHAT: 911 CAUGHT WOW! 🔥",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (2.8x normal volume) 911 CAUGHT WOW",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "06_chat_spike_07_19_45",
+      "title": "Chat Explosion #6: AIM BAD LOL",
+      "reason": "Chat spike at 07:19:45: 197 msgs in 20.0s (3.0x normal). Key reaction: AIM BAD LOL",
+      "ranges": [
+        [
+          26375.0,
+          26410.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "yellow_shadow",
+      "uppercase": true,
+      "use_emojis": true,
+      "hook": "CHAT: AIM BAD LOL! 😂",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (3.0x normal volume) AIM BAD LOL",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "07_chat_spike_07_35_35",
+      "title": "Chat Explosion #7: LOL HUH WHAT",
+      "reason": "Chat spike at 07:35:35: 126 msgs in 20.0s (3.2x normal). Key reaction: LOL HUH WHAT",
+      "ranges": [
+        [
+          27325.0,
+          27360.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "yellow_shadow",
+      "uppercase": true,
+      "use_emojis": true,
+      "hook": "CHAT: LOL HUH WHAT! 😂",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (3.2x normal volume) LOL HUH WHAT",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "08_chat_spike_08_05_10",
+      "title": "Chat Explosion #8: MEE GOT JYNXZI",
+      "reason": "Chat spike at 08:05:10: 203 msgs in 20.0s (2.8x normal). Key reaction: MEE GOT JYNXZI",
+      "ranges": [
+        [
+          29100.0,
+          29135.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "yellow_shadow",
+      "uppercase": true,
+      "use_emojis": true,
+      "hook": "CHAT: MEE GOT JYNXZI! 🔥",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (2.8x normal volume) MEE GOT JYNXZI",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "09_chat_spike_08_18_55",
+      "title": "Chat Explosion #9: REMOVE OFF TURN",
+      "reason": "Chat spike at 08:18:55: 207 msgs in 20.0s (2.8x normal). Key reaction: REMOVE OFF TURN",
+      "ranges": [
+        [
+          29925.0,
+          29960.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "yellow_shadow",
+      "uppercase": true,
+      "use_emojis": true,
+      "hook": "CHAT: REMOVE OFF TURN! 🔥",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (2.8x normal volume) REMOVE OFF TURN",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    },
+    {
+      "name": "10_chat_spike_09_11_45",
+      "title": "Chat Explosion #10: LOL SAID LAND",
+      "reason": "Chat spike at 09:11:45: 113 msgs in 20.0s (3.1x normal). Key reaction: LOL SAID LAND",
+      "ranges": [
+        [
+          33095.0,
+          33130.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "yellow_shadow",
+      "uppercase": true,
+      "use_emojis": true,
+      "hook": "CHAT: LOL SAID LAND! 😂",
+      "burn_captions": true,
+      "highlight_words": true,
+      "post_caption": "Chat went crazy during this moment! (3.1x normal volume) LOL SAID LAND",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#ChatClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    }
+  ]
+}

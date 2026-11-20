@@ -1,0 +1,356 @@
+{
+  "source": "/Users/deepanshumohan/Work/gta/caseoh_segments/clip_10.mp4",
+  "language": "en",
+  "language_probability": null,
+  "model": "openai-whisper-base",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 17.18,
+      "text": "Lenny. I thought that was something else. Okay. So the surface adventure thus far we",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.48,
+          "word": " Lenny."
+        },
+        {
+          "start": 9.78,
+          "end": 10.26,
+          "word": " I"
+        },
+        {
+          "start": 10.26,
+          "end": 10.4,
+          "word": " thought"
+        },
+        {
+          "start": 10.4,
+          "end": 10.56,
+          "word": " that"
+        },
+        {
+          "start": 10.56,
+          "end": 10.7,
+          "word": " was"
+        },
+        {
+          "start": 10.7,
+          "end": 10.92,
+          "word": " something"
+        },
+        {
+          "start": 10.92,
+          "end": 11.16,
+          "word": " else."
+        },
+        {
+          "start": 11.44,
+          "end": 11.62,
+          "word": " Okay."
+        },
+        {
+          "start": 14.66,
+          "end": 15.14,
+          "word": " So"
+        },
+        {
+          "start": 15.14,
+          "end": 15.48,
+          "word": " the"
+        },
+        {
+          "start": 15.48,
+          "end": 15.88,
+          "word": " surface"
+        },
+        {
+          "start": 15.88,
+          "end": 16.38,
+          "word": " adventure"
+        },
+        {
+          "start": 16.38,
+          "end": 16.62,
+          "word": " thus"
+        },
+        {
+          "start": 16.62,
+          "end": 16.98,
+          "word": " far"
+        },
+        {
+          "start": 16.98,
+          "end": 17.18,
+          "word": " we"
+        }
+      ]
+    },
+    {
+      "start": 17.18,
+      "end": 22.78,
+      "text": "have hit a major lick and finding that backpack. But as far as like any like diamonds and stuff",
+      "words": [
+        {
+          "start": 17.18,
+          "end": 17.32,
+          "word": " have"
+        },
+        {
+          "start": 17.32,
+          "end": 17.44,
+          "word": " hit"
+        },
+        {
+          "start": 17.44,
+          "end": 17.52,
+          "word": " a"
+        },
+        {
+          "start": 17.52,
+          "end": 17.88,
+          "word": " major"
+        },
+        {
+          "start": 17.88,
+          "end": 18.16,
+          "word": " lick"
+        },
+        {
+          "start": 18.16,
+          "end": 18.38,
+          "word": " and"
+        },
+        {
+          "start": 18.38,
+          "end": 18.68,
+          "word": " finding"
+        },
+        {
+          "start": 18.68,
+          "end": 18.9,
+          "word": " that"
+        },
+        {
+          "start": 18.9,
+          "end": 19.36,
+          "word": " backpack."
+        },
+        {
+          "start": 20.38,
+          "end": 20.76,
+          "word": " But"
+        },
+        {
+          "start": 20.76,
+          "end": 20.9,
+          "word": " as"
+        },
+        {
+          "start": 20.9,
+          "end": 21.08,
+          "word": " far"
+        },
+        {
+          "start": 21.08,
+          "end": 21.26,
+          "word": " as"
+        },
+        {
+          "start": 21.26,
+          "end": 21.38,
+          "word": " like"
+        },
+        {
+          "start": 21.38,
+          "end": 21.56,
+          "word": " any"
+        },
+        {
+          "start": 21.56,
+          "end": 21.86,
+          "word": " like"
+        },
+        {
+          "start": 21.86,
+          "end": 22.34,
+          "word": " diamonds"
+        },
+        {
+          "start": 22.34,
+          "end": 22.56,
+          "word": " and"
+        },
+        {
+          "start": 22.56,
+          "end": 22.78,
+          "word": " stuff"
+        }
+      ]
+    },
+    {
+      "start": 22.78,
+      "end": 27.3,
+      "text": "like that not yet but this has still been successful so far.",
+      "words": [
+        {
+          "start": 22.78,
+          "end": 22.98,
+          "word": " like"
+        },
+        {
+          "start": 22.98,
+          "end": 23.26,
+          "word": " that"
+        },
+        {
+          "start": 23.26,
+          "end": 23.94,
+          "word": " not"
+        },
+        {
+          "start": 23.94,
+          "end": 24.34,
+          "word": " yet"
+        },
+        {
+          "start": 24.34,
+          "end": 24.62,
+          "word": " but"
+        },
+        {
+          "start": 24.62,
+          "end": 25.28,
+          "word": " this"
+        },
+        {
+          "start": 25.28,
+          "end": 25.42,
+          "word": " has"
+        },
+        {
+          "start": 25.42,
+          "end": 25.64,
+          "word": " still"
+        },
+        {
+          "start": 25.64,
+          "end": 25.8,
+          "word": " been"
+        },
+        {
+          "start": 25.8,
+          "end": 26.38,
+          "word": " successful"
+        },
+        {
+          "start": 26.38,
+          "end": 26.82,
+          "word": " so"
+        },
+        {
+          "start": 26.82,
+          "end": 27.3,
+          "word": " far."
+        }
+      ]
+    },
+    {
+      "start": 28.98,
+      "end": 32.58,
+      "text": "Chad how do y'all know how do y'all know that that spider's name is Lenny man?",
+      "words": [
+        {
+          "start": 28.98,
+          "end": 29.44,
+          "word": " Chad"
+        },
+        {
+          "start": 29.44,
+          "end": 29.7,
+          "word": " how"
+        },
+        {
+          "start": 29.7,
+          "end": 29.82,
+          "word": " do"
+        },
+        {
+          "start": 29.82,
+          "end": 29.94,
+          "word": " y"
+        },
+        {
+          "start": 29.94,
+          "end": 30.02,
+          "word": "'all"
+        },
+        {
+          "start": 30.02,
+          "end": 30.26,
+          "word": " know"
+        },
+        {
+          "start": 30.26,
+          "end": 30.5,
+          "word": " how"
+        },
+        {
+          "start": 30.5,
+          "end": 30.6,
+          "word": " do"
+        },
+        {
+          "start": 30.6,
+          "end": 30.7,
+          "word": " y"
+        },
+        {
+          "start": 30.7,
+          "end": 30.74,
+          "word": "'all"
+        },
+        {
+          "start": 30.74,
+          "end": 30.9,
+          "word": " know"
+        },
+        {
+          "start": 30.9,
+          "end": 31.1,
+          "word": " that"
+        },
+        {
+          "start": 31.1,
+          "end": 31.3,
+          "word": " that"
+        },
+        {
+          "start": 31.3,
+          "end": 31.76,
+          "word": " spider's"
+        },
+        {
+          "start": 31.76,
+          "end": 31.9,
+          "word": " name"
+        },
+        {
+          "start": 31.9,
+          "end": 32.08,
+          "word": " is"
+        },
+        {
+          "start": 32.08,
+          "end": 32.36,
+          "word": " Lenny"
+        },
+        {
+          "start": 32.36,
+          "end": 32.58,
+          "word": " man?"
+        }
+      ]
+    }
+  ]
+}

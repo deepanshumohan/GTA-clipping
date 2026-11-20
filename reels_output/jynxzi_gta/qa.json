@@ -1,0 +1,343 @@
+{
+  "checks": [
+    {
+      "source": "/Users/deepanshumohan/Work/gta/reels_output/jynxzi_gta/01_Jynxzi_01_spike_03_00_30.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frames": 1021,
+      "duration": 35.0,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true,
+      "target_duration": 35.0,
+      "duration_ok": true,
+      "audio_ok": true,
+      "diagnostics": {
+        "warnings": [
+          "Black frames detected; inspect intentional fades versus missing video",
+          "Static/frozen frames detected; inspect gameplay or slides manually",
+          "Integrated loudness outside -16 LUFS ?2"
+        ],
+        "scope": "Heuristic video diagnostics; manual playback review required",
+        "analysis_ok": true,
+        "black_intervals": [
+          {
+            "start": 3.0,
+            "end": 7.166667,
+            "duration": 4.166667
+          }
+        ],
+        "freeze_events": [
+          "freeze_start: 3",
+          "freeze_duration: 4.066667",
+          "freeze_end: 7.066667"
+        ],
+        "loudness": {
+          "input_i": "-19.91",
+          "input_tp": "-4.24",
+          "input_lra": "6.20"
+        },
+        "caption_overflow": []
+      }
+    },
+    {
+      "source": "/Users/deepanshumohan/Work/gta/reels_output/jynxzi_gta/02_Jynxzi_02_spike_04_29_30.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frames": 1001,
+      "duration": 33.4,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true,
+      "target_duration": 33.4,
+      "duration_ok": true,
+      "audio_ok": true,
+      "diagnostics": {
+        "warnings": [],
+        "scope": "Heuristic video diagnostics; manual playback review required",
+        "analysis_ok": true,
+        "black_intervals": [],
+        "freeze_events": [],
+        "loudness": {
+          "input_i": "-15.21",
+          "input_tp": "-1.54",
+          "input_lra": "13.50"
+        },
+        "caption_overflow": []
+      }
+    },
+    {
+      "source": "/Users/deepanshumohan/Work/gta/reels_output/jynxzi_gta/03_Jynxzi_03_spike_04_54_35.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frames": 1043,
+      "duration": 35.0,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true,
+      "target_duration": 35.0,
+      "duration_ok": true,
+      "audio_ok": true,
+      "diagnostics": {
+        "warnings": [
+          "Integrated loudness outside -16 LUFS ?2"
+        ],
+        "scope": "Heuristic video diagnostics; manual playback review required",
+        "analysis_ok": true,
+        "black_intervals": [],
+        "freeze_events": [],
+        "loudness": {
+          "input_i": "-inf",
+          "input_tp": "-inf",
+          "input_lra": "0.00"
+        },
+        "caption_overflow": []
+      }
+    },
+    {
+      "source": "/Users/deepanshumohan/Work/gta/reels_output/jynxzi_gta/04_Jynxzi_04_spike_05_59_25.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frames": 1025,
+      "duration": 35.0,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true,
+      "target_duration": 35.0,
+      "duration_ok": true,
+      "audio_ok": true,
+      "diagnostics": {
+        "warnings": [
+          "True peak exceeds -1 dBTP"
+        ],
+        "scope": "Heuristic video diagnostics; manual playback review required",
+        "analysis_ok": true,
+        "black_intervals": [],
+        "freeze_events": [],
+        "loudness": {
+          "input_i": "-16.46",
+          "input_tp": "1.83",
+          "input_lra": "9.30"
+        },
+        "caption_overflow": []
+      }
+    },
+    {
+      "source": "/Users/deepanshumohan/Work/gta/reels_output/jynxzi_gta/05_Jynxzi_05_spike_06_15_25.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frames": 1051,
+      "duration": 35.049,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true,
+      "target_duration": 35.049,
+      "duration_ok": true,
+      "audio_ok": true,
+      "diagnostics": {
+        "warnings": [],
+        "scope": "Heuristic video diagnostics; manual playback review required",
+        "analysis_ok": true,
+        "black_intervals": [],
+        "freeze_events": [],
+        "loudness": {
+          "input_i": "-16.96",
+          "input_tp": "-1.34",
+          "input_lra": "6.80"
+        },
+        "caption_overflow": []
+      }
+    },
+    {
+      "source": "/Users/deepanshumohan/Work/gta/reels_output/jynxzi_gta/06_Jynxzi_06_spike_07_19_45.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frames": 1038,
+      "duration": 35.0,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true,
+      "target_duration": 35.0,
+      "duration_ok": true,
+      "audio_ok": true,
+      "diagnostics": {
+        "warnings": [
+          "Black frames detected; inspect intentional fades versus missing video",
+          "Static/frozen frames detected; inspect gameplay or slides manually",
+          "Integrated loudness outside -16 LUFS ?2"
+        ],
+        "scope": "Heuristic video diagnostics; manual playback review required",
+        "analysis_ok": true,
+        "black_intervals": [
+          {
+            "start": 2.8,
+            "end": 6.466667,
+            "duration": 3.666667
+          }
+        ],
+        "freeze_events": [
+          "freeze_start: 3",
+          "freeze_duration: 3.466667",
+          "freeze_end: 6.466667"
+        ],
+        "loudness": {
+          "input_i": "-18.63",
+          "input_tp": "-3.74",
+          "input_lra": "13.20"
+        },
+        "caption_overflow": []
+      }
+    },
+    {
+      "source": "/Users/deepanshumohan/Work/gta/reels_output/jynxzi_gta/07_Jynxzi_07_spike_07_35_35.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frames": 1047,
+      "duration": 35.0,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true,
+      "target_duration": 35.0,
+      "duration_ok": true,
+      "audio_ok": true,
+      "diagnostics": {
+        "warnings": [
+          "Caption text may exceed two lines; inspect caption framing"
+        ],
+        "scope": "Heuristic video diagnostics; manual playback review required",
+        "analysis_ok": true,
+        "black_intervals": [],
+        "freeze_events": [],
+        "loudness": {
+          "input_i": "-14.39",
+          "input_tp": "-1.13",
+          "input_lra": "4.50"
+        },
+        "caption_overflow": [
+          {
+            "time": "0:00:00.00",
+            "text": "I WANT MY RESPECTING AMERICAN FARMING TRADITIONS AND YOU PUT YOUR DICK IN HIS HAIR FOR"
+          },
+          {
+            "time": "0:00:10.90",
+            "text": "WE DID OUR FOR RIGHTEOUS. I SEE THE AMERICAN DREAM HERE LIBERALS MELTED REAL TIME ON THE RICHARD BASTION SHOW BECAUSE THEY LIKELY WANT TO KILL US WHEN AMERICA'S ENEMIES THREATENED HER WITH 💀"
+          }
+        ]
+      }
+    },
+    {
+      "source": "/Users/deepanshumohan/Work/gta/reels_output/jynxzi_gta/08_Jynxzi_08_spike_08_05_10.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frames": 1027,
+      "duration": 35.0,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true,
+      "target_duration": 35.0,
+      "duration_ok": true,
+      "audio_ok": true,
+      "diagnostics": {
+        "warnings": [],
+        "scope": "Heuristic video diagnostics; manual playback review required",
+        "analysis_ok": true,
+        "black_intervals": [],
+        "freeze_events": [],
+        "loudness": {
+          "input_i": "-16.53",
+          "input_tp": "-1.41",
+          "input_lra": "17.20"
+        },
+        "caption_overflow": []
+      }
+    },
+    {
+      "source": "/Users/deepanshumohan/Work/gta/reels_output/jynxzi_gta/09_Jynxzi_09_spike_08_18_55.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frames": 1052,
+      "duration": 35.067,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true,
+      "target_duration": 35.067,
+      "duration_ok": true,
+      "audio_ok": true,
+      "diagnostics": {
+        "warnings": [
+          "Caption text may exceed two lines; inspect caption framing"
+        ],
+        "scope": "Heuristic video diagnostics; manual playback review required",
+        "analysis_ok": true,
+        "black_intervals": [],
+        "freeze_events": [],
+        "loudness": {
+          "input_i": "-14.80",
+          "input_tp": "-1.46",
+          "input_lra": "17.60"
+        },
+        "caption_overflow": [
+          {
+            "time": "0:00:12.26",
+            "text": "HI-FI SAID I MEAN WHAT ABOUT JUST OFF? YO HI-FI'S I'M NOT TURNING MY- 👀"
+          }
+        ]
+      }
+    },
+    {
+      "source": "/Users/deepanshumohan/Work/gta/reels_output/jynxzi_gta/10_Jynxzi_10_spike_09_11_45.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frames": 1006,
+      "duration": 33.6,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true,
+      "target_duration": 33.6,
+      "duration_ok": true,
+      "audio_ok": true,
+      "diagnostics": {
+        "warnings": [
+          "Black frames detected; inspect intentional fades versus missing video"
+        ],
+        "scope": "Heuristic video diagnostics; manual playback review required",
+        "analysis_ok": true,
+        "black_intervals": [
+          {
+            "start": 9.866667,
+            "end": 10.633333,
+            "duration": 0.766667
+          }
+        ],
+        "freeze_events": [],
+        "loudness": {
+          "input_i": "-17.80",
+          "input_tp": "-2.28",
+          "input_lra": "7.00"
+        },
+        "caption_overflow": []
+      }
+    }
+  ],
+  "scope": "Technical decode/metadata only; visual, caption and listening review are separate."
+}

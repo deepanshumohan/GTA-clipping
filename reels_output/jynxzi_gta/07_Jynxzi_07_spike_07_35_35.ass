@@ -1,0 +1,26 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,Arial,56,&H0000FFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,2,108,108,480,1
+Style: Hook,Arial,59,&H0000FFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,8,108,108,250,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:03.00,Hook,,0,0,0,,CHAT: LOL HUH WHAT! 😂
+Dialogue: 0,0:00:00.00,0:00:03.66,Caption,,0,0,0,,I WANT MY RESPECTING AMERICAN FARMING TRADITIONS AND YOU PUT YOUR DICK IN HIS HAIR FOR
+Dialogue: 0,0:00:03.66,0:00:05.12,Caption,,0,0,0,,{\k48}I'LL {\k10}GO {\k26}FIND {\k22}A {\k26}SCARAP {\k14}RIGHT
+Dialogue: 0,0:00:05.12,0:00:05.72,Caption,,0,0,0,,{\k60}NOW
+Dialogue: 0,0:00:05.72,0:00:07.64,Caption,,0,0,0,,{\k54}YOU {\k16}DO {\k28}THAT, {\k24}DOUGIE {\k62}AND {\k8}YOU
+Dialogue: 0,0:00:07.64,0:00:09.12,Caption,,0,0,0,,{\k16}THINK {\k12}OF {\k38}AMERICA {\k48}AND {\k10}YOU {\k24}SHOW
+Dialogue: 0,0:00:09.12,0:00:10.58,Caption,,0,0,0,,{\k20}THAT {\k34}STRAW {\k24}STUFF {\k44}SUFFERED {\k12}A {\k12}GOOD
+Dialogue: 0,0:00:10.58,0:00:10.90,Caption,,0,0,0,,{\k32}TIME
+Dialogue: 0,0:00:10.90,0:00:21.14,Caption,,0,0,0,,WE DID OUR FOR RIGHTEOUS. I SEE THE AMERICAN DREAM HERE LIBERALS MELTED REAL TIME ON THE RICHARD BASTION SHOW BECAUSE THEY LIKELY WANT TO KILL US WHEN AMERICA'S ENEMIES THREATENED HER WITH 💀
+Dialogue: 0,0:00:21.14,0:00:22.06,Caption,,0,0,0,,{\k92}PROGRETTE
+Dialogue: 0,0:00:22.64,0:00:23.92,Caption,,0,0,0,,{\k52}ALL {\k22}RIGHT, {\k18}WHERE'S {\k36}LUCIA?
+Dialogue: 0,0:00:27.52,0:00:30.44,Caption,,0,0,0,,{\k88}THAT {\k88}IS {\k58}NOT {\k58}LUCIA.
+Dialogue: 0,0:00:31.28,0:00:32.88,Caption,,0,0,0,,{\k88}IS {\k6}SHE {\k22}F**KING {\k12}A {\k32}CIGARETTE?
+Dialogue: 0,0:00:33.32,0:00:33.98,Caption,,0,0,0,,{\k22}OH {\k44}GOD {\k1}👀

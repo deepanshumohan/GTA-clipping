@@ -1,0 +1,132 @@
+[
+  {
+    "name": "01_Caseoh_01_spike_01_53_10",
+    "ranges": [
+      [
+        0.0,
+        33.3
+      ]
+    ],
+    "target_duration": 33.3,
+    "caption_events": 10,
+    "layout": "fit",
+    "reason": "Chat Explosion #1: LOST SEEMSGOOD POINTS"
+  },
+  {
+    "name": "02_Caseoh_02_spike_02_11_50",
+    "ranges": [
+      [
+        0.0,
+        33.3
+      ]
+    ],
+    "target_duration": 33.3,
+    "caption_events": 10,
+    "layout": "fit",
+    "reason": "Chat Explosion #2: MOD LOL WWWW"
+  },
+  {
+    "name": "03_Caseoh_03_spike_02_35_00",
+    "ranges": [
+      [
+        0.0,
+        33.4
+      ]
+    ],
+    "target_duration": 33.4,
+    "caption_events": 10,
+    "layout": "fit",
+    "reason": "Chat Explosion #3: BOSS TPFUFUN WWWWW"
+  },
+  {
+    "name": "04_Caseoh_04_spike_02_50_30",
+    "ranges": [
+      [
+        0.0,
+        35.033333
+      ]
+    ],
+    "target_duration": 35.033333,
+    "caption_events": 10,
+    "layout": "fit",
+    "reason": "Chat Explosion #4: DINODANCE LOL CASEOHDAILYDOODLEDANCE"
+  },
+  {
+    "name": "05_Caseoh_05_spike_03_19_00",
+    "ranges": [
+      [
+        0.0,
+        33.7
+      ]
+    ],
+    "target_duration": 33.7,
+    "caption_events": 10,
+    "layout": "fit",
+    "reason": "Chat Explosion #5: CASEOHDAILYDOODLESTWERK DINODANCE CASEOHSPOOKYDAILYDOODLES"
+  },
+  {
+    "name": "06_Caseoh_06_spike_03_28_20",
+    "ranges": [
+      [
+        0.0,
+        33.4
+      ]
+    ],
+    "target_duration": 33.4,
+    "caption_events": 10,
+    "layout": "fit",
+    "reason": "Chat Explosion #6: SABAPING CASEOHHAMSTER LOL"
+  },
+  {
+    "name": "07_Caseoh_07_spike_03_32_00",
+    "ranges": [
+      [
+        0.0,
+        33.7
+      ]
+    ],
+    "target_duration": 33.7,
+    "caption_events": 10,
+    "layout": "fit",
+    "reason": "Chat Explosion #7: CASE OMG BOB"
+  },
+  {
+    "name": "08_Caseoh_08_spike_03_39_05",
+    "ranges": [
+      [
+        0.0,
+        35.0
+      ]
+    ],
+    "target_duration": 35.0,
+    "caption_events": 10,
+    "layout": "fit",
+    "reason": "Chat Explosion #8: LOL TPFUFUN FEELSVI"
+  },
+  {
+    "name": "09_Caseoh_09_spike_03_47_20",
+    "ranges": [
+      [
+        0.0,
+        35.0
+      ]
+    ],
+    "target_duration": 35.0,
+    "caption_events": 10,
+    "layout": "fit",
+    "reason": "Chat Explosion #9: CHANGE LOL CLICK"
+  },
+  {
+    "name": "10_Caseoh_10_spike_03_53_40",
+    "ranges": [
+      [
+        0.0,
+        33.4
+      ]
+    ],
+    "target_duration": 33.4,
+    "caption_events": 10,
+    "layout": "fit",
+    "reason": "Chat Explosion #10: LENNY SPIDER NAME"
+  }
+]

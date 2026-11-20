@@ -1,0 +1,20 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,Arial,56,&H0000FFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,2,108,108,480,1
+Style: Hook,Arial,59,&H0000FFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,8,108,108,250,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.68,Caption,,0,0,0,,{\k20}FOR {\k10}THE {\k38}CHEST.
+Dialogue: 0,0:00:00.00,0:00:03.00,Hook,,0,0,0,,CHAT LOST IT HERE! 🔥
+Dialogue: 0,0:00:04.04,0:00:05.42,Caption,,0,0,0,,{\k40}OH, {\k16}THAT'S {\k8}A {\k36}WITCH {\k38}HAT!
+Dialogue: 0,0:00:16.72,0:00:17.78,Caption,,0,0,0,,{\k36}I {\k12}GOT {\k8}A {\k18}LOCK {\k18}IN {\k14}RIGHT
+Dialogue: 0,0:00:17.78,0:00:17.90,Caption,,0,0,0,,{\k12}HERE.
+Dialogue: 0,0:00:17.92,0:00:18.80,Caption,,0,0,0,,{\k8}I {\k10}GOTTA {\k20}REMEMBER {\k18}THE {\k32}PATTERNS.
+Dialogue: 0,0:00:27.90,0:00:29.34,Caption,,0,0,0,,{\k72}OKAY, {\k6}THIS {\k12}IS {\k14}NOT {\k40}HAPPENING.
+Dialogue: 0,0:00:30.30,0:00:31.86,Caption,,0,0,0,,{\k80}THIS {\k16}IS {\k20}NOT {\k40}HAPPENING.

@@ -1,0 +1,28 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,Arial,56,&H0000FFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,2,108,108,480,1
+Style: Hook,Arial,59,&H0000FFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,8,108,108,250,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:03.00,Hook,,0,0,0,,CHAT: CASEOHDAILYDOODLESTWERK DINODANCE CASEOHSPOOKYDAILYDOODLES! 🔥
+Dialogue: 0,0:00:00.00,0:00:06.08,Caption,,0,0,0,,I'M GOING TO BE BOO WITH THE FUR AND THE WHOLE CLUE AND LOOK IN HER.
+Dialogue: 0,0:00:07.32,0:00:08.68,Caption,,0,0,0,,{\k68}MAN, {\k10}MY {\k34}DOUGH {\k24}HURT.
+Dialogue: 0,0:00:08.80,0:00:09.86,Caption,,0,0,0,,{\k6}I {\k12}GOT {\k8}TO {\k20}QUIT {\k34}SINGING {\k26}ALL
+Dialogue: 0,0:00:09.86,0:00:10.36,Caption,,0,0,0,,{\k16}THE {\k34}TIME.
+Dialogue: 0,0:00:10.52,0:00:12.38,Caption,,0,0,0,,{\k58}GOD, {\k10}LEAVE {\k28}MY {\k50}DOUGH {\k40}HURT. {\k1}👀
+Dialogue: 0,0:00:14.22,0:00:15.12,Caption,,0,0,0,,{\k14}ALL {\k32}RIGHT, {\k10}LOOK {\k34}HERE.
+Dialogue: 0,0:00:17.34,0:00:21.16,Caption,,0,0,0,,{\k64}IF {\k20}YOU {\k28}WAS {\k24}NOT {\k44}HERE {\k202}YESTERDAY,
+Dialogue: 0,0:00:22.54,0:00:26.02,Caption,,0,0,0,,{\k148}OKAY, {\k58}YO, {\k30}JORDAN {\k58}WITH {\k14}THE {\k40}{\c&H00FFFF00&}5{\r}
+Dialogue: 0,0:00:26.02,0:00:27.82,Caption,,0,0,0,,{\k40}{\c&H00FFFF00&},000{\r} {\k42}BITS {\k32}W {\k40}JORDAN {\k14}WITH {\k12}THE
+Dialogue: 0,0:00:27.82,0:00:29.48,Caption,,0,0,0,,{\k32}{\c&H00FFFF00&}5{\r} {\k32}{\c&H00FFFF00&},000{\r} {\k48}BITS, {\k14}HEY, {\k10}K {\k30}-SLOBBY
+Dialogue: 0,0:00:29.48,0:00:31.06,Caption,,0,0,0,,{\k78}STREAMS, {\k16}YOU'VE {\k6}BEEN {\k10}A {\k20}SOURCE {\k28}OF
+Dialogue: 0,0:00:31.06,0:00:32.26,Caption,,0,0,0,,{\k72}RELAXING {\k48}ENTERTAINMENT.
+Dialogue: 0,0:00:32.26,0:00:33.18,Caption,,0,0,0,,{\k18}CAN {\k4}YOU {\k10}GIVE {\k14}MY {\k22}FRIENDS {\k24}SHY
+Dialogue: 0,0:00:33.18,0:00:34.42,Caption,,0,0,0,,{\k20}AND {\k16}SOME {\k18}WORDS {\k14}OF {\k32}ENCOURAGEMENT {\k24}MAYBE
+Dialogue: 0,0:00:34.42,0:00:34.92,Caption,,0,0,0,,{\k18}FROM {\k10}THE {\k22}PICKLE?

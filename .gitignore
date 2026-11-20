@@ -62,3 +62,7 @@ reels_output/job-*/
 reels_output/.cache/
 .reels_cache/
 .pytest_cache/
+*_chat.json
+*_segments/
+bin/
+reels_output/test_*/

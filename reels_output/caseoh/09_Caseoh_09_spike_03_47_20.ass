@@ -1,0 +1,25 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,Arial,56,&H0000FFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,2,108,108,480,1
+Style: Hook,Arial,59,&H0000FFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,8,108,108,250,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:03.00,Hook,,0,0,0,,CHAT: CHANGE LOL CLICK! 😂
+Dialogue: 0,0:00:02.10,0:00:05.40,Caption,,0,0,0,,{\k128}LEFT {\k36}CLICK {\k32}IS {\k30}DOING {\k104}THAT.
+Dialogue: 0,0:00:05.90,0:00:09.42,Caption,,0,0,0,,{\k128}HOLD {\k224}ON.
+Dialogue: 0,0:00:13.28,0:00:14.92,Caption,,0,0,0,,{\k128}RIGHT {\k36}ARROW.
+Dialogue: 0,0:00:15.70,0:00:16.40,Caption,,0,0,0,,{\k70}DONE.
+Dialogue: 0,0:00:17.40,0:00:19.22,Caption,,0,0,0,,{\k128}WE'RE {\k24}GOOD {\k30}NOW.
+Dialogue: 0,0:00:19.96,0:00:21.18,Caption,,0,0,0,,{\k64}LET'S {\k18}GO {\k12}TO {\k28}BED.
+Dialogue: 0,0:00:23.00,0:00:24.80,Caption,,0,0,0,,YOU CAN'T REST THERE'S MONSTERS NEARBY.
+Dialogue: 0,0:00:24.80,0:00:28.22,Caption,,0,0,0,,{\k106}IS {\k48}THAT {\k46}CONSIDERED {\k62}NEARBY {\k48}BECAUSE {\k32}HE'S
+Dialogue: 0,0:00:28.22,0:00:29.24,Caption,,0,0,0,,{\k18}KIND {\k16}OF {\k8}A {\k18}LITTLE {\k18}A {\k24}LITTLE
+Dialogue: 0,0:00:29.24,0:00:30.08,Caption,,0,0,0,,{\k26}WAYS {\k34}OVER {\k24}THERE?
+Dialogue: 0,0:00:31.04,0:00:31.90,Caption,,0,0,0,,{\k58}{\c&H00FFFF00&}WHAT{\r} {\k16}WAS {\k12}THAT? {\k1}👀
+Dialogue: 0,0:00:32.90,0:00:33.88,Caption,,0,0,0,,{\k58}{\c&H00FFFF00&}WHAT{\r} {\k16}IS {\k24}THIS? {\k1}👀

@@ -1,0 +1,24 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,Arial,56,&H0000FFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,2,108,108,480,1
+Style: Hook,Arial,59,&H0000FFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,8,108,108,250,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:03.00,Hook,,0,0,0,,CHAT: LOL SAID LAND! 😂
+Dialogue: 0,0:00:00.00,0:00:04.34,Caption,,0,0,0,,{\k40}I {\k270}THOUGHT {\k20}THAT {\k24}WAS {\k32}MY {\k48}LANDING
+Dialogue: 0,0:00:04.34,0:00:04.80,Caption,,0,0,0,,{\k46}STRIP. {\k1}💀
+Dialogue: 0,0:00:04.80,0:00:06.02,Caption,,0,0,0,,{\k44}OH {\k22}MY {\k56}GOD. {\k1}👀
+Dialogue: 0,0:00:07.02,0:00:07.82,Caption,,0,0,0,,{\k80}I
+Dialogue: 0,0:00:07.82,0:00:09.78,Caption,,0,0,0,,{\k20}THOUGHT {\k24}THAT {\k16}WAS {\k44}MY {\k52}LANDING {\k40}STRIP {\k1}💀
+Dialogue: 0,0:00:09.78,0:00:11.08,Caption,,0,0,0,,{\k28}NOT {\k48}PEACE {\k54}FUCK
+Dialogue: 0,0:00:18.56,0:00:20.26,Caption,,0,0,0,,{\k102}SORRY, {\k68}PETE
+Dialogue: 0,0:00:23.18,0:00:25.98,Caption,,0,0,0,,{\k82}OKAY, {\k48}NORTHWEST {\k108}SORRY, {\k42}SORRY.
+Dialogue: 0,0:00:26.12,0:00:27.10,Caption,,0,0,0,,{\k4}I {\k18}DIDN'T {\k12}KNOW {\k20}THAT {\k24}WAS {\k20}PAYING
+Dialogue: 0,0:00:27.10,0:00:27.54,Caption,,0,0,0,,{\k44}ATTENTION
+Dialogue: 0,0:00:30.00,0:00:31.40,Caption,,0,0,0,,{\k26}JUST {\k42}BRIAN {\k44}DON'T {\k28}KNOW

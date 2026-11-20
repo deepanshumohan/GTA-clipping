@@ -1,0 +1,24 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,Arial,56,&H0000FFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,2,108,108,480,1
+Style: Hook,Arial,59,&H0000FFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,8,108,108,250,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.86,Caption,,0,0,0,,{\k12}{\c&H00FFFF00&}WHAT{\r} {\k12}THE {\k62}FUCK? {\k1}👀
+Dialogue: 0,0:00:00.00,0:00:03.00,Hook,,0,0,0,,CHAT: AIM BAD LOL! 😂
+Dialogue: 0,0:00:01.24,0:00:02.34,Caption,,0,0,0,,{\k14}TWO {\k32}BULLETS {\k24}IN {\k10}THE {\k30}FACE?
+Dialogue: 0,0:00:03.64,0:00:04.16,Caption,,0,0,0,,{\k52}{\c&H00FFFF00&}WHAT?{\r} {\k1}👀
+Dialogue: 0,0:00:10.12,0:00:11.30,Caption,,0,0,0,,{\k52}I {\k12}GUESS {\k16}IF {\k14}IT'S {\k10}NOT {\k14}A
+Dialogue: 0,0:00:11.30,0:00:12.90,Caption,,0,0,0,,{\k36}{\c&H00FFFF00&}HEADSHOT,{\r} {\k24}IT'S {\k8}NOT {\k16}EVEN {\k32}WORTH {\k44}DOING, {\k1}🔥
+Dialogue: 0,0:00:13.50,0:00:13.96,Caption,,0,0,0,,{\k46}RIGHT?
+Dialogue: 0,0:00:18.60,0:00:20.32,Caption,,0,0,0,,{\k52}YO {\k50}JASON, {\k2}I {\k18}SAID {\k16}TO {\k34}REASON
+Dialogue: 0,0:00:20.32,0:00:22.56,Caption,,0,0,0,,{\k26}WITH {\k34}THEM, {\k26}NOT {\k68}SUBTLY {\k44}THREATEN {\k26}THEM
+Dialogue: 0,0:00:22.56,0:00:23.10,Caption,,0,0,0,,{\k54}AGAIN.
+Dialogue: 0,0:00:30.00,0:00:30.84,Caption,,0,0,0,,{\k22}THERE {\k24}YOU {\k38}ARE.
+Dialogue: 0,0:00:33.20,0:00:34.98,Caption,,0,0,0,,WOO! YOU F**K THIS.

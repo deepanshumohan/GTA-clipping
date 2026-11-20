@@ -1,0 +1,67 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "font": "Arial",
+  "normalize_audio": true,
+  "transcript": "transcript.json",
+  "virality_score": {
+    "total": 78,
+    "tier": "B-Tier (Solid Clip 🎬)",
+    "breakdown": {
+      "chat_spike_multiplier": "17/25 (1.7x normal volume)",
+      "viewer_sentiment": "18/25 (Key reactions: LENNY, SPIDER, NAME)",
+      "two_second_hook": "19/20 (Hook: 'Lenny. I thought that was something else...')",
+      "speech_density": "11/15 (1.8 words/sec)",
+      "payoff_impact": "13/15 (Dynamic climax reaction)"
+    },
+    "name": "10_Caseoh_10_spike_03_53_40",
+    "title": "Chat Explosion #10: LENNY SPIDER NAME",
+    "duration": 35.03
+  },
+  "reels": [
+    {
+      "name": "10_Caseoh_10_spike_03_53_40",
+      "title": "Chat Explosion #10: LENNY SPIDER NAME",
+      "reason": "Chat spike at 03:53:40: 192 msgs in 20.0s (1.7x normal). Key reaction: LENNY SPIDER NAME",
+      "ranges": [
+        [
+          0.0,
+          35.033667
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "yellow_shadow",
+      "uppercase": true,
+      "use_emojis": true,
+      "hook": "CHAT: LENNY SPIDER NAME! 🔥",
+      "burn_captions": true,
+      "highlight_words": true,
+      "virality_score": {
+        "total": 78,
+        "tier": "B-Tier (Solid Clip 🎬)",
+        "breakdown": {
+          "chat_spike_multiplier": "17/25 (1.7x normal volume)",
+          "viewer_sentiment": "18/25 (Key reactions: LENNY, SPIDER, NAME)",
+          "two_second_hook": "19/20 (Hook: 'Lenny. I thought that was something else...')",
+          "speech_density": "11/15 (1.8 words/sec)",
+          "payoff_impact": "13/15 (Dynamic climax reaction)"
+        },
+        "name": "10_Caseoh_10_spike_03_53_40",
+        "title": "Chat Explosion #10: LENNY SPIDER NAME",
+        "duration": 35.03
+      },
+      "post_caption": "Chat Explosion #10: LENNY SPIDER NAME | Chat erupted with 1.7x spike! 🔥 Score: 78/100",
+      "hashtags": [
+        "#Twitch",
+        "#Gaming",
+        "#Caseoh",
+        "#ViralClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    }
+  ],
+  "expected_audio": true
+}

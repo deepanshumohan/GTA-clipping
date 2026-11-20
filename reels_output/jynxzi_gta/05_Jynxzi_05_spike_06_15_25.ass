@@ -1,0 +1,23 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,Arial,56,&H0000FFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,2,108,108,480,1
+Style: Hook,Arial,59,&H0000FFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,8,108,108,250,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.24,Caption,,0,0,0,,{\k34}BAR {\k118}AND {\k8}I {\k14}WAS {\k32}SCARED {\k18}THAT {\k1}😱
+Dialogue: 0,0:00:00.00,0:00:03.00,Hook,,0,0,0,,CHAT: 911 CAUGHT WOW! 🔥
+Dialogue: 0,0:00:02.24,0:00:03.14,Caption,,0,0,0,,{\k8}I {\k12}WAS {\k12}GONNA {\k16}GET {\k42}ARRESTED
+Dialogue: 0,0:00:04.94,0:00:06.12,Caption,,0,0,0,,{\k40}HEY, {\k8}THIS {\k8}IS {\k12}SO {\k32}FUCKING {\k18}GOOD
+Dialogue: 0,0:00:06.12,0:00:06.54,Caption,,0,0,0,,{\k12}TO {\k18}SEE {\k12}YOU.
+Dialogue: 0,0:00:06.68,0:00:07.48,Caption,,0,0,0,,{\k30}I'M {\k2}GONNA {\k10}GO {\k10}GET {\k10}A {\k18}DRINK.
+Dialogue: 0,0:00:07.58,0:00:07.96,Caption,,0,0,0,,{\k12}I'M {\k2}A {\k24}SETTLER.
+Dialogue: 0,0:00:08.52,0:00:08.84,Caption,,0,0,0,,{\k32}OKAY.
+Dialogue: 0,0:00:09.06,0:00:09.30,Caption,,0,0,0,,{\k24}OKAY.
+Dialogue: 0,0:00:27.70,0:00:28.34,Caption,,0,0,0,,{\k32}A {\k32}BITCH
+Dialogue: 0,0:00:33.14,0:00:33.96,Caption,,0,0,0,,{\k82}OH

@@ -1,0 +1,372 @@
+{
+  "checks": [
+    {
+      "source": "/Users/deepanshumohan/Work/gta/reels_output/caseoh/01_Caseoh_01_spike_01_53_10.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frames": 997,
+      "duration": 33.3,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true,
+      "target_duration": 33.3,
+      "duration_ok": true,
+      "audio_ok": true,
+      "diagnostics": {
+        "warnings": [
+          "Black frames detected; inspect intentional fades versus missing video",
+          "Static/frozen frames detected; inspect gameplay or slides manually",
+          "Integrated loudness outside -16 LUFS ?2"
+        ],
+        "scope": "Heuristic video diagnostics; manual playback review required",
+        "analysis_ok": true,
+        "black_intervals": [
+          {
+            "start": 29.933333,
+            "end": 30.433333,
+            "duration": 0.5
+          }
+        ],
+        "freeze_events": [
+          "freeze_start: 7.9",
+          "freeze_duration: 3.833333",
+          "freeze_end: 11.733333"
+        ],
+        "loudness": {
+          "input_i": "-18.27",
+          "input_tp": "-1.28",
+          "input_lra": "20.20"
+        },
+        "caption_overflow": []
+      }
+    },
+    {
+      "source": "/Users/deepanshumohan/Work/gta/reels_output/caseoh/02_Caseoh_02_spike_02_11_50.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frames": 998,
+      "duration": 33.3,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true,
+      "target_duration": 33.3,
+      "duration_ok": true,
+      "audio_ok": true,
+      "diagnostics": {
+        "warnings": [
+          "True peak exceeds -1 dBTP",
+          "Caption text may exceed two lines; inspect caption framing"
+        ],
+        "scope": "Heuristic video diagnostics; manual playback review required",
+        "analysis_ok": true,
+        "black_intervals": [],
+        "freeze_events": [],
+        "loudness": {
+          "input_i": "-15.82",
+          "input_tp": "0.52",
+          "input_lra": "12.60"
+        },
+        "caption_overflow": [
+          {
+            "time": "0:00:12.00",
+            "text": "IS THAT CHECKPOINT? PAY HIM. PAY HIM. THIS LOOKS FRIENDLY. LOOK, IT'S A LITTLE CHRISTMAS."
+          }
+        ]
+      }
+    },
+    {
+      "source": "/Users/deepanshumohan/Work/gta/reels_output/caseoh/03_Caseoh_03_spike_02_35_00.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frames": 998,
+      "duration": 33.4,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true,
+      "target_duration": 33.4,
+      "duration_ok": true,
+      "audio_ok": true,
+      "diagnostics": {
+        "warnings": [
+          "True peak exceeds -1 dBTP"
+        ],
+        "scope": "Heuristic video diagnostics; manual playback review required",
+        "analysis_ok": true,
+        "black_intervals": [],
+        "freeze_events": [],
+        "loudness": {
+          "input_i": "-16.03",
+          "input_tp": "-0.97",
+          "input_lra": "9.30"
+        },
+        "caption_overflow": []
+      }
+    },
+    {
+      "source": "/Users/deepanshumohan/Work/gta/reels_output/caseoh/04_Caseoh_04_spike_02_50_30.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frames": 1051,
+      "duration": 35.033333,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true,
+      "target_duration": 35.033333,
+      "duration_ok": true,
+      "audio_ok": true,
+      "diagnostics": {
+        "warnings": [
+          "Integrated loudness outside -16 LUFS ?2"
+        ],
+        "scope": "Heuristic video diagnostics; manual playback review required",
+        "analysis_ok": true,
+        "black_intervals": [],
+        "freeze_events": [],
+        "loudness": {
+          "input_i": "-18.01",
+          "input_tp": "-1.51",
+          "input_lra": "7.40"
+        },
+        "caption_overflow": []
+      }
+    },
+    {
+      "source": "/Users/deepanshumohan/Work/gta/reels_output/caseoh/05_Caseoh_05_spike_03_19_00.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frames": 1009,
+      "duration": 33.7,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true,
+      "target_duration": 33.7,
+      "duration_ok": true,
+      "audio_ok": true,
+      "diagnostics": {
+        "warnings": [
+          "Black frames detected; inspect intentional fades versus missing video",
+          "Static/frozen frames detected; inspect gameplay or slides manually",
+          "Integrated loudness outside -16 LUFS ?2",
+          "Caption text may exceed two lines; inspect caption framing"
+        ],
+        "scope": "Heuristic video diagnostics; manual playback review required",
+        "analysis_ok": true,
+        "black_intervals": [
+          {
+            "start": 6.1,
+            "end": 10.933333,
+            "duration": 4.833333
+          }
+        ],
+        "freeze_events": [
+          "freeze_start: 0.766667",
+          "freeze_duration: 2.233333",
+          "freeze_end: 3",
+          "freeze_start: 3.3",
+          "freeze_duration: 2.8",
+          "freeze_end: 6.1",
+          "freeze_start: 15.133333",
+          "freeze_duration: 2.233333",
+          "freeze_end: 17.366667",
+          "freeze_start: 17.366667",
+          "freeze_duration: 2.6",
+          "freeze_end: 19.966667",
+          "freeze_start: 22.566667",
+          "freeze_duration: 2.933333",
+          "freeze_end: 25.5"
+        ],
+        "loudness": {
+          "input_i": "-18.58",
+          "input_tp": "-3.11",
+          "input_lra": "5.80"
+        },
+        "caption_overflow": [
+          {
+            "time": "0:00:00.00",
+            "text": "CHAT: CASEOHDAILYDOODLESTWERK DINODANCE CASEOHSPOOKYDAILYDOODLES! 🔥"
+          },
+          {
+            "time": "0:00:00.00",
+            "text": "I'M GOING TO BE BOO WITH THE FUR AND THE WHOLE CLUE AND LOOK IN HER."
+          }
+        ]
+      }
+    },
+    {
+      "source": "/Users/deepanshumohan/Work/gta/reels_output/caseoh/06_Caseoh_06_spike_03_28_20.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frames": 1000,
+      "duration": 33.4,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true,
+      "target_duration": 33.4,
+      "duration_ok": true,
+      "audio_ok": true,
+      "diagnostics": {
+        "warnings": [
+          "Static/frozen frames detected; inspect gameplay or slides manually"
+        ],
+        "scope": "Heuristic video diagnostics; manual playback review required",
+        "analysis_ok": true,
+        "black_intervals": [],
+        "freeze_events": [
+          "freeze_start: 0",
+          "freeze_duration: 2.2",
+          "freeze_end: 2.2",
+          "freeze_start: 4.866667",
+          "freeze_duration: 2.8",
+          "freeze_end: 7.666667",
+          "freeze_start: 13.133333",
+          "freeze_duration: 2.233333",
+          "freeze_end: 15.366667",
+          "freeze_start: 25",
+          "freeze_duration: 3.6",
+          "freeze_end: 28.6",
+          "freeze_start: 28.6",
+          "freeze_duration: 3.333333",
+          "freeze_end: 31.933333"
+        ],
+        "loudness": {
+          "input_i": "-15.62",
+          "input_tp": "-1.47",
+          "input_lra": "18.90"
+        },
+        "caption_overflow": []
+      }
+    },
+    {
+      "source": "/Users/deepanshumohan/Work/gta/reels_output/caseoh/07_Caseoh_07_spike_03_32_00.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frames": 1009,
+      "duration": 33.7,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true,
+      "target_duration": 33.7,
+      "duration_ok": true,
+      "audio_ok": true,
+      "diagnostics": {
+        "warnings": [],
+        "scope": "Heuristic video diagnostics; manual playback review required",
+        "analysis_ok": true,
+        "black_intervals": [],
+        "freeze_events": [],
+        "loudness": {
+          "input_i": "-14.85",
+          "input_tp": "-1.11",
+          "input_lra": "9.50"
+        },
+        "caption_overflow": []
+      }
+    },
+    {
+      "source": "/Users/deepanshumohan/Work/gta/reels_output/caseoh/08_Caseoh_08_spike_03_39_05.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frames": 1024,
+      "duration": 35.0,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true,
+      "target_duration": 35.0,
+      "duration_ok": true,
+      "audio_ok": true,
+      "diagnostics": {
+        "warnings": [],
+        "scope": "Heuristic video diagnostics; manual playback review required",
+        "analysis_ok": true,
+        "black_intervals": [],
+        "freeze_events": [],
+        "loudness": {
+          "input_i": "-17.21",
+          "input_tp": "-1.47",
+          "input_lra": "7.40"
+        },
+        "caption_overflow": []
+      }
+    },
+    {
+      "source": "/Users/deepanshumohan/Work/gta/reels_output/caseoh/09_Caseoh_09_spike_03_47_20.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frames": 1022,
+      "duration": 35.0,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true,
+      "target_duration": 35.0,
+      "duration_ok": true,
+      "audio_ok": true,
+      "diagnostics": {
+        "warnings": [],
+        "scope": "Heuristic video diagnostics; manual playback review required",
+        "analysis_ok": true,
+        "black_intervals": [],
+        "freeze_events": [],
+        "loudness": {
+          "input_i": "-17.65",
+          "input_tp": "-1.46",
+          "input_lra": "7.30"
+        },
+        "caption_overflow": []
+      }
+    },
+    {
+      "source": "/Users/deepanshumohan/Work/gta/reels_output/caseoh/10_Caseoh_10_spike_03_53_40.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frames": 1000,
+      "duration": 33.4,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true,
+      "target_duration": 33.4,
+      "duration_ok": true,
+      "audio_ok": true,
+      "diagnostics": {
+        "warnings": [
+          "Caption text may exceed two lines; inspect caption framing"
+        ],
+        "scope": "Heuristic video diagnostics; manual playback review required",
+        "analysis_ok": true,
+        "black_intervals": [],
+        "freeze_events": [],
+        "loudness": {
+          "input_i": "-15.32",
+          "input_tp": "-1.35",
+          "input_lra": "13.70"
+        },
+        "caption_overflow": [
+          {
+            "time": "0:00:28.98",
+            "text": "CHAD HOW DO Y'ALL KNOW HOW DO Y'ALL KNOW THAT THAT SPIDER'S NAME IS LENNY MAN?"
+          }
+        ]
+      }
+    }
+  ],
+  "scope": "Technical decode/metadata only; visual, caption and listening review are separate."
+}

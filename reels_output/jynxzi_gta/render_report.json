@@ -1,0 +1,132 @@
+[
+  {
+    "name": "01_Jynxzi_01_spike_03_00_30",
+    "ranges": [
+      [
+        0.0,
+        35.0
+      ]
+    ],
+    "target_duration": 35.0,
+    "caption_events": 10,
+    "layout": "fit",
+    "reason": "Chat Explosion #1: LOL SIDE LMAO"
+  },
+  {
+    "name": "02_Jynxzi_02_spike_04_29_30",
+    "ranges": [
+      [
+        0.0,
+        33.4
+      ]
+    ],
+    "target_duration": 33.4,
+    "caption_events": 10,
+    "layout": "fit",
+    "reason": "Chat Explosion #2: BRO CAN GAME"
+  },
+  {
+    "name": "03_Jynxzi_03_spike_04_54_35",
+    "ranges": [
+      [
+        0.0,
+        35.0
+      ]
+    ],
+    "target_duration": 35.0,
+    "caption_events": 10,
+    "layout": "fit",
+    "reason": "Chat Explosion #3: DIET LOL YOUR"
+  },
+  {
+    "name": "04_Jynxzi_04_spike_05_59_25",
+    "ranges": [
+      [
+        0.0,
+        35.0
+      ]
+    ],
+    "target_duration": 35.0,
+    "caption_events": 10,
+    "layout": "fit",
+    "reason": "Chat Explosion #4: BANNED BAND LOL"
+  },
+  {
+    "name": "05_Jynxzi_05_spike_06_15_25",
+    "ranges": [
+      [
+        0.0,
+        35.049
+      ]
+    ],
+    "target_duration": 35.049,
+    "caption_events": 10,
+    "layout": "fit",
+    "reason": "Chat Explosion #5: 911 CAUGHT WOW"
+  },
+  {
+    "name": "06_Jynxzi_06_spike_07_19_45",
+    "ranges": [
+      [
+        0.0,
+        35.0
+      ]
+    ],
+    "target_duration": 35.0,
+    "caption_events": 10,
+    "layout": "fit",
+    "reason": "Chat Explosion #6: AIM BAD LOL"
+  },
+  {
+    "name": "07_Jynxzi_07_spike_07_35_35",
+    "ranges": [
+      [
+        0.0,
+        35.0
+      ]
+    ],
+    "target_duration": 35.0,
+    "caption_events": 10,
+    "layout": "fit",
+    "reason": "Chat Explosion #7: LOL HUH WHAT"
+  },
+  {
+    "name": "08_Jynxzi_08_spike_08_05_10",
+    "ranges": [
+      [
+        0.0,
+        35.0
+      ]
+    ],
+    "target_duration": 35.0,
+    "caption_events": 10,
+    "layout": "fit",
+    "reason": "Chat Explosion #8: MEE GOT JYNXZI"
+  },
+  {
+    "name": "09_Jynxzi_09_spike_08_18_55",
+    "ranges": [
+      [
+        0.0,
+        35.067
+      ]
+    ],
+    "target_duration": 35.067,
+    "caption_events": 10,
+    "layout": "fit",
+    "reason": "Chat Explosion #9: REMOVE OFF TURN"
+  },
+  {
+    "name": "10_Jynxzi_10_spike_09_11_45",
+    "ranges": [
+      [
+        0.0,
+        33.6
+      ]
+    ],
+    "target_duration": 33.6,
+    "caption_events": 10,
+    "layout": "fit",
+    "reason": "Chat Explosion #10: LOL SAID LAND"
+  }
+]

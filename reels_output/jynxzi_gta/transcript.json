@@ -1,0 +1,228 @@
+{
+  "source": "/Users/deepanshumohan/Work/gta/jynxzi_segments/clip_10.mp4",
+  "language": "en",
+  "language_probability": null,
+  "model": "openai-whisper-base",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 7.82,
+      "text": "I thought that was my landing strip. Oh my god. I",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.4,
+          "word": " I"
+        },
+        {
+          "start": 0.4,
+          "end": 3.1,
+          "word": " thought"
+        },
+        {
+          "start": 3.1,
+          "end": 3.3,
+          "word": " that"
+        },
+        {
+          "start": 3.3,
+          "end": 3.54,
+          "word": " was"
+        },
+        {
+          "start": 3.54,
+          "end": 3.86,
+          "word": " my"
+        },
+        {
+          "start": 3.86,
+          "end": 4.34,
+          "word": " landing"
+        },
+        {
+          "start": 4.34,
+          "end": 4.8,
+          "word": " strip."
+        },
+        {
+          "start": 4.8,
+          "end": 5.24,
+          "word": " Oh"
+        },
+        {
+          "start": 5.24,
+          "end": 5.46,
+          "word": " my"
+        },
+        {
+          "start": 5.46,
+          "end": 6.02,
+          "word": " god."
+        },
+        {
+          "start": 7.02,
+          "end": 7.82,
+          "word": " I"
+        }
+      ]
+    },
+    {
+      "start": 7.82,
+      "end": 11.08,
+      "text": "Thought that was my landing strip not peace fuck",
+      "words": [
+        {
+          "start": 7.82,
+          "end": 8.02,
+          "word": " Thought"
+        },
+        {
+          "start": 8.02,
+          "end": 8.26,
+          "word": " that"
+        },
+        {
+          "start": 8.26,
+          "end": 8.42,
+          "word": " was"
+        },
+        {
+          "start": 8.42,
+          "end": 8.86,
+          "word": " my"
+        },
+        {
+          "start": 8.86,
+          "end": 9.38,
+          "word": " landing"
+        },
+        {
+          "start": 9.38,
+          "end": 9.78,
+          "word": " strip"
+        },
+        {
+          "start": 9.78,
+          "end": 10.06,
+          "word": " not"
+        },
+        {
+          "start": 10.06,
+          "end": 10.54,
+          "word": " peace"
+        },
+        {
+          "start": 10.54,
+          "end": 11.08,
+          "word": " fuck"
+        }
+      ]
+    },
+    {
+      "start": 18.560000000000002,
+      "end": 20.26,
+      "text": "Sorry, Pete",
+      "words": [
+        {
+          "start": 18.560000000000002,
+          "end": 19.36,
+          "word": " Sorry,"
+        },
+        {
+          "start": 19.58,
+          "end": 20.26,
+          "word": " Pete"
+        }
+      ]
+    },
+    {
+      "start": 23.180000000000003,
+      "end": 27.54,
+      "text": "Okay, northwest sorry, sorry. I didn't know that was paying attention",
+      "words": [
+        {
+          "start": 23.180000000000003,
+          "end": 23.98,
+          "word": " Okay,"
+        },
+        {
+          "start": 24.0,
+          "end": 24.48,
+          "word": " northwest"
+        },
+        {
+          "start": 24.48,
+          "end": 25.56,
+          "word": " sorry,"
+        },
+        {
+          "start": 25.56,
+          "end": 25.98,
+          "word": " sorry."
+        },
+        {
+          "start": 26.12,
+          "end": 26.16,
+          "word": " I"
+        },
+        {
+          "start": 26.16,
+          "end": 26.34,
+          "word": " didn't"
+        },
+        {
+          "start": 26.34,
+          "end": 26.46,
+          "word": " know"
+        },
+        {
+          "start": 26.46,
+          "end": 26.66,
+          "word": " that"
+        },
+        {
+          "start": 26.66,
+          "end": 26.9,
+          "word": " was"
+        },
+        {
+          "start": 26.9,
+          "end": 27.1,
+          "word": " paying"
+        },
+        {
+          "start": 27.1,
+          "end": 27.54,
+          "word": " attention"
+        }
+      ]
+    },
+    {
+      "start": 30.0,
+      "end": 31.4,
+      "text": "Just Brian don't know",
+      "words": [
+        {
+          "start": 30.0,
+          "end": 30.26,
+          "word": " Just"
+        },
+        {
+          "start": 30.26,
+          "end": 30.68,
+          "word": " Brian"
+        },
+        {
+          "start": 30.68,
+          "end": 31.12,
+          "word": " don't"
+        },
+        {
+          "start": 31.12,
+          "end": 31.4,
+          "word": " know"
+        }
+      ]
+    }
+  ]
+}
