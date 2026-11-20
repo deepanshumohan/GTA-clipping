@@ -1,0 +1,62 @@
+[
+  {
+    "name": "01_Mythbusters_Can_You_Stop_The_Train",
+    "ranges": [
+      [
+        0.0,
+        35.0
+      ]
+    ],
+    "target_duration": 35.0,
+    "caption_events": 10,
+    "layout": "fit"
+  },
+  {
+    "name": "03_GTA_Police_Logic_Makes_Zero_Sense",
+    "ranges": [
+      [
+        0.0,
+        35.0
+      ]
+    ],
+    "target_duration": 35.0,
+    "caption_events": 10,
+    "layout": "fit"
+  },
+  {
+    "name": "04_Map_Speedrun_How_Long_To_Drive_Across_Vice_City",
+    "ranges": [
+      [
+        0.0,
+        30.0
+      ]
+    ],
+    "target_duration": 30.0,
+    "caption_events": 10,
+    "layout": "fit"
+  },
+  {
+    "name": "05_NextGen_Police_Chase_AI_Mechanics",
+    "ranges": [
+      [
+        0.0,
+        35.0
+      ]
+    ],
+    "target_duration": 35.0,
+    "caption_events": 10,
+    "layout": "fit"
+  },
+  {
+    "name": "09_NextGen_Car_Damage_And_Crash_Physics",
+    "ranges": [
+      [
+        0.0,
+        30.0
+      ]
+    ],
+    "target_duration": 30.0,
+    "caption_events": 10,
+    "layout": "fit"
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "font": "Arial",
+  "normalize_audio": true,
+  "transcript": "/Users/deepanshumohan/Work/gta/reels_output/Every Time I Crash, My Bike JUMP HIGHER in GTA 5!/04_Tower_Jump_Fall_Recover_transcript.json",
+  "reels": [
+    {
+      "name": "09_NextGen_Car_Damage_And_Crash_Physics",
+      "title": "THE CAR DAMAGE PHYSICS IN GTA ARE INSANE! \ud83d\ude97\ud83d\udca5",
+      "reason": "Testing full-speed crumple zones, tire blowouts, and chassis deformation at 200 MPH.",
+      "ranges": [
+        [
+          0.0,
+          30.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "hormozi",
+      "uppercase": true,
+      "use_emojis": true,
+      "highlight_words": true,
+      "hook": "NEXT-GEN CAR DAMAGE PHYSICS! \ud83d\ude97\ud83d\udca5",
+      "burn_captions": true,
+      "post_caption": "THE CAR DAMAGE PHYSICS IN GTA 6 ARE OUT OF CONTROL! \ud83d\ude97\ud83d\udca5 High-speed impact testing: tire deformation, suspension breakage, and realistic rollover mechanics! Rockstar went full simulation mode!\n\n#CarDamage #GamingPhysics #CrashTest #GTA6 #Shorts",
+      "hashtags": [
+        "#CarDamage #PhysicsTest #GTA6 #Gaming #Shorts"
+      ]
+    }
+  ]
+}

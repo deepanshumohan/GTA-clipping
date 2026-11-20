@@ -1,0 +1,86 @@
+{
+  "checks": [
+    {
+      "source": "/Users/deepanshumohan/Work/gta/exports/easter_eggs_and_secrets/06_Top_5_Creepiest_GTA_Easter_Eggs.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frames": 1047,
+      "duration": 35.0,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true,
+      "target_duration": 35.0,
+      "duration_ok": true,
+      "audio_ok": true,
+      "diagnostics": {
+        "warnings": [
+          "Caption text may exceed two lines; inspect caption framing"
+        ],
+        "scope": "Heuristic video diagnostics; manual playback review required",
+        "analysis_ok": true,
+        "black_intervals": [],
+        "freeze_events": [],
+        "loudness": {
+          "input_i": "-14.39",
+          "input_tp": "-1.13",
+          "input_lra": "4.50"
+        },
+        "caption_overflow": [
+          {
+            "time": "0:00:00.00",
+            "text": "I WANT MY RESPECTING AMERICAN FARMING TRADITIONS AND YOU PUT YOUR DICK IN HIS HAIR FOR"
+          },
+          {
+            "time": "0:00:10.90",
+            "text": "WE DID OUR FOR RIGHTEOUS. I SEE THE AMERICAN DREAM HERE LIBERALS MELTED REAL TIME ON THE RICHARD BASTION SHOW BECAUSE THEY LIKELY WANT TO KILL US WHEN AMERICA'S ENEMIES THREATENED HER WITH 💀"
+          }
+        ]
+      }
+    },
+    {
+      "source": "/Users/deepanshumohan/Work/gta/exports/easter_eggs_and_secrets/07_Hidden_Streamer_References_In_GTA6.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frames": 1038,
+      "duration": 35.0,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true,
+      "target_duration": 35.0,
+      "duration_ok": true,
+      "audio_ok": true,
+      "diagnostics": {
+        "warnings": [
+          "Black frames detected; inspect intentional fades versus missing video",
+          "Static/frozen frames detected; inspect gameplay or slides manually",
+          "Integrated loudness outside -16 LUFS ?2"
+        ],
+        "scope": "Heuristic video diagnostics; manual playback review required",
+        "analysis_ok": true,
+        "black_intervals": [
+          {
+            "start": 2.933333,
+            "end": 6.466667,
+            "duration": 3.533333
+          }
+        ],
+        "freeze_events": [
+          "freeze_start: 3",
+          "freeze_duration: 3.466667",
+          "freeze_end: 6.466667"
+        ],
+        "loudness": {
+          "input_i": "-18.63",
+          "input_tp": "-3.74",
+          "input_lra": "13.20"
+        },
+        "caption_overflow": []
+      }
+    }
+  ],
+  "scope": "Technical decode/metadata only; visual, caption and listening review are separate."
+}

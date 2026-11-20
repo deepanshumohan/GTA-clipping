@@ -1,0 +1,43 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,Arial,56,&H0000FFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,2,108,108,480,1
+Style: Hook,Arial,59,&H0000FFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,8,108,108,250,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.98,Caption,,0,0,0,,{\k36}اب {\k28}میری {\k10}بڑی {\k24}GUYS
+Dialogue: 0,0:00:00.00,0:00:03.00,Hook,,0,0,0,,DRIVING ACROSS THE ENTIRE MAP! ⏱️
+Dialogue: 0,0:00:00.98,0:00:01.88,Caption,,0,0,0,,{\k52}میری {\k18}دیو {\k12}چا {\k8}لو
+Dialogue: 0,0:00:01.88,0:00:02.56,Caption,,0,0,0,,{\k68}AND
+Dialogue: 0,0:00:02.56,0:00:03.16,Caption,,0,0,0,,{\k60}JUMP
+Dialogue: 0,0:00:03.16,0:00:03.94,Caption,,0,0,0,,{\k78}AAAAARR
+Dialogue: 0,0:00:03.94,0:00:04.28,Caption,,0,0,0,,{\k34}NAI
+Dialogue: 0,0:00:04.28,0:00:04.88,Caption,,0,0,0,,{\k60}NAI
+Dialogue: 0,0:00:05.36,0:00:06.14,Caption,,0,0,0,,{\k40}BOLA {\k38}SAALANDE
+Dialogue: 0,0:00:06.14,0:00:07.18,Caption,,0,0,0,,{\k30}اب {\k20}کیسے {\k12}یہ {\k14}تکہ {\k18}یہ {\k10}تکہ
+Dialogue: 0,0:00:07.18,0:00:08.04,Caption,,0,0,0,,{\k40}آخری {\k22}مگا {\k24}ہے
+Dialogue: 0,0:00:08.04,0:00:09.38,Caption,,0,0,0,,{\k50}پتا {\k8}ہے {\k16}مجھ {\k14}بہ {\k18}یہ {\k28}کیسا
+Dialogue: 0,0:00:09.38,0:00:09.74,Caption,,0,0,0,,{\k18}بائگ {\k18}ملا
+Dialogue: 0,0:00:09.74,0:00:11.26,Caption,,0,0,0,,{\k56}اسکہ {\k14}بھی {\k24}حندل {\k18}بہت {\k32}لمرو {\k8}گو
+Dialogue: 0,0:00:11.26,0:00:12.38,Caption,,0,0,0,,{\k20}اسکہ {\k24}جام {\k28}دیکھتا {\k6}ہوں {\k20}ایک {\k14}بہت
+Dialogue: 0,0:00:12.38,0:00:13.52,Caption,,0,0,0,,{\k54}آئی {\k8}ایک {\k20}اسکہ {\k32}جام
+Dialogue: 0,0:00:13.52,0:00:14.48,Caption,,0,0,0,,{\k24}او {\k22}اسکہ {\k14}جام {\k20}بڑی {\k16}ہے
+Dialogue: 0,0:00:15.06,0:00:16.36,Caption,,0,0,0,,{\k40}OK {\k20}بہ {\k10}یہ {\k16}اس {\k32}بینر {\k12}کو
+Dialogue: 0,0:00:16.36,0:00:17.18,Caption,,0,0,0,,{\k6}تو {\k14}میں {\k18}عرام {\k8}سے {\k24}کروس {\k12}کر
+Dialogue: 0,0:00:17.18,0:00:17.48,Caption,,0,0,0,,{\k16}پا {\k14}رہو
+Dialogue: 0,0:00:17.48,0:00:18.78,Caption,,0,0,0,,{\k32}تو {\k24}شاہیت {\k14}میں {\k34}آخری {\k16}بہلوں {\k10}کو
+Dialogue: 0,0:00:18.78,0:00:19.80,Caption,,0,0,0,,{\k10}بھی {\k6}نے {\k32}کروس {\k16}کر {\k26}لوچا {\k12}لو
+Dialogue: 0,0:00:19.80,0:00:21.04,Caption,,0,0,0,,{\k36}یہ {\k20}میرا {\k32}لاش {\k36}چنس
+Dialogue: 0,0:00:21.04,0:00:22.14,Caption,,0,0,0,,{\k32}تین {\k32}آخری {\k12}مگا {\k34}پروس
+Dialogue: 0,0:00:22.58,0:00:23.46,Caption,,0,0,0,,{\k36}تیارا {\k28}شروع {\k14}کر {\k10}رہو
+Dialogue: 0,0:00:23.46,0:00:24.54,Caption,,0,0,0,,{\k48}اس {\k14}بیٹ {\k10}جو {\k18}بہ {\k8}بہی {\k10}میں
+Dialogue: 0,0:00:24.54,0:00:25.10,Caption,,0,0,0,,{\k20}کر {\k22}لوں {\k14}گا
+Dialogue: 0,0:00:25.10,0:00:27.66,Caption,,0,0,0,,{\k52}OK {\k88}بہ {\k18}یہ {\k42}صحاب {\k22}یہ {\k34}کی
+Dialogue: 0,0:00:27.66,0:00:28.92,Caption,,0,0,0,,{\k32}مدلہ {\k26}حلکہ {\k16}سا {\k26}پرس {\k14}کیا {\k12}میں
+Dialogue: 0,0:00:28.92,0:00:29.08,Caption,,0,0,0,,{\k16}نے
+Dialogue: 0,0:00:29.08,0:00:30.00,Caption,,0,0,0,,{\k68}وردکھو {\k10}بہ {\k8}یہ {\k6}کی

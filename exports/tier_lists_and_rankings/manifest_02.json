@@ -1,0 +1,37 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "font": "Arial",
+  "normalize_audio": true,
+  "transcript": "/Users/deepanshumohan/Work/gta/jynxzi_segments/clip_02_transcript.json",
+  "reels": [
+    {
+      "name": "02_Comparison_5_Things_Better_In_GTA6_vs_GTA5",
+      "title": "5 THINGS GTA 6 UPGRADED FROM GTA 5! \ud83d\udd25",
+      "reason": "Direct comparison breakdown of NPC AI, vehicle damage deformation, and interior physics.",
+      "ranges": [
+        [
+          0.0,
+          35.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "hormozi",
+      "uppercase": true,
+      "use_emojis": true,
+      "highlight_words": true,
+      "hook": "5 INSANE GTA 6 UPGRADES! \ud83d\udd25",
+      "burn_captions": true,
+      "post_caption": "5 INSANE THINGS GTA 6 UPGRADED OVER GTA 5! \ud83d\udd25 Wait until you see #3... the car damage deformation is completely redesigned! Which upgrade are you most hyped for?\n\n#GTA6vsGTA5 #GTA6 #RockstarGames #GamingShorts #Reels",
+      "hashtags": [
+        "#GTA6",
+        "#GTA5",
+        "#Comparison",
+        "#GamingUpgrades",
+        "#Shorts"
+      ]
+    }
+  ]
+}

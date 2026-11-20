@@ -1,0 +1,37 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "font": "Arial",
+  "normalize_audio": true,
+  "transcript": "/Users/deepanshumohan/Work/gta/jynxzi_segments/clip_07_transcript.json",
+  "reels": [
+    {
+      "name": "06_Top_5_Creepiest_GTA_Easter_Eggs",
+      "title": "TOP 5 CREEPIEST EASTER EGGS IN GTA! \ud83d\udc7b",
+      "reason": "Uncovering the top 5 darkest secrets and abandoned locations hidden in Rockstar games.",
+      "ranges": [
+        [
+          0.0,
+          35.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "hormozi",
+      "uppercase": true,
+      "use_emojis": true,
+      "highlight_words": true,
+      "hook": "TOP 5 CREEPIEST GTA SECRETS! \ud83d\udc7b",
+      "burn_captions": true,
+      "post_caption": "TOP 5 CREEPIEST EASTER EGGS IN GTA HISTORY! \ud83d\udc7b From Mount Gordo's ghost to the submerged UFO wreck... Rockstar hides some truly disturbing secrets in their games! Did you know about #4?\n\n#EasterEggs #GamingSecrets #GTASpeculation #Shorts #Reels",
+      "hashtags": [
+        "#EasterEggs",
+        "#GamingSecrets",
+        "#CreepyGaming",
+        "#GTA",
+        "#Shorts"
+      ]
+    }
+  ]
+}

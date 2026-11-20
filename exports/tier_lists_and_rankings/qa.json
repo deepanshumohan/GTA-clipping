@@ -1,0 +1,108 @@
+{
+  "checks": [
+    {
+      "source": "/Users/deepanshumohan/Work/gta/exports/tier_lists_and_rankings/02_Comparison_5_Things_Better_In_GTA6_vs_GTA5.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frames": 1001,
+      "duration": 33.4,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true,
+      "target_duration": 33.4,
+      "duration_ok": true,
+      "audio_ok": true,
+      "diagnostics": {
+        "warnings": [],
+        "scope": "Heuristic video diagnostics; manual playback review required",
+        "analysis_ok": true,
+        "black_intervals": [],
+        "freeze_events": [],
+        "loudness": {
+          "input_i": "-15.20",
+          "input_tp": "-1.54",
+          "input_lra": "13.50"
+        },
+        "caption_overflow": []
+      }
+    },
+    {
+      "source": "/Users/deepanshumohan/Work/gta/exports/tier_lists_and_rankings/08_Definitive_GTA_Games_Tier_List.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frames": 900,
+      "duration": 30.0,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true,
+      "target_duration": 30.0,
+      "duration_ok": true,
+      "audio_ok": true,
+      "diagnostics": {
+        "warnings": [
+          "Caption text may exceed two lines; inspect caption framing"
+        ],
+        "scope": "Heuristic video diagnostics; manual playback review required",
+        "analysis_ok": true,
+        "black_intervals": [],
+        "freeze_events": [],
+        "loudness": {
+          "input_i": "-16.06",
+          "input_tp": "-6.32",
+          "input_lra": "2.80"
+        },
+        "caption_overflow": [
+          {
+            "time": "0:00:05.12",
+            "text": "नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा नूपिजा न�"
+          },
+          {
+            "time": "0:00:29.98",
+            "text": "दी LAUT खीब बंटेहदा नूपिजा नूपिज ESTÀ नूपिसर नूपिजा नूपिजा नूपिजा नूपिजा नूप। नूपिजा नूपि जऐ में टील नूप्जे जार नूपिजा नूपिजै नूपिजतततनकाजति यूपिजा नूपिजा नूपिजीबू में बाटि"
+          }
+        ]
+      }
+    },
+    {
+      "source": "/Users/deepanshumohan/Work/gta/exports/tier_lists_and_rankings/10_Top_5_Craziest_Streamer_Fails_And_Moments.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frames": 1006,
+      "duration": 33.6,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true,
+      "target_duration": 33.6,
+      "duration_ok": true,
+      "audio_ok": true,
+      "diagnostics": {
+        "warnings": [
+          "Black frames detected; inspect intentional fades versus missing video"
+        ],
+        "scope": "Heuristic video diagnostics; manual playback review required",
+        "analysis_ok": true,
+        "black_intervals": [
+          {
+            "start": 9.866667,
+            "end": 10.633333,
+            "duration": 0.766667
+          }
+        ],
+        "freeze_events": [],
+        "loudness": {
+          "input_i": "-17.63",
+          "input_tp": "-2.28",
+          "input_lra": "6.90"
+        },
+        "caption_overflow": []
+      }
+    }
+  ],
+  "scope": "Technical decode/metadata only; visual, caption and listening review are separate."
+}

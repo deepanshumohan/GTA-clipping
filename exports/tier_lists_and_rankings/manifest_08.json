@@ -1,0 +1,37 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "font": "Arial",
+  "normalize_audio": true,
+  "transcript": "/Users/deepanshumohan/Work/gta/reels_output/Every Time I Crash, My Bike JUMP HIGHER in GTA 5!/02_Hot_Wheels_Ramp_Jump_transcript.json",
+  "reels": [
+    {
+      "name": "08_Definitive_GTA_Games_Tier_List",
+      "title": "RANKING EVERY GTA GAME: DEFINITIVE TIER LIST! \ud83c\udfc6",
+      "reason": "Definitive ranking of San Andreas, GTA 4, GTA 5, and Vice City on gameplay and story.",
+      "ranges": [
+        [
+          0.0,
+          30.0
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "hormozi",
+      "uppercase": true,
+      "use_emojis": true,
+      "highlight_words": true,
+      "hook": "DEFINITIVE GTA TIER LIST! \ud83c\udfc6",
+      "burn_captions": true,
+      "post_caption": "RANKING EVERY GTA GAME FROM WORST TO BEST! \ud83c\udfc6 S-Tier: San Andreas & GTA 4 physics. A-Tier: GTA 5 & Vice City. Where do you rank GTA 5 on your personal list? Fight in the comments! \ud83d\udc47\n\n#TierList #GTARanking #SanAndreas #GTA4 #GTA5 #Shorts",
+      "hashtags": [
+        "#TierList",
+        "#GTARanking",
+        "#Gaming",
+        "#Shorts",
+        "#Reels"
+      ]
+    }
+  ]
+}

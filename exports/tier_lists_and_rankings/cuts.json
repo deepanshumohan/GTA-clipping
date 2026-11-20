@@ -1,0 +1,38 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "font": "Arial",
+  "normalize_audio": true,
+  "transcript": "transcript.json",
+  "reels": [
+    {
+      "name": "10_Top_5_Craziest_Streamer_Fails_And_Moments",
+      "title": "TOP 5 CRAZIEST STREAMER MOMENTS IN GTA! 😱",
+      "reason": "Countdown of the 5 most hilarious, chaotic stream clutches and catastrophic fails.",
+      "ranges": [
+        [
+          0.0,
+          33.6
+        ]
+      ],
+      "layout": "fit",
+      "crop_x": 0.5,
+      "subtitle_preset": "hormozi",
+      "uppercase": true,
+      "use_emojis": true,
+      "highlight_words": true,
+      "hook": "TOP 5 CRAZIEST STREAMER MOMENTS! 😱",
+      "burn_captions": true,
+      "post_caption": "TOP 5 CRAZIEST STREAMER FAILS IN GTA! 😱 Jynxzi landing on the wrong runway, Speed fighting NPCs, and CaseOh breaking game physics! Which streamer had the wildest reaction? 😂\n\n#StreamerFails #Jynxzi #FunnyMoments #TwitchGaming #Shorts",
+      "hashtags": [
+        "#StreamerMoments",
+        "#FunnyFails",
+        "#GamingClips",
+        "#Shorts",
+        "#Reels"
+      ]
+    }
+  ],
+  "expected_audio": true
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "02_Comparison_5_Things_Better_In_GTA6_vs_GTA5",
+    "ranges": [
+      [
+        0.0,
+        33.4
+      ]
+    ],
+    "target_duration": 33.4,
+    "caption_events": 10,
+    "layout": "fit"
+  },
+  {
+    "name": "08_Definitive_GTA_Games_Tier_List",
+    "ranges": [
+      [
+        0.0,
+        30.0
+      ]
+    ],
+    "target_duration": 30.0,
+    "caption_events": 10,
+    "layout": "fit"
+  },
+  {
+    "name": "10_Top_5_Craziest_Streamer_Fails_And_Moments",
+    "ranges": [
+      [
+        0.0,
+        33.6
+      ]
+    ],
+    "target_duration": 33.6,
+    "caption_events": 10,
+    "layout": "fit"
+  }
+]

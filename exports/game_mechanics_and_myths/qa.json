@@ -1,0 +1,161 @@
+{
+  "checks": [
+    {
+      "source": "/Users/deepanshumohan/Work/gta/exports/game_mechanics_and_myths/01_Mythbusters_Can_You_Stop_The_Train.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frames": 1021,
+      "duration": 35.0,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true,
+      "target_duration": 35.0,
+      "duration_ok": true,
+      "audio_ok": true,
+      "diagnostics": {
+        "warnings": [
+          "Black frames detected; inspect intentional fades versus missing video",
+          "Static/frozen frames detected; inspect gameplay or slides manually",
+          "Integrated loudness outside -16 LUFS ?2"
+        ],
+        "scope": "Heuristic video diagnostics; manual playback review required",
+        "analysis_ok": true,
+        "black_intervals": [
+          {
+            "start": 3.0,
+            "end": 7.166667,
+            "duration": 4.166667
+          }
+        ],
+        "freeze_events": [
+          "freeze_start: 3",
+          "freeze_duration: 4.066667",
+          "freeze_end: 7.066667"
+        ],
+        "loudness": {
+          "input_i": "-19.91",
+          "input_tp": "-4.24",
+          "input_lra": "6.20"
+        },
+        "caption_overflow": []
+      }
+    },
+    {
+      "source": "/Users/deepanshumohan/Work/gta/exports/game_mechanics_and_myths/03_GTA_Police_Logic_Makes_Zero_Sense.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frames": 1050,
+      "duration": 35.0,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true,
+      "target_duration": 35.0,
+      "duration_ok": true,
+      "audio_ok": true,
+      "diagnostics": {
+        "warnings": [],
+        "scope": "Heuristic video diagnostics; manual playback review required",
+        "analysis_ok": true,
+        "black_intervals": [],
+        "freeze_events": [],
+        "loudness": {
+          "input_i": "-16.97",
+          "input_tp": "-1.34",
+          "input_lra": "6.80"
+        },
+        "caption_overflow": []
+      }
+    },
+    {
+      "source": "/Users/deepanshumohan/Work/gta/exports/game_mechanics_and_myths/04_Map_Speedrun_How_Long_To_Drive_Across_Vice_City.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frames": 900,
+      "duration": 30.0,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true,
+      "target_duration": 30.0,
+      "duration_ok": true,
+      "audio_ok": true,
+      "diagnostics": {
+        "warnings": [],
+        "scope": "Heuristic video diagnostics; manual playback review required",
+        "analysis_ok": true,
+        "black_intervals": [],
+        "freeze_events": [],
+        "loudness": {
+          "input_i": "-16.08",
+          "input_tp": "-4.68",
+          "input_lra": "1.50"
+        },
+        "caption_overflow": []
+      }
+    },
+    {
+      "source": "/Users/deepanshumohan/Work/gta/exports/game_mechanics_and_myths/05_NextGen_Police_Chase_AI_Mechanics.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frames": 1025,
+      "duration": 35.0,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true,
+      "target_duration": 35.0,
+      "duration_ok": true,
+      "audio_ok": true,
+      "diagnostics": {
+        "warnings": [
+          "True peak exceeds -1 dBTP"
+        ],
+        "scope": "Heuristic video diagnostics; manual playback review required",
+        "analysis_ok": true,
+        "black_intervals": [],
+        "freeze_events": [],
+        "loudness": {
+          "input_i": "-16.47",
+          "input_tp": "1.83",
+          "input_lra": "9.30"
+        },
+        "caption_overflow": []
+      }
+    },
+    {
+      "source": "/Users/deepanshumohan/Work/gta/exports/game_mechanics_and_myths/09_NextGen_Car_Damage_And_Crash_Physics.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frames": 900,
+      "duration": 30.0,
+      "has_audio": true,
+      "decode_ok": true,
+      "decode_errors": "",
+      "vertical_9_16": true,
+      "target_duration": 30.0,
+      "duration_ok": true,
+      "audio_ok": true,
+      "diagnostics": {
+        "warnings": [],
+        "scope": "Heuristic video diagnostics; manual playback review required",
+        "analysis_ok": true,
+        "black_intervals": [],
+        "freeze_events": [],
+        "loudness": {
+          "input_i": "-15.73",
+          "input_tp": "-5.30",
+          "input_lra": "2.10"
+        },
+        "caption_overflow": []
+      }
+    }
+  ],
+  "scope": "Technical decode/metadata only; visual, caption and listening review are separate."
+}

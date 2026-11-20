@@ -1,0 +1,26 @@
+[
+  {
+    "name": "06_Top_5_Creepiest_GTA_Easter_Eggs",
+    "ranges": [
+      [
+        0.0,
+        35.0
+      ]
+    ],
+    "target_duration": 35.0,
+    "caption_events": 10,
+    "layout": "fit"
+  },
+  {
+    "name": "07_Hidden_Streamer_References_In_GTA6",
+    "ranges": [
+      [
+        0.0,
+        35.0
+      ]
+    ],
+    "target_duration": 35.0,
+    "caption_events": 10,
+    "layout": "fit"
+  }
+]

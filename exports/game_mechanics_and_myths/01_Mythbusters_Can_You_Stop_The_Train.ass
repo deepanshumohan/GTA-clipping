@@ -1,0 +1,19 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,Arial,56,&H0000FFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,2,108,108,480,1
+Style: Hook,Arial,59,&H0000FFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,4,8,108,108,250,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:03.00,Hook,,0,0,0,,CAN YOU FINALLY STOP THE TRAIN?! 🚂
+Dialogue: 0,0:00:00.98,0:00:02.82,Caption,,0,0,0,,{\k60}{\c&H00FFFF00&}WHAT{\r} {\k48}THE {\k76}FUCK? {\k1}👀
+Dialogue: 0,0:00:07.72,0:00:09.16,Caption,,0,0,0,,{\k60}IS {\k10}THAT {\k16}EVEN {\k58}POSSIBLE?
+Dialogue: 0,0:00:12.20,0:00:13.94,Caption,,0,0,0,,{\k60}IS {\k10}THAT {\k18}EVEN {\k34}POSSIBLE {\k30}I {\k22}COULDN'T
+Dialogue: 0,0:00:13.94,0:00:14.44,Caption,,0,0,0,,{\k10}GET {\k16}UP {\k24}THERE?
+Dialogue: 0,0:00:14.70,0:00:14.88,Caption,,0,0,0,,{\k18}{\c&H00FFFF00&}WHAT?{\r} {\k1}👀
+Dialogue: 0,0:00:33.58,0:00:34.98,Caption,,0,0,0,,WHAT THE FUCK? 👀
